@@ -18,7 +18,7 @@
 package com.itsaky.tom.rv2ide.actions
 
 import android.view.Menu
-import com.itsaky.androidide.actions.internal.DefaultActionsRegistry
+import com.itsaky.tom.rv2ide.actions.internal.DefaultActionsRegistry
 
 /**
  * Parameters required by [ActionsRegistry] to fill a menu.

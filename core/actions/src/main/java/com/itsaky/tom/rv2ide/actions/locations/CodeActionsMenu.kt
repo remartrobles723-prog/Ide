@@ -20,9 +20,9 @@ package com.itsaky.tom.rv2ide.actions.locations
 import android.content.Context
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem
-import com.itsaky.androidide.actions.ActionMenu
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem
+import com.itsaky.tom.rv2ide.actions.ActionMenu
 import com.itsaky.androidide.resources.R
 
 /** @author Akash Yadav */

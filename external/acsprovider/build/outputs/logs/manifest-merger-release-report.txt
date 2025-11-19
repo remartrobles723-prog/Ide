@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /data/user/0/com.tom.rv2ide/files/home/Acs-termux/external/acsprovider/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest12798785675518940526.xml:2:13-83
+INJECTED from /data/user/0/com.tom.rv2ide/files/home/Acs-termux/external/acsprovider/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest12798785675518940526.xml:2:13-83
+	package
+		INJECTED from /data/user/0/com.tom.rv2ide/files/home/Acs-termux/external/acsprovider/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest12798785675518940526.xml
+	xmlns:android
+		ADDED from /data/user/0/com.tom.rv2ide/files/home/Acs-termux/external/acsprovider/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest12798785675518940526.xml:2:23-81
+uses-sdk
+INJECTED from /data/user/0/com.tom.rv2ide/files/home/Acs-termux/external/acsprovider/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest12798785675518940526.xml reason: use-sdk injection requested
+INJECTED from /data/user/0/com.tom.rv2ide/files/home/Acs-termux/external/acsprovider/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest12798785675518940526.xml
+INJECTED from /data/user/0/com.tom.rv2ide/files/home/Acs-termux/external/acsprovider/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest12798785675518940526.xml
+	android:targetSdkVersion
+		INJECTED from /data/user/0/com.tom.rv2ide/files/home/Acs-termux/external/acsprovider/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest12798785675518940526.xml
+	android:minSdkVersion
+		INJECTED from /data/user/0/com.tom.rv2ide/files/home/Acs-termux/external/acsprovider/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest12798785675518940526.xml

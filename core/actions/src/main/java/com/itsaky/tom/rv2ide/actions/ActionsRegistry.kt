@@ -16,7 +16,7 @@
  */
 package com.itsaky.tom.rv2ide.actions
 
-import com.itsaky.androidide.actions.internal.DefaultActionsRegistry
+import com.itsaky.tom.rv2ide.actions.internal.DefaultActionsRegistry
 import com.itsaky.androidide.utils.ServiceLoader
 import com.itsaky.androidide.utils.VMUtils
 
