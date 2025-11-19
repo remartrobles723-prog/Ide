@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.annotations.uidesigner
+package com.itsaky.tom.rv2ide.annotations.uidesigner
 
 /**
  * Indicates that the view (whose view adapter is annotated with [ViewAdapter]

@@ -44,6 +44,7 @@ class DefaultAndroidArtifact : AndroidArtifact, Serializable {
   override var classesFolders: Set<File> = emptySet()
   override var compileTaskName: String = ""
   override var generatedSourceFolders: Collection<File> = emptyList()
+  override var generatedAssetsFolders: Collection<File> = emptyList()
   override var ideSetupTaskNames: Set<String> = emptySet()
   override var targetSdkVersionOverride: DefaultApiVersion? = null
   override var modelSyncFiles: Collection<Void> = emptyList()

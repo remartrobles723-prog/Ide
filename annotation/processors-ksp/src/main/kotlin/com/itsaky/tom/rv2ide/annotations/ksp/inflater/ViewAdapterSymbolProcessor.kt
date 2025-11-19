@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.annotations.ksp.inflater
+package com.itsaky.tom.rv2ide.annotations.ksp.inflater
 
 import com.google.devtools.ksp.containingFile
 import com.google.devtools.ksp.isOpen

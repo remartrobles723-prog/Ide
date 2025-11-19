@@ -1,4 +1,4 @@
-package com.itsaky.androidide.actions
+package com.itsaky.tom.rv2ide.actions
 
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.FragmentNavigatorDestinationBuilder

@@ -23,7 +23,7 @@ import android.telephony.TelephonyManager
 import com.blankj.utilcode.util.DeviceUtils
 import com.itsaky.androidide.app.BaseApplication
 import com.itsaky.androidide.app.configuration.IDEBuildConfigProvider
-import com.itsaky.androidide.buildinfo.BuildInfo
+import com.tom.rv2ide.buildinfo.BuildInfo
 import java.math.BigInteger
 import java.security.MessageDigest
 import java.util.Locale

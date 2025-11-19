@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.locations
+package com.itsaky.tom.rv2ide.actions.locations
 
 import android.content.Context
 import android.graphics.drawable.Drawable

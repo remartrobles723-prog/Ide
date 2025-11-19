@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.actions.internal
+package com.itsaky.tom.rv2ide.actions.internal
 
 import android.view.Menu
 import android.view.MenuItem

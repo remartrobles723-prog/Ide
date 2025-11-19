@@ -38,6 +38,7 @@ class DefaultVariant : Variant, Serializable {
   @Deprecated("Contained in hostTestArtifacts")
   override var unitTestArtifact: DefaultJavaArtifact? = null
   override val runTestInSeparateProcess: Boolean = false
+  override val experimentalProperties: Map<String, String> = emptyMap()
   override val deviceTestArtifacts: Map<String, AndroidArtifact> = emptyMap()
   override val hostTestArtifacts: Map<String, JavaArtifact> = emptyMap()
 }
