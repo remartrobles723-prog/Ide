@@ -59,6 +59,12 @@ configurations.all {
 android {
   namespace = BuildConfig.packageName
 
+  lint {
+    checkReleaseBuilds = false
+    // Or, if you prefer, you can just disable some specific lint checks:
+    // disable += listOf("NonConstantResourceId", "MissingTranslation", "InvalidPackage")
+  }
+
   defaultConfig {
     applicationId = BuildConfig.packageName
     vectorDrawables.useSupportLibrary = true

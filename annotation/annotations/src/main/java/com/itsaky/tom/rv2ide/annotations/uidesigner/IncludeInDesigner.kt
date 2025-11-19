@@ -36,6 +36,6 @@ annotation class IncludeInDesigner(val group: Group) {
     LAYOUTS,
 
     /** Includes the Google layouts. */
-    GOOGLE,
+    OTHER,
   }
 }
