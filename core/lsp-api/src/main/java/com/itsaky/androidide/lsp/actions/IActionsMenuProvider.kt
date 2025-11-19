@@ -17,7 +17,7 @@
 
 package com.itsaky.androidide.lsp.actions
 
-import com.itsaky.androidide.actions.ActionItem
+import com.itsaky.tom.rv2ide.actions.ActionItem
 
 /**
  * Provides code actions for the language implementation.

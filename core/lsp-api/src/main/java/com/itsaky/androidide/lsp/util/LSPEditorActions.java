@@ -17,10 +17,10 @@
 
 package com.itsaky.androidide.lsp.util;
 
-import com.itsaky.androidide.actions.ActionItem;
-import com.itsaky.androidide.actions.ActionMenu;
-import com.itsaky.androidide.actions.ActionsRegistry;
-import com.itsaky.androidide.actions.locations.CodeActionsMenu;
+import com.itsaky.tom.rv2ide.actions.ActionItem;
+import com.itsaky.tom.rv2ide.actions.ActionMenu;
+import com.itsaky.tom.rv2ide.actions.ActionsRegistry;
+import com.itsaky.tom.rv2ide.actions.locations.CodeActionsMenu;
 import com.itsaky.androidide.lsp.actions.IActionsMenuProvider;
 import com.itsaky.androidide.utils.ILogger;
 
@@ -30,9 +30,9 @@ import com.itsaky.androidide.utils.ILogger;
 public class LSPEditorActions {
 
   public static void ensureActionsMenuRegistered(IActionsMenuProvider provider) {
-    final var registry = ActionsRegistry.getInstance();
+    final var registry = com.itsaky.tom.rv2ide.actions.ActionsRegistry.getInstance();
     final var action =
-        registry.findAction(ActionItem.Location.EDITOR_TEXT_ACTIONS, CodeActionsMenu.ID);
+        registry.findAction(com.itsaky.tom.rv2ide.actions.ActionItem.Location.EDITOR_TEXT_ACTIONS, CodeActionsMenu.ID);
 
     if (action == null) {
       ILogger.ROOT.error("[LSPEditorActions] Cannot find registered editor actions menu");
