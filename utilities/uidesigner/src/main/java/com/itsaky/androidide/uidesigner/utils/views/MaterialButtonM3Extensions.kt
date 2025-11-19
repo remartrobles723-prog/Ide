@@ -15,13 +15,13 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.utils.views
+package com.itsaky.tom.rv2ide.uidesigner.utils.views
 
 import android.content.Context
 import android.os.Build
 import com.google.android.material.button.MaterialButton
-import com.itsaky.androidide.projects.IWorkspace
-import com.itsaky.androidide.uidesigner.utils.M3Utils
+import com.itsaky.tom.rv2ide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.uidesigner.utils.M3Utils
 import java.io.File
 import org.slf4j.LoggerFactory
 

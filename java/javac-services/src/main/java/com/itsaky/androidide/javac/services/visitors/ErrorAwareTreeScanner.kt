@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.visitors
+package com.itsaky.tom.rv2ide.javac.services.visitors
 
 import openjdk.source.tree.ErroneousTree
 import openjdk.source.util.TreeScanner

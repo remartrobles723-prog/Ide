@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.util
+package com.itsaky.tom.rv2ide.lsp.util
 
-import com.itsaky.androidide.lsp.api.IServerSettings
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings
 
 /**
  * Default settings for a language server.

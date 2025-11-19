@@ -22,7 +22,7 @@
  * or visit www.oracle.com if you need additional information or have any
  * questions.
  */
-package com.itsaky.androidide.zipfs2;
+package com.itsaky.tom.rv2ide.zipfs2;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
@@ -70,8 +70,8 @@ import static java.nio.file.StandardOpenOption.CREATE_NEW;
 import static java.nio.file.StandardOpenOption.READ;
 import static java.nio.file.StandardOpenOption.TRUNCATE_EXISTING;
 import static java.nio.file.StandardOpenOption.WRITE;
-import static com.itsaky.androidide.zipfs2.ZipConstants.*;
-import static com.itsaky.androidide.zipfs2.ZipUtils.*;
+import static com.itsaky.tom.rv2ide.zipfs2.ZipConstants.*;
+import static com.itsaky.tom.rv2ide.zipfs2.ZipUtils.*;
 
 /**
  * A FileSystem built on a zip file

@@ -17,10 +17,10 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  **************************************************************************************/
-package com.itsaky.androidide.syntax.highlighters;
+package com.itsaky.tom.rv2ide.syntax.highlighters;
 
 import android.text.SpannableStringBuilder;
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE;
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE;
 
 /**
  * A highlighter is used to highlight a small piece of code

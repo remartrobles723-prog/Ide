@@ -14,16 +14,16 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.app
+package com.itsaky.tom.rv2ide.app
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.itsaky.androidide.common.R
-import com.itsaky.androidide.tasks.cancelIfActive
-import com.itsaky.androidide.ui.themes.IThemeManager
-import com.itsaky.androidide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.common.R
+import com.itsaky.tom.rv2ide.tasks.cancelIfActive
+import com.itsaky.tom.rv2ide.ui.themes.IThemeManager
+import com.itsaky.tom.rv2ide.utils.resolveAttr
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import org.greenrobot.eventbus.EventBus

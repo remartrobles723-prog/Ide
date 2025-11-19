@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base
+package com.itsaky.tom.rv2ide.templates.base
 
-import com.itsaky.androidide.templates.FileTemplate
-import com.itsaky.androidide.templates.FileTemplateRecipeResult
-import com.itsaky.androidide.templates.TemplateBuilder
+import com.itsaky.tom.rv2ide.templates.FileTemplate
+import com.itsaky.tom.rv2ide.templates.FileTemplateRecipeResult
+import com.itsaky.tom.rv2ide.templates.TemplateBuilder
 import java.io.File
 
 /**

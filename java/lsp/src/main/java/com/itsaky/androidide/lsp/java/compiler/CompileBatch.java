@@ -15,29 +15,29 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.compiler;
+package com.itsaky.tom.rv2ide.lsp.java.compiler;
 
-import static com.itsaky.androidide.javac.config.JavacConfigProvider.PROP_ANDROIDIDE_JAVA_HOME;
-import static com.itsaky.androidide.javac.config.JavacConfigProvider.disableModules;
-import static com.itsaky.androidide.javac.config.JavacConfigProvider.enableModules;
-import static com.itsaky.androidide.javac.config.JavacConfigProvider.setLatestSourceVersion;
-import static com.itsaky.androidide.javac.config.JavacConfigProvider.setLatestSupportedSourceVersion;
-import static com.itsaky.androidide.utils.Environment.JAVA_HOME;
+import static com.itsaky.tom.rv2ide.javac.config.JavacConfigProvider.PROP_ANDROIDIDE_JAVA_HOME;
+import static com.itsaky.tom.rv2ide.javac.config.JavacConfigProvider.disableModules;
+import static com.itsaky.tom.rv2ide.javac.config.JavacConfigProvider.enableModules;
+import static com.itsaky.tom.rv2ide.javac.config.JavacConfigProvider.setLatestSourceVersion;
+import static com.itsaky.tom.rv2ide.javac.config.JavacConfigProvider.setLatestSupportedSourceVersion;
+import static com.itsaky.tom.rv2ide.utils.Environment.JAVA_HOME;
 
 import androidx.annotation.NonNull;
 import androidx.core.util.Pair;
-import com.itsaky.androidide.builder.model.IJavaCompilerSettings;
-import com.itsaky.androidide.javac.services.compiler.ReusableBorrow;
-import com.itsaky.androidide.javac.services.partial.DiagnosticListenerImpl;
-import com.itsaky.androidide.lsp.java.models.CompilationRequest;
-import com.itsaky.androidide.lsp.java.visitors.MethodRangeScanner;
-import com.itsaky.androidide.models.Range;
-import com.itsaky.androidide.projects.ModuleProject;
-import com.itsaky.androidide.projects.util.StringSearch;
-import com.itsaky.androidide.tooling.api.ProjectType;
-import com.itsaky.androidide.utils.ClassTrie;
-import com.itsaky.androidide.utils.SourceClassTrie;
-import com.itsaky.androidide.utils.StopWatch;
+import com.itsaky.tom.rv2ide.builder.model.IJavaCompilerSettings;
+import com.itsaky.tom.rv2ide.javac.services.compiler.ReusableBorrow;
+import com.itsaky.tom.rv2ide.javac.services.partial.DiagnosticListenerImpl;
+import com.itsaky.tom.rv2ide.lsp.java.models.CompilationRequest;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.MethodRangeScanner;
+import com.itsaky.tom.rv2ide.models.Range;
+import com.itsaky.tom.rv2ide.projects.ModuleProject;
+import com.itsaky.tom.rv2ide.projects.util.StringSearch;
+import com.itsaky.tom.rv2ide.tooling.api.ProjectType;
+import com.itsaky.tom.rv2ide.utils.ClassTrie;
+import com.itsaky.tom.rv2ide.utils.SourceClassTrie;
+import com.itsaky.tom.rv2ide.utils.StopWatch;
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;

@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.content.Intent
 import android.net.Uri
@@ -24,10 +24,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.blankj.utilcode.util.ClipboardUtils
-import com.itsaky.androidide.buildinfo.BuildInfo
-import com.itsaky.androidide.databinding.LayoutCrashReportBinding
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.BuildInfoUtils
+import com.itsaky.tom.rv2ide.buildinfo.BuildInfo
+import com.itsaky.tom.rv2ide.databinding.LayoutCrashReportBinding
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.BuildInfoUtils
 
 class CrashReportFragment : Fragment() {
 

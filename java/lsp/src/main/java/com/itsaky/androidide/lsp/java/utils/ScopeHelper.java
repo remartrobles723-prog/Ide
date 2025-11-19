@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.utils;
+package com.itsaky.tom.rv2ide.lsp.java.utils;
 
-import com.itsaky.androidide.lsp.java.compiler.CompileTask;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;

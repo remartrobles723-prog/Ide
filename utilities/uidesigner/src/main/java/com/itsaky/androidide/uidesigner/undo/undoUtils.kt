@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.undo
+package com.itsaky.tom.rv2ide.uidesigner.undo
 
 import kotlin.math.max
 import kotlin.math.min
 
-internal fun com.itsaky.androidide.inflater.IViewGroup.validateIndex(index: Int): Int {
+internal fun com.itsaky.tom.rv2ide.inflater.IViewGroup.validateIndex(index: Int): Int {
   return min(max(0, index), childCount)
 }

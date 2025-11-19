@@ -17,8 +17,8 @@
 package com.itsaky.tom.rv2ide.actions
 
 import com.itsaky.tom.rv2ide.actions.internal.DefaultActionsRegistry
-import com.itsaky.androidide.utils.ServiceLoader
-import com.itsaky.androidide.utils.VMUtils
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.utils.VMUtils
 
 /** @author Akash Yadav */
 abstract class ActionsRegistry {

@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.eventbus.events.project
+package com.itsaky.tom.rv2ide.eventbus.events.project
 
-import com.itsaky.androidide.eventbus.events.Event
+import com.itsaky.tom.rv2ide.eventbus.events.Event
 
 /**
  * Event dispatched when the project is initialized. A project instance is provided with this event

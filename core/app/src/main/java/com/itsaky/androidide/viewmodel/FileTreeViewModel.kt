@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.viewmodel
+package com.itsaky.tom.rv2ide.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.itsaky.androidide.tasks.executeAsync
-import com.itsaky.androidide.tasks.runOnUiThread
+import com.itsaky.tom.rv2ide.tasks.executeAsync
+import com.itsaky.tom.rv2ide.tasks.runOnUiThread
 import com.unnamed.b.atv.view.AndroidTreeView
 
 /**

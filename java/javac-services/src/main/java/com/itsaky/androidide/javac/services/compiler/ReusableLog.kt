@@ -14,9 +14,9 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.javac.services.compiler
+package com.itsaky.tom.rv2ide.javac.services.compiler
 
-import com.itsaky.androidide.javac.services.NBLog
+import com.itsaky.tom.rv2ide.javac.services.NBLog
 import java.io.PrintWriter
 import jdkx.tools.Diagnostic
 import jdkx.tools.DiagnosticListener

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
 import androidx.preference.Preference
-import com.itsaky.androidide.preferences.internal.XmlPreferences
-import com.itsaky.androidide.resources.R.string
+import com.itsaky.tom.rv2ide.preferences.internal.XmlPreferences
+import com.itsaky.tom.rv2ide.resources.R.string
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 import org.eclipse.lemminx.dom.builder.EmptyElements

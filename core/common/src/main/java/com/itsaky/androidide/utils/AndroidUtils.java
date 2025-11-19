@@ -1,7 +1,7 @@
-package com.itsaky.androidide.utils;
+package com.itsaky.tom.rv2ide.utils;
 
-import com.itsaky.androidide.app.BaseApplication;
-import com.itsaky.androidide.resources.R;
+import com.itsaky.tom.rv2ide.app.BaseApplication;
+import com.itsaky.tom.rv2ide.resources.R;
 import java.util.Locale;
 import org.apache.commons.lang3.StringUtils;
 import org.jetbrains.annotations.NotNull;

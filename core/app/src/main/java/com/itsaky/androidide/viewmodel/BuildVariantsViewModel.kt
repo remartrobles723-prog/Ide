@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.viewmodel
+package com.itsaky.tom.rv2ide.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.itsaky.androidide.tooling.api.models.BuildVariantInfo
+import com.itsaky.tom.rv2ide.tooling.api.models.BuildVariantInfo
 
 /**
  * [ViewModel] for the build variants fragment.

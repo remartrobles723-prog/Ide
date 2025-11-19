@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.etc
+package com.itsaky.tom.rv2ide.actions.etc
 
 import android.content.Context
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.EditorActivityAction
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.EditorActivityAction
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.resources.R
 
 /** @author Akash Yadav */
 class FindInProjectAction() : EditorActivityAction() {

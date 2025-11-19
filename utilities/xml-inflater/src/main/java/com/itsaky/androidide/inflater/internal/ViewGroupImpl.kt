@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal
+package com.itsaky.tom.rv2ide.inflater.internal
 
 import android.view.ViewGroup
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.IViewGroup
-import com.itsaky.androidide.inflater.IViewGroup.OnHierarchyChangeListener
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.IViewGroup
+import com.itsaky.tom.rv2ide.inflater.IViewGroup.OnHierarchyChangeListener
 
 open class ViewGroupImpl(file: LayoutFile, name: String, view: ViewGroup) :
     ViewImpl(file = file, name = name, view = view), IViewGroup {

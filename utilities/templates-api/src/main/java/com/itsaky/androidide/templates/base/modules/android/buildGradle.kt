@@ -21,16 +21,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.modules.android
+package com.itsaky.tom.rv2ide.templates.base.modules.android
 
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.itsaky.androidide.templates.Language.Kotlin
-import com.itsaky.androidide.templates.ModuleType
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
-import com.itsaky.androidide.templates.base.ModuleTemplateBuilder
-import com.itsaky.androidide.templates.base.modules.dependencies
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.templates.Language.Kotlin
+import com.itsaky.tom.rv2ide.templates.ModuleType
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.ModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.modules.dependencies
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.File
 
 private const val compose_kotlinCompilerExtensionVersion = "1.5.11"

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates
+package com.itsaky.tom.rv2ide.templates
 
 import android.content.Context
 import android.view.View
-import com.itsaky.androidide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
 
 /**
  * [ITemplateWidgetViewProvider] creates [views][View] for various type of [widgets][Widget].

@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences.internal
+package com.itsaky.tom.rv2ide.preferences.internal
 
 import androidx.appcompat.app.AppCompatDelegate
-import com.itsaky.androidide.resources.localization.LocaleProvider
+import com.itsaky.tom.rv2ide.resources.localization.LocaleProvider
 
 /** @author Akash Yadav */
 @Suppress("MemberVisibilityCanBePrivate")

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring.internal.parsing
+package com.itsaky.tom.rv2ide.desugaring.internal.parsing
 
 /**
  * Lexer implementation to tokenize the input for [InsnParser].

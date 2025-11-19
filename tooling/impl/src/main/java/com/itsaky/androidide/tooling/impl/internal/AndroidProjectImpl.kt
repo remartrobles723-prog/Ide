@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.internal
+package com.itsaky.tom.rv2ide.tooling.impl.internal
 
 import com.android.builder.model.v2.dsl.BuildType
 import com.android.builder.model.v2.ide.AndroidArtifact
@@ -28,20 +28,20 @@ import com.android.builder.model.v2.models.AndroidProject
 import com.android.builder.model.v2.models.BasicAndroidProject
 import com.android.builder.model.v2.models.VariantDependencies
 import com.android.builder.model.v2.models.Versions
-import com.itsaky.androidide.builder.model.DefaultLibrary
-import com.itsaky.androidide.builder.model.DefaultSourceSetContainer
-import com.itsaky.androidide.builder.model.DefaultViewBindingOptions
-import com.itsaky.androidide.tooling.api.IAndroidProject
-import com.itsaky.androidide.tooling.api.models.AndroidArtifactMetadata
-import com.itsaky.androidide.tooling.api.models.AndroidProjectMetadata
-import com.itsaky.androidide.tooling.api.models.AndroidVariantMetadata
-import com.itsaky.androidide.tooling.api.models.BasicAndroidVariantMetadata
-import com.itsaky.androidide.tooling.api.models.ProjectMetadata
-import com.itsaky.androidide.tooling.api.models.params.StringParameter
-import com.itsaky.androidide.tooling.api.util.AndroidModulePropertyCopier
-import com.itsaky.androidide.tooling.api.util.AndroidModulePropertyCopier.copy
-import com.itsaky.androidide.utils.AndroidPluginVersion
-import com.itsaky.androidide.utils.capitalizeString
+import com.itsaky.tom.rv2ide.builder.model.DefaultLibrary
+import com.itsaky.tom.rv2ide.builder.model.DefaultSourceSetContainer
+import com.itsaky.tom.rv2ide.builder.model.DefaultViewBindingOptions
+import com.itsaky.tom.rv2ide.tooling.api.IAndroidProject
+import com.itsaky.tom.rv2ide.tooling.api.models.AndroidArtifactMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.AndroidProjectMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.AndroidVariantMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.BasicAndroidVariantMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.ProjectMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.params.StringParameter
+import com.itsaky.tom.rv2ide.tooling.api.util.AndroidModulePropertyCopier
+import com.itsaky.tom.rv2ide.tooling.api.util.AndroidModulePropertyCopier.copy
+import com.itsaky.tom.rv2ide.utils.AndroidPluginVersion
+import com.itsaky.tom.rv2ide.utils.capitalizeString
 import java.io.File
 import java.io.Serializable
 import java.util.concurrent.CompletableFuture

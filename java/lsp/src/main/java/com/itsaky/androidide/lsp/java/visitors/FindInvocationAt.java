@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.visitors;
+package com.itsaky.tom.rv2ide.lsp.java.visitors;
 
-import com.itsaky.androidide.progress.ICancelChecker;
+import com.itsaky.tom.rv2ide.progress.ICancelChecker;
 import openjdk.source.tree.CompilationUnitTree;
 import openjdk.source.tree.MethodInvocationTree;
 import openjdk.source.tree.NewClassTree;

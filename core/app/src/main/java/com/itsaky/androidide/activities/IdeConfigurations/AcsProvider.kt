@@ -15,12 +15,12 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities.IdeConfigurations
+package com.itsaky.tom.rv2ide.activities.IdeConfigurations
 
 import com.tom.androidcodestudio.acsprovider.ACSProvider as ACSLibProvider
 import com.tom.androidcodestudio.acsprovider.models.ACSConfig
 import com.tom.androidcodestudio.acsprovider.utils.DownloadCallback
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.File
 import kotlinx.coroutines.runBlocking
 

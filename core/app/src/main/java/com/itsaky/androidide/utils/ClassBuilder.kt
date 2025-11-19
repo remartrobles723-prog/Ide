@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.squareup.javapoet.JavaFile
 import com.squareup.javapoet.MethodSpec
 import com.squareup.javapoet.TypeSpec
-import com.itsaky.androidide.preferences.utils.indentationString
+import com.itsaky.tom.rv2ide.preferences.utils.indentationString
 import jdkx.lang.model.element.Modifier.PROTECTED
 import jdkx.lang.model.element.Modifier.PUBLIC
 

@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.util
+package com.itsaky.tom.rv2ide.lsp.util
 
-import com.itsaky.androidide.lsp.models.ClassCompletionData
-import com.itsaky.androidide.lsp.models.ICompletionData
-import com.itsaky.androidide.lsp.models.MemberCompletionData
-import com.itsaky.androidide.lsp.models.MethodCompletionData
+import com.itsaky.tom.rv2ide.lsp.models.ClassCompletionData
+import com.itsaky.tom.rv2ide.lsp.models.ICompletionData
+import com.itsaky.tom.rv2ide.lsp.models.MemberCompletionData
+import com.itsaky.tom.rv2ide.lsp.models.MethodCompletionData
 import org.slf4j.LoggerFactory
 
 /**

@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.LayoutManager
-import com.itsaky.androidide.databinding.FragmentRecyclerviewBinding
+import com.itsaky.tom.rv2ide.databinding.FragmentRecyclerviewBinding
 
 /**
  * A fragment which shows a [RecyclerView].

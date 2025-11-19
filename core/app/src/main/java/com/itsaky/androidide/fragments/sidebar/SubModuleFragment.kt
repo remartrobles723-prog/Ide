@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.sidebar
+package com.itsaky.tom.rv2ide.fragments.sidebar
 
 import android.os.Bundle
 import android.text.Editable
@@ -26,10 +26,10 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.itsaky.androidide.R
-import com.itsaky.androidide.databinding.FragmentSubModuleBinding
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.utils.ModuleCreator
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.databinding.FragmentSubModuleBinding
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.utils.ModuleCreator
 import java.io.File
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

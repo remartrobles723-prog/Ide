@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters;
+package com.itsaky.tom.rv2ide.adapters;
 
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.models.IconTextListItem;
+import com.itsaky.tom.rv2ide.models.IconTextListItem;
 import java.util.List;
 
 /**

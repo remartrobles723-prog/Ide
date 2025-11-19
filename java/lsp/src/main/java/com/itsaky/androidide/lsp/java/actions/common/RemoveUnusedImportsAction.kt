@@ -1,13 +1,13 @@
-package com.itsaky.androidide.lsp.java.actions.common
+package com.itsaky.tom.rv2ide.lsp.java.actions.common
 
 import com.google.googlejavaformat.java.FormatterException
 import com.google.googlejavaformat.java.RemoveUnusedImports
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.hasRequiredData
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.actions.requireEditor
-import com.itsaky.androidide.lsp.java.actions.BaseJavaCodeAction
-import com.itsaky.androidide.resources.R.string
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.hasRequiredData
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.actions.requireEditor
+import com.itsaky.tom.rv2ide.lsp.java.actions.BaseJavaCodeAction
+import com.itsaky.tom.rv2ide.resources.R.string
 import io.github.rosemoe.sora.widget.CodeEditor
 import org.slf4j.LoggerFactory
 
@@ -38,7 +38,7 @@ class RemoveUnusedImportsAction : BaseJavaCodeAction() {
   }
 
   override suspend fun execAction(data: ActionData): Any {
-    val watch = com.itsaky.androidide.utils.StopWatch("Remove unused imports")
+    val watch = com.itsaky.tom.rv2ide.utils.StopWatch("Remove unused imports")
     return try {
       val editor = data.requireEditor()
       val content = editor.text

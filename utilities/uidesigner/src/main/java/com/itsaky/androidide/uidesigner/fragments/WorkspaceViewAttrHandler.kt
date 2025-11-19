@@ -15,22 +15,22 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.fragments
+package com.itsaky.tom.rv2ide.uidesigner.fragments
 
-// import com.itsaky.androidide.uidesigner.utils.applyBackgroundPreview
-import com.itsaky.androidide.inflater.internal.ViewImpl
-import com.itsaky.androidide.uidesigner.models.UiAttribute
-import com.itsaky.androidide.uidesigner.undo.AttrAddedAction
-import com.itsaky.androidide.uidesigner.undo.AttrRemovedAction
-import com.itsaky.androidide.uidesigner.undo.AttrUpdatedAction
-import com.itsaky.androidide.uidesigner.utils.applyAttributePreview
+// import com.itsaky.tom.rv2ide.uidesigner.utils.applyBackgroundPreview
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.uidesigner.models.UiAttribute
+import com.itsaky.tom.rv2ide.uidesigner.undo.AttrAddedAction
+import com.itsaky.tom.rv2ide.uidesigner.undo.AttrRemovedAction
+import com.itsaky.tom.rv2ide.uidesigner.undo.AttrUpdatedAction
+import com.itsaky.tom.rv2ide.uidesigner.utils.applyAttributePreview
 
 /**
  * Handles view attribute changes in [DesignerWorkspaceFragment].
  *
  * @author Akash Yadav
  */
-internal class WorkspaceViewAttrHandler : com.itsaky.androidide.inflater.IView.AttributeChangeListener {
+internal class WorkspaceViewAttrHandler : com.itsaky.tom.rv2ide.inflater.IView.AttributeChangeListener {
 
   private var fragment: DesignerWorkspaceFragment? = null
 
@@ -43,24 +43,24 @@ internal class WorkspaceViewAttrHandler : com.itsaky.androidide.inflater.IView.A
   }
 
   override fun onAttributeAdded(
-      view: com.itsaky.androidide.inflater.IView,
-      attribute: com.itsaky.androidide.inflater.IAttribute,
+      view: com.itsaky.tom.rv2ide.inflater.IView,
+      attribute: com.itsaky.tom.rv2ide.inflater.IAttribute,
   ) {
     val frag = this.fragment ?: return
     frag.undoManager.push(AttrAddedAction(view = view, attr = attribute as UiAttribute))
   }
 
   override fun onAttributeRemoved(
-      view: com.itsaky.androidide.inflater.IView,
-      attribute: com.itsaky.androidide.inflater.IAttribute,
+      view: com.itsaky.tom.rv2ide.inflater.IView,
+      attribute: com.itsaky.tom.rv2ide.inflater.IAttribute,
   ) {
     val frag = this.fragment ?: return
     frag.undoManager.push(AttrRemovedAction(view = view, attr = attribute as UiAttribute))
   }
 
   override fun onAttributeUpdated(
-      view: com.itsaky.androidide.inflater.IView,
-      attribute: com.itsaky.androidide.inflater.IAttribute,
+      view: com.itsaky.tom.rv2ide.inflater.IView,
+      attribute: com.itsaky.tom.rv2ide.inflater.IAttribute,
       oldValue: String,
   ) {
     val frag = this.fragment ?: return

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lookup;
+package com.itsaky.tom.rv2ide.lookup;
 
-import com.itsaky.androidide.lookup.internal.DefaultLookup;
-import com.itsaky.androidide.utils.ServiceLoader;
-import com.itsaky.androidide.utils.VMUtils;
+import com.itsaky.tom.rv2ide.lookup.internal.DefaultLookup;
+import com.itsaky.tom.rv2ide.utils.ServiceLoader;
+import com.itsaky.tom.rv2ide.utils.VMUtils;
 
 /**
  * Provides instance of {@link Lookup}.

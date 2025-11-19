@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal
+package com.itsaky.tom.rv2ide.inflater.internal
 
 import android.content.Context
 import android.graphics.Color
@@ -24,8 +24,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.TextView
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.resolveAttr
 
 /**
  * View used to show views that cannot be inflated.

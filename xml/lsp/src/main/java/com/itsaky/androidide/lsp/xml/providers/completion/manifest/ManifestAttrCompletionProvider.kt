@@ -15,19 +15,19 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion.manifest
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion.manifest
 
 import com.android.aaptcompiler.ConfigDescription
 import com.android.aaptcompiler.ResourcePathData
 import com.android.aaptcompiler.Styleable
-import com.itsaky.androidide.lsp.api.ICompletionProvider
-import com.itsaky.androidide.lsp.xml.providers.completion.AttrCompletionProvider
-import com.itsaky.androidide.lsp.xml.providers.completion.MANIFEST_TAG_PREFIX
-import com.itsaky.androidide.lsp.xml.providers.completion.canCompleteManifest
-import com.itsaky.androidide.lsp.xml.providers.completion.manifestResourceTable
-import com.itsaky.androidide.lsp.xml.providers.completion.transformToEntryName
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType
-import com.itsaky.androidide.xml.res.IResourceGroup
+import com.itsaky.tom.rv2ide.lsp.api.ICompletionProvider
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.AttrCompletionProvider
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.MANIFEST_TAG_PREFIX
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.canCompleteManifest
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.manifestResourceTable
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.transformToEntryName
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType
+import com.itsaky.tom.rv2ide.xml.res.IResourceGroup
 import org.eclipse.lemminx.dom.DOMNode
 
 /**

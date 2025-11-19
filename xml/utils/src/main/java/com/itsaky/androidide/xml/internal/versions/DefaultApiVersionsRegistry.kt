@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.internal.versions
+package com.itsaky.tom.rv2ide.xml.internal.versions
 
 import androidx.annotation.VisibleForTesting
 import com.google.auto.service.AutoService
-import com.itsaky.androidide.xml.versions.ApiVersion
-import com.itsaky.androidide.xml.versions.ApiVersions
-import com.itsaky.androidide.xml.versions.ApiVersionsRegistry
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersion
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersions
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersionsRegistry
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.util.concurrent.ConcurrentHashMap

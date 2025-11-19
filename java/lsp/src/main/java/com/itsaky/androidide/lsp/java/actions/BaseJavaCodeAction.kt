@@ -15,27 +15,27 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.actions
+package com.itsaky.tom.rv2ide.lsp.java.actions
 
 import android.content.Context
 import android.graphics.drawable.Drawable
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem
-import com.itsaky.androidide.actions.EditorActionItem
-import com.itsaky.androidide.actions.hasRequiredData
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.actions.requireFile
-import com.itsaky.androidide.lsp.api.ILanguageClient
-import com.itsaky.androidide.lsp.api.ILanguageServerRegistry
-import com.itsaky.androidide.lsp.java.JavaCompilerProvider
-import com.itsaky.androidide.lsp.java.JavaLanguageServer
-import com.itsaky.androidide.lsp.java.R
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.lsp.java.rewrite.Rewrite
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.utils.DocumentUtils
-import com.itsaky.androidide.utils.ILogger
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem
+import com.itsaky.tom.rv2ide.actions.EditorActionItem
+import com.itsaky.tom.rv2ide.actions.hasRequiredData
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.actions.requireFile
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageClient
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServerRegistry
+import com.itsaky.tom.rv2ide.lsp.java.JavaCompilerProvider
+import com.itsaky.tom.rv2ide.lsp.java.JavaLanguageServer
+import com.itsaky.tom.rv2ide.lsp.java.R
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.lsp.java.rewrite.Rewrite
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.utils.DocumentUtils
+import com.itsaky.tom.rv2ide.utils.ILogger
+import com.itsaky.tom.rv2ide.utils.flashError
 import java.io.File
 
 /**

@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.ui.themes
+package com.itsaky.tom.rv2ide.ui.themes
 
 import android.app.Activity
 import com.google.auto.service.AutoService
-import com.itsaky.androidide.preferences.internal.GeneralPreferences
-import com.itsaky.androidide.utils.isSystemInDarkMode
+import com.itsaky.tom.rv2ide.preferences.internal.GeneralPreferences
+import com.itsaky.tom.rv2ide.utils.isSystemInDarkMode
 
 /**
  * Theme manager for AndroidIDE.

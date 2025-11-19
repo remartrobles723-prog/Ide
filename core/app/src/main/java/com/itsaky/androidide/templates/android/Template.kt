@@ -15,12 +15,12 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.android
+package com.itsaky.tom.rv2ide.templates.android
 
 import android.content.Context
 import com.tom.androidcodestudio.project.manager.builder.LanguageType
-import com.itsaky.androidide.templates.AtcInterface
-import com.itsaky.androidide.templates.preferences.Options
+import com.itsaky.tom.rv2ide.templates.AtcInterface
+import com.itsaky.tom.rv2ide.templates.preferences.Options
 import java.io.File
 
 /*

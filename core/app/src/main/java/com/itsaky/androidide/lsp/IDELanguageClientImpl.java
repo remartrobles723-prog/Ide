@@ -17,38 +17,38 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
-package com.itsaky.androidide.lsp;
+package com.itsaky.tom.rv2ide.lsp;
 
-import static com.itsaky.androidide.resources.R.drawable;
-import static com.itsaky.androidide.resources.R.string;
+import static com.itsaky.tom.rv2ide.resources.R.drawable;
+import static com.itsaky.tom.rv2ide.resources.R.string;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import com.blankj.utilcode.util.FileIOUtils;
 import com.blankj.utilcode.util.FileUtils;
-import com.itsaky.androidide.activities.editor.EditorHandlerActivity;
-import com.itsaky.androidide.adapters.DiagnosticsAdapter;
-import com.itsaky.androidide.adapters.SearchListAdapter;
-import com.itsaky.androidide.editor.ui.IDEEditor;
-import com.itsaky.androidide.fragments.sheets.ProgressSheet;
-import com.itsaky.androidide.lsp.api.ILanguageClient;
-import com.itsaky.androidide.lsp.models.CodeActionItem;
-import com.itsaky.androidide.lsp.models.DiagnosticItem;
-import com.itsaky.androidide.lsp.models.DiagnosticResult;
-import com.itsaky.androidide.lsp.models.PerformCodeActionParams;
-import com.itsaky.androidide.lsp.models.ShowDocumentParams;
-import com.itsaky.androidide.lsp.models.ShowDocumentResult;
-import com.itsaky.androidide.lsp.models.TextEdit;
-import com.itsaky.androidide.lsp.util.DiagnosticUtil;
-import com.itsaky.androidide.models.DiagnosticGroup;
-import com.itsaky.androidide.models.Location;
-import com.itsaky.androidide.models.Range;
-import com.itsaky.androidide.models.SearchResult;
-import com.itsaky.androidide.tasks.TaskExecutor;
-import com.itsaky.androidide.ui.CodeEditorView;
-import com.itsaky.androidide.utils.FlashbarActivityUtilsKt;
-import com.itsaky.androidide.utils.FlashbarUtilsKt;
-import com.itsaky.androidide.utils.LSPUtils;
+import com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity;
+import com.itsaky.tom.rv2ide.adapters.DiagnosticsAdapter;
+import com.itsaky.tom.rv2ide.adapters.SearchListAdapter;
+import com.itsaky.tom.rv2ide.editor.ui.IDEEditor;
+import com.itsaky.tom.rv2ide.fragments.sheets.ProgressSheet;
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageClient;
+import com.itsaky.tom.rv2ide.lsp.models.CodeActionItem;
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem;
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult;
+import com.itsaky.tom.rv2ide.lsp.models.PerformCodeActionParams;
+import com.itsaky.tom.rv2ide.lsp.models.ShowDocumentParams;
+import com.itsaky.tom.rv2ide.lsp.models.ShowDocumentResult;
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit;
+import com.itsaky.tom.rv2ide.lsp.util.DiagnosticUtil;
+import com.itsaky.tom.rv2ide.models.DiagnosticGroup;
+import com.itsaky.tom.rv2ide.models.Location;
+import com.itsaky.tom.rv2ide.models.Range;
+import com.itsaky.tom.rv2ide.models.SearchResult;
+import com.itsaky.tom.rv2ide.tasks.TaskExecutor;
+import com.itsaky.tom.rv2ide.ui.CodeEditorView;
+import com.itsaky.tom.rv2ide.utils.FlashbarActivityUtilsKt;
+import com.itsaky.tom.rv2ide.utils.FlashbarUtilsKt;
+import com.itsaky.tom.rv2ide.utils.LSPUtils;
 import io.github.rosemoe.sora.lang.diagnostic.DiagnosticsContainer;
 import io.github.rosemoe.sora.text.Content;
 import java.io.File;

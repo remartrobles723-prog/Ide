@@ -15,21 +15,21 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal
+package com.itsaky.tom.rv2ide.inflater.internal
 
 import android.graphics.drawable.Drawable
 import android.view.View
 import androidx.core.content.ContextCompat.getDrawable
-import com.itsaky.androidide.inflater.IAttribute
-import com.itsaky.androidide.inflater.INamespace
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.IView.AttributeChangeListener
-import com.itsaky.androidide.inflater.IViewGroup
-import com.itsaky.androidide.inflater.internal.utils.simpleName
-import com.itsaky.androidide.inflater.internal.utils.tagName
-import com.itsaky.androidide.inflater.utils.newAttribute
-import com.itsaky.androidide.inflater.viewAdapter
-import com.itsaky.androidide.resources.R.drawable
+import com.itsaky.tom.rv2ide.inflater.IAttribute
+import com.itsaky.tom.rv2ide.inflater.INamespace
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.IView.AttributeChangeListener
+import com.itsaky.tom.rv2ide.inflater.IViewGroup
+import com.itsaky.tom.rv2ide.inflater.internal.utils.simpleName
+import com.itsaky.tom.rv2ide.inflater.internal.utils.tagName
+import com.itsaky.tom.rv2ide.inflater.utils.newAttribute
+import com.itsaky.tom.rv2ide.inflater.viewAdapter
+import com.itsaky.tom.rv2ide.resources.R.drawable
 import org.slf4j.LoggerFactory
 
 open class ViewImpl

@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
 import android.content.Intent
-import com.itsaky.androidide.activities.AboutActivity
-import com.itsaky.androidide.app.IDEApplication
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.activities.AboutActivity
+import com.itsaky.tom.rv2ide.app.IDEApplication
+import com.itsaky.tom.rv2ide.resources.R
 
 private const val KEY_CHANGELOG = "idepref_changelog"
 private const val KEY_ABOUT = "idepref_about"

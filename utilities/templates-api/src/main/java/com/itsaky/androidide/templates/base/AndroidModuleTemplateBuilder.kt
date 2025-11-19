@@ -15,20 +15,20 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base
+package com.itsaky.tom.rv2ide.templates.base
 
 import android.content.Context
 import com.android.SdkConstants.ANDROID_MANIFEST_XML
 import com.squareup.javapoet.TypeSpec
-import com.itsaky.androidide.templates.ModuleType.AndroidLibrary
-import com.itsaky.androidide.templates.RecipeExecutor
-import com.itsaky.androidide.templates.SrcSet
-import com.itsaky.androidide.templates.base.modules.android.androidGitignoreSrc
-import com.itsaky.androidide.templates.base.modules.android.buildGradleSrc
-import com.itsaky.androidide.templates.base.modules.android.proguardRules
-import com.itsaky.androidide.templates.base.util.AndroidManifestBuilder
-import com.itsaky.androidide.templates.base.util.AndroidModuleResManager
-import com.itsaky.androidide.templates.base.util.stringRes
+import com.itsaky.tom.rv2ide.templates.ModuleType.AndroidLibrary
+import com.itsaky.tom.rv2ide.templates.RecipeExecutor
+import com.itsaky.tom.rv2ide.templates.SrcSet
+import com.itsaky.tom.rv2ide.templates.base.modules.android.androidGitignoreSrc
+import com.itsaky.tom.rv2ide.templates.base.modules.android.buildGradleSrc
+import com.itsaky.tom.rv2ide.templates.base.modules.android.proguardRules
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidManifestBuilder
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidModuleResManager
+import com.itsaky.tom.rv2ide.templates.base.util.stringRes
 import java.io.File
 
 class AndroidModuleTemplateBuilder : ModuleTemplateBuilder() {

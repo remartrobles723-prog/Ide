@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.utils
+package com.itsaky.tom.rv2ide.inflater.internal.utils
 
 import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams
-import com.itsaky.androidide.inflater.InflateException
-import com.itsaky.androidide.inflater.internal.ViewAdapterIndexImpl
+import com.itsaky.tom.rv2ide.inflater.InflateException
+import com.itsaky.tom.rv2ide.inflater.internal.ViewAdapterIndexImpl
 import java.lang.reflect.Method
 import org.slf4j.LoggerFactory
 

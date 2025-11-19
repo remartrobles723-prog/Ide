@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.etc
+package com.itsaky.tom.rv2ide.actions.etc
 
 import android.content.Context
 import android.content.Intent
@@ -24,13 +24,13 @@ import androidx.core.content.ContextCompat
 import com.android.aaptcompiler.AaptResourceType.LAYOUT
 import com.android.aaptcompiler.extractPathData
 import com.blankj.utilcode.util.KeyboardUtils
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.EditorRelatedAction
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.activities.editor.EditorHandlerActivity
-import com.itsaky.androidide.editor.ui.IDEEditor
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.uidesigner.UIDesignerActivity
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.EditorRelatedAction
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity
+import com.itsaky.tom.rv2ide.editor.ui.IDEEditor
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.uidesigner.UIDesignerActivity
 import java.io.File
 
 /** @author Akash Yadav */

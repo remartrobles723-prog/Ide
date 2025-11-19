@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.viewmodel
+package com.itsaky.tom.rv2ide.viewmodel
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
-import com.itsaky.androidide.models.Checkable
-import com.itsaky.androidide.tooling.api.models.GradleTask
+import com.itsaky.tom.rv2ide.models.Checkable
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleTask
 
 /** @author Akash Yadav */
 class RunTasksViewModel : ViewModel() {

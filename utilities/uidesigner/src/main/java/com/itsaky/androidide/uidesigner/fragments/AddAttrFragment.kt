@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.fragments
+package com.itsaky.tom.rv2ide.uidesigner.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,15 +24,15 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.itsaky.androidide.inflater.utils.newAttribute
-import com.itsaky.androidide.inflater.viewAdapter
-import com.itsaky.androidide.uidesigner.R
-import com.itsaky.androidide.uidesigner.R.string
-import com.itsaky.androidide.uidesigner.adapters.AddAttrListAdapter
-import com.itsaky.androidide.uidesigner.databinding.LayoutAddAttrBinding
-import com.itsaky.androidide.uidesigner.databinding.LayoutViewInfoHeaderBinding
-import com.itsaky.androidide.uidesigner.models.UiAttribute
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.inflater.utils.newAttribute
+import com.itsaky.tom.rv2ide.inflater.viewAdapter
+import com.itsaky.tom.rv2ide.uidesigner.R
+import com.itsaky.tom.rv2ide.uidesigner.R.string
+import com.itsaky.tom.rv2ide.uidesigner.adapters.AddAttrListAdapter
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutAddAttrBinding
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutViewInfoHeaderBinding
+import com.itsaky.tom.rv2ide.uidesigner.models.UiAttribute
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
 
 /**
  * A fragment that shows a list of attributes that can be added to the selected attribute in the UI

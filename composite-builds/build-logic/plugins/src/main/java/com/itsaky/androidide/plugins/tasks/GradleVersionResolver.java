@@ -31,7 +31,7 @@
  * limitations under the License.
  */
 
-package com.itsaky.androidide.plugins.tasks;
+package com.itsaky.tom.rv2ide.plugins.tasks;
 
 import static org.gradle.api.tasks.wrapper.internal.DefaultWrapperVersionsResources.LATEST;
 import static org.gradle.api.tasks.wrapper.internal.DefaultWrapperVersionsResources.NIGHTLY;

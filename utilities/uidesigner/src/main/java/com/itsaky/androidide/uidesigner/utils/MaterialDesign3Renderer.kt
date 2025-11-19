@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
 import android.content.Context
 import android.view.View
@@ -28,8 +28,8 @@ import com.google.android.material.chip.ChipGroup
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
-import com.itsaky.androidide.projects.IWorkspace
-import com.itsaky.androidide.uidesigner.utils.views.*
+import com.itsaky.tom.rv2ide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.uidesigner.utils.views.*
 import java.io.File
 import org.slf4j.LoggerFactory
 

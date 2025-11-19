@@ -15,17 +15,17 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
 import androidx.preference.Preference
-import com.itsaky.androidide.lsp.kotlin.etc.LspFeatures
-import com.itsaky.androidide.preferences.internal.LSPPreferences
-import com.itsaky.androidide.preferences.internal.LSPPreferences.ACS_KOTLIN_LSP_CURSOR_HOVER
-import com.itsaky.androidide.preferences.internal.LSPPreferences.ACS_KOTLIN_LSP_DIAGNOSTICS
-import com.itsaky.androidide.preferences.internal.LSPPreferences.ACS_KOTLIN_LSP_FORMAT_STYLE
-import com.itsaky.androidide.resources.R.drawable
-import com.itsaky.androidide.resources.R.string
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.lsp.kotlin.etc.LspFeatures
+import com.itsaky.tom.rv2ide.preferences.internal.LSPPreferences
+import com.itsaky.tom.rv2ide.preferences.internal.LSPPreferences.ACS_KOTLIN_LSP_CURSOR_HOVER
+import com.itsaky.tom.rv2ide.preferences.internal.LSPPreferences.ACS_KOTLIN_LSP_DIAGNOSTICS
+import com.itsaky.tom.rv2ide.preferences.internal.LSPPreferences.ACS_KOTLIN_LSP_FORMAT_STYLE
+import com.itsaky.tom.rv2ide.resources.R.drawable
+import com.itsaky.tom.rv2ide.resources.R.string
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.File
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize

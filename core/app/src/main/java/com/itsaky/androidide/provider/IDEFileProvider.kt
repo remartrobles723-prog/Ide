@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.provider
+package com.itsaky.tom.rv2ide.provider
 
 import androidx.core.content.FileProvider
 

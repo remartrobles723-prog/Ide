@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.events.internal
+package com.itsaky.tom.rv2ide.tooling.events.internal
 
-import com.itsaky.androidide.tooling.events.OperationDescriptor
-import com.itsaky.androidide.tooling.events.StartEvent
+import com.itsaky.tom.rv2ide.tooling.events.OperationDescriptor
+import com.itsaky.tom.rv2ide.tooling.events.StartEvent
 
 /** @author Akash Yadav */
 class DefaultStartEvent(displayName: String, eventTime: Long, descriptor: OperationDescriptor) :

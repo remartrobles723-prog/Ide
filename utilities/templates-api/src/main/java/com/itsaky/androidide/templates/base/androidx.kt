@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base
+package com.itsaky.tom.rv2ide.templates.base
 
-import com.itsaky.androidide.templates.base.models.Dependency
+import com.itsaky.tom.rv2ide.templates.base.models.Dependency
 
 /** Configures the template to use AndroidX and Material Design Components dependencies. */
 fun AndroidModuleTemplateBuilder.baseAndroidXDependencies() {

@@ -15,12 +15,12 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
-import com.itsaky.androidide.lsp.java.JavaCompilerProvider
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.projects.IWorkspace
-import com.itsaky.androidide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.lsp.java.JavaCompilerProvider
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
 import org.slf4j.LoggerFactory
 
 /*

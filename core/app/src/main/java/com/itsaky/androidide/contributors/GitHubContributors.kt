@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.contributors
+package com.itsaky.tom.rv2ide.contributors
 
 import com.google.gson.annotations.SerializedName
 import retrofit2.Call

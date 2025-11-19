@@ -14,9 +14,9 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.gradle
+package com.itsaky.tom.rv2ide.gradle
 
-import com.itsaky.androidide.tooling.api.LogSenderConfig.PROPERTY_LOGSENDER_ENABLED
+import com.itsaky.tom.rv2ide.tooling.api.LogSenderConfig.PROPERTY_LOGSENDER_ENABLED
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.logging.Logging

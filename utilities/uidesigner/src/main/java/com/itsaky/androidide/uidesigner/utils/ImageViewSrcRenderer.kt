@@ -3,7 +3,7 @@
  * This loads actual drawable resources for ImageView src attributes
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
 import android.content.Context
 import android.graphics.BitmapFactory

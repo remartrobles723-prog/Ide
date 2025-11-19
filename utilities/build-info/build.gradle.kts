@@ -17,13 +17,13 @@
 
 
 import com.android.SdkConstants
-import com.itsaky.androidide.build.config.AGP_VERSION_MINIMUM
-import com.itsaky.androidide.build.config.BuildConfig
-import com.itsaky.androidide.build.config.ProjectConfig
-import com.itsaky.androidide.build.config.VersionUtils
-import com.itsaky.androidide.build.config.downloadVersion
-import com.itsaky.androidide.build.config.replaceContents
-import com.itsaky.androidide.build.config.simpleVersionName
+import com.itsaky.tom.rv2ide.build.config.AGP_VERSION_MINIMUM
+import com.itsaky.tom.rv2ide.build.config.BuildConfig
+import com.itsaky.tom.rv2ide.build.config.ProjectConfig
+import com.itsaky.tom.rv2ide.build.config.VersionUtils
+import com.itsaky.tom.rv2ide.build.config.downloadVersion
+import com.itsaky.tom.rv2ide.build.config.replaceContents
+import com.itsaky.tom.rv2ide.build.config.simpleVersionName
 
 plugins {
   //noinspection JavaPluginLanguageLevel

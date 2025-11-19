@@ -18,7 +18,7 @@
  *
  **************************************************************************************/
 
-package com.itsaky.androidide.ui;
+package com.itsaky.tom.rv2ide.ui;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -29,8 +29,8 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.R;
-import com.itsaky.androidide.utils.ResourceUtilsKt;
+import com.itsaky.tom.rv2ide.R;
+import com.itsaky.tom.rv2ide.utils.ResourceUtilsKt;
 
 public class EmptyView extends RelativeLayout {
 

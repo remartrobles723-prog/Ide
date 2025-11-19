@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter.internal
+package com.itsaky.tom.rv2ide.editor.language.treesitter.internal
 
-import com.itsaky.androidide.editor.language.treesitter.TSLanguageRegistry
-import com.itsaky.androidide.editor.language.treesitter.TreeSitterLanguage
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TSLanguageRegistry
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TreeSitterLanguage
 import java.util.concurrent.ConcurrentHashMap
 
 /**

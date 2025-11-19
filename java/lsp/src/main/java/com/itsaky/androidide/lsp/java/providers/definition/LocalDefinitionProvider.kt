@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers.definition
+package com.itsaky.tom.rv2ide.lsp.java.providers.definition
 
-import com.itsaky.androidide.lsp.api.IServerSettings
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.lsp.java.utils.FindHelper
-import com.itsaky.androidide.models.Location
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.lsp.java.utils.FindHelper
+import com.itsaky.tom.rv2ide.models.Location
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
 import java.nio.file.Path
 import jdkx.lang.model.element.Element
 import openjdk.source.util.Trees

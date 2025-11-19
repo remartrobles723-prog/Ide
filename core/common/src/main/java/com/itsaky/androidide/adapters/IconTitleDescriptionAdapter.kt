@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters
+package com.itsaky.tom.rv2ide.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.itsaky.androidide.common.databinding.LayoutIconTitleDescriptionBinding
-import com.itsaky.androidide.models.IconTitleDescriptionItem
+import com.itsaky.tom.rv2ide.common.databinding.LayoutIconTitleDescriptionBinding
+import com.itsaky.tom.rv2ide.models.IconTitleDescriptionItem
 
 /**
  * [RecyclerView.Adapter] for showing [IconTitleDescription] items.

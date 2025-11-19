@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.undo
+package com.itsaky.tom.rv2ide.uidesigner.undo
 
 /**
  * Represents the action when the user removes a view from a view group.
@@ -23,8 +23,8 @@ package com.itsaky.androidide.uidesigner.undo
  * @author Akash Yadav
  */
 class ViewRemovedAction(
-    child: com.itsaky.androidide.inflater.IView,
-    parent: com.itsaky.androidide.inflater.IViewGroup,
+    child: com.itsaky.tom.rv2ide.inflater.IView,
+    parent: com.itsaky.tom.rv2ide.inflater.IViewGroup,
     index: Int,
 ) : ViewAction(child, parent, index) {
 

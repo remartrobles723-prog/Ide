@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api
+package com.itsaky.tom.rv2ide.tooling.api
 
-import com.itsaky.androidide.tooling.api.messages.LogMessageParams
-import com.itsaky.androidide.tooling.api.messages.result.BuildInfo
-import com.itsaky.androidide.tooling.api.messages.result.BuildResult
-import com.itsaky.androidide.tooling.api.messages.result.GradleWrapperCheckResult
-import com.itsaky.androidide.tooling.events.ProgressEvent
+import com.itsaky.tom.rv2ide.tooling.api.messages.LogMessageParams
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.BuildInfo
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.BuildResult
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.GradleWrapperCheckResult
+import com.itsaky.tom.rv2ide.tooling.events.ProgressEvent
 import java.util.concurrent.CompletableFuture
 
 /**

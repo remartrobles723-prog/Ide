@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring.dsl
+package com.itsaky.tom.rv2ide.desugaring.dsl
 
-import com.itsaky.androidide.desugaring.internal.parsing.InsnLexer
-import com.itsaky.androidide.desugaring.internal.parsing.InsnParser
-import com.itsaky.androidide.desugaring.utils.ReflectionUtils
+import com.itsaky.tom.rv2ide.desugaring.internal.parsing.InsnLexer
+import com.itsaky.tom.rv2ide.desugaring.internal.parsing.InsnParser
+import com.itsaky.tom.rv2ide.desugaring.utils.ReflectionUtils
 import org.gradle.api.Action
 import org.gradle.api.model.ObjectFactory
 import java.io.File

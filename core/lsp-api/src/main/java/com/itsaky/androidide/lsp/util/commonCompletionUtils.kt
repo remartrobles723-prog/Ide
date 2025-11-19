@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.util
+package com.itsaky.tom.rv2ide.lsp.util
 
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.xml.resources.ResourceTableRegistry
-import com.itsaky.androidide.xml.versions.ApiVersions
-import com.itsaky.androidide.xml.widgets.WidgetTable
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.xml.resources.ResourceTableRegistry
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersions
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTable
 import java.io.File
 import java.nio.file.Path
 

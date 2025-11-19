@@ -17,10 +17,10 @@
 
 @file:Suppress("DEPRECATION")
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.widget.AbsoluteLayout
-import com.itsaky.androidide.annotations.inflater.ViewAdapter
+import com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter
 
 /**
  * Attribute adapter for [AbsoluteLayout].

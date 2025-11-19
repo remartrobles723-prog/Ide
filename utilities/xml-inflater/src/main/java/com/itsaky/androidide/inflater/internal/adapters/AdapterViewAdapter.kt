@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.R.layout
 import android.content.Context
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.internal.ViewGroupImpl
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.internal.ViewGroupImpl
 
 /**
  * Attribute adapter for [AdapterView][android.widget.AdapterView]

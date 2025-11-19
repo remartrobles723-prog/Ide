@@ -15,21 +15,21 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.cpp;
+package com.itsaky.tom.rv2ide.editor.language.cpp;
 
-import static com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.LITERAL;
-import static com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.OPERATOR;
-import static com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.TEXT_NORMAL;
-import static com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.TYPE_NAME;
-import static com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.forComment;
-import static com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.forKeyword;
-import static com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.forString;
+import static com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.LITERAL;
+import static com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.OPERATOR;
+import static com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.TEXT_NORMAL;
+import static com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.TYPE_NAME;
+import static com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.forComment;
+import static com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.forKeyword;
+import static com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.forString;
 import static io.github.rosemoe.sora.lang.styling.TextStyle.makeStyle;
 
-import com.itsaky.androidide.editor.language.incremental.BaseIncrementalAnalyzeManager;
-import com.itsaky.androidide.editor.language.incremental.IncrementalToken;
-import com.itsaky.androidide.editor.language.incremental.LineState;
-import com.itsaky.androidide.lexers.cpp.CPP14Lexer;
+import com.itsaky.tom.rv2ide.editor.language.incremental.BaseIncrementalAnalyzeManager;
+import com.itsaky.tom.rv2ide.editor.language.incremental.IncrementalToken;
+import com.itsaky.tom.rv2ide.editor.language.incremental.LineState;
+import com.itsaky.tom.rv2ide.lexers.cpp.CPP14Lexer;
 import io.github.rosemoe.sora.lang.styling.Span;
 import java.util.ArrayList;
 import java.util.List;

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.vectormaster.models;
+package com.itsaky.tom.rv2ide.inflater.vectormaster.models;
 
 import android.graphics.Color;
 import android.graphics.Matrix;
@@ -23,9 +23,9 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PathMeasure;
 import android.graphics.RectF;
-import com.itsaky.androidide.inflater.vectormaster.DefaultValues;
-import com.itsaky.androidide.inflater.vectormaster.utilities.Utils;
-import com.itsaky.androidide.inflater.vectormaster.utilities.parser.PathParser;
+import com.itsaky.tom.rv2ide.inflater.vectormaster.DefaultValues;
+import com.itsaky.tom.rv2ide.inflater.vectormaster.utilities.Utils;
+import com.itsaky.tom.rv2ide.inflater.vectormaster.utilities.parser.PathParser;
 
 public class PathModel {
 
@@ -107,7 +107,7 @@ public class PathModel {
   public void buildPath(boolean useLegacyParser) {
     if (useLegacyParser) {
       originalPath =
-          com.itsaky.androidide.inflater.vectormaster.utilities.legacyparser.PathParser.createPathFromPathData(
+          com.itsaky.tom.rv2ide.inflater.vectormaster.utilities.legacyparser.PathParser.createPathFromPathData(
               pathData);
     } else {
       originalPath = PathParser.doPath(pathData);

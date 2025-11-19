@@ -14,15 +14,15 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.editor.language
+package com.itsaky.tom.rv2ide.editor.language
 
 import android.os.Bundle
-import com.itsaky.androidide.editor.api.IEditor
-import com.itsaky.androidide.editor.ui.IDECompletionPublisher
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.lsp.api.ILanguageServer
-import com.itsaky.androidide.preferences.internal.EditorPreferences
-import com.itsaky.androidide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.editor.api.IEditor
+import com.itsaky.tom.rv2ide.editor.ui.IDECompletionPublisher
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServer
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
 import io.github.rosemoe.sora.lang.Language
 import io.github.rosemoe.sora.lang.completion.CompletionCancelledException
 import io.github.rosemoe.sora.lang.completion.CompletionPublisher

@@ -1,4 +1,4 @@
-package com.itsaky.androidide.utils;
+package com.itsaky.tom.rv2ide.utils;
 
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;

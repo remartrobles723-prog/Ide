@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.handlers
+package com.itsaky.tom.rv2ide.handlers
 
 import android.content.Context
-import com.itsaky.androidide.activities.editor.EditorHandlerActivity
-import com.itsaky.androidide.eventbus.events.Event
-import com.itsaky.androidide.eventbus.events.EventReceiver
+import com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity
+import com.itsaky.tom.rv2ide.eventbus.events.Event
+import com.itsaky.tom.rv2ide.eventbus.events.EventReceiver
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 

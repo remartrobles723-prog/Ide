@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.app.Activity
 import androidx.annotation.StringRes
 import com.blankj.utilcode.util.ActivityUtils
-import com.itsaky.androidide.flashbar.Flashbar
+import com.itsaky.tom.rv2ide.flashbar.Flashbar
 
 fun flashbarBuilder(): Flashbar.Builder? {
   return withActivity { flashbarBuilder() }

@@ -15,23 +15,23 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.widget.ScrollView
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner.Group.LAYOUTS
-import com.itsaky.androidide.inflater.AttributeHandlerScope
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.IViewGroup
-import com.itsaky.androidide.inflater.models.UiWidget
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner.Group.LAYOUTS
+import com.itsaky.tom.rv2ide.inflater.AttributeHandlerScope
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.IViewGroup
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.resources.R
 
 /**
  * View adapter for [ScrollView].
  *
  * @author Akash Yadav
  */
-@com.itsaky.androidide.annotations.inflater.ViewAdapter(forView = ScrollView::class)
+@com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter(forView = ScrollView::class)
 @IncludeInDesigner(group = LAYOUTS)
 open class ScrollViewAdapter<T : ScrollView> : FrameLayoutAdapter<T>() {
 

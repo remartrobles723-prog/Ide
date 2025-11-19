@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.terminal
+package com.itsaky.tom.rv2ide.terminal
 
-import com.itsaky.androidide.activities.TerminalActivity
+import com.itsaky.tom.rv2ide.activities.TerminalActivity
 import com.termux.app.terminal.TermuxTerminalSessionActivityClient
 import com.termux.terminal.TerminalSession
 import com.termux.terminal.TerminalSessionClient

@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers.completion
+package com.itsaky.tom.rv2ide.lsp.java.providers.completion
 
-import com.itsaky.androidide.lsp.api.IServerSettings
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.lsp.java.providers.snippet.JavaSnippetRepository
-import com.itsaky.androidide.lsp.java.providers.snippet.JavaSnippetScope
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.MatchLevel
-import com.itsaky.androidide.lsp.snippets.ISnippet
-import com.itsaky.androidide.preferences.internal.EditorPreferences
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.lsp.java.providers.snippet.JavaSnippetRepository
+import com.itsaky.tom.rv2ide.lsp.java.providers.snippet.JavaSnippetScope
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel
+import com.itsaky.tom.rv2ide.lsp.snippets.ISnippet
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences
 import io.github.rosemoe.sora.text.TextUtils
 import java.nio.file.Path
 import openjdk.source.tree.ClassTree

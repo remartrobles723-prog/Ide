@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater

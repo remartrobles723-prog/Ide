@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.schemes
+package com.itsaky.tom.rv2ide.editor.schemes
 
 import android.content.Context
 import androidx.annotation.WorkerThread
-import com.itsaky.androidide.eventbus.events.editor.ColorSchemeInvalidatedEvent
-import com.itsaky.androidide.preferences.internal.EditorPreferences
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.isSystemInDarkMode
+import com.itsaky.tom.rv2ide.eventbus.events.editor.ColorSchemeInvalidatedEvent
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.isSystemInDarkMode
 import java.io.File
 import java.io.FileFilter
 import java.util.Properties

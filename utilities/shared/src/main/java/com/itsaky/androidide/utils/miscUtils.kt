@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 @Suppress("UNCHECKED_CAST")
 fun <T> uncheckedCast(obj: Any): T {

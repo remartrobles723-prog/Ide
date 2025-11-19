@@ -1,10 +1,10 @@
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import androidx.appcompat.app.AlertDialog
-import com.itsaky.androidide.lsp.kotlin.KotlinLanguageServer
-import com.itsaky.androidide.lsp.models.DiagnosticItem
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.models.Range
+import com.itsaky.tom.rv2ide.lsp.kotlin.KotlinLanguageServer
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.models.Range
 import org.slf4j.LoggerFactory
 
 /** Diagnostic handling extensions for IDEEditor - Simplified Version */

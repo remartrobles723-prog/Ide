@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.edits
+package com.itsaky.tom.rv2ide.lsp.java.edits
 
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.lsp.java.utils.EditHelper
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.lsp.java.utils.EditHelper
 import io.github.rosemoe.sora.widget.CodeEditor
 import java.nio.file.Path
 import org.slf4j.LoggerFactory
@@ -44,9 +44,9 @@ class MultipleClassImportEditHandler(
   override fun performEdits(
       compiler: JavaCompilerService,
       editor: CodeEditor,
-      completionItem: com.itsaky.androidide.lsp.models.CompletionItem,
+      completionItem: com.itsaky.tom.rv2ide.lsp.models.CompletionItem,
   ) {
-    val edits = mutableListOf<com.itsaky.androidide.lsp.models.TextEdit>()
+    val edits = mutableListOf<com.itsaky.tom.rv2ide.lsp.models.TextEdit>()
     for (className in classes) {
       try {
         edits.addAll(EditHelper.addImportIfNeeded(compiler, file, imported, className))
@@ -54,6 +54,6 @@ class MultipleClassImportEditHandler(
         log.error("Unable to compute edits to perform import for class: {}", className)
       }
     }
-    com.itsaky.androidide.lsp.util.RewriteHelper.performEdits(edits, editor)
+    com.itsaky.tom.rv2ide.lsp.util.RewriteHelper.performEdits(edits, editor)
   }
 }

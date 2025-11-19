@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package com.itsaky.androidide.zipfs2;
+package com.itsaky.tom.rv2ide.zipfs2;
 
 import java.nio.file.Path;
 import java.util.Map;

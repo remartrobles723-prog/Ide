@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.drag
+package com.itsaky.tom.rv2ide.uidesigner.drag
 
 import android.view.DragEvent
 import android.view.View
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.models.UiWidget
-import com.itsaky.androidide.inflater.viewGroup
-import com.itsaky.androidide.uidesigner.fragments.DesignerWorkspaceFragment.Companion.DRAGGING_WIDGET_MIME
-import com.itsaky.androidide.uidesigner.models.UiView
-import com.itsaky.androidide.uidesigner.models.UiViewGroup
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.inflater.viewGroup
+import com.itsaky.tom.rv2ide.uidesigner.fragments.DesignerWorkspaceFragment.Companion.DRAGGING_WIDGET_MIME
+import com.itsaky.tom.rv2ide.uidesigner.models.UiView
+import com.itsaky.tom.rv2ide.uidesigner.models.UiViewGroup
 import kotlin.math.absoluteValue
 import kotlin.math.max
 import kotlin.math.min

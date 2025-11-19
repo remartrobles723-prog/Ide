@@ -15,27 +15,27 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers
+package com.itsaky.tom.rv2ide.lsp.xml.providers
 
-import com.itsaky.androidide.eventbus.events.editor.ChangeType
-import com.itsaky.androidide.eventbus.events.editor.DocumentChangeEvent
-import com.itsaky.androidide.lsp.api.ILanguageServerRegistry
-import com.itsaky.androidide.lsp.models.CodeActionItem
-import com.itsaky.androidide.lsp.models.CodeActionKind
-import com.itsaky.androidide.lsp.models.DocumentChange
-import com.itsaky.androidide.lsp.models.PerformCodeActionParams
-import com.itsaky.androidide.lsp.models.TextEdit
-import com.itsaky.androidide.lsp.xml.XMLLanguageServer
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.projects.FileManager
-import com.itsaky.androidide.treesitter.TSParser
-import com.itsaky.androidide.treesitter.TSQuery
-import com.itsaky.androidide.treesitter.TSQueryCapture
-import com.itsaky.androidide.treesitter.TSQueryCursor
-import com.itsaky.androidide.treesitter.TSQueryError
-import com.itsaky.androidide.treesitter.TSQueryMatch
-import com.itsaky.androidide.treesitter.TSTree
-import com.itsaky.androidide.treesitter.xml.TSLanguageXml
+import com.itsaky.tom.rv2ide.eventbus.events.editor.ChangeType
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentChangeEvent
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServerRegistry
+import com.itsaky.tom.rv2ide.lsp.models.CodeActionItem
+import com.itsaky.tom.rv2ide.lsp.models.CodeActionKind
+import com.itsaky.tom.rv2ide.lsp.models.DocumentChange
+import com.itsaky.tom.rv2ide.lsp.models.PerformCodeActionParams
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit
+import com.itsaky.tom.rv2ide.lsp.xml.XMLLanguageServer
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.projects.FileManager
+import com.itsaky.tom.rv2ide.treesitter.TSParser
+import com.itsaky.tom.rv2ide.treesitter.TSQuery
+import com.itsaky.tom.rv2ide.treesitter.TSQueryCapture
+import com.itsaky.tom.rv2ide.treesitter.TSQueryCursor
+import com.itsaky.tom.rv2ide.treesitter.TSQueryError
+import com.itsaky.tom.rv2ide.treesitter.TSQueryMatch
+import com.itsaky.tom.rv2ide.treesitter.TSTree
+import com.itsaky.tom.rv2ide.treesitter.xml.TSLanguageXml
 
 /** @author Akash Yadav */
 object AdvancedEditProvider {

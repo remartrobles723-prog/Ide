@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.edits
+package com.itsaky.tom.rv2ide.lsp.edits
 
-import com.itsaky.androidide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
 import io.github.rosemoe.sora.text.Content
 import io.github.rosemoe.sora.widget.CodeEditor
 

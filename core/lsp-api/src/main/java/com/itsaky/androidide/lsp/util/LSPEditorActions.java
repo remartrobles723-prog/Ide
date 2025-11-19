@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.util;
+package com.itsaky.tom.rv2ide.lsp.util;
 
 import com.itsaky.tom.rv2ide.actions.ActionItem;
 import com.itsaky.tom.rv2ide.actions.ActionMenu;
 import com.itsaky.tom.rv2ide.actions.ActionsRegistry;
 import com.itsaky.tom.rv2ide.actions.locations.CodeActionsMenu;
-import com.itsaky.androidide.lsp.actions.IActionsMenuProvider;
-import com.itsaky.androidide.utils.ILogger;
+import com.itsaky.tom.rv2ide.lsp.actions.IActionsMenuProvider;
+import com.itsaky.tom.rv2ide.utils.ILogger;
 
 /**
  * @author Akash Yadav

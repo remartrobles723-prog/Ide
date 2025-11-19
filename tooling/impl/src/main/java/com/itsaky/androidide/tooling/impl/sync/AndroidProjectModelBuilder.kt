@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.tooling.impl.sync
+package com.itsaky.tom.rv2ide.tooling.impl.sync
 
 import com.android.builder.model.v2.models.AndroidDsl
 import com.android.builder.model.v2.models.AndroidProject
@@ -22,9 +22,9 @@ import com.android.builder.model.v2.models.BasicAndroidProject
 import com.android.builder.model.v2.models.ModelBuilderParameter
 import com.android.builder.model.v2.models.ProjectSyncIssues
 import com.android.builder.model.v2.models.VariantDependencies
-import com.itsaky.androidide.tooling.api.IAndroidProject
-import com.itsaky.androidide.tooling.api.messages.InitializeProjectParams
-import com.itsaky.androidide.tooling.impl.internal.AndroidProjectImpl
+import com.itsaky.tom.rv2ide.tooling.api.IAndroidProject
+import com.itsaky.tom.rv2ide.tooling.api.messages.InitializeProjectParams
+import com.itsaky.tom.rv2ide.tooling.impl.internal.AndroidProjectImpl
 
 /**
  * Builds model for Android application and library projects.

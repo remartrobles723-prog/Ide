@@ -12,7 +12,7 @@
  * You should have received a copy of the GNU General Public License along with AndroidIDE. If not,
  * see <https:></https:>//www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.adapters
+package com.itsaky.tom.rv2ide.adapters
 
 import android.graphics.PorterDuff.Mode.SRC_ATOP
 import android.view.LayoutInflater
@@ -21,15 +21,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.R
-import com.itsaky.androidide.adapters.SearchListAdapter.VH
-import com.itsaky.androidide.databinding.LayoutSearchResultGroupBinding
-import com.itsaky.androidide.databinding.LayoutSearchResultItemBinding
-import com.itsaky.androidide.models.FileExtension
-import com.itsaky.androidide.models.SearchResult
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE
-import com.itsaky.androidide.syntax.highlighters.JavaHighlighter
-import com.itsaky.androidide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.adapters.SearchListAdapter.VH
+import com.itsaky.tom.rv2ide.databinding.LayoutSearchResultGroupBinding
+import com.itsaky.tom.rv2ide.databinding.LayoutSearchResultItemBinding
+import com.itsaky.tom.rv2ide.models.FileExtension
+import com.itsaky.tom.rv2ide.models.SearchResult
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE
+import com.itsaky.tom.rv2ide.syntax.highlighters.JavaHighlighter
+import com.itsaky.tom.rv2ide.utils.resolveAttr
 import java.io.File
 import java.util.concurrent.CompletableFuture
 

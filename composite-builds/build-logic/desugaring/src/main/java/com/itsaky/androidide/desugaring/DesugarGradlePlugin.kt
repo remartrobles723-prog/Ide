@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring
+package com.itsaky.tom.rv2ide.desugaring
 
 import com.android.build.api.instrumentation.FramesComputationMode
 import com.android.build.api.instrumentation.InstrumentationScope.ALL
 import com.android.build.api.variant.AndroidComponentsExtension
-import com.itsaky.androidide.desugaring.DesugarParams.Companion.setFrom
+import com.itsaky.tom.rv2ide.desugaring.DesugarParams.Companion.setFrom
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.create

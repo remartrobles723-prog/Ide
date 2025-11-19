@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.content.IntentSender
 import android.content.pm.PackageInstaller
-import com.itsaky.androidide.services.InstallationResultReceiver
+import com.itsaky.tom.rv2ide.services.InstallationResultReceiver
 import org.slf4j.LoggerFactory
 
 /**
@@ -33,7 +33,7 @@ import org.slf4j.LoggerFactory
 object InstallationResultHandler {
 
   private const val INSTALL_PACKAGE_REQ_CODE = 2304
-  private const val INSTALL_PACKAGE_ACTION = "com.itsaky.androidide.installer.INSTALL_PACKAGE"
+  private const val INSTALL_PACKAGE_ACTION = "com.itsaky.tom.rv2ide.installer.INSTALL_PACKAGE"
 
   private val log = LoggerFactory.getLogger(InstallationResultHandler::class.java)
 

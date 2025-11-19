@@ -15,10 +15,10 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.android.etc.NativeCpp
+package com.itsaky.tom.rv2ide.templates.android.etc.NativeCpp
 
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.GeneralFileUtils
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.GeneralFileUtils
 import java.io.File
 import java.util.concurrent.TimeUnit
 

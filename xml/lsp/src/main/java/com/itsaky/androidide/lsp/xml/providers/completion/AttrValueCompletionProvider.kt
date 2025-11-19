@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion
 
 import com.android.SdkConstants.ANDROID_URI
 import com.android.aapt.Resources.Attribute.FormatFlags
@@ -34,24 +34,24 @@ import com.android.aaptcompiler.AaptResourceType.UNKNOWN
 import com.android.aaptcompiler.AttributeResource
 import com.android.aaptcompiler.ConfigDescription
 import com.android.aaptcompiler.ResourcePathData
-import com.itsaky.androidide.lsp.api.ICompletionProvider
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionParams
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.CompletionResult.Companion.EMPTY
-import com.itsaky.androidide.lsp.models.CompletionResult.Companion.MAX_ITEMS
-import com.itsaky.androidide.lsp.models.MatchLevel.NO_MATCH
-import com.itsaky.androidide.lsp.xml.edits.QualifiedValueEditHandler
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType.ATTRIBUTE_VALUE
-import com.itsaky.androidide.lsp.xml.utils.dimensionUnits
-import com.itsaky.androidide.xml.res.IResourceTable
-import com.itsaky.androidide.xml.res.IResourceTablePackage
-import com.itsaky.androidide.xml.resources.ResourceTableRegistry
-import com.itsaky.androidide.xml.utils.attrValue_qualifiedRef
-import com.itsaky.androidide.xml.utils.attrValue_qualifiedRefWithIncompletePckOrType
-import com.itsaky.androidide.xml.utils.attrValue_qualifiedRefWithIncompleteType
-import com.itsaky.androidide.xml.utils.attrValue_unqualifiedRef
+import com.itsaky.tom.rv2ide.lsp.api.ICompletionProvider
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult.Companion.EMPTY
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult.Companion.MAX_ITEMS
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.NO_MATCH
+import com.itsaky.tom.rv2ide.lsp.xml.edits.QualifiedValueEditHandler
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType.ATTRIBUTE_VALUE
+import com.itsaky.tom.rv2ide.lsp.xml.utils.dimensionUnits
+import com.itsaky.tom.rv2ide.xml.res.IResourceTable
+import com.itsaky.tom.rv2ide.xml.res.IResourceTablePackage
+import com.itsaky.tom.rv2ide.xml.resources.ResourceTableRegistry
+import com.itsaky.tom.rv2ide.xml.utils.attrValue_qualifiedRef
+import com.itsaky.tom.rv2ide.xml.utils.attrValue_qualifiedRefWithIncompletePckOrType
+import com.itsaky.tom.rv2ide.xml.utils.attrValue_qualifiedRefWithIncompleteType
+import com.itsaky.tom.rv2ide.xml.utils.attrValue_unqualifiedRef
 import org.eclipse.lemminx.dom.DOMDocument
 
 /**

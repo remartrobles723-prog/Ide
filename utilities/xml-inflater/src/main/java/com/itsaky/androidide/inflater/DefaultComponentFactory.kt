@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater
+package com.itsaky.tom.rv2ide.inflater
 
 import android.view.View
 import android.view.ViewGroup
-import com.itsaky.androidide.inflater.internal.AttributeImpl
-import com.itsaky.androidide.inflater.internal.LayoutFile
-import com.itsaky.androidide.inflater.internal.ViewGroupImpl
-import com.itsaky.androidide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.inflater.internal.AttributeImpl
+import com.itsaky.tom.rv2ide.inflater.internal.LayoutFile
+import com.itsaky.tom.rv2ide.inflater.internal.ViewGroupImpl
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
 
 /** Default implementation of [IComponentFactory]. */
 open class DefaultComponentFactory : IComponentFactory {

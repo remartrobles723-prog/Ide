@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.internal.versions
+package com.itsaky.tom.rv2ide.xml.internal.versions
 
-import com.itsaky.androidide.xml.versions.ApiVersion
-import com.itsaky.androidide.xml.versions.ApiVersions
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersion
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersions
 
 /**
  * This implementation is not thread safe. Do not modify concurrently.

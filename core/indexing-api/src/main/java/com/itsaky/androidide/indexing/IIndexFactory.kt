@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.indexing
+package com.itsaky.tom.rv2ide.indexing
 
-import com.itsaky.androidide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
 
 /**
  * A factory for creating instances of [IIndex].

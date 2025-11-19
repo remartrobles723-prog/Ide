@@ -14,24 +14,24 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.rewrite;
+package com.itsaky.tom.rv2ide.lsp.java.rewrite;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.lsp.java.compiler.CompileTask;
-import com.itsaky.androidide.lsp.java.compiler.CompilerProvider;
-import com.itsaky.androidide.lsp.java.compiler.SynchronizedTask;
-import com.itsaky.androidide.lsp.java.utils.EditHelper;
-import com.itsaky.androidide.lsp.java.utils.JavaPoetUtils;
-import com.itsaky.androidide.lsp.java.visitors.FindAnonymousTypeDeclaration;
-import com.itsaky.androidide.lsp.java.visitors.FindTypeDeclarationAt;
-import com.itsaky.androidide.lsp.models.CodeActionItem;
-import com.itsaky.androidide.lsp.models.Command;
-import com.itsaky.androidide.lsp.models.TextEdit;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
-import com.itsaky.androidide.preferences.internal.EditorPreferences;
-import com.itsaky.androidide.preferences.utils.EditorUtilKt;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompilerProvider;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.SynchronizedTask;
+import com.itsaky.tom.rv2ide.lsp.java.utils.EditHelper;
+import com.itsaky.tom.rv2ide.lsp.java.utils.JavaPoetUtils;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindAnonymousTypeDeclaration;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindTypeDeclarationAt;
+import com.itsaky.tom.rv2ide.lsp.models.CodeActionItem;
+import com.itsaky.tom.rv2ide.lsp.models.Command;
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences;
+import com.itsaky.tom.rv2ide.preferences.utils.EditorUtilKt;
 import com.squareup.javapoet.MethodSpec;
 import java.nio.file.Path;
 import java.util.ArrayList;

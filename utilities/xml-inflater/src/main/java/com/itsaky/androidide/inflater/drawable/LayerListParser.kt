@@ -14,12 +14,12 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.inflater.drawable
+package com.itsaky.tom.rv2ide.inflater.drawable
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.LayerDrawable
-import com.itsaky.androidide.inflater.internal.utils.TextDrawable
+import com.itsaky.tom.rv2ide.inflater.internal.utils.TextDrawable
 import org.jetbrains.annotations.Contract
 import org.xmlpull.v1.XmlPullParser
 

@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.android
+package com.itsaky.tom.rv2ide.templates.android
 
 import android.content.Context
 import android.util.Log
@@ -28,8 +28,8 @@ import com.tom.androidcodestudio.project.manager.builder.module.*
 import com.tom.androidcodestudio.project.manager.builder.toplevel.*
 import com.tom.androidcodestudio.project.manager.builder.toplevel.GradleFileType.GROOVY
 import com.tom.androidcodestudio.project.manager.builder.toplevel.GradleFileType.KTS
-import com.itsaky.androidide.templates.*
-import com.itsaky.androidide.templates.AtcInterface
+import com.itsaky.tom.rv2ide.templates.*
+import com.itsaky.tom.rv2ide.templates.AtcInterface
 import java.io.File
 import java.io.FileOutputStream
 import java.io.InputStream
@@ -306,11 +306,11 @@ class EmptyActivity : Template {
           // Create MainActivity source in selected language (simple layout) from sources
           val mainActivityContent =
               if (options.languageType == LanguageType.KOTLIN)
-                  com.itsaky.androidide.templates.android.empty.EmptySources.mainActivityKotlin(
+                  com.itsaky.tom.rv2ide.templates.android.empty.EmptySources.mainActivityKotlin(
                       packageHelper.getPackageId()
                   )
               else
-                  com.itsaky.androidide.templates.android.empty.EmptySources.mainActivityJava(
+                  com.itsaky.tom.rv2ide.templates.android.empty.EmptySources.mainActivityJava(
                       packageHelper.getPackageId()
                   )
 

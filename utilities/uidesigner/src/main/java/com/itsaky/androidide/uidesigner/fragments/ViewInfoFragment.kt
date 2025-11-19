@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.fragments
+package com.itsaky.tom.rv2ide.uidesigner.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -25,15 +25,15 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.itsaky.androidide.inflater.internal.NamespaceImpl
-import com.itsaky.androidide.inflater.internal.ViewImpl
-import com.itsaky.androidide.inflater.utils.newAttribute
-import com.itsaky.androidide.uidesigner.R
-import com.itsaky.androidide.uidesigner.adapters.ViewAttrListAdapter
-import com.itsaky.androidide.uidesigner.databinding.LayoutViewInfoBinding
-import com.itsaky.androidide.uidesigner.databinding.LayoutViewInfoHeaderBinding
-import com.itsaky.androidide.uidesigner.models.UiAttribute
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.inflater.internal.NamespaceImpl
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.inflater.utils.newAttribute
+import com.itsaky.tom.rv2ide.uidesigner.R
+import com.itsaky.tom.rv2ide.uidesigner.adapters.ViewAttrListAdapter
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutViewInfoBinding
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutViewInfoHeaderBinding
+import com.itsaky.tom.rv2ide.uidesigner.models.UiAttribute
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
 
 /**
  * A [BottomSheetDialogFragment] which shows information about a clicked view.

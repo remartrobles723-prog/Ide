@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.file
+package com.itsaky.tom.rv2ide.actions.file
 
 import android.content.Context
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.R
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.activities.editor.EditorHandlerActivity
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity
 
 /**
  * Closes the current file.

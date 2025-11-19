@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.sync;
+package com.itsaky.tom.rv2ide.tooling.impl.sync;
 
 /**
  * Exception thrown to indicate that a project is not an Android project.

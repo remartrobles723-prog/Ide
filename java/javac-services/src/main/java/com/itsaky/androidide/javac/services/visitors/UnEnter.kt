@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.javac.services.visitors
+package com.itsaky.tom.rv2ide.javac.services.visitors
 
 import com.blankj.utilcode.util.ReflectUtils
 import openjdk.tools.javac.code.Symbol.ModuleSymbol

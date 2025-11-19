@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring.utils
+package com.itsaky.tom.rv2ide.desugaring.utils
 
-import com.itsaky.androidide.desugaring.core.java.io.DesugarInputStream
-import com.itsaky.androidide.desugaring.dsl.DesugarReplacementsContainer
+import com.itsaky.tom.rv2ide.desugaring.core.java.io.DesugarInputStream
+import com.itsaky.tom.rv2ide.desugaring.dsl.DesugarReplacementsContainer
 import java.io.InputStream
 import kotlin.reflect.jvm.javaMethod
 

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.content.Context
 import androidx.annotation.IdRes
@@ -29,25 +29,25 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.get
 import androidx.navigation.navOptions
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem
-import com.itsaky.androidide.actions.ActionsRegistry
-import com.itsaky.androidide.actions.SidebarActionItem
-import com.itsaky.androidide.actions.internal.DefaultActionsRegistry
-import com.itsaky.androidide.actions.sidebar.AIAgentSidebarAction
-import com.itsaky.androidide.actions.sidebar.AssetStudioSidebarAction
-import com.itsaky.androidide.actions.sidebar.BuildVariantsSidebarAction
-import com.itsaky.androidide.actions.sidebar.CloseProjectSidebarAction
-import com.itsaky.androidide.actions.sidebar.FileTreeSidebarAction
-import com.itsaky.androidide.actions.sidebar.PreferencesSidebarAction
-import com.itsaky.androidide.actions.sidebar.SubModuleSidebarAction
-import com.itsaky.androidide.actions.sidebar.TerminalSidebarAction
-import com.itsaky.androidide.fragments.sidebar.EditorSidebarFragment
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem
+import com.itsaky.tom.rv2ide.actions.ActionsRegistry
+import com.itsaky.tom.rv2ide.actions.SidebarActionItem
+import com.itsaky.tom.rv2ide.actions.internal.DefaultActionsRegistry
+import com.itsaky.tom.rv2ide.actions.sidebar.AIAgentSidebarAction
+import com.itsaky.tom.rv2ide.actions.sidebar.AssetStudioSidebarAction
+import com.itsaky.tom.rv2ide.actions.sidebar.BuildVariantsSidebarAction
+import com.itsaky.tom.rv2ide.actions.sidebar.CloseProjectSidebarAction
+import com.itsaky.tom.rv2ide.actions.sidebar.FileTreeSidebarAction
+import com.itsaky.tom.rv2ide.actions.sidebar.PreferencesSidebarAction
+import com.itsaky.tom.rv2ide.actions.sidebar.SubModuleSidebarAction
+import com.itsaky.tom.rv2ide.actions.sidebar.TerminalSidebarAction
+import com.itsaky.tom.rv2ide.fragments.sidebar.EditorSidebarFragment
 import java.lang.ref.WeakReference
 
 /**
  * Sets up the actions that are shown in the
- * [EditorActivityKt][com.itsaky.androidide.activities.editor.EditorActivityKt]'s drawer's sidebar.
+ * [EditorActivityKt][com.itsaky.tom.rv2ide.activities.editor.EditorActivityKt]'s drawer's sidebar.
  *
  * @author Akash Yadav
  */
@@ -79,7 +79,7 @@ internal object EditorSidebarActions {
     val context = sidebarFragment.requireContext()
     val navigationRecycler =
         binding.navigation.findViewById<androidx.recyclerview.widget.RecyclerView>(
-            com.itsaky.androidide.R.id.navigation_recycler
+            com.itsaky.tom.rv2ide.R.id.navigation_recycler
         )
 
     val registry = ActionsRegistry.getInstance()

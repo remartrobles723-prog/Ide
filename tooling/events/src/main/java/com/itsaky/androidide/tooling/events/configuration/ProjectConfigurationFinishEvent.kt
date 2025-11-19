@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.events.configuration
+package com.itsaky.tom.rv2ide.tooling.events.configuration
 
-import com.itsaky.androidide.tooling.events.FinishEvent
+import com.itsaky.tom.rv2ide.tooling.events.FinishEvent
 
 /** @author Akash Yadav */
 class ProjectConfigurationFinishEvent(

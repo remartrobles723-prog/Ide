@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.classpath
+package com.itsaky.tom.rv2ide.projects.classpath
 
 import com.google.common.collect.ImmutableSet
 import java.io.File

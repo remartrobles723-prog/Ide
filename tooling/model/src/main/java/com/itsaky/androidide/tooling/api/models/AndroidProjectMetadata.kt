@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.models
+package com.itsaky.tom.rv2ide.tooling.api.models
 
-import com.itsaky.androidide.builder.model.DefaultAndroidGradlePluginProjectFlags
-import com.itsaky.androidide.builder.model.DefaultJavaCompileOptions
-import com.itsaky.androidide.builder.model.DefaultViewBindingOptions
-import com.itsaky.androidide.tooling.api.ProjectType
+import com.itsaky.tom.rv2ide.builder.model.DefaultAndroidGradlePluginProjectFlags
+import com.itsaky.tom.rv2ide.builder.model.DefaultJavaCompileOptions
+import com.itsaky.tom.rv2ide.builder.model.DefaultViewBindingOptions
+import com.itsaky.tom.rv2ide.tooling.api.ProjectType
 import java.io.File
 
 /**

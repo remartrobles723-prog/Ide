@@ -14,20 +14,20 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.actions.diagnostics
+package com.itsaky.tom.rv2ide.lsp.java.actions.diagnostics
 
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.hasRequiredData
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.actions.requireFile
-import com.itsaky.androidide.actions.requirePath
-import com.itsaky.androidide.lsp.java.JavaCompilerProvider
-import com.itsaky.androidide.lsp.java.actions.BaseJavaCodeAction
-import com.itsaky.androidide.lsp.java.models.DiagnosticCode
-import com.itsaky.androidide.lsp.java.rewrite.AddSuppressWarningAnnotation
-import com.itsaky.androidide.lsp.java.utils.CodeActionUtils
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.hasRequiredData
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.actions.requireFile
+import com.itsaky.tom.rv2ide.actions.requirePath
+import com.itsaky.tom.rv2ide.lsp.java.JavaCompilerProvider
+import com.itsaky.tom.rv2ide.lsp.java.actions.BaseJavaCodeAction
+import com.itsaky.tom.rv2ide.lsp.java.models.DiagnosticCode
+import com.itsaky.tom.rv2ide.lsp.java.rewrite.AddSuppressWarningAnnotation
+import com.itsaky.tom.rv2ide.lsp.java.utils.CodeActionUtils
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.resources.R
 import org.slf4j.LoggerFactory
 
 /** @author Akash Yadav */
@@ -47,12 +47,12 @@ class SuppressUncheckedWarningAction : BaseJavaCodeAction() {
   override fun prepare(data: ActionData) {
     super.prepare(data)
 
-    if (!visible || !data.hasRequiredData(com.itsaky.androidide.lsp.models.DiagnosticItem::class.java)) {
+    if (!visible || !data.hasRequiredData(com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem::class.java)) {
       markInvisible()
       return
     }
 
-    val diagnostic = data[com.itsaky.androidide.lsp.models.DiagnosticItem::class.java]!!
+    val diagnostic = data[com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem::class.java]!!
     if (diagnosticCode != diagnostic.code) {
       markInvisible()
       return
@@ -60,7 +60,7 @@ class SuppressUncheckedWarningAction : BaseJavaCodeAction() {
   }
 
   override suspend fun execAction(data: ActionData): Any {
-    val diagnostic = data[com.itsaky.androidide.lsp.models.DiagnosticItem::class.java]!!
+    val diagnostic = data[com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem::class.java]!!
     val compiler =
         JavaCompilerProvider.get(
             IProjectManager.getInstance()

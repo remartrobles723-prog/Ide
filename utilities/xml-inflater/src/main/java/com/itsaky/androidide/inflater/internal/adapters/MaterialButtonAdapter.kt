@@ -14,15 +14,15 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import com.google.android.material.button.MaterialButton
-import com.itsaky.androidide.annotations.inflater.ViewAdapter
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner.Group.GOOGLE
-import com.itsaky.androidide.inflater.models.UiWidget
-import com.itsaky.androidide.resources.R.drawable
-import com.itsaky.androidide.resources.R.string
+import com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner.Group.GOOGLE
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.resources.R.drawable
+import com.itsaky.tom.rv2ide.resources.R.string
 
 /**
  * Attribute adapter for [Button].

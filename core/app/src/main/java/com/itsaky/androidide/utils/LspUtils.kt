@@ -15,10 +15,10 @@
  *  along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.managers.PreferenceManager
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.managers.PreferenceManager
 
 /**
  * Utility class for managing Kotlin Lsp features.

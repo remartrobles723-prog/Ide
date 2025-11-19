@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.treesitter.api
+package com.itsaky.tom.rv2ide.treesitter.api
 
-import com.itsaky.androidide.treesitter.TSNode
-import com.itsaky.androidide.treesitter.TSQuery
-import com.itsaky.androidide.treesitter.TSQueryCursor
-import com.itsaky.androidide.treesitter.TSQueryMatch
-import com.itsaky.androidide.treesitter.TSTree
+import com.itsaky.tom.rv2ide.treesitter.TSNode
+import com.itsaky.tom.rv2ide.treesitter.TSQuery
+import com.itsaky.tom.rv2ide.treesitter.TSQueryCursor
+import com.itsaky.tom.rv2ide.treesitter.TSQueryMatch
+import com.itsaky.tom.rv2ide.treesitter.TSTree
 import org.slf4j.LoggerFactory
 
 @PublishedApi internal val log = LoggerFactory.getLogger("TsUtilsKt")

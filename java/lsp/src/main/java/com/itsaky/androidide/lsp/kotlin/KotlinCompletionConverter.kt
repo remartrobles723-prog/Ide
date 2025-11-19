@@ -15,16 +15,16 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionItemKind
-import com.itsaky.androidide.lsp.models.MatchLevel
-import com.itsaky.androidide.lsp.models.TextEdit
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.models.Range
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.models.Range
 import java.util.concurrent.Executors
 import kotlinx.coroutines.*
 import org.slf4j.LoggerFactory
@@ -106,11 +106,11 @@ class KotlinCompletionConverter {
               val (line, importText) =
                   importResolver.generateImportEdit(classInfo.fullyQualifiedName, fileContent)
               listOf(
-                  com.itsaky.androidide.lsp.models.TextEdit(
+                  com.itsaky.tom.rv2ide.lsp.models.TextEdit(
                       range =
-                          com.itsaky.androidide.models.Range(
-                              start = com.itsaky.androidide.models.Position(line, 0),
-                              end = com.itsaky.androidide.models.Position(line, 0),
+                          com.itsaky.tom.rv2ide.models.Range(
+                              start = com.itsaky.tom.rv2ide.models.Position(line, 0),
+                              end = com.itsaky.tom.rv2ide.models.Position(line, 0),
                           ),
                       newText = importText,
                   )
@@ -126,8 +126,8 @@ class KotlinCompletionConverter {
             insertTextFormat = null,
             sortText = classInfo.simpleName,
             command = null,
-            completionKind = com.itsaky.androidide.lsp.models.CompletionItemKind.CLASS,
-            matchLevel = com.itsaky.androidide.lsp.models.MatchLevel.CASE_SENSITIVE_PREFIX,
+            completionKind = com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind.CLASS,
+            matchLevel = com.itsaky.tom.rv2ide.lsp.models.MatchLevel.CASE_SENSITIVE_PREFIX,
             additionalTextEdits = additionalEdits,
             data = null,
         )

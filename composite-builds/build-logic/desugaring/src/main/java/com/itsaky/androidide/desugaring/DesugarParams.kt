@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring
+package com.itsaky.tom.rv2ide.desugaring
 
 import com.android.build.api.instrumentation.InstrumentationParameters
-import com.itsaky.androidide.desugaring.dsl.ReplaceMethodInsn
-import com.itsaky.androidide.desugaring.dsl.ReplaceMethodInsnKey
+import com.itsaky.tom.rv2ide.desugaring.dsl.ReplaceMethodInsn
+import com.itsaky.tom.rv2ide.desugaring.dsl.ReplaceMethodInsnKey
 import org.gradle.api.provider.MapProperty
 import org.gradle.api.provider.Property
 import org.gradle.api.provider.SetProperty

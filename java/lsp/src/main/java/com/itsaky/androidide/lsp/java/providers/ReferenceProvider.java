@@ -15,20 +15,20 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers;
+package com.itsaky.tom.rv2ide.lsp.java.providers;
 
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.lsp.java.compiler.CompileTask;
-import com.itsaky.androidide.lsp.java.compiler.CompilerProvider;
-import com.itsaky.androidide.lsp.java.compiler.SynchronizedTask;
-import com.itsaky.androidide.lsp.java.utils.CancelChecker;
-import com.itsaky.androidide.lsp.java.utils.FindHelper;
-import com.itsaky.androidide.lsp.java.utils.NavigationHelper;
-import com.itsaky.androidide.lsp.java.visitors.FindReferences;
-import com.itsaky.androidide.lsp.models.ReferenceParams;
-import com.itsaky.androidide.lsp.models.ReferenceResult;
-import com.itsaky.androidide.models.Location;
-import com.itsaky.androidide.progress.ICancelChecker;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompilerProvider;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.SynchronizedTask;
+import com.itsaky.tom.rv2ide.lsp.java.utils.CancelChecker;
+import com.itsaky.tom.rv2ide.lsp.java.utils.FindHelper;
+import com.itsaky.tom.rv2ide.lsp.java.utils.NavigationHelper;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindReferences;
+import com.itsaky.tom.rv2ide.lsp.models.ReferenceParams;
+import com.itsaky.tom.rv2ide.lsp.models.ReferenceResult;
+import com.itsaky.tom.rv2ide.models.Location;
+import com.itsaky.tom.rv2ide.progress.ICancelChecker;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collections;

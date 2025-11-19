@@ -31,7 +31,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import com.tom.rv2ide.buildinfo.BuildInfo
 import java.util.Objects

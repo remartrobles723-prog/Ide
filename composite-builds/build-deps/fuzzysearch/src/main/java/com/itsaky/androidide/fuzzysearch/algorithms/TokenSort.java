@@ -1,7 +1,7 @@
-package com.itsaky.androidide.fuzzysearch.algorithms;
+package com.itsaky.tom.rv2ide.fuzzysearch.algorithms;
 
-import com.itsaky.androidide.fuzzysearch.Ratio;
-import com.itsaky.androidide.fuzzysearch.ToStringFunction;
+import com.itsaky.tom.rv2ide.fuzzysearch.Ratio;
+import com.itsaky.tom.rv2ide.fuzzysearch.ToStringFunction;
 
 import java.util.Arrays;
 import java.util.List;

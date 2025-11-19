@@ -15,17 +15,17 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.undo
+package com.itsaky.tom.rv2ide.uidesigner.undo
 
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.uidesigner.models.UiAttribute
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.uidesigner.models.UiAttribute
 
 /**
  * Represents the action when the user removes an attribute from an [IView].
  *
  * @author Akash Yadav
  */
-internal class AttrRemovedAction(view: com.itsaky.androidide.inflater.IView, attr: UiAttribute) :
+internal class AttrRemovedAction(view: com.itsaky.tom.rv2ide.inflater.IView, attr: UiAttribute) :
     AttrAction(view, attr.copyAttr(view = view) as UiAttribute) {
 
   override fun undo() {

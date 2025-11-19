@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.util
+package com.itsaky.tom.rv2ide.tooling.api.util
 
-import com.itsaky.androidide.utils.AndroidPluginVersion
+import com.itsaky.tom.rv2ide.utils.AndroidPluginVersion
 
 /**
  * System properties for configuring the toolign API.

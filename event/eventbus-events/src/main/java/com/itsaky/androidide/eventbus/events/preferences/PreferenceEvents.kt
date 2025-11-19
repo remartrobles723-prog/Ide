@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.eventbus.events.preferences
+package com.itsaky.tom.rv2ide.eventbus.events.preferences
 
-import com.itsaky.androidide.eventbus.events.Event
+import com.itsaky.tom.rv2ide.eventbus.events.Event
 
 /**
  * Dispatched when a preference's is value changed in IDE preferences.

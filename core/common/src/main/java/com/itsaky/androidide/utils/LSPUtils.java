@@ -14,10 +14,10 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.utils;
+package com.itsaky.tom.rv2ide.utils;
 
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
 import java.util.Comparator;
 import java.util.List;
 

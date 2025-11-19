@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions
+package com.itsaky.tom.rv2ide.actions
 
 import android.content.Context
 import android.graphics.drawable.Drawable
-import com.itsaky.androidide.activities.editor.EditorHandlerActivity
-import com.itsaky.androidide.tasks.cancelIfActive
+import com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity
+import com.itsaky.tom.rv2ide.tasks.cancelIfActive
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

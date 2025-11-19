@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl
+package com.itsaky.tom.rv2ide.tooling.impl
 
-import com.itsaky.androidide.tooling.api.IToolingApiClient
+import com.itsaky.tom.rv2ide.tooling.api.IToolingApiClient
 import java.io.OutputStream
 
 /**

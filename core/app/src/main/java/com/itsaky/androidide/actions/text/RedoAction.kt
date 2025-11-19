@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.text
+package com.itsaky.tom.rv2ide.actions.text
 
 import android.app.Activity
 import android.content.Context
 import android.view.MenuItem
 import androidx.core.content.ContextCompat
 import com.blankj.utilcode.util.KeyboardUtils
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.EditorRelatedAction
-import com.itsaky.androidide.actions.editor.ExtractAction
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.EditorRelatedAction
+import com.itsaky.tom.rv2ide.actions.editor.ExtractAction
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.resources.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

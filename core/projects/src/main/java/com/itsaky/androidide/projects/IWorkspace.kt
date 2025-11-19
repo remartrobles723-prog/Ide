@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects
+package com.itsaky.tom.rv2ide.projects
 
 import com.android.builder.model.v2.models.ProjectSyncIssues
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.tooling.api.models.BuildVariantInfo
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.tooling.api.models.BuildVariantInfo
 import java.io.File
 import java.nio.file.Path
 

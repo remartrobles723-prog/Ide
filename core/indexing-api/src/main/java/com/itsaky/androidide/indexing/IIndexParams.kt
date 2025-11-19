@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.indexing
+package com.itsaky.tom.rv2ide.indexing
 
 /**
  * Index configuration parameters. All implementations of this interface must implement the

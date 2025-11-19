@@ -24,11 +24,11 @@ import android.graphics.drawable.Drawable
 import android.view.Menu
 import android.view.View
 import androidx.annotation.CallSuper
-import com.itsaky.androidide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.utils.resolveAttr
 
 /**
  * An action that can be registered using the [ActionsRegistry]
- * [com.itsaky.androidide.actions.ActionsRegistry]
+ * [com.itsaky.tom.rv2ide.actions.ActionsRegistry]
  *
  * @author Akash Yadav
  */

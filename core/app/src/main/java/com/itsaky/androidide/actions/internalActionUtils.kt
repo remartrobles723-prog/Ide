@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions
+package com.itsaky.tom.rv2ide.actions
 
 import android.content.Context
-import com.itsaky.androidide.R
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.utils.DialogUtils
-import com.itsaky.androidide.utils.ILogger
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.utils.ILogger
+import com.itsaky.tom.rv2ide.utils.flashError
 
 /** @see openApplicationModuleChooser */
 inline fun openApplicationModuleChooser(

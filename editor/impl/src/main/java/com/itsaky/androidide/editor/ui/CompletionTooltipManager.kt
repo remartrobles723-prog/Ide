@@ -1,4 +1,4 @@
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import android.content.Context
 import android.graphics.PixelFormat
@@ -9,9 +9,9 @@ import android.view.View
 import android.view.WindowManager
 import android.widget.TextView
 import androidx.cardview.widget.CardView
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.DefinitionParams
-import com.itsaky.androidide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.DefinitionParams
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
 import io.github.rosemoe.sora.widget.CodeEditor
 import kotlinx.coroutines.*
 import org.slf4j.LoggerFactory
@@ -111,7 +111,7 @@ class CompletionTooltipManager(private val context: Context, private val editor:
             val params =
                 DefinitionParams(
                     file = file.toPath(),
-                    position = com.itsaky.androidide.models.Position(line, column),
+                    position = com.itsaky.tom.rv2ide.models.Position(line, column),
                     cancelChecker = cancelChecker,
                 )
 

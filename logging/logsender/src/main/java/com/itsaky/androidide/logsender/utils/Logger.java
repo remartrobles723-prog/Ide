@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logsender.utils;
+package com.itsaky.tom.rv2ide.logsender.utils;
 
 import android.util.Log;
 import java.io.PrintWriter;

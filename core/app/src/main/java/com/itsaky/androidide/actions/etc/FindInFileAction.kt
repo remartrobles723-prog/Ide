@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.etc
+package com.itsaky.tom.rv2ide.actions.etc
 
 import android.content.Context
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.EditorRelatedAction
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.EditorRelatedAction
+import com.itsaky.tom.rv2ide.resources.R
 
 /** @author Akash Yadav */
 class FindInFileAction() : EditorRelatedAction() {

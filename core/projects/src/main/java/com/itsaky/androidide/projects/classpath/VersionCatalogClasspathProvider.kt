@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.classpath
+package com.itsaky.tom.rv2ide.projects.classpath
 
 import java.io.File
 import java.util.concurrent.ConcurrentHashMap
@@ -165,7 +165,7 @@ class VersionCatalogClasspathProvider {
   private fun resolveDependenciesToJars(dependencies: List<CatalogDependency>): List<File> {
     val gradleCacheDir =
         File(
-            System.getProperty("user.home") ?: "/data/data/com.itsaky.androidide/files",
+            System.getProperty("user.home") ?: "/data/data/com.itsaky.tom.rv2ide/files",
             ".gradle/caches/modules-2/files-2.1",
         )
 

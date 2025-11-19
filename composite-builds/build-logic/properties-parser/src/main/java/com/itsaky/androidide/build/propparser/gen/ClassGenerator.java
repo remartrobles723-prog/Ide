@@ -23,20 +23,20 @@
  * questions.
  */
 
-package com.itsaky.androidide.build.propparser.gen;
+package com.itsaky.tom.rv2ide.build.propparser.gen;
 
 import static java.util.stream.Collectors.toList;
 
-import com.itsaky.androidide.build.propparser.parser.Message;
-import com.itsaky.androidide.build.propparser.parser.MessageFile;
-import com.itsaky.androidide.build.propparser.parser.MessageInfo;
-import com.itsaky.androidide.build.propparser.parser.MessageLine;
-import com.itsaky.androidide.build.propparser.parser.MessageType;
-import com.itsaky.androidide.build.propparser.parser.MessageType.CompoundType;
-import com.itsaky.androidide.build.propparser.parser.MessageType.CustomType;
-import com.itsaky.androidide.build.propparser.parser.MessageType.SimpleType;
-import com.itsaky.androidide.build.propparser.parser.MessageType.UnionType;
-import com.itsaky.androidide.build.propparser.parser.MessageType.Visitor;
+import com.itsaky.tom.rv2ide.build.propparser.parser.Message;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageFile;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageInfo;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageLine;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageType;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageType.CompoundType;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageType.CustomType;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageType.SimpleType;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageType.UnionType;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageType.Visitor;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileWriter;

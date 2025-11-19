@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal
+package com.itsaky.tom.rv2ide.inflater.internal
 
-import com.itsaky.androidide.inflater.IAttribute
+import com.itsaky.tom.rv2ide.inflater.IAttribute
 
 /**
  * Immutable implementation of [IAttribute].

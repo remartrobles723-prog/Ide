@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.classpath
+package com.itsaky.tom.rv2ide.projects.classpath
 
 import com.google.common.collect.ImmutableSet
-import com.itsaky.androidide.javac.services.fs.CachedJarFileSystem
-import com.itsaky.androidide.javac.services.fs.CachingJarFileSystemProvider
+import com.itsaky.tom.rv2ide.javac.services.fs.CachedJarFileSystem
+import com.itsaky.tom.rv2ide.javac.services.fs.CachingJarFileSystemProvider
 import java.io.File
 import java.nio.file.FileVisitResult
 import java.nio.file.FileVisitResult.CONTINUE

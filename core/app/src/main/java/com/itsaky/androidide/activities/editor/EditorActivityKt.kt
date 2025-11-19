@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities.editor
+package com.itsaky.tom.rv2ide.activities.editor
 
 /** @author Akash Yadav */
 class EditorActivityKt : EditorHandlerActivity()

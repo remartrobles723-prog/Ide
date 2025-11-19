@@ -1,4 +1,4 @@
-package com.itsaky.androidide.fuzzysearch.algorithms;
+package com.itsaky.tom.rv2ide.fuzzysearch.algorithms;
 
 import java.util.HashSet;
 import java.util.Set;

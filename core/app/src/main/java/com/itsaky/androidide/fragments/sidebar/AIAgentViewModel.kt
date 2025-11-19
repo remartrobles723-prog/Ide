@@ -1,4 +1,4 @@
-package com.itsaky.androidide.fragments.sidebar
+package com.itsaky.tom.rv2ide.fragments.sidebar
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

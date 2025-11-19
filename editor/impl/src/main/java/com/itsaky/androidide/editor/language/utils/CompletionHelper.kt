@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.utils
+package com.itsaky.tom.rv2ide.editor.language.utils
 
 import io.github.rosemoe.sora.text.CharPosition
 import io.github.rosemoe.sora.text.ContentReference

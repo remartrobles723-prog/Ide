@@ -15,15 +15,15 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.etc
+package com.itsaky.tom.rv2ide.actions.etc
 
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.R
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.EditorActivityAction
-import com.itsaky.androidide.activities.IDEConfigurations
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.EditorActivityAction
+import com.itsaky.tom.rv2ide.activities.IDEConfigurations
 import org.slf4j.LoggerFactory
 
 /**

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.utils
+package com.itsaky.tom.rv2ide.editor.utils
 
-import com.itsaky.androidide.treesitter.TSNode
-import com.itsaky.androidide.treesitter.TSTree
-import com.itsaky.androidide.treesitter.getNodeAt
+import com.itsaky.tom.rv2ide.treesitter.TSNode
+import com.itsaky.tom.rv2ide.treesitter.TSTree
+import com.itsaky.tom.rv2ide.treesitter.getNodeAt
 import io.github.rosemoe.sora.text.Content
 import io.github.rosemoe.sora.text.TextUtils
 import io.github.rosemoe.sora.util.IntPair

@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.builder
+package com.itsaky.tom.rv2ide.services.builder
 
 import ch.qos.logback.core.CoreConstants
 import com.termux.shared.reflection.ReflectionUtils
-import com.itsaky.androidide.shell.executeProcessAsync
-import com.itsaky.androidide.tasks.cancelIfActive
-import com.itsaky.androidide.tasks.ifCancelledOrInterrupted
-import com.itsaky.androidide.tooling.api.IProject
-import com.itsaky.androidide.tooling.api.IToolingApiClient
-import com.itsaky.androidide.tooling.api.IToolingApiServer
-import com.itsaky.androidide.tooling.api.util.ToolingApiLauncher
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.shell.executeProcessAsync
+import com.itsaky.tom.rv2ide.tasks.cancelIfActive
+import com.itsaky.tom.rv2ide.tasks.ifCancelledOrInterrupted
+import com.itsaky.tom.rv2ide.tooling.api.IProject
+import com.itsaky.tom.rv2ide.tooling.api.IToolingApiClient
+import com.itsaky.tom.rv2ide.tooling.api.IToolingApiServer
+import com.itsaky.tom.rv2ide.tooling.api.util.ToolingApiLauncher
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.InputStream
 import java.util.concurrent.atomic.AtomicBoolean
 import kotlinx.coroutines.CancellationException
@@ -98,7 +98,7 @@ internal class ToolingServerRunner(
                       "java.base/java.util=ALL-UNNAMED",
                       "--add-opens",
                       "java.base/java.io=ALL-UNNAMED", // The JAR file to run
-                      "-D${CoreConstants.STATUS_LISTENER_CLASS_KEY}=com.itsaky.androidide.tooling.impl.util.LogbackStatusListener",
+                      "-D${CoreConstants.STATUS_LISTENER_CLASS_KEY}=com.itsaky.tom.rv2ide.tooling.impl.util.LogbackStatusListener",
                       "-jar",
                       Environment.TOOLING_API_JAR.absolutePath,
                   )

@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins.tasks
+package com.itsaky.tom.rv2ide.plugins.tasks
 
-import com.itsaky.androidide.plugins.util.DownloadUtils
-import com.itsaky.androidide.plugins.util.ELFUtils
+import com.itsaky.tom.rv2ide.plugins.util.DownloadUtils
+import com.itsaky.tom.rv2ide.plugins.util.ELFUtils
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.DirectoryProperty
 import org.gradle.api.tasks.OutputDirectory

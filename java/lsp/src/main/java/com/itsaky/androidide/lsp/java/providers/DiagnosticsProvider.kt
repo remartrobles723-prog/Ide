@@ -14,20 +14,20 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.providers
+package com.itsaky.tom.rv2ide.lsp.java.providers
 
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.models.DiagnosticCode
-import com.itsaky.androidide.lsp.java.models.DiagnosticCode.EMPTY_BLOCK
-import com.itsaky.androidide.lsp.java.models.DiagnosticCode.UNUSED_THROWS
-import com.itsaky.androidide.lsp.java.visitors.DiagnosticVisitor
-import com.itsaky.androidide.lsp.models.DiagnosticItem
-import com.itsaky.androidide.lsp.models.DiagnosticSeverity
-import com.itsaky.androidide.lsp.models.DiagnosticSeverity.WARNING
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.progress.ProgressManager.Companion.abortIfCancelled
-import com.itsaky.androidide.projects.FileManager
-import com.itsaky.androidide.utils.DocumentUtils.isSameFile
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.models.DiagnosticCode
+import com.itsaky.tom.rv2ide.lsp.java.models.DiagnosticCode.EMPTY_BLOCK
+import com.itsaky.tom.rv2ide.lsp.java.models.DiagnosticCode.UNUSED_THROWS
+import com.itsaky.tom.rv2ide.lsp.java.visitors.DiagnosticVisitor
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity.WARNING
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.progress.ProgressManager.Companion.abortIfCancelled
+import com.itsaky.tom.rv2ide.projects.FileManager
+import com.itsaky.tom.rv2ide.utils.DocumentUtils.isSameFile
 import java.nio.file.Path
 import java.nio.file.Paths
 import java.util.Locale
@@ -297,13 +297,13 @@ object DiagnosticsProvider {
     return Range(start, end)
   }
 
-  private fun getPosition(position: Long, lines: LineMap): com.itsaky.androidide.models.Position {
+  private fun getPosition(position: Long, lines: LineMap): com.itsaky.tom.rv2ide.models.Position {
     abortIfCancelled()
     // decrement the numbers
     // to convert 1-based indexes to 0-based
     val line = (lines.getLineNumber(position) - 1).toInt()
     val column = (lines.getColumnNumber(position) - 1).toInt()
-    return com.itsaky.androidide.models.Position(line, column)
+    return com.itsaky.tom.rv2ide.models.Position(line, column)
   }
 
   private fun severityFor(kind: Diagnostic.Kind): DiagnosticSeverity {

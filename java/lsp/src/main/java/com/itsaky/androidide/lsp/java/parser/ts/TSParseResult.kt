@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.parser.ts
+package com.itsaky.tom.rv2ide.lsp.java.parser.ts
 
-import com.itsaky.androidide.treesitter.TSTree
+import com.itsaky.tom.rv2ide.treesitter.TSTree
 import java.net.URI
 import jdkx.tools.JavaFileObject
 

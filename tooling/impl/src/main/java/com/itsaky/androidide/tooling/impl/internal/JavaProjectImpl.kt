@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.internal
+package com.itsaky.tom.rv2ide.tooling.impl.internal
 
-import com.itsaky.androidide.builder.model.IJavaCompilerSettings
-import com.itsaky.androidide.tooling.api.IJavaProject
-import com.itsaky.androidide.tooling.api.models.GradleArtifact
-import com.itsaky.androidide.tooling.api.models.JavaContentRoot
-import com.itsaky.androidide.tooling.api.models.JavaModuleDependency
-import com.itsaky.androidide.tooling.api.models.JavaModuleExternalDependency
-import com.itsaky.androidide.tooling.api.models.JavaModuleProjectDependency
-import com.itsaky.androidide.tooling.api.models.JavaProjectMetadata
-import com.itsaky.androidide.tooling.api.models.JavaSourceDirectory
-import com.itsaky.androidide.tooling.api.models.ProjectMetadata
+import com.itsaky.tom.rv2ide.builder.model.IJavaCompilerSettings
+import com.itsaky.tom.rv2ide.tooling.api.IJavaProject
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleArtifact
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaContentRoot
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaModuleDependency
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaModuleExternalDependency
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaModuleProjectDependency
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaProjectMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaSourceDirectory
+import com.itsaky.tom.rv2ide.tooling.api.models.ProjectMetadata
 import java.io.File
 import java.io.Serializable
 import java.util.concurrent.CompletableFuture

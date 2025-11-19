@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.builder
+package com.itsaky.tom.rv2ide.services.builder
 
-import com.itsaky.androidide.preferences.internal.BuildPreferences
-import com.itsaky.androidide.tooling.api.messages.GradleDistributionParams
+import com.itsaky.tom.rv2ide.preferences.internal.BuildPreferences
+import com.itsaky.tom.rv2ide.tooling.api.messages.GradleDistributionParams
 
 /** The distribution params. This considers [gradleInstallationDir] preference as well. */
 val gradleDistributionParams: GradleDistributionParams

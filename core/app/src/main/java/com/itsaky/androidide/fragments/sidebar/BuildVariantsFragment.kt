@@ -15,19 +15,19 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.sidebar
+package com.itsaky.tom.rv2ide.fragments.sidebar
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.DividerItemDecoration
-import com.itsaky.androidide.activities.editor.ProjectHandlerActivity
-import com.itsaky.androidide.adapters.BuildVariantsAdapter
-import com.itsaky.androidide.databinding.FragmentBuildVariantsBinding
-import com.itsaky.androidide.fragments.EmptyStateFragment
-import com.itsaky.androidide.tooling.api.models.BuildVariantInfo
-import com.itsaky.androidide.viewmodel.BuildVariantsViewModel
-import com.itsaky.androidide.viewmodel.EditorViewModel
+import com.itsaky.tom.rv2ide.activities.editor.ProjectHandlerActivity
+import com.itsaky.tom.rv2ide.adapters.BuildVariantsAdapter
+import com.itsaky.tom.rv2ide.databinding.FragmentBuildVariantsBinding
+import com.itsaky.tom.rv2ide.fragments.EmptyStateFragment
+import com.itsaky.tom.rv2ide.tooling.api.models.BuildVariantInfo
+import com.itsaky.tom.rv2ide.viewmodel.BuildVariantsViewModel
+import com.itsaky.tom.rv2ide.viewmodel.EditorViewModel
 
 /**
  * A fragment to show the list of Android modules and its build variants.

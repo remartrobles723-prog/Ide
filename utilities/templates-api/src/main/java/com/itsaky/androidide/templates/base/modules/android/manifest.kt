@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.modules.android
+package com.itsaky.tom.rv2ide.templates.base.modules.android
 
 import org.eclipse.lemminx.dom.builder.IndentedXmlConfigurator
 

@@ -26,7 +26,7 @@
 * Contributors:
 *     Red Hat Inc. - initial API and implementation
 *******************************************************************************/
-package com.itsaky.androidide.lsp.xml.providers.format;
+package com.itsaky.tom.rv2ide.lsp.xml.providers.format;
 
 /**
  * Format element catagory.

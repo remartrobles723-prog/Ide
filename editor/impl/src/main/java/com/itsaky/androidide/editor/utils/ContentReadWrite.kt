@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.utils
+package com.itsaky.tom.rv2ide.editor.utils
 
 import io.github.rosemoe.sora.text.CharArrayWrapper
 import io.github.rosemoe.sora.text.Content

@@ -18,7 +18,7 @@
  *
  **************************************************************************************/
 
-package com.itsaky.androidide.adapters.viewholders;
+package com.itsaky.tom.rv2ide.adapters.viewholders;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -27,9 +27,9 @@ import android.widget.LinearLayout;
 import androidx.transition.ChangeImageTransform;
 import androidx.transition.TransitionManager;
 import com.blankj.utilcode.util.SizeUtils;
-import com.itsaky.androidide.databinding.LayoutFiletreeItemBinding;
-import com.itsaky.androidide.models.FileExtension;
-import com.itsaky.androidide.resources.R;
+import com.itsaky.tom.rv2ide.databinding.LayoutFiletreeItemBinding;
+import com.itsaky.tom.rv2ide.models.FileExtension;
+import com.itsaky.tom.rv2ide.resources.R;
 import com.unnamed.b.atv.model.TreeNode;
 import java.io.File;
 

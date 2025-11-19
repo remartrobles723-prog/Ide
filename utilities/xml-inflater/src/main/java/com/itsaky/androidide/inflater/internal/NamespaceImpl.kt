@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal
+package com.itsaky.tom.rv2ide.inflater.internal
 
 import android.os.Parcelable
-import com.itsaky.androidide.inflater.INamespace
+import com.itsaky.tom.rv2ide.inflater.INamespace
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

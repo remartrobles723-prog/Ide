@@ -15,25 +15,25 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter
+package com.itsaky.tom.rv2ide.editor.language.treesitter
 
 import androidx.collection.MutableLongObjectMap
 import androidx.collection.mutableIntObjectMapOf
 import androidx.collection.mutableLongObjectMapOf
 import androidx.core.text.trimmedLength
-import com.itsaky.androidide.editor.utils.getFirstNodeAtLine
-import com.itsaky.androidide.editor.utils.getLastNodeAtLine
-import com.itsaky.androidide.editor.utils.previousNonBlankLine
-import com.itsaky.androidide.treesitter.TSNode
-import com.itsaky.androidide.treesitter.TSParser
-import com.itsaky.androidide.treesitter.TSPoint
-import com.itsaky.androidide.treesitter.TSQuery
-import com.itsaky.androidide.treesitter.TSQueryCapture
-import com.itsaky.androidide.treesitter.TSQueryCursor
-import com.itsaky.androidide.treesitter.TSQueryMatch
-import com.itsaky.androidide.treesitter.TSTree
-import com.itsaky.androidide.treesitter.predicate.SetDirectiveHandler
-import com.itsaky.androidide.utils.IntPair
+import com.itsaky.tom.rv2ide.editor.utils.getFirstNodeAtLine
+import com.itsaky.tom.rv2ide.editor.utils.getLastNodeAtLine
+import com.itsaky.tom.rv2ide.editor.utils.previousNonBlankLine
+import com.itsaky.tom.rv2ide.treesitter.TSNode
+import com.itsaky.tom.rv2ide.treesitter.TSParser
+import com.itsaky.tom.rv2ide.treesitter.TSPoint
+import com.itsaky.tom.rv2ide.treesitter.TSQuery
+import com.itsaky.tom.rv2ide.treesitter.TSQueryCapture
+import com.itsaky.tom.rv2ide.treesitter.TSQueryCursor
+import com.itsaky.tom.rv2ide.treesitter.TSQueryMatch
+import com.itsaky.tom.rv2ide.treesitter.TSTree
+import com.itsaky.tom.rv2ide.treesitter.predicate.SetDirectiveHandler
+import com.itsaky.tom.rv2ide.utils.IntPair
 import io.github.rosemoe.sora.editor.ts.TsAnalyzeWorker
 import io.github.rosemoe.sora.text.Content
 import io.github.rosemoe.sora.text.TextUtils

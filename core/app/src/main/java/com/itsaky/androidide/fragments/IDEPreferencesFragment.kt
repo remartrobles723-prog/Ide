@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,10 +24,10 @@ import android.view.ViewGroup
 import androidx.preference.PreferenceCategory
 import androidx.preference.PreferenceGroup
 import com.google.android.material.transition.MaterialSharedAxis
-import com.itsaky.androidide.preferences.IPreference
-import com.itsaky.androidide.preferences.IPreferenceGroup
-import com.itsaky.androidide.preferences.IPreferenceScreen
-import com.itsaky.androidide.preferences.observers.LSPStateObserver
+import com.itsaky.tom.rv2ide.preferences.IPreference
+import com.itsaky.tom.rv2ide.preferences.IPreferenceGroup
+import com.itsaky.tom.rv2ide.preferences.IPreferenceScreen
+import com.itsaky.tom.rv2ide.preferences.observers.LSPStateObserver
 
 class IDEPreferencesFragment : BasePreferenceFragment() {
 

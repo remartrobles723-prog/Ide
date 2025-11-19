@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion.layout
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion.layout
 
 import com.android.aaptcompiler.ResourcePathData
-import com.itsaky.androidide.lsp.api.ICompletionProvider
-import com.itsaky.androidide.lsp.models.CompletionParams
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.xml.providers.completion.IXmlCompletionProvider
-import com.itsaky.androidide.lsp.xml.providers.completion.canCompleteLayout
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType.TAG
+import com.itsaky.tom.rv2ide.lsp.api.ICompletionProvider
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.IXmlCompletionProvider
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.canCompleteLayout
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType.TAG
 import org.eclipse.lemminx.dom.DOMDocument
 
 /**

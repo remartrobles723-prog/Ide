@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.eventbus.events;
+package com.itsaky.tom.rv2ide.eventbus.events;
 
 import java.util.HashMap;
 import java.util.Map;

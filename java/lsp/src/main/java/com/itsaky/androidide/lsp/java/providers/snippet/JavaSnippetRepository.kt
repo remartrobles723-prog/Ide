@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers.snippet
+package com.itsaky.tom.rv2ide.lsp.java.providers.snippet
 
-import com.itsaky.androidide.lsp.snippets.ISnippet
-import com.itsaky.androidide.lsp.snippets.SnippetParser
+import com.itsaky.tom.rv2ide.lsp.snippets.ISnippet
+import com.itsaky.tom.rv2ide.lsp.snippets.SnippetParser
 
 /**
  * Repository to store various snippets for Java.

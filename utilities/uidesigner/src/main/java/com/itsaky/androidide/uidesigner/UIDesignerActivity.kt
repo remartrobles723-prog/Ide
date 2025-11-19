@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner
+package com.itsaky.tom.rv2ide.uidesigner
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -29,18 +29,18 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.view.menu.MenuBuilder
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem.Location.UI_DESIGNER_TOOLBAR
-import com.itsaky.androidide.actions.ActionsRegistry
-import com.itsaky.androidide.actions.FillMenuParams
-import com.itsaky.androidide.app.BaseIDEActivity
-import com.itsaky.androidide.uidesigner.actions.clearUiDesignerActions
-import com.itsaky.androidide.uidesigner.actions.registerUiDesignerActions
-import com.itsaky.androidide.uidesigner.databinding.ActivityUiDesignerBinding
-import com.itsaky.androidide.uidesigner.fragments.DesignerWorkspaceFragment
-import com.itsaky.androidide.uidesigner.utils.ViewToXml
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem.Location.UI_DESIGNER_TOOLBAR
+import com.itsaky.tom.rv2ide.actions.ActionsRegistry
+import com.itsaky.tom.rv2ide.actions.FillMenuParams
+import com.itsaky.tom.rv2ide.app.BaseIDEActivity
+import com.itsaky.tom.rv2ide.uidesigner.actions.clearUiDesignerActions
+import com.itsaky.tom.rv2ide.uidesigner.actions.registerUiDesignerActions
+import com.itsaky.tom.rv2ide.uidesigner.databinding.ActivityUiDesignerBinding
+import com.itsaky.tom.rv2ide.uidesigner.fragments.DesignerWorkspaceFragment
+import com.itsaky.tom.rv2ide.uidesigner.utils.ViewToXml
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.utils.flashError
 import java.io.File
 import org.slf4j.LoggerFactory
 
@@ -203,7 +203,7 @@ class UIDesignerActivity : BaseIDEActivity() {
     return workspace
   }
 
-  fun setupHierarchy(view: com.itsaky.androidide.inflater.IView) {
+  fun setupHierarchy(view: com.itsaky.tom.rv2ide.inflater.IView) {
     binding?.hierarchy?.setupWithView(view) { workspace()?.showViewInfo(it) }
   }
 

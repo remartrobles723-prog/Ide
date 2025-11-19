@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api
+package com.itsaky.tom.rv2ide.tooling.api
 
-import com.itsaky.androidide.tooling.api.models.GradleTask
-import com.itsaky.androidide.tooling.api.models.ProjectMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleTask
+import com.itsaky.tom.rv2ide.tooling.api.models.ProjectMetadata
 import java.util.concurrent.CompletableFuture
 import org.eclipse.lsp4j.jsonrpc.services.JsonRequest
 import org.eclipse.lsp4j.jsonrpc.services.JsonSegment

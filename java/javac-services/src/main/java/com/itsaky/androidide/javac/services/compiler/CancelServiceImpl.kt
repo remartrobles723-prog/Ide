@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.compiler
+package com.itsaky.tom.rv2ide.javac.services.compiler
 
-import com.itsaky.androidide.javac.services.CancelService
-import com.itsaky.androidide.utils.ILogger
+import com.itsaky.tom.rv2ide.javac.services.CancelService
+import com.itsaky.tom.rv2ide.utils.ILogger
 import java.util.concurrent.atomic.AtomicBoolean
 
 /**

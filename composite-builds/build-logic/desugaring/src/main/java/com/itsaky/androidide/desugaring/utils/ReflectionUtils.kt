@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring.utils
+package com.itsaky.tom.rv2ide.desugaring.utils
 
 import java.lang.reflect.Method
 import java.lang.reflect.Modifier

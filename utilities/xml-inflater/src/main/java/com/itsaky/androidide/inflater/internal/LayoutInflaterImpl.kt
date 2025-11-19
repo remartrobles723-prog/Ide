@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal
+package com.itsaky.tom.rv2ide.inflater.internal
 
 import android.view.View
 import android.view.ViewGroup
@@ -27,33 +27,33 @@ import com.android.aapt.Resources.XmlNode.NodeCase.ELEMENT
 import com.android.aaptcompiler.AaptResourceType.ID
 import com.android.aaptcompiler.AaptResourceType.LAYOUT
 import com.android.aaptcompiler.XmlProcessor
-import com.itsaky.androidide.inflater.DefaultComponentFactory
-import com.itsaky.androidide.inflater.IAttribute
-import com.itsaky.androidide.inflater.IComponentFactory
-import com.itsaky.androidide.inflater.IComponentFactory.Companion.LAYOUT_INFLATER_COMPONENT_FACTORY_KEY
-import com.itsaky.androidide.inflater.ILayoutInflater
-import com.itsaky.androidide.inflater.INamespace
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.IViewGroup
-import com.itsaky.androidide.inflater.InflateException
-import com.itsaky.androidide.inflater.events.IInflateEventsListener
-import com.itsaky.androidide.inflater.events.InflationFinishEvent
-import com.itsaky.androidide.inflater.events.InflationStartEvent
-import com.itsaky.androidide.inflater.events.OnApplyAttributeEvent
-import com.itsaky.androidide.inflater.events.OnInflateViewEvent
-import com.itsaky.androidide.inflater.internal.utils.IDTable
-import com.itsaky.androidide.inflater.internal.utils.ViewFactory.createViewInstance
-import com.itsaky.androidide.inflater.internal.utils.ViewFactory.generateLayoutParams
-import com.itsaky.androidide.inflater.internal.utils.parseLayoutReference
-import com.itsaky.androidide.inflater.utils.endParse
-import com.itsaky.androidide.inflater.utils.isParsing
-import com.itsaky.androidide.inflater.utils.startParse
-import com.itsaky.androidide.inflater.viewAdapter
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.xml.widgets.Widget
-import com.itsaky.androidide.xml.widgets.WidgetTable
-import com.itsaky.androidide.xml.widgets.WidgetType
+import com.itsaky.tom.rv2ide.inflater.DefaultComponentFactory
+import com.itsaky.tom.rv2ide.inflater.IAttribute
+import com.itsaky.tom.rv2ide.inflater.IComponentFactory
+import com.itsaky.tom.rv2ide.inflater.IComponentFactory.Companion.LAYOUT_INFLATER_COMPONENT_FACTORY_KEY
+import com.itsaky.tom.rv2ide.inflater.ILayoutInflater
+import com.itsaky.tom.rv2ide.inflater.INamespace
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.IViewGroup
+import com.itsaky.tom.rv2ide.inflater.InflateException
+import com.itsaky.tom.rv2ide.inflater.events.IInflateEventsListener
+import com.itsaky.tom.rv2ide.inflater.events.InflationFinishEvent
+import com.itsaky.tom.rv2ide.inflater.events.InflationStartEvent
+import com.itsaky.tom.rv2ide.inflater.events.OnApplyAttributeEvent
+import com.itsaky.tom.rv2ide.inflater.events.OnInflateViewEvent
+import com.itsaky.tom.rv2ide.inflater.internal.utils.IDTable
+import com.itsaky.tom.rv2ide.inflater.internal.utils.ViewFactory.createViewInstance
+import com.itsaky.tom.rv2ide.inflater.internal.utils.ViewFactory.generateLayoutParams
+import com.itsaky.tom.rv2ide.inflater.internal.utils.parseLayoutReference
+import com.itsaky.tom.rv2ide.inflater.utils.endParse
+import com.itsaky.tom.rv2ide.inflater.utils.isParsing
+import com.itsaky.tom.rv2ide.inflater.utils.startParse
+import com.itsaky.tom.rv2ide.inflater.viewAdapter
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.xml.widgets.Widget
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTable
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetType
 import java.io.File
 
 /**
@@ -349,7 +349,7 @@ open class LayoutInflaterImpl : ILayoutInflater {
   }
 
   protected open fun processXmlFile(file: File): Pair<XmlProcessor, AndroidModule> {
-    return com.itsaky.androidide.inflater.utils.processXmlFile(file, LAYOUT)
+    return com.itsaky.tom.rv2ide.inflater.utils.processXmlFile(file, LAYOUT)
   }
 
   private fun onCreateUnsupportedView(
@@ -376,7 +376,7 @@ open class LayoutInflaterImpl : ILayoutInflater {
     if (!isParsing) {
       if (this.module == null) {
         startParse(file)
-        this.module = com.itsaky.androidide.inflater.utils.module
+        this.module = com.itsaky.tom.rv2ide.inflater.utils.module
       } else {
         startParse(this.module!!)
       }

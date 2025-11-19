@@ -15,22 +15,22 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.models
+package com.itsaky.tom.rv2ide.lsp.models
 
-import com.itsaky.androidide.fuzzysearch.FuzzySearch
-import com.itsaky.androidide.lsp.CancellableRequestParams
-import com.itsaky.androidide.lsp.edits.DefaultEditHandler
-import com.itsaky.androidide.lsp.edits.IEditHandler
-import com.itsaky.androidide.lsp.models.CompletionItemKind.NONE
-import com.itsaky.androidide.lsp.models.InsertTextFormat.PLAIN_TEXT
-import com.itsaky.androidide.lsp.models.MatchLevel.CASE_INSENSITIVE_EQUAL
-import com.itsaky.androidide.lsp.models.MatchLevel.CASE_INSENSITIVE_PREFIX
-import com.itsaky.androidide.lsp.models.MatchLevel.CASE_SENSITIVE_EQUAL
-import com.itsaky.androidide.lsp.models.MatchLevel.CASE_SENSITIVE_PREFIX
-import com.itsaky.androidide.lsp.models.MatchLevel.NO_MATCH
-import com.itsaky.androidide.lsp.models.MatchLevel.PARTIAL_MATCH
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.fuzzysearch.FuzzySearch
+import com.itsaky.tom.rv2ide.lsp.CancellableRequestParams
+import com.itsaky.tom.rv2ide.lsp.edits.DefaultEditHandler
+import com.itsaky.tom.rv2ide.lsp.edits.IEditHandler
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind.NONE
+import com.itsaky.tom.rv2ide.lsp.models.InsertTextFormat.PLAIN_TEXT
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.CASE_INSENSITIVE_EQUAL
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.CASE_INSENSITIVE_PREFIX
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.CASE_SENSITIVE_EQUAL
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.CASE_SENSITIVE_PREFIX
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.NO_MATCH
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.PARTIAL_MATCH
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
 import io.github.rosemoe.sora.lang.completion.snippet.CodeSnippet
 import io.github.rosemoe.sora.text.CharPosition
 import io.github.rosemoe.sora.text.Content

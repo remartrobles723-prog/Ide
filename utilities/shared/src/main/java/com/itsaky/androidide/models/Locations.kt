@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.models
+package com.itsaky.tom.rv2ide.models
 
 import com.google.gson.annotations.SerializedName
 import java.nio.file.Path

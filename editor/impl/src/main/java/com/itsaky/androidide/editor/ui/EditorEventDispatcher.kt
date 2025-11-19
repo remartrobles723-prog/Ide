@@ -15,17 +15,17 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
-import com.itsaky.androidide.eventbus.events.editor.DocumentChangeEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentCloseEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentOpenEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentSaveEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentSelectedEvent
-import com.itsaky.androidide.projects.FileManager.onDocumentClose
-import com.itsaky.androidide.projects.FileManager.onDocumentContentChange
-import com.itsaky.androidide.projects.FileManager.onDocumentOpen
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentChangeEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentCloseEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentOpenEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentSaveEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentSelectedEvent
+import com.itsaky.tom.rv2ide.projects.FileManager.onDocumentClose
+import com.itsaky.tom.rv2ide.projects.FileManager.onDocumentContentChange
+import com.itsaky.tom.rv2ide.projects.FileManager.onDocumentOpen
 import java.util.concurrent.CancellationException
 import java.util.concurrent.LinkedBlockingQueue
 import kotlinx.coroutines.CoroutineScope

@@ -15,26 +15,26 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.treesitter.api
+package com.itsaky.tom.rv2ide.treesitter.api
 
-import com.itsaky.androidide.treesitter.TSInputEdit
-import com.itsaky.androidide.treesitter.TSLanguage
-import com.itsaky.androidide.treesitter.TSLookaheadIterator
-import com.itsaky.androidide.treesitter.TSNode
-import com.itsaky.androidide.treesitter.TSParser
-import com.itsaky.androidide.treesitter.TSPoint
-import com.itsaky.androidide.treesitter.TSQuery
-import com.itsaky.androidide.treesitter.TSQueryCapture
-import com.itsaky.androidide.treesitter.TSQueryCursor
-import com.itsaky.androidide.treesitter.TSQueryMatch
-import com.itsaky.androidide.treesitter.TSQueryPredicateStep
-import com.itsaky.androidide.treesitter.TSRange
-import com.itsaky.androidide.treesitter.TSTree
-import com.itsaky.androidide.treesitter.TSTreeCursor
-import com.itsaky.androidide.treesitter.TSTreeCursorNode
-import com.itsaky.androidide.treesitter.string.SynchronizedUTF16String
-import com.itsaky.androidide.treesitter.string.UTF16String
-import com.itsaky.androidide.treesitter.util.TSObjectFactory
+import com.itsaky.tom.rv2ide.treesitter.TSInputEdit
+import com.itsaky.tom.rv2ide.treesitter.TSLanguage
+import com.itsaky.tom.rv2ide.treesitter.TSLookaheadIterator
+import com.itsaky.tom.rv2ide.treesitter.TSNode
+import com.itsaky.tom.rv2ide.treesitter.TSParser
+import com.itsaky.tom.rv2ide.treesitter.TSPoint
+import com.itsaky.tom.rv2ide.treesitter.TSQuery
+import com.itsaky.tom.rv2ide.treesitter.TSQueryCapture
+import com.itsaky.tom.rv2ide.treesitter.TSQueryCursor
+import com.itsaky.tom.rv2ide.treesitter.TSQueryMatch
+import com.itsaky.tom.rv2ide.treesitter.TSQueryPredicateStep
+import com.itsaky.tom.rv2ide.treesitter.TSRange
+import com.itsaky.tom.rv2ide.treesitter.TSTree
+import com.itsaky.tom.rv2ide.treesitter.TSTreeCursor
+import com.itsaky.tom.rv2ide.treesitter.TSTreeCursorNode
+import com.itsaky.tom.rv2ide.treesitter.string.SynchronizedUTF16String
+import com.itsaky.tom.rv2ide.treesitter.string.UTF16String
+import com.itsaky.tom.rv2ide.treesitter.util.TSObjectFactory
 
 /**
  * [TSObjectFactory] implementation for AndroidIDE.

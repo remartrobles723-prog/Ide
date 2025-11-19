@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.models
+package com.itsaky.tom.rv2ide.uidesigner.models
 
 import androidx.annotation.StringRes
-import com.itsaky.androidide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
 
 data class UiWidgetCategory(
     @StringRes val label: Int,

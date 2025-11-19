@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.edits
+package com.itsaky.tom.rv2ide.lsp.java.edits
 
-import com.itsaky.androidide.editor.api.ILspEditor
-import com.itsaky.androidide.lsp.edits.DefaultEditHandler
-import com.itsaky.androidide.lsp.models.Command
+import com.itsaky.tom.rv2ide.editor.api.ILspEditor
+import com.itsaky.tom.rv2ide.lsp.edits.DefaultEditHandler
+import com.itsaky.tom.rv2ide.lsp.models.Command
 import io.github.rosemoe.sora.widget.CodeEditor
 
 /**

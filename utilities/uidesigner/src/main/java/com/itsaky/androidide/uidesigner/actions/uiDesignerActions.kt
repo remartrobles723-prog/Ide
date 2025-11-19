@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.actions
+package com.itsaky.tom.rv2ide.uidesigner.actions
 
 import android.content.Context
-import com.itsaky.androidide.actions.ActionItem.Location.UI_DESIGNER_TOOLBAR
-import com.itsaky.androidide.actions.ActionsRegistry
+import com.itsaky.tom.rv2ide.actions.ActionItem.Location.UI_DESIGNER_TOOLBAR
+import com.itsaky.tom.rv2ide.actions.ActionsRegistry
 
 fun registerUiDesignerActions(context: Context) {
   ActionsRegistry.getInstance().apply {

@@ -15,30 +15,30 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
 import android.view.View
 import android.view.ViewGroup
-import com.itsaky.androidide.inflater.INamespace
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.internal.LayoutFile
-import com.itsaky.androidide.inflater.internal.NamespaceImpl
-import com.itsaky.androidide.uidesigner.models.UiAttribute
-import com.itsaky.androidide.uidesigner.models.UiView
-import com.itsaky.androidide.uidesigner.models.UiViewGroup
+import com.itsaky.tom.rv2ide.inflater.INamespace
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.internal.LayoutFile
+import com.itsaky.tom.rv2ide.inflater.internal.NamespaceImpl
+import com.itsaky.tom.rv2ide.uidesigner.models.UiAttribute
+import com.itsaky.tom.rv2ide.uidesigner.models.UiView
+import com.itsaky.tom.rv2ide.uidesigner.models.UiViewGroup
 
 /**
  * Creates layout inflater components for UI Designer.
  *
  * @author Akash Yadav
  */
-open class UiInflaterComponentFactory : com.itsaky.androidide.inflater.IComponentFactory {
+open class UiInflaterComponentFactory : com.itsaky.tom.rv2ide.inflater.IComponentFactory {
 
   override fun createView(
       file: LayoutFile,
       name: String,
       view: View,
-  ): com.itsaky.androidide.inflater.IView {
+  ): com.itsaky.tom.rv2ide.inflater.IView {
     if (view is ViewGroup) {
       return UiViewGroup(file, name, view)
     }
@@ -50,7 +50,7 @@ open class UiInflaterComponentFactory : com.itsaky.androidide.inflater.IComponen
       namespace: INamespace?,
       name: String,
       value: String,
-  ): com.itsaky.androidide.inflater.IAttribute {
+  ): com.itsaky.tom.rv2ide.inflater.IAttribute {
     return UiAttribute(namespace = namespace as NamespaceImpl?, name = name, value = value).apply {
       isRequired = UiAttribute.isRequired(view, this)
     }

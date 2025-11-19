@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.util;
+package com.itsaky.tom.rv2ide.tooling.api.util;
 
 import com.google.gson.JsonParseException;
 import com.google.gson.TypeAdapter;

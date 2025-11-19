@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers;
+package com.itsaky.tom.rv2ide.lsp.java.providers;
 
 import static com.google.common.collect.Range.closedOpen;
 
@@ -24,13 +24,13 @@ import com.google.common.collect.ImmutableList;
 import com.google.googlejavaformat.java.Formatter;
 import com.google.googlejavaformat.java.FormatterException;
 import com.google.googlejavaformat.java.Replacement;
-import com.itsaky.androidide.lsp.api.IServerSettings;
-import com.itsaky.androidide.lsp.java.models.JavaServerSettings;
-import com.itsaky.androidide.lsp.models.CodeFormatResult;
-import com.itsaky.androidide.lsp.models.FormatCodeParams;
-import com.itsaky.androidide.lsp.models.IndexedTextEdit;
-import com.itsaky.androidide.models.Range;
-import com.itsaky.androidide.utils.StopWatch;
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings;
+import com.itsaky.tom.rv2ide.lsp.java.models.JavaServerSettings;
+import com.itsaky.tom.rv2ide.lsp.models.CodeFormatResult;
+import com.itsaky.tom.rv2ide.lsp.models.FormatCodeParams;
+import com.itsaky.tom.rv2ide.lsp.models.IndexedTextEdit;
+import com.itsaky.tom.rv2ide.models.Range;
+import com.itsaky.tom.rv2ide.utils.StopWatch;
 import java.util.Collection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

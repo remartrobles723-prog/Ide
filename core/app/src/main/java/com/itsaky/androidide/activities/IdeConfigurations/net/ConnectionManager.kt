@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities.IdeConfigurations.net
+package com.itsaky.tom.rv2ide.activities.IdeConfigurations.net
 
 /** * @author Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null */
 import android.content.Context

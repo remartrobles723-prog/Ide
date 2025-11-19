@@ -17,7 +17,7 @@
 
 plugins {
     id("com.android.library")
-    id("com.itsaky.androidide.build")
+    id("com.itsaky.tom.rv2ide.build")
 }
 
 android {

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.util
+package com.itsaky.tom.rv2ide.templates.base.util
 
 import org.eclipse.lemminx.dom.builder.XmlBuilder
 

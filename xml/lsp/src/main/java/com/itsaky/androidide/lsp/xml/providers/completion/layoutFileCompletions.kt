@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion
 
 import com.android.aaptcompiler.AaptResourceType.LAYOUT
 import com.android.aaptcompiler.ResourcePathData
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType
 
 /**
  * @author Akash Yadav

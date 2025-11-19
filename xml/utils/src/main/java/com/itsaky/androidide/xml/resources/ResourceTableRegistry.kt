@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.resources
+package com.itsaky.tom.rv2ide.xml.resources
 
 import com.android.aaptcompiler.ResourceGroup
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.utils.ServiceLoader
-import com.itsaky.androidide.xml.registry.XmlRegistry
-import com.itsaky.androidide.xml.res.IResourceTable
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.xml.registry.XmlRegistry
+import com.itsaky.tom.rv2ide.xml.res.IResourceTable
 import java.io.File
 
 /**

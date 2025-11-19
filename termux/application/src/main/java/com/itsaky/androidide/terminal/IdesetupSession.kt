@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.terminal
+package com.itsaky.tom.rv2ide.terminal
 
 import android.content.Context
-import com.itsaky.androidide.managers.ToolsManager
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.managers.ToolsManager
+import com.itsaky.tom.rv2ide.utils.Environment
 import com.termux.shared.file.FileUtils
 import com.termux.shared.shell.command.ExecutionCommand
 import com.termux.shared.termux.shell.command.runner.terminal.TermuxSession
@@ -28,8 +28,8 @@ import org.slf4j.LoggerFactory
 import java.io.File
 import java.io.FileOutputStream
 
-import com.itsaky.androidide.app.configuration.IDEBuildConfigProvider
-import com.itsaky.androidide.app.configuration.CpuArch
+import com.itsaky.tom.rv2ide.app.configuration.IDEBuildConfigProvider
+import com.itsaky.tom.rv2ide.app.configuration.CpuArch
 
 /**
  * [TermuxSession] implementation that is used to run the `idesetup` script during automatic
@@ -83,10 +83,10 @@ class IdesetupSession private constructor(
       return try {
         val cpuArch = IDEBuildConfigProvider.getInstance().cpuArch
         val folderName = when (cpuArch) {
-          com.itsaky.androidide.app.configuration.CpuArch.AARCH64 -> "arm64"
-          com.itsaky.androidide.app.configuration.CpuArch.ARM -> "arm"
-          com.itsaky.androidide.app.configuration.CpuArch.X86_64 -> "x86_64"
-          com.itsaky.androidide.app.configuration.CpuArch.X86 -> "x86"
+          com.itsaky.tom.rv2ide.app.configuration.CpuArch.AARCH64 -> "arm64"
+          com.itsaky.tom.rv2ide.app.configuration.CpuArch.ARM -> "arm"
+          com.itsaky.tom.rv2ide.app.configuration.CpuArch.X86_64 -> "x86_64"
+          com.itsaky.tom.rv2ide.app.configuration.CpuArch.X86 -> "x86"
         }
         context.assets.open(ToolsManager.getCommonAsset("${folderName}/idesetup")).use { inputStream ->
           FileOutputStream(script).use { outputStream ->

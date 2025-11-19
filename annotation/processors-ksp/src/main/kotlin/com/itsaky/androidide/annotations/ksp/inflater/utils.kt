@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.annotations.ksp.inflater
+package com.itsaky.tom.rv2ide.annotations.ksp.inflater
 
 import com.squareup.javapoet.ClassName
 
@@ -23,12 +23,12 @@ val ANDROID_VIEW_PCK = "android.view"
 val ANDROID_VIEW_CLASS = "View"
 val VIEW_CLASS = "$ANDROID_VIEW_PCK.$ANDROID_VIEW_CLASS"
 
-const val ADAPTER_BASE_CLASS_PCK = "com.itsaky.androidide.inflater"
+const val ADAPTER_BASE_CLASS_PCK = "com.itsaky.tom.rv2ide.inflater"
 const val ADAPTER_BASE_CLASS_NAME = "IViewAdapter"
 const val ADAPTER_BASE_CLASS = "$ADAPTER_BASE_CLASS_PCK.$ADAPTER_BASE_CLASS_NAME"
 const val ADAPTER_FUNC_CREATE_WIDGET = "createUiWidgets"
 
-const val INDEX_PACKAGE_NAME = "com.itsaky.androidide.inflater.internal"
+const val INDEX_PACKAGE_NAME = "com.itsaky.tom.rv2ide.inflater.internal"
 const val INDEX_CLASS_NAME = "ViewAdapterIndexImpl"
 const val INDEX_MAP_FIELD = "adapterMap"
 const val INDEX_PROVIDER_MAP_FIELD = "widgetProviders"
@@ -38,5 +38,5 @@ const val METHOD_SET_MODULE = "setModuleNamespace"
 
 val viewAdapter = ClassName.get(ADAPTER_BASE_CLASS_PCK, ADAPTER_BASE_CLASS_NAME)
 val viewAdapterInterface: ClassName =
-    ClassName.get("com.itsaky.androidide.inflater", "IViewAdapterIndex")
+    ClassName.get("com.itsaky.tom.rv2ide.inflater", "IViewAdapterIndex")
 val viewClass = ClassName.get(ANDROID_VIEW_PCK, ANDROID_VIEW_CLASS)

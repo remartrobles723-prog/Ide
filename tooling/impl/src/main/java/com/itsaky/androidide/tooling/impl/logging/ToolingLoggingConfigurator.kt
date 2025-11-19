@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.logging
+package com.itsaky.tom.rv2ide.tooling.impl.logging
 
 import ch.qos.logback.classic.Logger
 import ch.qos.logback.classic.LoggerContext
@@ -23,8 +23,8 @@ import ch.qos.logback.classic.spi.Configurator
 import ch.qos.logback.classic.spi.ConfiguratorRank
 import ch.qos.logback.core.spi.ContextAwareBase
 import com.google.auto.service.AutoService
-import com.itsaky.androidide.logging.JvmStdErrAppender
-import com.itsaky.androidide.logging.encoder.IDELogFormatEncoder
+import com.itsaky.tom.rv2ide.logging.JvmStdErrAppender
+import com.itsaky.tom.rv2ide.logging.encoder.IDELogFormatEncoder
 
 /**
  * Default logging configurator for the Tooling API Runtime.

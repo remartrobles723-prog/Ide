@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.fragments
+package com.itsaky.tom.rv2ide.uidesigner.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import com.itsaky.androidide.fragments.BaseFragment
-import com.itsaky.androidide.uidesigner.adapters.WidgetsCategoryAdapter
-import com.itsaky.androidide.uidesigner.databinding.FragmentUiWidgetsBinding
-import com.itsaky.androidide.uidesigner.utils.Widgets
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.fragments.BaseFragment
+import com.itsaky.tom.rv2ide.uidesigner.adapters.WidgetsCategoryAdapter
+import com.itsaky.tom.rv2ide.uidesigner.databinding.FragmentUiWidgetsBinding
+import com.itsaky.tom.rv2ide.uidesigner.utils.Widgets
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
 
 /**
  * A fragment that shows the list of widgets available to use in the UI designer.

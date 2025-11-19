@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logsender;
+package com.itsaky.tom.rv2ide.logsender;
 
 import android.app.Notification;
 import android.app.Notification.BigTextStyle;
@@ -33,7 +33,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.Looper;
 import android.widget.Toast;
-import com.itsaky.androidide.logsender.utils.Logger;
+import com.itsaky.tom.rv2ide.logsender.utils.Logger;
 
 /**
  * A {@link Service} which runs in the background and sends logs to AndroidIDE.

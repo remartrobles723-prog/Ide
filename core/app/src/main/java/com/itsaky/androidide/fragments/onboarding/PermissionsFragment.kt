@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.onboarding
+package com.itsaky.tom.rv2ide.fragments.onboarding
 
 import android.Manifest
 import android.content.Context
@@ -29,12 +29,12 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.github.appintro.SlidePolicy
-import com.itsaky.androidide.R
-import com.itsaky.androidide.adapters.onboarding.OnboardingPermissionsAdapter
-import com.itsaky.androidide.buildinfo.BuildInfo
-import com.itsaky.androidide.models.OnboardingPermissionItem
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.isAtLeastR
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.adapters.onboarding.OnboardingPermissionsAdapter
+import com.itsaky.tom.rv2ide.buildinfo.BuildInfo
+import com.itsaky.tom.rv2ide.models.OnboardingPermissionItem
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.isAtLeastR
 
 /** @author Akash Yadav */
 class PermissionsFragment : OnboardingMultiActionFragment(), SlidePolicy {

@@ -15,19 +15,19 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import androidx.core.graphics.Insets
 import androidx.core.view.isVisible
-import com.itsaky.androidide.R
-import com.itsaky.androidide.adapters.ContributorsGridAdapter
-import com.itsaky.androidide.app.EdgeToEdgeIDEActivity
-import com.itsaky.androidide.databinding.ActivityContributorsBinding
-import com.itsaky.androidide.utils.getConnectionInfo
-import com.itsaky.androidide.viewmodel.ContributorsViewModel
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.adapters.ContributorsGridAdapter
+import com.itsaky.tom.rv2ide.app.EdgeToEdgeIDEActivity
+import com.itsaky.tom.rv2ide.databinding.ActivityContributorsBinding
+import com.itsaky.tom.rv2ide.utils.getConnectionInfo
+import com.itsaky.tom.rv2ide.viewmodel.ContributorsViewModel
 
 /** @author Akash Yadav */
 class ContributorsActivity : EdgeToEdgeIDEActivity() {

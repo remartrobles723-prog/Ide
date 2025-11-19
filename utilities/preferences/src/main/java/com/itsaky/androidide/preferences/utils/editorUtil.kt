@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences.utils
+package com.itsaky.tom.rv2ide.preferences.utils
 
-import com.itsaky.androidide.preferences.internal.EditorPreferences
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences
 
 /** @author Akash Yadav */
 

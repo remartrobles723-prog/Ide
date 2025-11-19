@@ -15,26 +15,26 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.filetree
+package com.itsaky.tom.rv2ide.actions.filetree
 
 import android.content.Context
 import android.view.LayoutInflater
 import androidx.core.view.isVisible
 import com.blankj.utilcode.util.FileIOUtils
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.requireFile
-import com.itsaky.androidide.adapters.viewholders.FileTreeViewHolder
-import com.itsaky.androidide.databinding.LayoutCreateFileJavaBinding
-import com.itsaky.androidide.eventbus.events.file.FileCreationEvent
-import com.itsaky.androidide.preferences.databinding.LayoutDialogTextInputBinding
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.DialogUtils
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.ProjectWriter
-import com.itsaky.androidide.utils.SingleTextWatcher
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashSuccess
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.requireFile
+import com.itsaky.tom.rv2ide.adapters.viewholders.FileTreeViewHolder
+import com.itsaky.tom.rv2ide.databinding.LayoutCreateFileJavaBinding
+import com.itsaky.tom.rv2ide.eventbus.events.file.FileCreationEvent
+import com.itsaky.tom.rv2ide.preferences.databinding.LayoutDialogTextInputBinding
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.ProjectWriter
+import com.itsaky.tom.rv2ide.utils.SingleTextWatcher
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashSuccess
 import com.unnamed.b.atv.model.TreeNode
 import java.io.File
 import java.util.Objects

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.parser
+package com.itsaky.tom.rv2ide.lsp.java.parser
 
 import jdkx.tools.JavaFileObject
 

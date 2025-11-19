@@ -14,14 +14,14 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.models;
+package com.itsaky.tom.rv2ide.lsp.java.models;
 
 import androidx.annotation.NonNull;
 import com.google.googlejavaformat.java.JavaFormatterOptions;
-import com.itsaky.androidide.lsp.util.PrefBasedServerSettings;
-import com.itsaky.androidide.managers.PreferenceManager;
-import com.itsaky.androidide.preferences.internal.JavaPreferences;
-import com.itsaky.androidide.utils.VMUtils;
+import com.itsaky.tom.rv2ide.lsp.util.PrefBasedServerSettings;
+import com.itsaky.tom.rv2ide.managers.PreferenceManager;
+import com.itsaky.tom.rv2ide.preferences.internal.JavaPreferences;
+import com.itsaky.tom.rv2ide.utils.VMUtils;
 
 /**
  * Server settings for the java language server.

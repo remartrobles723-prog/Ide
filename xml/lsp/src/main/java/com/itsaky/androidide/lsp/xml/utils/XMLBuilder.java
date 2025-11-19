@@ -25,9 +25,9 @@
  * <p>Contributors: Angelo Zerr <angelo.zerr@gmail.com> - initial API and implementation
  */
 
-package com.itsaky.androidide.lsp.xml.utils;
+package com.itsaky.tom.rv2ide.lsp.xml.utils;
 
-import com.itsaky.androidide.lsp.xml.models.XMLServerSettings;
+import com.itsaky.tom.rv2ide.lsp.xml.models.XMLServerSettings;
 
 import org.eclipse.lemminx.dom.builder.BaseXmlFormattingOptions;
 import org.eclipse.lemminx.dom.builder.XmlBuilder;

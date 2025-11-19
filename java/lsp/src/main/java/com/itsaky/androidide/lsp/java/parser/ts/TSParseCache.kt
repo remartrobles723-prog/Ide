@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.parser.ts
+package com.itsaky.tom.rv2ide.lsp.java.parser.ts
 
 import androidx.collection.LruCache
 import java.net.URI

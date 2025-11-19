@@ -14,10 +14,10 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.utils;
+package com.itsaky.tom.rv2ide.lsp.java.utils;
 
-import static com.itsaky.androidide.projects.util.StringSearch.containsClass;
-import static com.itsaky.androidide.projects.util.StringSearch.containsInterface;
+import static com.itsaky.tom.rv2ide.projects.util.StringSearch.containsClass;
+import static com.itsaky.tom.rv2ide.projects.util.StringSearch.containsInterface;
 
 import com.github.javaparser.StaticJavaParser;
 import com.github.javaparser.ast.NodeList;
@@ -35,7 +35,7 @@ import com.github.javaparser.ast.type.WildcardType;
 import com.github.javaparser.printer.DefaultPrettyPrinter;
 import com.github.javaparser.printer.configuration.DefaultPrinterConfiguration;
 import com.github.javaparser.printer.configuration.PrinterConfiguration;
-import com.itsaky.androidide.lsp.java.visitors.PrettyPrintingVisitor;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.PrettyPrintingVisitor;
 import java.nio.file.Path;
 import java.util.Objects;
 import java.util.function.Predicate;

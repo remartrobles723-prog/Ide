@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.progress
+package com.itsaky.tom.rv2ide.progress
 
-import com.itsaky.androidide.progress.ICancelChecker.Default
+import com.itsaky.tom.rv2ide.progress.ICancelChecker.Default
 import java.util.WeakHashMap
 import java.util.concurrent.CancellationException
 

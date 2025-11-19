@@ -31,10 +31,10 @@
  * limitations under the License.
  */
 
-package com.itsaky.androidide.plugins.tasks;
+package com.itsaky.tom.rv2ide.plugins.tasks;
 
-import com.itsaky.androidide.plugins.tasks.internal.WrapperDefaults;
-import com.itsaky.androidide.plugins.tasks.internal.WrapperGenerator;
+import com.itsaky.tom.rv2ide.plugins.tasks.internal.WrapperDefaults;
+import com.itsaky.tom.rv2ide.plugins.tasks.internal.WrapperGenerator;
 import java.io.File;
 import java.net.URI;
 import java.net.URISyntaxException;

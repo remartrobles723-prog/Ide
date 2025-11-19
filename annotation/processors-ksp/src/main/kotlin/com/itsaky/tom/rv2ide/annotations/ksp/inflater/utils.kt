@@ -23,12 +23,12 @@ val ANDROID_VIEW_PCK = "android.view"
 val ANDROID_VIEW_CLASS = "View"
 val VIEW_CLASS = "$ANDROID_VIEW_PCK.$ANDROID_VIEW_CLASS"
 
-const val ADAPTER_BASE_CLASS_PCK = "com.itsaky.androidide.inflater"
+const val ADAPTER_BASE_CLASS_PCK = "com.itsaky.tom.rv2ide.inflater"
 const val ADAPTER_BASE_CLASS_NAME = "IViewAdapter"
 const val ADAPTER_BASE_CLASS = "$ADAPTER_BASE_CLASS_PCK.$ADAPTER_BASE_CLASS_NAME"
 const val ADAPTER_FUNC_CREATE_WIDGET = "createUiWidgets"
 
-const val INDEX_PACKAGE_NAME = "com.itsaky.androidide.inflater.internal"
+const val INDEX_PACKAGE_NAME = "com.itsaky.tom.rv2ide.inflater.internal"
 const val INDEX_CLASS_NAME = "ViewAdapterIndexImpl"
 const val INDEX_MAP_FIELD = "adapterMap"
 const val INDEX_PROVIDER_MAP_FIELD = "widgetProviders"
@@ -37,5 +37,5 @@ const val METHOD_SET_SUPERCLASS_HIERARCHY = "setSuperclassHierarchy"
 const val METHOD_SET_MODULE = "setModuleNamespace"
 
 val viewAdapter = ClassName.get(ADAPTER_BASE_CLASS_PCK, ADAPTER_BASE_CLASS_NAME)
-val viewAdapterInterface: ClassName = ClassName.get("com.itsaky.androidide.inflater", "IViewAdapterIndex")
+val viewAdapterInterface: ClassName = ClassName.get("com.itsaky.tom.rv2ide.inflater", "IViewAdapterIndex")
 val viewClass = ClassName.get(ANDROID_VIEW_PCK, ANDROID_VIEW_CLASS)

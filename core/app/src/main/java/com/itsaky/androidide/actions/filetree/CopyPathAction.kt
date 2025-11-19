@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.filetree
+package com.itsaky.tom.rv2ide.actions.filetree
 
 import android.content.Context
 import com.blankj.utilcode.util.ClipboardUtils
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.requireFile
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.flashSuccess
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.requireFile
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.flashSuccess
 
 /**
  * Action to copy the absolute path of the selected file.

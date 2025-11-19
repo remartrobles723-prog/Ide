@@ -15,9 +15,9 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.ai
+package com.itsaky.tom.rv2ide.services.ai
 
-import com.itsaky.androidide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
 import java.io.File
 import org.slf4j.LoggerFactory
 
@@ -819,7 +819,7 @@ class ProjectContextManager {
       append("- Place content in the correct file type and location\n")
     }
 
-    com.itsaky.androidide.services.ai.Instructions.SystemInstructions.updateProjectContext(contextString)
+    com.itsaky.tom.rv2ide.services.ai.Instructions.SystemInstructions.updateProjectContext(contextString)
   }
 
   // helper methods
@@ -943,7 +943,7 @@ class ProjectContextManager {
     cachedContext = null
     lastAnalysisTime = 0
     fileRegistry.clear()
-    com.itsaky.androidide.services.ai.Instructions.SystemInstructions.clearCache()
+    com.itsaky.tom.rv2ide.services.ai.Instructions.SystemInstructions.clearCache()
     log.info("project context cache cleared")
   }
 

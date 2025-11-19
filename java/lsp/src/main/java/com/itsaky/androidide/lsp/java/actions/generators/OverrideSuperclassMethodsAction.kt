@@ -14,33 +14,33 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.actions.generators
+package com.itsaky.tom.rv2ide.lsp.java.actions.generators
 
 import android.content.Context
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.hasRequiredData
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.actions.newDialogBuilder
-import com.itsaky.androidide.actions.requireFile
-import com.itsaky.androidide.actions.requirePath
-import com.itsaky.androidide.lsp.java.JavaCompilerProvider
-import com.itsaky.androidide.lsp.java.actions.BaseJavaCodeAction
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.compiler.CompilerProvider
-import com.itsaky.androidide.lsp.java.parser.ParseTask
-import com.itsaky.androidide.lsp.java.rewrite.AddImport
-import com.itsaky.androidide.lsp.java.utils.EditHelper
-import com.itsaky.androidide.lsp.java.utils.FindHelper
-import com.itsaky.androidide.lsp.java.utils.JavaParserUtils
-import com.itsaky.androidide.lsp.java.utils.MethodPtr
-import com.itsaky.androidide.lsp.java.visitors.FindTypeDeclarationAt
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.preferences.internal.EditorPreferences
-import com.itsaky.androidide.preferences.utils.indentationString
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.hasRequiredData
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.actions.newDialogBuilder
+import com.itsaky.tom.rv2ide.actions.requireFile
+import com.itsaky.tom.rv2ide.actions.requirePath
+import com.itsaky.tom.rv2ide.lsp.java.JavaCompilerProvider
+import com.itsaky.tom.rv2ide.lsp.java.actions.BaseJavaCodeAction
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompilerProvider
+import com.itsaky.tom.rv2ide.lsp.java.parser.ParseTask
+import com.itsaky.tom.rv2ide.lsp.java.rewrite.AddImport
+import com.itsaky.tom.rv2ide.lsp.java.utils.EditHelper
+import com.itsaky.tom.rv2ide.lsp.java.utils.FindHelper
+import com.itsaky.tom.rv2ide.lsp.java.utils.JavaParserUtils
+import com.itsaky.tom.rv2ide.lsp.java.utils.MethodPtr
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindTypeDeclarationAt
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences
+import com.itsaky.tom.rv2ide.preferences.utils.indentationString
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.flashError
 import io.github.rosemoe.sora.widget.CodeEditor
 import java.util.Arrays
 import java.util.Optional
@@ -78,7 +78,7 @@ class OverrideSuperclassMethodsAction : BaseJavaCodeAction() {
 
     if (
         !visible ||
-            !data.hasRequiredData(com.itsaky.androidide.models.Range::class.java, CodeEditor::class.java)
+            !data.hasRequiredData(com.itsaky.tom.rv2ide.models.Range::class.java, CodeEditor::class.java)
     ) {
       markInvisible()
       return
@@ -89,7 +89,7 @@ class OverrideSuperclassMethodsAction : BaseJavaCodeAction() {
   }
 
   override suspend fun execAction(data: ActionData): Any {
-    val range = data[com.itsaky.androidide.models.Range::class.java]!!
+    val range = data[com.itsaky.tom.rv2ide.models.Range::class.java]!!
     val compiler =
         JavaCompilerProvider.get(
             IProjectManager.getInstance()

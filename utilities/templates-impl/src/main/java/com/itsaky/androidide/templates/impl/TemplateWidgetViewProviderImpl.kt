@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl
+package com.itsaky.tom.rv2ide.templates.impl
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -24,23 +24,23 @@ import android.widget.ArrayAdapter
 import androidx.core.content.ContextCompat
 import com.google.android.material.textfield.TextInputLayout
 import com.google.auto.service.AutoService
-import com.itsaky.androidide.templates.BooleanParameter
-import com.itsaky.androidide.templates.CheckBoxWidget
-import com.itsaky.androidide.templates.EnumParameter
-import com.itsaky.androidide.templates.ITemplateWidgetViewProvider
-import com.itsaky.androidide.templates.Parameter
-import com.itsaky.androidide.templates.Parameter.DefaultObserver
-import com.itsaky.androidide.templates.ParameterWidget
-import com.itsaky.androidide.templates.SpinnerWidget
-import com.itsaky.androidide.templates.StringParameter
-import com.itsaky.androidide.templates.TextFieldParameter
-import com.itsaky.androidide.templates.TextFieldWidget
-import com.itsaky.androidide.templates.Widget
-import com.itsaky.androidide.templates.impl.databinding.LayoutCheckboxBinding
-import com.itsaky.androidide.templates.impl.databinding.LayoutSpinnerBinding
-import com.itsaky.androidide.templates.impl.databinding.LayoutTextfieldBinding
-import com.itsaky.androidide.utils.ServiceLoader
-import com.itsaky.androidide.utils.SingleTextWatcher
+import com.itsaky.tom.rv2ide.templates.BooleanParameter
+import com.itsaky.tom.rv2ide.templates.CheckBoxWidget
+import com.itsaky.tom.rv2ide.templates.EnumParameter
+import com.itsaky.tom.rv2ide.templates.ITemplateWidgetViewProvider
+import com.itsaky.tom.rv2ide.templates.Parameter
+import com.itsaky.tom.rv2ide.templates.Parameter.DefaultObserver
+import com.itsaky.tom.rv2ide.templates.ParameterWidget
+import com.itsaky.tom.rv2ide.templates.SpinnerWidget
+import com.itsaky.tom.rv2ide.templates.StringParameter
+import com.itsaky.tom.rv2ide.templates.TextFieldParameter
+import com.itsaky.tom.rv2ide.templates.TextFieldWidget
+import com.itsaky.tom.rv2ide.templates.Widget
+import com.itsaky.tom.rv2ide.templates.impl.databinding.LayoutCheckboxBinding
+import com.itsaky.tom.rv2ide.templates.impl.databinding.LayoutSpinnerBinding
+import com.itsaky.tom.rv2ide.templates.impl.databinding.LayoutTextfieldBinding
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.utils.SingleTextWatcher
 
 /**
  * Default implementation of [ITemplateWidgetViewProvider].

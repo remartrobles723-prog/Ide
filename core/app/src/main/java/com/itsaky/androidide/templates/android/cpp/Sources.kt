@@ -15,9 +15,9 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.android.cpp
+package com.itsaky.tom.rv2ide.templates.android.cpp
 
-import com.itsaky.androidide.templates.preferences.Options
+import com.itsaky.tom.rv2ide.templates.preferences.Options
 
 /*
  * @author Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null

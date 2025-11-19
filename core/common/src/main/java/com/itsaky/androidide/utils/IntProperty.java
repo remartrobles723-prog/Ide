@@ -18,7 +18,7 @@
  *
  **************************************************************************************/
 
-package com.itsaky.androidide.utils;
+package com.itsaky.tom.rv2ide.utils;
 
 import android.util.Property;
 

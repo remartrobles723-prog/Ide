@@ -15,19 +15,19 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
 import androidx.preference.Preference
-import com.itsaky.androidide.R
-import com.itsaky.androidide.preferences.internal.GeneralPreferences
-import com.itsaky.androidide.resources.R.drawable
-import com.itsaky.androidide.resources.R.string
-import com.itsaky.androidide.resources.localization.LocaleProvider
-import com.itsaky.androidide.ui.themes.IDETheme
-import com.itsaky.androidide.ui.themes.IThemeManager
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.preferences.internal.GeneralPreferences
+import com.itsaky.tom.rv2ide.resources.R.drawable
+import com.itsaky.tom.rv2ide.resources.R.string
+import com.itsaky.tom.rv2ide.resources.localization.LocaleProvider
+import com.itsaky.tom.rv2ide.ui.themes.IDETheme
+import com.itsaky.tom.rv2ide.ui.themes.IThemeManager
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 

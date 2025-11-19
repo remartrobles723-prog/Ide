@@ -11,15 +11,15 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.itsaky.androidide.logging;
+package com.itsaky.tom.rv2ide.logging;
 
 import android.util.Log;
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.encoder.PatternLayoutEncoder;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.UnsynchronizedAppenderBase;
-import com.itsaky.androidide.logging.encoder.IDELogFormatEncoder;
-import com.itsaky.androidide.logging.utils.LogUtils;
+import com.itsaky.tom.rv2ide.logging.encoder.IDELogFormatEncoder;
+import com.itsaky.tom.rv2ide.logging.utils.LogUtils;
 
 /**
  * An appender that wraps the native Android logging mechanism (<i>logcat</i>); redirects all

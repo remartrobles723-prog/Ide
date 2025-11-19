@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin;
+package com.itsaky.tom.rv2ide.lsp.kotlin;
 
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.lsp.kotlin.compiler.KotlinCompilerService;
-import com.itsaky.androidide.projects.ModuleProject;
+import com.itsaky.tom.rv2ide.lsp.kotlin.compiler.KotlinCompilerService;
+import com.itsaky.tom.rv2ide.projects.ModuleProject;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 

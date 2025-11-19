@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.versions
+package com.itsaky.tom.rv2ide.xml.versions
 
 /**
  * A model class to hold the API version information.

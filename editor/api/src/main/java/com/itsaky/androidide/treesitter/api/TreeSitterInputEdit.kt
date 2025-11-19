@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.treesitter.api
+package com.itsaky.tom.rv2ide.treesitter.api
 
-import com.itsaky.androidide.treesitter.TSInputEdit
-import com.itsaky.androidide.treesitter.TSPoint
-import com.itsaky.androidide.utils.DefaultRecyclable
-import com.itsaky.androidide.utils.RecyclableObjectPool
+import com.itsaky.tom.rv2ide.treesitter.TSInputEdit
+import com.itsaky.tom.rv2ide.treesitter.TSPoint
+import com.itsaky.tom.rv2ide.utils.DefaultRecyclable
+import com.itsaky.tom.rv2ide.utils.RecyclableObjectPool
 
 class TreeSitterInputEdit
 @JvmOverloads

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.ui
+package com.itsaky.tom.rv2ide.ui
 
 import android.content.Context
 import android.util.AttributeSet
@@ -23,7 +23,7 @@ import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.core.view.doOnAttach
 import androidx.core.view.updateLayoutParams
-import com.itsaky.androidide.utils.getSystemBarInsets
+import com.itsaky.tom.rv2ide.utils.getSystemBarInsets
 
 /**
  * This view will set its height to the value of a bottom screen inset as soon as it is attached to

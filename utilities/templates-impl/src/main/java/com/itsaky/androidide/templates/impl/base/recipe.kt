@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.base
+package com.itsaky.tom.rv2ide.templates.impl.base
 
-import com.itsaky.androidide.templates.ModuleTemplateRecipeResult
-import com.itsaky.androidide.templates.ProjectTemplateRecipeResult
-import com.itsaky.androidide.templates.RecipeExecutor
-import com.itsaky.androidide.templates.TemplateRecipe
-import com.itsaky.androidide.templates.TemplateRecipeResult
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
-import com.itsaky.androidide.templates.base.ExecutorDataTemplateBuilder
-import com.itsaky.androidide.templates.base.ProjectTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.ModuleTemplateRecipeResult
+import com.itsaky.tom.rv2ide.templates.ProjectTemplateRecipeResult
+import com.itsaky.tom.rv2ide.templates.RecipeExecutor
+import com.itsaky.tom.rv2ide.templates.TemplateRecipe
+import com.itsaky.tom.rv2ide.templates.TemplateRecipeResult
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.ExecutorDataTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.ProjectTemplateBuilder
 
 internal inline fun <R : TemplateRecipeResult> ExecutorDataTemplateBuilder<*, *>.createRecipe(
     crossinline action: RecipeExecutor.() -> R

@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.api
+package com.itsaky.tom.rv2ide.editor.api
 
-import com.itsaky.androidide.lsp.api.ILanguageClient
-import com.itsaky.androidide.lsp.api.ILanguageServer
-import com.itsaky.androidide.lsp.models.Command
-import com.itsaky.androidide.lsp.models.SignatureHelp
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageClient
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServer
+import com.itsaky.tom.rv2ide.lsp.models.Command
+import com.itsaky.tom.rv2ide.lsp.models.SignatureHelp
 
 /**
  * LSP functions for the editor.

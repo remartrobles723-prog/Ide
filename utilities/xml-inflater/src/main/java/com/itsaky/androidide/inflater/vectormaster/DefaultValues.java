@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.vectormaster;
+package com.itsaky.tom.rv2ide.inflater.vectormaster;
 
 import android.graphics.Color;
 import android.graphics.Paint;

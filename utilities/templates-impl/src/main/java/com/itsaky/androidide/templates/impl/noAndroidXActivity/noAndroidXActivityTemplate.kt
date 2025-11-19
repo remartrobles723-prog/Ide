@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.noAndroidXActivity
+package com.itsaky.tom.rv2ide.templates.impl.noAndroidXActivity
 
 import com.android.aaptcompiler.ConfigDescription
 import com.android.aaptcompiler.android.ResTableConfig
-import com.itsaky.androidide.templates.base.modules.android.defaultAppModule
-import com.itsaky.androidide.templates.base.util.AndroidModuleResManager.ResourceType.LAYOUT
-import com.itsaky.androidide.templates.base.util.AndroidModuleResManager.ResourceType.VALUES
-import com.itsaky.androidide.templates.impl.R
-import com.itsaky.androidide.templates.impl.base.createRecipe
-import com.itsaky.androidide.templates.impl.base.emptyValuesFile
-import com.itsaky.androidide.templates.impl.base.writeMainActivity
-import com.itsaky.androidide.templates.impl.baseProjectImpl
+import com.itsaky.tom.rv2ide.templates.base.modules.android.defaultAppModule
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidModuleResManager.ResourceType.LAYOUT
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidModuleResManager.ResourceType.VALUES
+import com.itsaky.tom.rv2ide.templates.impl.R
+import com.itsaky.tom.rv2ide.templates.impl.base.createRecipe
+import com.itsaky.tom.rv2ide.templates.impl.base.emptyValuesFile
+import com.itsaky.tom.rv2ide.templates.impl.base.writeMainActivity
+import com.itsaky.tom.rv2ide.templates.impl.baseProjectImpl
 
 fun noAndroidXActivityProject() = baseProjectImpl {
   templateName = R.string.template_no_AndroidX

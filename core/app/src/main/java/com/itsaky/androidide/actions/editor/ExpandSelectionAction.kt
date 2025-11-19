@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.editor
+package com.itsaky.tom.rv2ide.actions.editor
 
 import android.content.Context
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem
-import com.itsaky.androidide.actions.EditorRelatedAction
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem
+import com.itsaky.tom.rv2ide.actions.EditorRelatedAction
+import com.itsaky.tom.rv2ide.resources.R
 
 /**
  * Expands the current selection using the language server set in editor.

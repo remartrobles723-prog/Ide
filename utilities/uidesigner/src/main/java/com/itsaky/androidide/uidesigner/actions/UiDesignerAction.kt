@@ -15,19 +15,19 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.actions
+package com.itsaky.tom.rv2ide.uidesigner.actions
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import androidx.fragment.app.Fragment
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem
-import com.itsaky.androidide.actions.ActionItem.Location
-import com.itsaky.androidide.actions.ActionItem.Location.UI_DESIGNER_TOOLBAR
-import com.itsaky.androidide.actions.hasRequiredData
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.uidesigner.UIDesignerActivity
-import com.itsaky.androidide.uidesigner.fragments.DesignerWorkspaceFragment
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem
+import com.itsaky.tom.rv2ide.actions.ActionItem.Location
+import com.itsaky.tom.rv2ide.actions.ActionItem.Location.UI_DESIGNER_TOOLBAR
+import com.itsaky.tom.rv2ide.actions.hasRequiredData
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.uidesigner.UIDesignerActivity
+import com.itsaky.tom.rv2ide.uidesigner.fragments.DesignerWorkspaceFragment
 
 /**
  * Base class for actions that are shown in the UI Designer activity.

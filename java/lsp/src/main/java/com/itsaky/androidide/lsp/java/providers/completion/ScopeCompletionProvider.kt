@@ -15,24 +15,24 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers.completion
+package com.itsaky.tom.rv2ide.lsp.java.providers.completion
 
 import com.squareup.javapoet.MethodSpec.Builder
-import com.itsaky.androidide.lsp.api.IServerSettings
-import com.itsaky.androidide.lsp.api.describeSnippet
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.lsp.java.edits.MultipleClassImportEditHandler
-import com.itsaky.androidide.lsp.java.models.JavaCompletionItem
-import com.itsaky.androidide.lsp.java.utils.JavaPoetUtils.Companion.buildMethod
-import com.itsaky.androidide.lsp.java.utils.JavaPoetUtils.Companion.print
-import com.itsaky.androidide.lsp.java.utils.ScopeHelper
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.InsertTextFormat.SNIPPET
-import com.itsaky.androidide.lsp.models.MatchLevel
-import com.itsaky.androidide.lsp.models.MatchLevel.NO_MATCH
-import com.itsaky.androidide.progress.ProgressManager.Companion.abortIfCancelled
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings
+import com.itsaky.tom.rv2ide.lsp.api.describeSnippet
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.lsp.java.edits.MultipleClassImportEditHandler
+import com.itsaky.tom.rv2ide.lsp.java.models.JavaCompletionItem
+import com.itsaky.tom.rv2ide.lsp.java.utils.JavaPoetUtils.Companion.buildMethod
+import com.itsaky.tom.rv2ide.lsp.java.utils.JavaPoetUtils.Companion.print
+import com.itsaky.tom.rv2ide.lsp.java.utils.ScopeHelper
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.InsertTextFormat.SNIPPET
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.NO_MATCH
+import com.itsaky.tom.rv2ide.progress.ProgressManager.Companion.abortIfCancelled
 import java.nio.file.Path
 import java.util.function.Predicate
 import jdkx.lang.model.element.ElementKind.METHOD
@@ -170,7 +170,7 @@ class ScopeCompletionProvider(
 
     val item = JavaCompletionItem()
     item.ideLabel = methodSpec.name
-    item.completionKind = com.itsaky.androidide.lsp.models.CompletionItemKind.METHOD
+    item.completionKind = com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind.METHOD
     item.detail = method.returnType.toString() + " " + method
     item.ideSortText = item.ideLabel
     item.insertText = insertText

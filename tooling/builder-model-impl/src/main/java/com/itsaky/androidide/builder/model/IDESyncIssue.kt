@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.builder.model
+package com.itsaky.tom.rv2ide.builder.model
 
 import com.android.build.gradle.options.StringOption.AAPT2_FROM_MAVEN_OVERRIDE
 import com.android.builder.model.v2.ide.SyncIssue

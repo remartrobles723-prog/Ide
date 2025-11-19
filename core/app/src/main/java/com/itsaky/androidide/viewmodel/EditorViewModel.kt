@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.viewmodel
+package com.itsaky.tom.rv2ide.viewmodel
 
 import android.view.Gravity.CENTER
 import androidx.lifecycle.LifecycleOwner
@@ -24,10 +24,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.blankj.utilcode.util.FileUtils
 import com.google.gson.GsonBuilder
-import com.itsaky.androidide.models.OpenedFilesCache
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.ILogger
+import com.itsaky.tom.rv2ide.models.OpenedFilesCache
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.ILogger
 import java.io.File
 import java.io.IOException
 import java.util.Collections
@@ -36,7 +36,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-/** ViewModel for data used in [com.itsaky.androidide.activities.editor.EditorActivityKt] */
+/** ViewModel for data used in [com.itsaky.tom.rv2ide.activities.editor.EditorActivityKt] */
 @Suppress("PropertyName")
 class EditorViewModel : ViewModel() {
 

@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions
+package com.itsaky.tom.rv2ide.actions
 
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.projects.builder.BuildService
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.projects.builder.BuildService
 
 /**
  * Marker class for actions that execute build related tasks.

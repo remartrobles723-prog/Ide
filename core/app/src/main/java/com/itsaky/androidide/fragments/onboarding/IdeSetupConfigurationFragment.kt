@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.onboarding
+package com.itsaky.tom.rv2ide.fragments.onboarding
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -38,15 +38,15 @@ import android.widget.ArrayAdapter
 import androidx.core.content.getSystemService
 import androidx.core.view.isVisible
 import com.github.appintro.SlidePolicy
-import com.itsaky.androidide.R
-import com.itsaky.androidide.databinding.LayoutOnboardngSetupConfigBinding
-import com.itsaky.androidide.models.IdeSetupArgument
-import com.itsaky.androidide.resources.R.string
-import com.itsaky.androidide.tasks.runOnUiThread
-import com.itsaky.androidide.utils.ConnectionInfo
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.getConnectionInfo
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.databinding.LayoutOnboardngSetupConfigBinding
+import com.itsaky.tom.rv2ide.models.IdeSetupArgument
+import com.itsaky.tom.rv2ide.resources.R.string
+import com.itsaky.tom.rv2ide.tasks.runOnUiThread
+import com.itsaky.tom.rv2ide.utils.ConnectionInfo
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.getConnectionInfo
 
 /**
  * original @author Akash Yadav Modified by Mohammed-baqer-null @

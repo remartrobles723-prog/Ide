@@ -15,19 +15,19 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.utils;
+package com.itsaky.tom.rv2ide.lsp.java.utils;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.javac.services.util.JavaDiagnosticUtils;
-import com.itsaky.androidide.lsp.java.compiler.CompileTask;
-import com.itsaky.androidide.lsp.java.compiler.CompilerProvider;
-import com.itsaky.androidide.lsp.java.rewrite.Rewrite;
-import com.itsaky.androidide.lsp.java.visitors.FindMethodDeclarationAt;
-import com.itsaky.androidide.lsp.java.visitors.FindTypeDeclarationAt;
-import com.itsaky.androidide.lsp.models.CodeActionItem;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
+import com.itsaky.tom.rv2ide.javac.services.util.JavaDiagnosticUtils;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompilerProvider;
+import com.itsaky.tom.rv2ide.lsp.java.rewrite.Rewrite;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindMethodDeclarationAt;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindTypeDeclarationAt;
+import com.itsaky.tom.rv2ide.lsp.models.CodeActionItem;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

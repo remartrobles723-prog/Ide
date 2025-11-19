@@ -1,4 +1,4 @@
-package com.itsaky.androidide.flashbar.anim
+package com.itsaky.tom.rv2ide.flashbar.anim
 
 import android.content.Context
 import android.view.View
@@ -9,7 +9,7 @@ import android.view.animation.DecelerateInterpolator
 import android.view.animation.Interpolator
 import androidx.annotation.CallSuper
 import androidx.annotation.InterpolatorRes
-import com.itsaky.androidide.flashbar.R
+import com.itsaky.tom.rv2ide.flashbar.R
 
 abstract class BaseFlashAnimBuilder(private val context: Context) {
 

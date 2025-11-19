@@ -17,7 +17,7 @@
 
 
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import com.itsaky.androidide.build.config.BuildConfig
+import com.itsaky.tom.rv2ide.build.config.BuildConfig
 
 plugins {
   kotlin("jvm")

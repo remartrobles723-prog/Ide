@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.events
+package com.itsaky.tom.rv2ide.inflater.events
 
 /**
  * An inflation event.

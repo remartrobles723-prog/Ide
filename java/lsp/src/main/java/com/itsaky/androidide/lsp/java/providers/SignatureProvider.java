@@ -15,22 +15,22 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers;
+package com.itsaky.tom.rv2ide.lsp.java.providers;
 
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.lsp.java.compiler.CompileTask;
-import com.itsaky.androidide.lsp.java.compiler.CompilerProvider;
-import com.itsaky.androidide.lsp.java.compiler.SynchronizedTask;
-import com.itsaky.androidide.lsp.java.utils.FindHelper;
-import com.itsaky.androidide.lsp.java.utils.MarkdownHelper;
-import com.itsaky.androidide.lsp.java.utils.ScopeHelper;
-import com.itsaky.androidide.lsp.java.utils.ShortTypePrinter;
-import com.itsaky.androidide.lsp.java.visitors.FindInvocationAt;
-import com.itsaky.androidide.lsp.models.ParameterInformation;
-import com.itsaky.androidide.lsp.models.SignatureHelp;
-import com.itsaky.androidide.lsp.models.SignatureHelpParams;
-import com.itsaky.androidide.lsp.models.SignatureInformation;
-import com.itsaky.androidide.progress.ICancelChecker;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompilerProvider;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.SynchronizedTask;
+import com.itsaky.tom.rv2ide.lsp.java.utils.FindHelper;
+import com.itsaky.tom.rv2ide.lsp.java.utils.MarkdownHelper;
+import com.itsaky.tom.rv2ide.lsp.java.utils.ScopeHelper;
+import com.itsaky.tom.rv2ide.lsp.java.utils.ShortTypePrinter;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindInvocationAt;
+import com.itsaky.tom.rv2ide.lsp.models.ParameterInformation;
+import com.itsaky.tom.rv2ide.lsp.models.SignatureHelp;
+import com.itsaky.tom.rv2ide.lsp.models.SignatureHelpParams;
+import com.itsaky.tom.rv2ide.lsp.models.SignatureInformation;
+import com.itsaky.tom.rv2ide.progress.ICancelChecker;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collections;

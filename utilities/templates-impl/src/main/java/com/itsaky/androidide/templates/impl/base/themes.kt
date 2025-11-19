@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.base
+package com.itsaky.tom.rv2ide.templates.impl.base
 
 import com.android.aaptcompiler.ConfigDescription
 import com.android.aaptcompiler.android.ResTableConfig
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
-import com.itsaky.androidide.templates.base.util.AndroidModuleResManager.ResourceType.VALUES
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidModuleResManager.ResourceType.VALUES
 
 internal fun simpleMaterial3Theme(themeName: String, actionBar: Boolean = false): String {
   return """

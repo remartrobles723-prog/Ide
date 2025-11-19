@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.utils;
+package com.itsaky.tom.rv2ide.lsp.java.utils;
 
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.lsp.java.compiler.CompileTask;
-import com.itsaky.androidide.lsp.java.parser.ParseTask;
-import com.itsaky.androidide.lsp.java.visitors.FindTypeDeclarationNamed;
-import com.itsaky.androidide.models.Location;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask;
+import com.itsaky.tom.rv2ide.lsp.java.parser.ParseTask;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindTypeDeclarationNamed;
+import com.itsaky.tom.rv2ide.models.Location;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
 import java.io.IOException;
 import java.net.URI;
 import java.nio.file.Paths;

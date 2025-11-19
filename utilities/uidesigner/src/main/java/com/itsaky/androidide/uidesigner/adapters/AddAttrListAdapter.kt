@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.adapters
+package com.itsaky.tom.rv2ide.uidesigner.adapters
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.itsaky.androidide.uidesigner.adapters.AddAttrListAdapter.VH
-import com.itsaky.androidide.uidesigner.databinding.LayoutAddAttrItemBinding
+import com.itsaky.tom.rv2ide.uidesigner.adapters.AddAttrListAdapter.VH
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutAddAttrItemBinding
 
 /**
  * Adapter to show the list of attributes that can be added to the selected view in the UI designer.
@@ -30,8 +30,8 @@ import com.itsaky.androidide.uidesigner.databinding.LayoutAddAttrItemBinding
  * @author Akash Yadav
  */
 class AddAttrListAdapter(
-    private val attributes: List<com.itsaky.androidide.inflater.IAttribute>,
-    private val onClick: (com.itsaky.androidide.inflater.IAttribute) -> Unit = {},
+    private val attributes: List<com.itsaky.tom.rv2ide.inflater.IAttribute>,
+    private val onClick: (com.itsaky.tom.rv2ide.inflater.IAttribute) -> Unit = {},
 ) : RecyclerView.Adapter<VH>() {
 
   class VH(val binding: LayoutAddAttrItemBinding) : RecyclerView.ViewHolder(binding.root)

@@ -15,17 +15,17 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins
+package com.itsaky.tom.rv2ide.plugins
 
 import com.android.build.api.variant.ApplicationAndroidComponentsExtension
-import com.itsaky.androidide.build.config.BuildConfig
-import com.itsaky.androidide.build.config.downloadVersion
-import com.itsaky.androidide.plugins.tasks.AddAndroidJarToAssetsTask
-import com.itsaky.androidide.plugins.tasks.AddFileToAssetsTask
-import com.itsaky.androidide.plugins.tasks.GenerateInitScriptTask
-import com.itsaky.androidide.plugins.tasks.GradleWrapperGeneratorTask
-// import com.itsaky.androidide.plugins.tasks.SetupAapt2Task
-import com.itsaky.androidide.plugins.util.SdkUtils.getAndroidJar
+import com.itsaky.tom.rv2ide.build.config.BuildConfig
+import com.itsaky.tom.rv2ide.build.config.downloadVersion
+import com.itsaky.tom.rv2ide.plugins.tasks.AddAndroidJarToAssetsTask
+import com.itsaky.tom.rv2ide.plugins.tasks.AddFileToAssetsTask
+import com.itsaky.tom.rv2ide.plugins.tasks.GenerateInitScriptTask
+import com.itsaky.tom.rv2ide.plugins.tasks.GradleWrapperGeneratorTask
+// import com.itsaky.tom.rv2ide.plugins.tasks.SetupAapt2Task
+import com.itsaky.tom.rv2ide.plugins.util.SdkUtils.getAndroidJar
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.configurationcache.extensions.capitalized

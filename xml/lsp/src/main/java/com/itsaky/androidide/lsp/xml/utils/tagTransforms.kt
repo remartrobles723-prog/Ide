@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.utils
+package com.itsaky.tom.rv2ide.lsp.xml.utils
 
-import com.itsaky.androidide.lsp.xml.providers.completion.transformToEntryName
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.transformToEntryName
 
 /** Transforms tag names to styleable entry names. */
 interface ITagTransformer {

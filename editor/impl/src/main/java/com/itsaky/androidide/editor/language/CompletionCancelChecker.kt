@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language
+package com.itsaky.tom.rv2ide.editor.language
 
-import com.itsaky.androidide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
 import io.github.rosemoe.sora.lang.completion.CompletionCancelledException
 import io.github.rosemoe.sora.lang.completion.CompletionPublisher
 

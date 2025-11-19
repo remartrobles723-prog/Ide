@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
-import com.itsaky.androidide.uidesigner.models.UiViewGroup
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.uidesigner.models.UiViewGroup
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
 
 /**
  * Handles hierarchy changes in the UI Designer's workspace.
@@ -28,4 +28,4 @@ import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
 internal class WorkspaceHierarchyChangeListener(
     private val viewModel: WorkspaceViewModel,
     private val workspaceView: UiViewGroup,
-) : com.itsaky.androidide.inflater.IViewGroup.SingleOnHierarchyChangeListener() {}
+) : com.itsaky.tom.rv2ide.inflater.IViewGroup.SingleOnHierarchyChangeListener() {}

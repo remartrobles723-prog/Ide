@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.builder.model
+package com.itsaky.tom.rv2ide.builder.model
 
 /**
  * Java compilation settings for both, Android and Java modules.

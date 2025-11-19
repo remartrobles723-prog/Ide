@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.R.layout
 import android.widget.AbsSpinner
-import com.itsaky.androidide.inflater.AttributeHandlerScope
+import com.itsaky.tom.rv2ide.inflater.AttributeHandlerScope
 
 /**
  * Attribute adapter for [AbsSpinner].

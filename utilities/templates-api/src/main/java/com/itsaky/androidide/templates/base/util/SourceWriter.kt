@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.util
+package com.itsaky.tom.rv2ide.templates.base.util
 
 import com.squareup.javapoet.ClassName
 import com.squareup.javapoet.JavaFile
 import com.squareup.javapoet.TypeSpec
-import com.itsaky.androidide.templates.Language
-import com.itsaky.androidide.templates.SrcSet
-import com.itsaky.androidide.templates.base.ModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.Language
+import com.itsaky.tom.rv2ide.templates.SrcSet
+import com.itsaky.tom.rv2ide.templates.base.ModuleTemplateBuilder
 import jdkx.lang.model.element.Modifier
 
 /**

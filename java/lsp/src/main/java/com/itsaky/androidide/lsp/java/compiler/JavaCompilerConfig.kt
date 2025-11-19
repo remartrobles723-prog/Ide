@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.compiler
+package com.itsaky.tom.rv2ide.lsp.java.compiler
 
-import com.itsaky.androidide.models.Position
+import com.itsaky.tom.rv2ide.models.Position
 import jdkx.tools.JavaFileObject
 import openjdk.tools.javac.util.Context
 

@@ -14,17 +14,17 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.editor.language
+package com.itsaky.tom.rv2ide.editor.language
 
-import com.itsaky.androidide.editor.language.utils.CompletionHelper
-import com.itsaky.androidide.lsp.api.ILanguageServer
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionParams
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.FailureType.COMPLETION
-import com.itsaky.androidide.lsp.models.LSPFailure
-import com.itsaky.androidide.lsp.util.setupLookupForCompletion
-import com.itsaky.androidide.models.Position
+import com.itsaky.tom.rv2ide.editor.language.utils.CompletionHelper
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServer
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.FailureType.COMPLETION
+import com.itsaky.tom.rv2ide.lsp.models.LSPFailure
+import com.itsaky.tom.rv2ide.lsp.util.setupLookupForCompletion
+import com.itsaky.tom.rv2ide.models.Position
 import io.github.rosemoe.sora.lang.completion.CompletionCancelledException
 import io.github.rosemoe.sora.text.CharPosition
 import io.github.rosemoe.sora.text.ContentReference

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.util
+package com.itsaky.tom.rv2ide.templates.base.util
 
 import com.android.SdkConstants.ANDROID_NS_NAME
 import com.android.SdkConstants.ANDROID_URI
@@ -27,14 +27,14 @@ import com.android.SdkConstants.TAG_INTENT_FILTER
 import com.android.SdkConstants.TAG_MANIFEST
 import com.android.SdkConstants.TAG_USES_PERMISSION
 import com.android.SdkConstants.XMLNS
-import com.itsaky.androidide.templates.RecipeExecutor
-import com.itsaky.androidide.templates.base.modules.android.ManifestActivity
-import com.itsaky.androidide.templates.base.modules.android.ManifestIcon
-import com.itsaky.androidide.templates.base.util.AndroidManifestBuilder.ConfigurationType.APPLICATION_ATTR
-import com.itsaky.androidide.templates.base.util.AndroidManifestBuilder.ConfigurationType.APPLICATION_CONTENT
-import com.itsaky.androidide.templates.base.util.AndroidManifestBuilder.ConfigurationType.MANIFEST_ATTR
-import com.itsaky.androidide.templates.base.util.AndroidManifestBuilder.ConfigurationType.MANIFEST_CONTENT
-import com.itsaky.androidide.xml.permissions.Permission
+import com.itsaky.tom.rv2ide.templates.RecipeExecutor
+import com.itsaky.tom.rv2ide.templates.base.modules.android.ManifestActivity
+import com.itsaky.tom.rv2ide.templates.base.modules.android.ManifestIcon
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidManifestBuilder.ConfigurationType.APPLICATION_ATTR
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidManifestBuilder.ConfigurationType.APPLICATION_CONTENT
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidManifestBuilder.ConfigurationType.MANIFEST_ATTR
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidManifestBuilder.ConfigurationType.MANIFEST_CONTENT
+import com.itsaky.tom.rv2ide.xml.permissions.Permission
 import java.io.File
 import org.eclipse.lemminx.dom.builder.IndentedXmlBuilder
 import org.eclipse.lemminx.dom.builder.IndentedXmlConfigurator

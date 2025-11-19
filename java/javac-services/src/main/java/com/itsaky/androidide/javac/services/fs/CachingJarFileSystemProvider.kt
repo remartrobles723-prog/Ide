@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.fs
+package com.itsaky.tom.rv2ide.javac.services.fs
 
-import com.itsaky.androidide.zipfs2.JarFileSystemProvider
-import com.itsaky.androidide.zipfs2.ZipFileSystem
+import com.itsaky.tom.rv2ide.zipfs2.JarFileSystemProvider
+import com.itsaky.tom.rv2ide.zipfs2.ZipFileSystem
 import java.nio.file.FileSystem
 import java.nio.file.Path
 import java.nio.file.Paths

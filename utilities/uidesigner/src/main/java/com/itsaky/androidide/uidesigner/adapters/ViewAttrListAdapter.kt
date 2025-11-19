@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.adapters
+package com.itsaky.tom.rv2ide.uidesigner.adapters
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -23,13 +23,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.itsaky.androidide.inflater.IView.SingleAttributeChangeListener
-import com.itsaky.androidide.uidesigner.R
-import com.itsaky.androidide.uidesigner.adapters.ViewAttrListAdapter.VH
-import com.itsaky.androidide.uidesigner.databinding.LayoutViewattrItemBinding
-import com.itsaky.androidide.uidesigner.models.UiAttribute
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
-import com.itsaky.androidide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.inflater.IView.SingleAttributeChangeListener
+import com.itsaky.tom.rv2ide.uidesigner.R
+import com.itsaky.tom.rv2ide.uidesigner.adapters.ViewAttrListAdapter.VH
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutViewattrItemBinding
+import com.itsaky.tom.rv2ide.uidesigner.models.UiAttribute
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.utils.DialogUtils
 
 /**
  * A [RecyclerView.Adapter] which shows the list of attributes of the selected view in the UI
@@ -38,10 +38,10 @@ import com.itsaky.androidide.utils.DialogUtils
  * @author Akash Yadav
  */
 internal class ViewAttrListAdapter(
-    attributes: List<com.itsaky.androidide.inflater.IAttribute>,
+    attributes: List<com.itsaky.tom.rv2ide.inflater.IAttribute>,
     private val viewModel: WorkspaceViewModel?,
-    private val onDeleteAttr: (com.itsaky.androidide.inflater.IAttribute) -> Boolean,
-    private val onClick: (com.itsaky.androidide.inflater.IAttribute) -> Unit,
+    private val onDeleteAttr: (com.itsaky.tom.rv2ide.inflater.IAttribute) -> Boolean,
+    private val onClick: (com.itsaky.tom.rv2ide.inflater.IAttribute) -> Unit,
 ) : RecyclerView.Adapter<VH>() {
 
   private val attributes = attributes.sortedBy { it.name }.toMutableList()
@@ -78,8 +78,8 @@ internal class ViewAttrListAdapter(
       val attrUpdateListener =
           object : SingleAttributeChangeListener() {
             override fun onAttributeUpdated(
-                view: com.itsaky.androidide.inflater.IView,
-                attribute: com.itsaky.androidide.inflater.IAttribute,
+                view: com.itsaky.tom.rv2ide.inflater.IView,
+                attribute: com.itsaky.tom.rv2ide.inflater.IAttribute,
                 oldValue: String,
             ) {
               binding.attrValue.text = attribute.value

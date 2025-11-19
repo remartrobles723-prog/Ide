@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater
+package com.itsaky.tom.rv2ide.inflater
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -23,8 +23,8 @@ import android.graphics.Color
 import android.graphics.drawable.Drawable
 import android.util.TypedValue
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.inflater.internal.utils.defaultGravity
-import com.itsaky.androidide.inflater.internal.utils.unknownDrawable
+import com.itsaky.tom.rv2ide.inflater.internal.utils.defaultGravity
+import com.itsaky.tom.rv2ide.inflater.internal.utils.unknownDrawable
 
 /**
  * Abstract class which provides access to the internal parsing utility methods to its subclasses.
@@ -133,7 +133,7 @@ abstract class AbstractParser {
    */
   @JvmOverloads
   protected open fun parseId(resName: String, value: String, def: Int = 0): Int {
-    return com.itsaky.androidide.inflater.internal.utils.parseId(resName, value, def)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseId(resName, value, def)
   }
 
   /**
@@ -144,7 +144,7 @@ abstract class AbstractParser {
    */
   @JvmOverloads
   protected open fun parseFloat(value: String, def: Float = 0f): Float {
-    return com.itsaky.androidide.inflater.internal.utils.parseFloat(value = value, def = def)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseFloat(value = value, def = def)
   }
 
   /**
@@ -155,7 +155,7 @@ abstract class AbstractParser {
    */
   @JvmOverloads
   protected open fun parseLong(value: String, def: Long = 0L): Long {
-    return com.itsaky.androidide.inflater.internal.utils.parseLong(value = value, def = def)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseLong(value = value, def = def)
   }
 
   /**
@@ -167,7 +167,7 @@ abstract class AbstractParser {
    */
   @JvmOverloads
   protected open fun parseInteger(value: String, def: Int = 0): Int {
-    return com.itsaky.androidide.inflater.internal.utils.parseInteger(value = value, def = def)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseInteger(value = value, def = def)
   }
 
   /**
@@ -177,7 +177,7 @@ abstract class AbstractParser {
    * @param value The string value. Usually value from attributes.
    */
   protected open fun parseIntegerArray(value: String): IntArray {
-    return com.itsaky.androidide.inflater.internal.utils.parseIntegerArray(value) ?: intArrayOf()
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseIntegerArray(value) ?: intArrayOf()
   }
 
   /**
@@ -189,7 +189,7 @@ abstract class AbstractParser {
    */
   @JvmOverloads
   protected open fun parseBoolean(value: String, def: Boolean = false): Boolean {
-    return com.itsaky.androidide.inflater.internal.utils.parseBoolean(value = value, def = def)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseBoolean(value = value, def = def)
   }
 
   /**
@@ -199,7 +199,7 @@ abstract class AbstractParser {
    * @param value The string value. Usually value from attributes.
    */
   protected open fun parseString(value: String): String {
-    return com.itsaky.androidide.inflater.internal.utils.parseString(value)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseString(value)
   }
 
   /**
@@ -209,7 +209,7 @@ abstract class AbstractParser {
    * @param value The string value. Usually value from attributes.
    */
   protected open fun parseStringArray(value: String): Array<String> {
-    return com.itsaky.androidide.inflater.internal.utils.parseStringArray(value) ?: emptyArray()
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseStringArray(value) ?: emptyArray()
   }
 
   /**
@@ -240,7 +240,7 @@ abstract class AbstractParser {
         return resolveMaterialIconDrawable(context, value, def)
       }
       else ->
-          return com.itsaky.androidide.inflater.internal.utils.parseDrawable(
+          return com.itsaky.tom.rv2ide.inflater.internal.utils.parseDrawable(
               context = context,
               value = value,
               def = def,
@@ -257,7 +257,7 @@ abstract class AbstractParser {
    */
   @JvmOverloads
   protected open fun parseGravity(value: String, def: Int = defaultGravity()): Int {
-    return com.itsaky.androidide.inflater.internal.utils.parseGravity(value = value, def = def)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseGravity(value = value, def = def)
   }
 
   /**
@@ -287,7 +287,7 @@ abstract class AbstractParser {
       return parseDimensionF(context, resolvedToken, def)
     }
 
-    return com.itsaky.androidide.inflater.internal.utils.parseDimension(
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseDimension(
         context = context,
         value = value,
         def = def,
@@ -323,7 +323,7 @@ abstract class AbstractParser {
         return resolveMaterialColorResource(context, value, def)
       }
       else ->
-          return com.itsaky.androidide.inflater.internal.utils.parseColor(
+          return com.itsaky.tom.rv2ide.inflater.internal.utils.parseColor(
               context = context,
               value = value,
               def = def,
@@ -361,7 +361,7 @@ abstract class AbstractParser {
         return ColorStateList.valueOf(color)
       }
       else ->
-          return com.itsaky.androidide.inflater.internal.utils.parseColorStateList(
+          return com.itsaky.tom.rv2ide.inflater.internal.utils.parseColorStateList(
               context = context,
               value = value,
               def = def,
@@ -378,7 +378,7 @@ abstract class AbstractParser {
    */
   @JvmOverloads
   fun parseDate(value: String, format: String = "MM/dd/yyyy", def: Long = 0L): Long {
-    return com.itsaky.androidide.inflater.internal.utils.parseDate(
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseDate(
         value = value,
         format = format,
         def = def,

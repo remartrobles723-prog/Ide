@@ -1,8 +1,8 @@
-package com.itsaky.androidide.fuzzysearch.ratios;
+package com.itsaky.tom.rv2ide.fuzzysearch.ratios;
 
-import com.itsaky.androidide.diffutils.DiffUtils;
-import com.itsaky.androidide.fuzzysearch.Ratio;
-import com.itsaky.androidide.fuzzysearch.ToStringFunction;
+import com.itsaky.tom.rv2ide.diffutils.DiffUtils;
+import com.itsaky.tom.rv2ide.fuzzysearch.Ratio;
+import com.itsaky.tom.rv2ide.fuzzysearch.ToStringFunction;
 
 public class SimpleRatio implements Ratio {
 

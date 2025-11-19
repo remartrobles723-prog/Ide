@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.utils
+package com.itsaky.tom.rv2ide.inflater.internal.utils
 
 import com.android.SdkConstants
 import com.android.aaptcompiler.AaptResourceType
 import com.android.aaptcompiler.AttributeResource
 import com.android.aaptcompiler.ConfigDescription
 import com.android.aaptcompiler.ResourceName
-import com.itsaky.androidide.inflater.utils.module
-import com.itsaky.androidide.xml.res.IResourceEntry
-import com.itsaky.androidide.xml.res.IResourceGroup
-import com.itsaky.androidide.xml.res.IResourceTable
-import com.itsaky.androidide.xml.res.IResourceTablePackage
+import com.itsaky.tom.rv2ide.inflater.utils.module
+import com.itsaky.tom.rv2ide.xml.res.IResourceEntry
+import com.itsaky.tom.rv2ide.xml.res.IResourceGroup
+import com.itsaky.tom.rv2ide.xml.res.IResourceTable
+import com.itsaky.tom.rv2ide.xml.res.IResourceTablePackage
 import org.slf4j.LoggerFactory
 
 private val log = LoggerFactory.getLogger("ParseLookupUtils")

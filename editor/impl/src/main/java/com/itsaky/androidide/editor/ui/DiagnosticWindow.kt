@@ -14,9 +14,9 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
-import com.itsaky.androidide.lsp.models.DiagnosticItem
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem
 
 /**
  * Popup window used to show diagnostic messages.

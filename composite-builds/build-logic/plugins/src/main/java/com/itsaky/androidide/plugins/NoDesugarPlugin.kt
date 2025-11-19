@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins
+package com.itsaky.tom.rv2ide.plugins
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project

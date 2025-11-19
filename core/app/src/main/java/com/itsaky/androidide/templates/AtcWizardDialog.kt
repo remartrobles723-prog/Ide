@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
 */
-package com.itsaky.androidide.templates
+package com.itsaky.tom.rv2ide.templates
 
 import android.app.Dialog
 import android.content.Context
@@ -40,17 +40,17 @@ import com.google.android.material.card.MaterialCardView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.transition.MaterialSharedAxis
 import com.tom.androidcodestudio.project.manager.builder.LanguageType
-import com.itsaky.androidide.R
-import com.itsaky.androidide.activities.FolderPickerActivity
-import com.itsaky.androidide.activities.IDEConfigurations
-import com.itsaky.androidide.databinding.DialogAtcWizardBinding
-import com.itsaky.androidide.templates.android.Template
-import com.itsaky.androidide.templates.android.TemplateOptions
-import com.itsaky.androidide.templates.android.TemplateRegistry
-import com.itsaky.androidide.templates.android.etc.NativeCpp.Check
-import com.itsaky.androidide.templates.preferences.Options
-import com.itsaky.androidide.templates.preferences.WizardPreferences
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.activities.FolderPickerActivity
+import com.itsaky.tom.rv2ide.activities.IDEConfigurations
+import com.itsaky.tom.rv2ide.databinding.DialogAtcWizardBinding
+import com.itsaky.tom.rv2ide.templates.android.Template
+import com.itsaky.tom.rv2ide.templates.android.TemplateOptions
+import com.itsaky.tom.rv2ide.templates.android.TemplateRegistry
+import com.itsaky.tom.rv2ide.templates.android.etc.NativeCpp.Check
+import com.itsaky.tom.rv2ide.templates.preferences.Options
+import com.itsaky.tom.rv2ide.templates.preferences.WizardPreferences
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.File
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -545,7 +545,7 @@ private val Int.dp: Int
 
 internal object SafResolver {
   private const val ANDROID_DOCS_AUTHORITY = "com.android.externalstorage.documents"
-  private const val ANDROIDIDE_DOCS_AUTHORITY = "com.itsaky.androidide.documents"
+  private const val ANDROIDIDE_DOCS_AUTHORITY = "com.itsaky.tom.rv2ide.documents"
 
   fun resolveToPath(context: Context, uriStr: String): String {
     return try {

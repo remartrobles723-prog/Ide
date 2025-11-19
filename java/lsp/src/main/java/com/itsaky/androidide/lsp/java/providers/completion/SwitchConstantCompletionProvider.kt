@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers.completion
+package com.itsaky.tom.rv2ide.lsp.java.providers.completion
 
-import com.itsaky.androidide.lsp.api.IServerSettings
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.MatchLevel.NO_MATCH
-import com.itsaky.androidide.progress.ProgressManager.Companion.abortIfCancelled
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.NO_MATCH
+import com.itsaky.tom.rv2ide.progress.ProgressManager.Companion.abortIfCancelled
 import java.nio.file.Path
 import jdkx.lang.model.element.ElementKind.ENUM
 import jdkx.lang.model.element.ElementKind.ENUM_CONSTANT
@@ -73,7 +73,7 @@ class SwitchConstantCompletionProvider(
 
     log.info("...complete constants of type {}", type)
 
-    val list: MutableList<com.itsaky.androidide.lsp.models.CompletionItem> = ArrayList()
+    val list: MutableList<com.itsaky.tom.rv2ide.lsp.models.CompletionItem> = ArrayList()
 
     abortIfCancelled()
     abortCompletionIfCancelled()

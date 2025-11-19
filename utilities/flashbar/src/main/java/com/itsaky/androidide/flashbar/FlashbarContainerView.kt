@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.flashbar
+package com.itsaky.tom.rv2ide.flashbar
 
 import android.app.Activity
 import android.content.Context
@@ -27,25 +27,25 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.widget.RelativeLayout
-import com.itsaky.androidide.flashbar.Flashbar.Companion.DURATION_INDEFINITE
-import com.itsaky.androidide.flashbar.Flashbar.DismissEvent
-import com.itsaky.androidide.flashbar.Flashbar.DismissEvent.*
-import com.itsaky.androidide.flashbar.Flashbar.Vibration.DISMISS
-import com.itsaky.androidide.flashbar.SwipeDismissTouchListener.DismissCallbacks
-import com.itsaky.androidide.flashbar.anim.FlashAnim
-import com.itsaky.androidide.flashbar.Flashbar.OnBarDismissListener
-import com.itsaky.androidide.flashbar.Flashbar.OnBarShowListener
-import com.itsaky.androidide.flashbar.Flashbar.OnTapListener
-import com.itsaky.androidide.flashbar.Flashbar.Vibration
-import com.itsaky.androidide.flashbar.Flashbar.Vibration.SHOW
-import com.itsaky.androidide.flashbar.anim.FlashAnimBarBuilder
-import com.itsaky.androidide.flashbar.anim.FlashAnimIconBuilder
-import com.itsaky.androidide.flashbar.util.NavigationBarPosition.*
-import com.itsaky.androidide.flashbar.util.afterMeasured
-import com.itsaky.androidide.flashbar.util.getNavigationBarPosition
-import com.itsaky.androidide.flashbar.util.getNavigationBarSizeInPx
-import com.itsaky.androidide.flashbar.util.getRootView
-import com.itsaky.androidide.flashbar.R
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.Companion.DURATION_INDEFINITE
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.DismissEvent
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.DismissEvent.*
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.Vibration.DISMISS
+import com.itsaky.tom.rv2ide.flashbar.SwipeDismissTouchListener.DismissCallbacks
+import com.itsaky.tom.rv2ide.flashbar.anim.FlashAnim
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.OnBarDismissListener
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.OnBarShowListener
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.OnTapListener
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.Vibration
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.Vibration.SHOW
+import com.itsaky.tom.rv2ide.flashbar.anim.FlashAnimBarBuilder
+import com.itsaky.tom.rv2ide.flashbar.anim.FlashAnimIconBuilder
+import com.itsaky.tom.rv2ide.flashbar.util.NavigationBarPosition.*
+import com.itsaky.tom.rv2ide.flashbar.util.afterMeasured
+import com.itsaky.tom.rv2ide.flashbar.util.getNavigationBarPosition
+import com.itsaky.tom.rv2ide.flashbar.util.getNavigationBarSizeInPx
+import com.itsaky.tom.rv2ide.flashbar.util.getRootView
+import com.itsaky.tom.rv2ide.flashbar.R
 /**
  * Container withView matching the height and width of the parent to hold a FlashbarView.
  * It will occupy the entire screens size but will be completely transparent. The

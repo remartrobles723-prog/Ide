@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.drawable;
+package com.itsaky.tom.rv2ide.inflater.drawable;
 
 import android.content.Context;
 import android.graphics.NinePatch;
@@ -26,7 +26,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import com.blankj.utilcode.util.FileIOUtils;
 import com.blankj.utilcode.util.ImageUtils;
-import com.itsaky.androidide.inflater.vectormaster.VectorMasterDrawable;
+import com.itsaky.tom.rv2ide.inflater.vectormaster.VectorMasterDrawable;
 import java.io.File;
 import java.io.IOException;
 import java.io.Reader;

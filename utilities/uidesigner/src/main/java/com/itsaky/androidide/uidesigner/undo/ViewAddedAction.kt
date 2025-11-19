@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.undo
+package com.itsaky.tom.rv2ide.uidesigner.undo
 
 /**
  * Represents the action when the user adds a view to a view group.
@@ -25,8 +25,8 @@ package com.itsaky.androidide.uidesigner.undo
 class ViewAddedAction
 @JvmOverloads
 constructor(
-    view: com.itsaky.androidide.inflater.IView,
-    parent: com.itsaky.androidide.inflater.IViewGroup,
+    view: com.itsaky.tom.rv2ide.inflater.IView,
+    parent: com.itsaky.tom.rv2ide.inflater.IViewGroup,
     index: Int = parent.indexOfChild(view),
 ) : ViewAction(view, parent, index) {
 

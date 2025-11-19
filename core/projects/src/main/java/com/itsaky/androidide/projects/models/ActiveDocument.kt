@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.models
+package com.itsaky.tom.rv2ide.projects.models
 
 import java.io.BufferedInputStream
 import java.io.BufferedReader

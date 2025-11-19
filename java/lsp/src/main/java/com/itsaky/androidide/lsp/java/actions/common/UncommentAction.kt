@@ -14,12 +14,12 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.actions.common
+package com.itsaky.tom.rv2ide.lsp.java.actions.common
 
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.requireEditor
-import com.itsaky.androidide.lsp.java.actions.BaseJavaCodeAction
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.requireEditor
+import com.itsaky.tom.rv2ide.lsp.java.actions.BaseJavaCodeAction
+import com.itsaky.tom.rv2ide.resources.R
 
 /** @author Akash Yadav */
 class UncommentAction : BaseJavaCodeAction() {

@@ -15,19 +15,19 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters
+package com.itsaky.tom.rv2ide.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.core.widget.addTextChangedListener
 import androidx.recyclerview.widget.RecyclerView
-import com.itsaky.androidide.R
-import com.itsaky.androidide.databinding.LayoutBuildVariantItemBinding
-import com.itsaky.androidide.tooling.api.IAndroidProject
-import com.itsaky.androidide.tooling.api.models.BuildVariantInfo
-import com.itsaky.androidide.tooling.api.models.BuildVariantInfo.Companion.withSelection
-import com.itsaky.androidide.viewmodel.BuildVariantsViewModel
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.databinding.LayoutBuildVariantItemBinding
+import com.itsaky.tom.rv2ide.tooling.api.IAndroidProject
+import com.itsaky.tom.rv2ide.tooling.api.models.BuildVariantInfo
+import com.itsaky.tom.rv2ide.tooling.api.models.BuildVariantInfo.Companion.withSelection
+import com.itsaky.tom.rv2ide.viewmodel.BuildVariantsViewModel
 import java.util.Objects
 
 /**

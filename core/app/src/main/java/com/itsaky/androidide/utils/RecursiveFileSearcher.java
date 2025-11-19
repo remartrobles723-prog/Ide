@@ -17,14 +17,14 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  **************************************************************************************/
-package com.itsaky.androidide.utils;
+package com.itsaky.tom.rv2ide.utils;
 
 import com.blankj.utilcode.util.FileIOUtils;
 import com.blankj.utilcode.util.FileUtils;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
-import com.itsaky.androidide.models.SearchResult;
-import com.itsaky.androidide.tasks.TaskExecutor;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
+import com.itsaky.tom.rv2ide.models.SearchResult;
+import com.itsaky.tom.rv2ide.tasks.TaskExecutor;
 import io.github.rosemoe.sora.text.CharPosition;
 import io.github.rosemoe.sora.text.Content;
 import java.io.File;

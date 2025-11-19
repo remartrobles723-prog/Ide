@@ -15,17 +15,17 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter
+package com.itsaky.tom.rv2ide.editor.language.treesitter
 
 import android.content.Context
-import com.itsaky.androidide.editor.language.newline.TSBracketsHandler
-import com.itsaky.androidide.editor.language.newline.TSCStyleBracketsHandler
-import com.itsaky.androidide.editor.language.treesitter.TreeSitterLanguage.Factory
-import com.itsaky.androidide.editor.language.utils.CommonSymbolPairs
-import com.itsaky.androidide.lsp.api.ILanguageServer
-import com.itsaky.androidide.lsp.api.ILanguageServerRegistry
-import com.itsaky.androidide.lsp.java.JavaLanguageServer
-import com.itsaky.androidide.treesitter.java.TSLanguageJava
+import com.itsaky.tom.rv2ide.editor.language.newline.TSBracketsHandler
+import com.itsaky.tom.rv2ide.editor.language.newline.TSCStyleBracketsHandler
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TreeSitterLanguage.Factory
+import com.itsaky.tom.rv2ide.editor.language.utils.CommonSymbolPairs
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServer
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServerRegistry
+import com.itsaky.tom.rv2ide.lsp.java.JavaLanguageServer
+import com.itsaky.tom.rv2ide.treesitter.java.TSLanguageJava
 import io.github.rosemoe.sora.lang.Language.INTERRUPTION_LEVEL_SLIGHT
 import io.github.rosemoe.sora.util.MyCharacter
 import io.github.rosemoe.sora.widget.SymbolPairMatch

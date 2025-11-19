@@ -15,9 +15,9 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
-import com.itsaky.androidide.models.Range
+import com.itsaky.tom.rv2ide.models.Range
 import java.nio.file.Path
 
 /*

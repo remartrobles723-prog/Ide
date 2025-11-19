@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.viewmodel
+package com.itsaky.tom.rv2ide.viewmodel
 
 import android.content.Context
 import android.content.SharedPreferences

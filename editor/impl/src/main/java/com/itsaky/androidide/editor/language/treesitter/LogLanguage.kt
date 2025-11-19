@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter
+package com.itsaky.tom.rv2ide.editor.language.treesitter
 
 import android.content.Context
-import com.itsaky.androidide.editor.language.treesitter.TreeSitterLanguage.Factory
-import com.itsaky.androidide.treesitter.log.TSLanguageLog
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TreeSitterLanguage.Factory
+import com.itsaky.tom.rv2ide.treesitter.log.TSLanguageLog
 
 /**
  * Tree Sitter language implementation for logs.

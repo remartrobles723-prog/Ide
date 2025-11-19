@@ -1,4 +1,4 @@
-package com.itsaky.androidide.flashbar.util
+package com.itsaky.tom.rv2ide.flashbar.util
 
 import android.app.Activity
 import android.content.Context
@@ -15,10 +15,10 @@ import android.view.ViewGroup
 import android.view.ViewTreeObserver
 import android.view.Window
 import android.view.WindowManager
-import com.itsaky.androidide.flashbar.util.NavigationBarPosition.BOTTOM
-import com.itsaky.androidide.flashbar.util.NavigationBarPosition.LEFT
-import com.itsaky.androidide.flashbar.util.NavigationBarPosition.RIGHT
-import com.itsaky.androidide.flashbar.util.NavigationBarPosition.TOP
+import com.itsaky.tom.rv2ide.flashbar.util.NavigationBarPosition.BOTTOM
+import com.itsaky.tom.rv2ide.flashbar.util.NavigationBarPosition.LEFT
+import com.itsaky.tom.rv2ide.flashbar.util.NavigationBarPosition.RIGHT
+import com.itsaky.tom.rv2ide.flashbar.util.NavigationBarPosition.TOP
 import kotlin.math.roundToInt
 
 internal fun Activity.getStatusBarHeightInPx(): Int {

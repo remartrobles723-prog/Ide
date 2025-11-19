@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logging
+package com.itsaky.tom.rv2ide.logging
 
 import ch.qos.logback.classic.Logger
 import ch.qos.logback.classic.LoggerContext
@@ -23,7 +23,7 @@ import ch.qos.logback.classic.spi.Configurator
 import ch.qos.logback.classic.spi.ConfiguratorRank
 import ch.qos.logback.core.spi.ContextAwareBase
 import com.google.auto.service.AutoService
-import com.itsaky.androidide.logging.encoder.IDELogFormatEncoder
+import com.itsaky.tom.rv2ide.logging.encoder.IDELogFormatEncoder
 
 /**
  * Default IDE logging configurator.

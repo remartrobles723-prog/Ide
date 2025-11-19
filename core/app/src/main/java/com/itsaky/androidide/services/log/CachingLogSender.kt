@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.log
+package com.itsaky.tom.rv2ide.services.log
 
-import com.itsaky.androidide.logsender.ILogSender
+import com.itsaky.tom.rv2ide.logsender.ILogSender
 
 /**
  * An implementation of [ILogSender] which caches the ID, PID and package name from the provided

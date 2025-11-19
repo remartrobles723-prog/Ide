@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.util;
+package com.itsaky.tom.rv2ide.lsp.util;
 
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.app.BaseApplication;
-import com.itsaky.androidide.lsp.api.IServerSettings;
-import com.itsaky.androidide.managers.PreferenceManager;
+import com.itsaky.tom.rv2ide.app.BaseApplication;
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings;
+import com.itsaky.tom.rv2ide.managers.PreferenceManager;
 
 /**
  * {@link IServerSettings} implementation which uses {@link
- * com.itsaky.androidide.managers.PreferenceManager PreferencesManager} to read common settings.
+ * com.itsaky.tom.rv2ide.managers.PreferenceManager PreferencesManager} to read common settings.
  *
  * @author Akash Yadav
  */

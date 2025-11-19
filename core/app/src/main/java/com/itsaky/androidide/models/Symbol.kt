@@ -14,10 +14,10 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.models
+package com.itsaky.tom.rv2ide.models
 
 /**
- * A symbol that is shown in the [SymbolInputView][com.itsaky.androidide.ui.SymbolInputView].
+ * A symbol that is shown in the [SymbolInputView][com.itsaky.tom.rv2ide.ui.SymbolInputView].
  *
  * @author Akash Yadav
  */

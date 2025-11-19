@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.builder.model
+package com.itsaky.tom.rv2ide.builder.model
 
 import com.android.builder.model.v2.ide.ProjectInfo
 import java.io.Serializable

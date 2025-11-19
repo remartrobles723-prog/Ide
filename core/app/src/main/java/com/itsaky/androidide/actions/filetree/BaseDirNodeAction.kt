@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.filetree
+package com.itsaky.tom.rv2ide.actions.filetree
 
 import android.content.Context
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.actions.requireFile
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.actions.requireFile
 
 /**
  * Base class for action items for directory nodes.

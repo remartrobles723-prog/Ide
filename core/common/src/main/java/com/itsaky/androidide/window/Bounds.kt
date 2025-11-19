@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.itsaky.androidide.window
+package com.itsaky.tom.rv2ide.window
 
 import android.graphics.Rect
 

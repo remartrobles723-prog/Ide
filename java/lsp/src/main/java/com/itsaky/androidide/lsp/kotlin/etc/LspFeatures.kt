@@ -15,12 +15,12 @@
  *  along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin.etc
+package com.itsaky.tom.rv2ide.lsp.kotlin.etc
 
 import com.google.gson.JsonObject
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.lsp.kotlin.KotlinServerProcessManager
-import com.itsaky.androidide.managers.PreferenceManager
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.lsp.kotlin.KotlinServerProcessManager
+import com.itsaky.tom.rv2ide.managers.PreferenceManager
 
 /**
  * Utility class for managing Kotlin Lsp features.

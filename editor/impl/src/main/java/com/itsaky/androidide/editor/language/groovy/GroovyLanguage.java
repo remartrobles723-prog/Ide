@@ -14,15 +14,15 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.editor.language.groovy;
+package com.itsaky.tom.rv2ide.editor.language.groovy;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.editor.language.IDELanguage;
-import com.itsaky.androidide.editor.language.newline.BracketsNewlineHandler;
-import com.itsaky.androidide.editor.language.utils.CommonSymbolPairs;
-import com.itsaky.androidide.lexers.groovy.GroovyLexer;
-import com.itsaky.androidide.utils.CharSequenceReader;
+import com.itsaky.tom.rv2ide.editor.language.IDELanguage;
+import com.itsaky.tom.rv2ide.editor.language.newline.BracketsNewlineHandler;
+import com.itsaky.tom.rv2ide.editor.language.utils.CommonSymbolPairs;
+import com.itsaky.tom.rv2ide.lexers.groovy.GroovyLexer;
+import com.itsaky.tom.rv2ide.utils.CharSequenceReader;
 import io.github.rosemoe.sora.lang.analysis.AnalyzeManager;
 import io.github.rosemoe.sora.lang.completion.CompletionCancelledException;
 import io.github.rosemoe.sora.lang.completion.CompletionPublisher;

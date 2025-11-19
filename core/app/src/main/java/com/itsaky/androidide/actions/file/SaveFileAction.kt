@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.file
+package com.itsaky.tom.rv2ide.actions.file
 
 import android.content.Context
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.EditorRelatedAction
-import com.itsaky.androidide.activities.editor.BaseEditorActivity
-import com.itsaky.androidide.models.SaveResult
-import com.itsaky.androidide.projects.internal.ProjectManagerImpl
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashSuccess
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.EditorRelatedAction
+import com.itsaky.tom.rv2ide.activities.editor.BaseEditorActivity
+import com.itsaky.tom.rv2ide.models.SaveResult
+import com.itsaky.tom.rv2ide.projects.internal.ProjectManagerImpl
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashSuccess
 import org.slf4j.LoggerFactory
 
 /** @author Akash Yadav */

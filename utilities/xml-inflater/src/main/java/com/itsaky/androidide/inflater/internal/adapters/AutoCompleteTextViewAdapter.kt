@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.widget.AutoCompleteTextView
-import com.itsaky.androidide.annotations.inflater.ViewAdapter
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner.Group.WIDGETS
-import com.itsaky.androidide.inflater.AttributeHandlerScope
-import com.itsaky.androidide.inflater.models.UiWidget
-import com.itsaky.androidide.resources.R.drawable
-import com.itsaky.androidide.resources.R.string
+import com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner.Group.WIDGETS
+import com.itsaky.tom.rv2ide.inflater.AttributeHandlerScope
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.resources.R.drawable
+import com.itsaky.tom.rv2ide.resources.R.string
 
 /**
  * Attribute adapter for [AutoCompleteTextView].

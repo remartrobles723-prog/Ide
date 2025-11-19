@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates
+package com.itsaky.tom.rv2ide.templates
 
 import android.view.View
 import androidx.annotation.StringRes
-import com.itsaky.androidide.templates.Language.Java
-import com.itsaky.androidide.templates.Language.Kotlin
-import com.itsaky.androidide.templates.ParameterConstraint.NONEMPTY
-import com.itsaky.androidide.templates.ParameterConstraint.PACKAGE
-import com.itsaky.androidide.templates.R.string
+import com.itsaky.tom.rv2ide.templates.Language.Java
+import com.itsaky.tom.rv2ide.templates.Language.Kotlin
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.NONEMPTY
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.PACKAGE
+import com.itsaky.tom.rv2ide.templates.R.string
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock
 

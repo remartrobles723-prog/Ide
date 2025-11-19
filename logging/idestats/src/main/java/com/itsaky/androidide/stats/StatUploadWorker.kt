@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.stats
+package com.itsaky.tom.rv2ide.stats
 
 import android.content.Context
 import androidx.work.Worker

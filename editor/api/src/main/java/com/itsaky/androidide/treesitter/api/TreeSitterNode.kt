@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.treesitter.api
+package com.itsaky.tom.rv2ide.treesitter.api
 
-import com.itsaky.androidide.treesitter.TSNode
-import com.itsaky.androidide.utils.DefaultRecyclable
-import com.itsaky.androidide.utils.RecyclableObjectPool
+import com.itsaky.tom.rv2ide.treesitter.TSNode
+import com.itsaky.tom.rv2ide.utils.DefaultRecyclable
+import com.itsaky.tom.rv2ide.utils.RecyclableObjectPool
 
 /** @author Akash Yadav */
 class TreeSitterNode

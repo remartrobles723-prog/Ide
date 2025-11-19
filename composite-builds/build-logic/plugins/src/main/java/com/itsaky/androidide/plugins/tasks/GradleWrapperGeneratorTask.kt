@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins.tasks
+package com.itsaky.tom.rv2ide.plugins.tasks
 
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.DirectoryProperty

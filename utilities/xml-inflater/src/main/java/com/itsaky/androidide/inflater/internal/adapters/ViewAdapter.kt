@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.content.Context
 import android.graphics.PorterDuff
@@ -51,18 +51,18 @@ import android.widget.RelativeLayout.START_OF
 import androidx.annotation.ChecksSdkIntAtLeast
 import androidx.core.view.updatePadding
 import androidx.core.view.updatePaddingRelative
-import com.itsaky.androidide.annotations.inflater.ViewAdapter
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner.Group.WIDGETS
-import com.itsaky.androidide.inflater.AttributeHandlerScope
-import com.itsaky.androidide.inflater.IAttribute
-import com.itsaky.androidide.inflater.INamespace
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.IViewAdapter
-import com.itsaky.androidide.inflater.internal.IncludeView
-import com.itsaky.androidide.inflater.models.UiWidget
-import com.itsaky.androidide.inflater.utils.newAttribute
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner.Group.WIDGETS
+import com.itsaky.tom.rv2ide.inflater.AttributeHandlerScope
+import com.itsaky.tom.rv2ide.inflater.IAttribute
+import com.itsaky.tom.rv2ide.inflater.INamespace
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.IViewAdapter
+import com.itsaky.tom.rv2ide.inflater.internal.IncludeView
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.inflater.utils.newAttribute
+import com.itsaky.tom.rv2ide.resources.R
 
 /**
  * Attribute adapter for [View].
@@ -288,23 +288,23 @@ open class ViewAdapter<T : View> : IViewAdapter<T>() {
   }
 
   protected open fun parseDrawingCacheQuality(value: String): Int {
-    return com.itsaky.androidide.inflater.internal.utils.parseDrawingCacheQuality(value)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseDrawingCacheQuality(value)
   }
 
   protected open fun parseVisibility(value: String): Int {
-    return com.itsaky.androidide.inflater.internal.utils.parseVisibility(value)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseVisibility(value)
   }
 
   protected open fun parseTextAlignment(value: String): Int {
-    return com.itsaky.androidide.inflater.internal.utils.parseTextAlignment(value)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseTextAlignment(value)
   }
 
   protected open fun parseTextDirection(value: String): Int {
-    return com.itsaky.androidide.inflater.internal.utils.parseTextDirection(value)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parseTextDirection(value)
   }
 
   protected open fun parsePorterDuffMode(mode: String): PorterDuff.Mode {
-    return com.itsaky.androidide.inflater.internal.utils.parsePorterDuffMode(mode)
+    return com.itsaky.tom.rv2ide.inflater.internal.utils.parsePorterDuffMode(mode)
   }
 
   @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.Q)

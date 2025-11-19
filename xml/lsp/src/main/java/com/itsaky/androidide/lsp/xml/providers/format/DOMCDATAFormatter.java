@@ -26,10 +26,10 @@
  * Contributors:
  *     Red Hat Inc. - initial API and implementation
  *******************************************************************************/
-package com.itsaky.androidide.lsp.xml.providers.format;
+package com.itsaky.tom.rv2ide.lsp.xml.providers.format;
 
-import com.itsaky.androidide.lsp.models.TextEdit;
-import com.itsaky.androidide.preferences.internal.EditorPreferences;
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit;
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences;
 
 import org.eclipse.lemminx.dom.DOMCDATASection;
 

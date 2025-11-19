@@ -19,7 +19,7 @@ package com.itsaky.tom.rv2ide.annotations.uidesigner
 
 /**
  * Indicates that the view (whose view adapter is annotated with [ViewAdapter]
- * [com.itsaky.androidide.annotations.inflater.ViewAdapter] and [IncludeInDesigner]) should be included in
+ * [com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter] and [IncludeInDesigner]) should be included in
  * the UI Designer and made accessible to the user.
  *
  * @author Akash Yadav

@@ -15,17 +15,17 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui;
+package com.itsaky.tom.rv2ide.editor.ui;
 
-import static com.itsaky.androidide.editor.R.attr;
+import static com.itsaky.tom.rv2ide.editor.R.attr;
 
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.lsp.models.SignatureHelp;
-import com.itsaky.androidide.lsp.models.SignatureInformation;
-import com.itsaky.androidide.utils.ResourceUtilsKt;
+import com.itsaky.tom.rv2ide.lsp.models.SignatureHelp;
+import com.itsaky.tom.rv2ide.lsp.models.SignatureInformation;
+import com.itsaky.tom.rv2ide.utils.ResourceUtilsKt;
 import io.github.rosemoe.sora.event.SelectionChangeEvent;
 import io.github.rosemoe.sora.widget.base.EditorPopupWindow;
 import org.slf4j.Logger;

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.incremental
+package com.itsaky.tom.rv2ide.editor.language.incremental
 
 import org.antlr.v4.runtime.CharStream
 import org.antlr.v4.runtime.Token

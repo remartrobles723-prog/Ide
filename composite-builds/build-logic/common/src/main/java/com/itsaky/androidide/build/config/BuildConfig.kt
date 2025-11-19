@@ -1,4 +1,4 @@
-package com.itsaky.androidide.build.config/*
+package com.itsaky.tom.rv2ide.build.config/*
  *  This file is part of AndroidIDE.
  *
  *  AndroidIDE is free software: you can redistribute it and/or modify
@@ -25,8 +25,8 @@ import org.gradle.api.JavaVersion
 object BuildConfig {
 
   /** AndroidIDE's package name. */
-  // const val packageName = "com.itsaky.androidide"
-  const val packageName = "com.itsaky.androidide"
+  // const val packageName = "com.itsaky.tom.rv2ide"
+  const val packageName = "com.itsaky.tom.rv2ide"
 
   /** The compile SDK version. */
   const val compileSdk = 33

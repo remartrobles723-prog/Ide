@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.models
+package com.itsaky.tom.rv2ide.tooling.api.models
 
 /**
  * Metadata about the tooling server.

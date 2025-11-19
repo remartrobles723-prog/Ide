@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins.conf
+package com.itsaky.tom.rv2ide.plugins.conf
 
 import com.android.build.api.dsl.CommonExtension
 import com.android.build.api.variant.AndroidComponentsExtension
@@ -23,10 +23,10 @@ import com.android.build.api.variant.ApplicationAndroidComponentsExtension
 import com.android.build.api.variant.FilterConfiguration
 import com.android.build.api.variant.impl.getFilter
 import com.android.build.gradle.BaseExtension
-import com.itsaky.androidide.build.config.BuildConfig
-import com.itsaky.androidide.build.config.projectVersionCode
-import com.itsaky.androidide.plugins.NoDesugarPlugin
-import com.itsaky.androidide.plugins.util.SdkUtils.getAndroidJar
+import com.itsaky.tom.rv2ide.build.config.BuildConfig
+import com.itsaky.tom.rv2ide.build.config.projectVersionCode
+import com.itsaky.tom.rv2ide.plugins.NoDesugarPlugin
+import com.itsaky.tom.rv2ide.plugins.util.SdkUtils.getAndroidJar
 import org.gradle.api.Project
 import org.gradle.api.artifacts.MinimalExternalModuleDependency
 import org.gradle.api.provider.Provider
@@ -121,7 +121,7 @@ fun Project.configureAndroidModule(
 
     configureCoreLibDesugaring(this, coreLibDesugDep)
 
-    if (project.plugins.hasPlugin("com.itsaky.androidide.core-app")) {
+    if (project.plugins.hasPlugin("com.itsaky.tom.rv2ide.core-app")) {
       packagingOptions {
         jniLibs {
           useLegacyPackaging = true

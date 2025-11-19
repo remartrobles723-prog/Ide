@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.parser;
+package com.itsaky.tom.rv2ide.lsp.java.parser;
 
-import com.itsaky.androidide.lsp.java.compiler.SourceFileManager;
-import com.itsaky.androidide.lsp.java.compiler.SourceFileObject;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
-import com.itsaky.androidide.projects.IProjectManager;
-import com.itsaky.androidide.projects.ModuleProject;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.SourceFileManager;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.SourceFileObject;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
+import com.itsaky.tom.rv2ide.projects.IProjectManager;
+import com.itsaky.tom.rv2ide.projects.ModuleProject;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

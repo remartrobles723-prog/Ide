@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logsender.utils;
+package com.itsaky.tom.rv2ide.logsender.utils;
 
-import static com.itsaky.androidide.logsender.LogSender.PACKAGE_ANDROIDIDE;
+import static com.itsaky.tom.rv2ide.logsender.LogSender.PACKAGE_ANDROIDIDE;
 
 import android.app.Application;
 import android.app.BackgroundServiceStartNotAllowedException;
@@ -31,8 +31,8 @@ import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
 import android.app.Activity;
 import android.os.Bundle;
-import com.itsaky.androidide.logsender.LogSender;
-import com.itsaky.androidide.logsender.LogSenderService;
+import com.itsaky.tom.rv2ide.logsender.LogSender;
+import com.itsaky.tom.rv2ide.logsender.LogSenderService;
 
 /**
  * Content providers are loaded before the application class is created. {@link LogSenderInstaller}

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters
+package com.itsaky.tom.rv2ide.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -24,10 +24,10 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
-import com.itsaky.androidide.R
-import com.itsaky.androidide.app.IDEApplication
-import com.itsaky.androidide.contributors.Contributor
-import com.itsaky.androidide.databinding.LayoutContributorsItemBinding
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.app.IDEApplication
+import com.itsaky.tom.rv2ide.contributors.Contributor
+import com.itsaky.tom.rv2ide.databinding.LayoutContributorsItemBinding
 
 /** @author Akash Yadav */
 class ContributorsGridAdapter(contributors: List<Contributor>) :

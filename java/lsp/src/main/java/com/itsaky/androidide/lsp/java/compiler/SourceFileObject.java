@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.compiler;
+package com.itsaky.tom.rv2ide.lsp.java.compiler;
 
 import com.google.common.base.MoreObjects;
-import com.itsaky.androidide.projects.FileManager;
-import com.itsaky.androidide.utils.DocumentUtils;
+import com.itsaky.tom.rv2ide.projects.FileManager;
+import com.itsaky.tom.rv2ide.utils.DocumentUtils;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.io.OutputStream;

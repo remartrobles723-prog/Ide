@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins
+package com.itsaky.tom.rv2ide.plugins
 
 import com.android.build.gradle.BaseExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project
-import com.itsaky.androidide.build.config.SigningConfig
-import com.itsaky.androidide.build.config.loadSigningProperties
+import com.itsaky.tom.rv2ide.build.config.SigningConfig
+import com.itsaky.tom.rv2ide.build.config.loadSigningProperties
 import java.io.File
 
 /**

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.widget.ImageView
 import android.widget.ImageView.ScaleType
@@ -27,21 +27,21 @@ import android.widget.ImageView.ScaleType.FIT_END
 import android.widget.ImageView.ScaleType.FIT_START
 import android.widget.ImageView.ScaleType.FIT_XY
 import android.widget.ImageView.ScaleType.MATRIX
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner.Group.WIDGETS
-import com.itsaky.androidide.inflater.AttributeHandlerScope
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.models.UiWidget
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.resources.R.drawable
-import com.itsaky.androidide.resources.R.string
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner.Group.WIDGETS
+import com.itsaky.tom.rv2ide.inflater.AttributeHandlerScope
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.resources.R.drawable
+import com.itsaky.tom.rv2ide.resources.R.string
 
 /**
  * Attribute adpater [ImageView]s.
  *
  * @author Akash Yadav
  */
-@com.itsaky.androidide.annotations.inflater.ViewAdapter(ImageView::class)
+@com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter(ImageView::class)
 @IncludeInDesigner(group = WIDGETS)
 open class ImageViewAdapter<T : ImageView> : ViewAdapter<T>() {
 

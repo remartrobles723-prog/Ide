@@ -25,7 +25,7 @@
 
 package openjdk.tools.javac.file;
 
-import com.itsaky.androidide.zipfs2.AndroidFsProvider;
+import com.itsaky.tom.rv2ide.zipfs2.AndroidFsProvider;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;

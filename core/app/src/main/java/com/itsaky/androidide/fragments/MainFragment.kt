@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -33,27 +33,27 @@ import com.google.android.material.progressindicator.LinearProgressIndicator
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY
-import com.itsaky.androidide.R
-import com.itsaky.androidide.activities.IDEConfigurations
-import com.itsaky.androidide.activities.MainActivity
-import com.itsaky.androidide.activities.PreferencesActivity
-import com.itsaky.androidide.activities.TerminalActivity
-import com.itsaky.androidide.adapters.MainActionsListAdapter
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.app.BaseIDEActivity
-import com.itsaky.androidide.common.databinding.LayoutDialogProgressBinding
-import com.itsaky.androidide.databinding.BottomsheetGitCloneBinding
-import com.itsaky.androidide.databinding.FragmentMainBinding
-import com.itsaky.androidide.models.MainScreenAction
-import com.itsaky.androidide.resources.R.string
-import com.itsaky.androidide.tasks.runOnUiThread
-import com.itsaky.androidide.templates.preferences.WizardPreferences
-import com.itsaky.androidide.utils.DialogUtils
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.GeneralFileUtils
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashSuccess
-import com.itsaky.androidide.viewmodel.MainViewModel
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.activities.IDEConfigurations
+import com.itsaky.tom.rv2ide.activities.MainActivity
+import com.itsaky.tom.rv2ide.activities.PreferencesActivity
+import com.itsaky.tom.rv2ide.activities.TerminalActivity
+import com.itsaky.tom.rv2ide.adapters.MainActionsListAdapter
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.app.BaseIDEActivity
+import com.itsaky.tom.rv2ide.common.databinding.LayoutDialogProgressBinding
+import com.itsaky.tom.rv2ide.databinding.BottomsheetGitCloneBinding
+import com.itsaky.tom.rv2ide.databinding.FragmentMainBinding
+import com.itsaky.tom.rv2ide.models.MainScreenAction
+import com.itsaky.tom.rv2ide.resources.R.string
+import com.itsaky.tom.rv2ide.tasks.runOnUiThread
+import com.itsaky.tom.rv2ide.templates.preferences.WizardPreferences
+import com.itsaky.tom.rv2ide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.GeneralFileUtils
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashSuccess
+import com.itsaky.tom.rv2ide.viewmodel.MainViewModel
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -542,11 +542,11 @@ class MainFragment : BaseFragment() {
   }
 
   private fun showCreateProject() {
-    com.itsaky.androidide.templates
+    com.itsaky.tom.rv2ide.templates
         .AtcInterface()
         .create(
             requireContext(),
-            object : com.itsaky.androidide.templates.AtcInterface.TemplateCreationListener {
+            object : com.itsaky.tom.rv2ide.templates.AtcInterface.TemplateCreationListener {
               override fun onTemplateSelected(templateName: String) {
                 /* no-op */
               }

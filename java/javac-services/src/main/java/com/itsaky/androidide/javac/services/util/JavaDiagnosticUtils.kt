@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.util
+package com.itsaky.tom.rv2ide.javac.services.util
 
 import jdkx.tools.Diagnostic
 import jdkx.tools.JavaFileObject

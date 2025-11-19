@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.basicActivity
+package com.itsaky.tom.rv2ide.templates.impl.basicActivity
 
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
-import com.itsaky.androidide.templates.impl.base.baseLayoutContentMain
-import com.itsaky.androidide.templates.impl.base.materialAppBar
-import com.itsaky.androidide.templates.impl.base.materialFab
-import com.itsaky.androidide.templates.impl.indentToLevel
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.impl.base.baseLayoutContentMain
+import com.itsaky.tom.rv2ide.templates.impl.base.materialAppBar
+import com.itsaky.tom.rv2ide.templates.impl.base.materialFab
+import com.itsaky.tom.rv2ide.templates.impl.indentToLevel
 
 internal fun AndroidModuleTemplateBuilder.basicActivitySrcJava() =
     """

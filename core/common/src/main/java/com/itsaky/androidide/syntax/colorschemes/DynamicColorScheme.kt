@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.syntax.colorschemes
+package com.itsaky.tom.rv2ide.syntax.colorschemes
 
 import android.content.Context
-import com.itsaky.androidide.common.R.attr
-import com.itsaky.androidide.utils.isSystemInDarkMode
-import com.itsaky.androidide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.common.R.attr
+import com.itsaky.tom.rv2ide.utils.isSystemInDarkMode
+import com.itsaky.tom.rv2ide.utils.resolveAttr
 
 /**
  * [SchemeAndroidIDE] implementation that uses dynamic colors.

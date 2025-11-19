@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.internal.resources
+package com.itsaky.tom.rv2ide.xml.internal.resources
 
 import com.android.SdkConstants
 import com.android.SdkConstants.FN_INTENT_ACTIONS_ACTIVITY
@@ -33,16 +33,16 @@ import com.android.aaptcompiler.TableExtractor
 import com.android.aaptcompiler.TableExtractorOptions
 import com.android.aaptcompiler.extractPathData
 import com.google.auto.service.AutoService
-import com.itsaky.androidide.aapt.logging.IDELogger
-import com.itsaky.androidide.layoutlib.resources.ResourceVisibility.PUBLIC
-import com.itsaky.androidide.xml.internal.resources.DefaultResourceTableRegistry.SingleLineValueEntryType.ACTIVITY_ACTIONS
-import com.itsaky.androidide.xml.internal.resources.DefaultResourceTableRegistry.SingleLineValueEntryType.BROADCAST_ACTIONS
-import com.itsaky.androidide.xml.internal.resources.DefaultResourceTableRegistry.SingleLineValueEntryType.CATEGORIES
-import com.itsaky.androidide.xml.internal.resources.DefaultResourceTableRegistry.SingleLineValueEntryType.FEATURES
-import com.itsaky.androidide.xml.internal.resources.DefaultResourceTableRegistry.SingleLineValueEntryType.SERVICE_ACTIONS
-import com.itsaky.androidide.xml.res.IResourceTable
-import com.itsaky.androidide.xml.resources.ResourceTableRegistry
-import com.itsaky.androidide.xml.resources.ResourceTableRegistry.Companion.PCK_ANDROID
+import com.itsaky.tom.rv2ide.aapt.logging.IDELogger
+import com.itsaky.tom.rv2ide.layoutlib.resources.ResourceVisibility.PUBLIC
+import com.itsaky.tom.rv2ide.xml.internal.resources.DefaultResourceTableRegistry.SingleLineValueEntryType.ACTIVITY_ACTIONS
+import com.itsaky.tom.rv2ide.xml.internal.resources.DefaultResourceTableRegistry.SingleLineValueEntryType.BROADCAST_ACTIONS
+import com.itsaky.tom.rv2ide.xml.internal.resources.DefaultResourceTableRegistry.SingleLineValueEntryType.CATEGORIES
+import com.itsaky.tom.rv2ide.xml.internal.resources.DefaultResourceTableRegistry.SingleLineValueEntryType.FEATURES
+import com.itsaky.tom.rv2ide.xml.internal.resources.DefaultResourceTableRegistry.SingleLineValueEntryType.SERVICE_ACTIONS
+import com.itsaky.tom.rv2ide.xml.res.IResourceTable
+import com.itsaky.tom.rv2ide.xml.resources.ResourceTableRegistry
+import com.itsaky.tom.rv2ide.xml.resources.ResourceTableRegistry.Companion.PCK_ANDROID
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.util.concurrent.ConcurrentHashMap

@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.composeActivity
+package com.itsaky.tom.rv2ide.templates.impl.composeActivity
 
-import com.itsaky.androidide.templates.Language.Kotlin
-import com.itsaky.androidide.templates.ProjectVersionData
-import com.itsaky.androidide.templates.base.composeDependencies
-import com.itsaky.androidide.templates.base.modules.android.defaultAppModule
-import com.itsaky.androidide.templates.base.util.AndroidModuleResManager.ResourceType.VALUES
-import com.itsaky.androidide.templates.impl.R
-import com.itsaky.androidide.templates.impl.base.createRecipe
-import com.itsaky.androidide.templates.impl.base.writeMainActivity
-import com.itsaky.androidide.templates.impl.baseProjectImpl
-import com.itsaky.androidide.templates.projectLanguageParameter
+import com.itsaky.tom.rv2ide.templates.Language.Kotlin
+import com.itsaky.tom.rv2ide.templates.ProjectVersionData
+import com.itsaky.tom.rv2ide.templates.base.composeDependencies
+import com.itsaky.tom.rv2ide.templates.base.modules.android.defaultAppModule
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidModuleResManager.ResourceType.VALUES
+import com.itsaky.tom.rv2ide.templates.impl.R
+import com.itsaky.tom.rv2ide.templates.impl.base.createRecipe
+import com.itsaky.tom.rv2ide.templates.impl.base.writeMainActivity
+import com.itsaky.tom.rv2ide.templates.impl.baseProjectImpl
+import com.itsaky.tom.rv2ide.templates.projectLanguageParameter
 
 private const val composeKotlinVersion = "2.0.21"
 

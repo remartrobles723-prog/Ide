@@ -23,16 +23,16 @@
  * questions.
  */
 
-package com.itsaky.androidide.zipfs2;
+package com.itsaky.tom.rv2ide.zipfs2;
 
 import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.Map;
 
-import static com.itsaky.androidide.zipfs2.ZipConstants.*;
-import static com.itsaky.androidide.zipfs2.ZipUtils.dosToJavaTime;
-import static com.itsaky.androidide.zipfs2.ZipUtils.unixToJavaTime;
-import static com.itsaky.androidide.zipfs2.ZipUtils.winToJavaTime;
+import static com.itsaky.tom.rv2ide.zipfs2.ZipConstants.*;
+import static com.itsaky.tom.rv2ide.zipfs2.ZipUtils.dosToJavaTime;
+import static com.itsaky.tom.rv2ide.zipfs2.ZipUtils.unixToJavaTime;
+import static com.itsaky.tom.rv2ide.zipfs2.ZipUtils.winToJavaTime;
 
 /**
  * Print all loc and cen headers of the ZIP file

@@ -14,22 +14,22 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
 import android.content.Context
-import com.itsaky.androidide.eventbus.events.editor.DocumentChangeEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentOpenEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentSelectedEvent
-import com.itsaky.androidide.lsp.api.ILanguageClient
-import com.itsaky.androidide.lsp.api.ILanguageServer
-import com.itsaky.androidide.lsp.api.IServerSettings
-import com.itsaky.androidide.lsp.kotlin.compiler.KotlinCompilerService
-import com.itsaky.androidide.lsp.kotlin.etc.LspFeatures
-import com.itsaky.androidide.lsp.kotlin.providers.KotlinCodeFormatProvider
-import com.itsaky.androidide.lsp.models.*
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.projects.IWorkspace
-import com.itsaky.androidide.utils.VMUtils
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentChangeEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentOpenEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentSelectedEvent
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageClient
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServer
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings
+import com.itsaky.tom.rv2ide.lsp.kotlin.compiler.KotlinCompilerService
+import com.itsaky.tom.rv2ide.lsp.kotlin.etc.LspFeatures
+import com.itsaky.tom.rv2ide.lsp.kotlin.providers.KotlinCodeFormatProvider
+import com.itsaky.tom.rv2ide.lsp.models.*
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.utils.VMUtils
 import io.github.rosemoe.sora.widget.CodeEditor
 import java.nio.file.Path
 import kotlinx.coroutines.*
@@ -49,7 +49,7 @@ class KotlinLanguageServer(private val context: Context) : ILanguageServer {
     private val log = LoggerFactory.getLogger(KotlinLanguageServer::class.java)
   }
 
-  private val analyzeTimer = com.itsaky.androidide.lsp.java.utils.AnalyzeTimer { analyzeSelected() }
+  private val analyzeTimer = com.itsaky.tom.rv2ide.lsp.java.utils.AnalyzeTimer { analyzeSelected() }
   private var selectedFile: java.nio.file.Path? = null
   private val diagnosticProvider = KotlinDiagnosticProvider()
 
@@ -250,11 +250,11 @@ class KotlinLanguageServer(private val context: Context) : ILanguageServer {
     val mainModule =
         workspace
             .getSubProjects()
-            .filterIsInstance<com.itsaky.androidide.projects.android.AndroidModule>()
+            .filterIsInstance<com.itsaky.tom.rv2ide.projects.android.AndroidModule>()
             .firstOrNull { it.isApplication }
             ?: workspace
                 .getSubProjects()
-                .filterIsInstance<com.itsaky.androidide.projects.android.AndroidModule>()
+                .filterIsInstance<com.itsaky.tom.rv2ide.projects.android.AndroidModule>()
                 .firstOrNull()
 
     return mainModule?.let { KotlinCompilerProvider.get(it) }

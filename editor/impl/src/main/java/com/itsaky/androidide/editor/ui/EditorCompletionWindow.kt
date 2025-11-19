@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import android.content.Intent
 import android.net.Uri
 import android.widget.ListView
-import com.itsaky.androidide.lsp.util.DocumentationReferenceProvider
-import com.itsaky.androidide.progress.ProgressManager
-import com.itsaky.androidide.utils.KeyboardUtils
+import com.itsaky.tom.rv2ide.lsp.util.DocumentationReferenceProvider
+import com.itsaky.tom.rv2ide.progress.ProgressManager
+import com.itsaky.tom.rv2ide.utils.KeyboardUtils
 import io.github.rosemoe.sora.lang.completion.CompletionItem
 import io.github.rosemoe.sora.widget.component.CompletionLayout
 import io.github.rosemoe.sora.widget.component.EditorAutoCompletion
@@ -62,7 +62,7 @@ class EditorCompletionWindow(val editor: IDEEditor) : EditorAutoCompletion(edito
       it.adapter = this.adapter
       it.setOnItemLongClickListener { _, view, position, _ ->
         val data =
-            (items[position] as? com.itsaky.androidide.lsp.models.CompletionItem)?.data
+            (items[position] as? com.itsaky.tom.rv2ide.lsp.models.CompletionItem)?.data
                 ?: return@setOnItemLongClickListener false
         val url =
             DocumentationReferenceProvider.getUrl(data) ?: return@setOnItemLongClickListener false

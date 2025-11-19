@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.sync
+package com.itsaky.tom.rv2ide.tooling.impl.sync
 
-import com.itsaky.androidide.builder.model.IJavaCompilerSettings
-import com.itsaky.androidide.tooling.api.IJavaProject
-import com.itsaky.androidide.tooling.api.messages.InitializeProjectParams
-import com.itsaky.androidide.tooling.api.models.JavaModuleCompilerSettings
-import com.itsaky.androidide.tooling.impl.internal.JavaProjectImpl
+import com.itsaky.tom.rv2ide.builder.model.IJavaCompilerSettings
+import com.itsaky.tom.rv2ide.tooling.api.IJavaProject
+import com.itsaky.tom.rv2ide.tooling.api.messages.InitializeProjectParams
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaModuleCompilerSettings
+import com.itsaky.tom.rv2ide.tooling.impl.internal.JavaProjectImpl
 import org.gradle.tooling.model.idea.IdeaModule
 import org.gradle.tooling.model.idea.IdeaProject
 

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters
+package com.itsaky.tom.rv2ide.adapters
 
 import android.annotation.SuppressLint
 import androidx.recyclerview.widget.DiffUtil

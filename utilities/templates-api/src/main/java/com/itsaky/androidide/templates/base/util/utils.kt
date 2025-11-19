@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.util
+package com.itsaky.tom.rv2ide.templates.base.util
 
-import com.itsaky.androidide.templates.BaseTemplateData
-import com.itsaky.androidide.templates.ProjectTemplateData
+import com.itsaky.tom.rv2ide.templates.BaseTemplateData
+import com.itsaky.tom.rv2ide.templates.ProjectTemplateData
 import java.io.File
 
 /** Get the asset path for base template. */

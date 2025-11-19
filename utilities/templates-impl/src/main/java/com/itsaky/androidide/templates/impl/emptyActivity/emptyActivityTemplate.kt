@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.emptyActivity
+package com.itsaky.tom.rv2ide.templates.impl.emptyActivity
 
-import com.itsaky.androidide.templates.ProjectTemplate
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
-import com.itsaky.androidide.templates.base.modules.android.defaultAppModule
-import com.itsaky.androidide.templates.base.util.AndroidModuleResManager.ResourceType.LAYOUT
-import com.itsaky.androidide.templates.base.util.SourceWriter
-import com.itsaky.androidide.templates.impl.R
-import com.itsaky.androidide.templates.impl.base.createRecipe
-import com.itsaky.androidide.templates.impl.base.emptyThemesAndColors
-import com.itsaky.androidide.templates.impl.base.writeMainActivity
-import com.itsaky.androidide.templates.impl.baseProjectImpl
+import com.itsaky.tom.rv2ide.templates.ProjectTemplate
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.modules.android.defaultAppModule
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidModuleResManager.ResourceType.LAYOUT
+import com.itsaky.tom.rv2ide.templates.base.util.SourceWriter
+import com.itsaky.tom.rv2ide.templates.impl.R
+import com.itsaky.tom.rv2ide.templates.impl.base.createRecipe
+import com.itsaky.tom.rv2ide.templates.impl.base.emptyThemesAndColors
+import com.itsaky.tom.rv2ide.templates.impl.base.writeMainActivity
+import com.itsaky.tom.rv2ide.templates.impl.baseProjectImpl
 
 fun emptyActivityProject(): ProjectTemplate = baseProjectImpl {
   templateName = R.string.template_empty

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.colorpicker;
+package com.itsaky.tom.rv2ide.colorpicker;
 
 import static android.graphics.Color.alpha;
 import static android.graphics.Color.argb;
@@ -35,8 +35,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import com.google.android.material.slider.Slider;
-import com.itsaky.androidide.common.R;
-import com.itsaky.androidide.common.databinding.LayoutColorPickerBinding;
+import com.itsaky.tom.rv2ide.common.R;
+import com.itsaky.tom.rv2ide.common.databinding.LayoutColorPickerBinding;
 
 /**
  * A color picker view.

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.messages.result
+package com.itsaky.tom.rv2ide.tooling.api.messages.result
 
 /** @author Akash Yadav */
 data class GradleWrapperCheckResult(val isAvailable: Boolean)

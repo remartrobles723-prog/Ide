@@ -15,38 +15,38 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers;
+package com.itsaky.tom.rv2ide.lsp.java.providers;
 
-import static com.itsaky.androidide.lsp.api.HelpersKt.describeSnippet;
-import static com.itsaky.androidide.progress.ProgressManager.abortIfCancelled;
+import static com.itsaky.tom.rv2ide.lsp.api.HelpersKt.describeSnippet;
+import static com.itsaky.tom.rv2ide.progress.ProgressManager.abortIfCancelled;
 
 import androidx.annotation.NonNull;
 import com.blankj.utilcode.util.ReflectUtils;
-import com.itsaky.androidide.lsp.api.AbstractServiceProvider;
-import com.itsaky.androidide.lsp.api.ICompletionProvider;
-import com.itsaky.androidide.lsp.api.IServerSettings;
-import com.itsaky.androidide.lsp.internal.model.CachedCompletion;
-import com.itsaky.androidide.lsp.java.compiler.CompileTask;
-import com.itsaky.androidide.lsp.java.compiler.CompletionInfo;
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerConfig;
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService;
-import com.itsaky.androidide.lsp.java.compiler.SourceFileObject;
-import com.itsaky.androidide.lsp.java.compiler.SynchronizedTask;
-import com.itsaky.androidide.lsp.java.models.CompilationRequest;
-import com.itsaky.androidide.lsp.java.models.PartialReparseRequest;
-import com.itsaky.androidide.lsp.java.providers.completion.IJavaCompletionProvider;
-import com.itsaky.androidide.lsp.java.providers.completion.IdentifierCompletionProvider;
-import com.itsaky.androidide.lsp.java.providers.completion.ImportCompletionProvider;
-import com.itsaky.androidide.lsp.java.providers.completion.KeywordCompletionProvider;
-import com.itsaky.androidide.lsp.java.providers.completion.MemberReferenceCompletionProvider;
-import com.itsaky.androidide.lsp.java.providers.completion.MemberSelectCompletionProvider;
-import com.itsaky.androidide.lsp.java.providers.completion.SwitchConstantCompletionProvider;
-import com.itsaky.androidide.lsp.java.utils.ASTFixer;
-import com.itsaky.androidide.lsp.java.utils.CancelChecker;
-import com.itsaky.androidide.lsp.java.visitors.FindCompletionsAt;
-import com.itsaky.androidide.lsp.models.CompletionParams;
-import com.itsaky.androidide.lsp.models.CompletionResult;
-import com.itsaky.androidide.utils.DocumentUtils;
+import com.itsaky.tom.rv2ide.lsp.api.AbstractServiceProvider;
+import com.itsaky.tom.rv2ide.lsp.api.ICompletionProvider;
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings;
+import com.itsaky.tom.rv2ide.lsp.internal.model.CachedCompletion;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompletionInfo;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerConfig;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.SourceFileObject;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.SynchronizedTask;
+import com.itsaky.tom.rv2ide.lsp.java.models.CompilationRequest;
+import com.itsaky.tom.rv2ide.lsp.java.models.PartialReparseRequest;
+import com.itsaky.tom.rv2ide.lsp.java.providers.completion.IJavaCompletionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.providers.completion.IdentifierCompletionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.providers.completion.ImportCompletionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.providers.completion.KeywordCompletionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.providers.completion.MemberReferenceCompletionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.providers.completion.MemberSelectCompletionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.providers.completion.SwitchConstantCompletionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.utils.ASTFixer;
+import com.itsaky.tom.rv2ide.lsp.java.utils.CancelChecker;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindCompletionsAt;
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams;
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult;
+import com.itsaky.tom.rv2ide.utils.DocumentUtils;
 import io.github.rosemoe.sora.lang.completion.snippet.CodeSnippet;
 import java.nio.file.Path;
 import java.time.Duration;

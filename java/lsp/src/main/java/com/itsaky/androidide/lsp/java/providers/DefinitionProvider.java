@@ -15,24 +15,24 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers;
+package com.itsaky.tom.rv2ide.lsp.java.providers;
 
 import android.text.TextUtils;
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.lsp.api.IServerSettings;
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService;
-import com.itsaky.androidide.lsp.java.compiler.SynchronizedTask;
-import com.itsaky.androidide.lsp.java.providers.definition.ErroneousDefinitionProvider;
-import com.itsaky.androidide.lsp.java.providers.definition.IJavaDefinitionProvider;
-import com.itsaky.androidide.lsp.java.providers.definition.LocalDefinitionProvider;
-import com.itsaky.androidide.lsp.java.providers.definition.RemoteDefinitionProvider;
-import com.itsaky.androidide.lsp.java.utils.NavigationHelper;
-import com.itsaky.androidide.lsp.models.DefinitionParams;
-import com.itsaky.androidide.lsp.models.DefinitionResult;
-import com.itsaky.androidide.models.Location;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.progress.ICancelChecker;
-import com.itsaky.androidide.utils.DocumentUtils;
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.SynchronizedTask;
+import com.itsaky.tom.rv2ide.lsp.java.providers.definition.ErroneousDefinitionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.providers.definition.IJavaDefinitionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.providers.definition.LocalDefinitionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.providers.definition.RemoteDefinitionProvider;
+import com.itsaky.tom.rv2ide.lsp.java.utils.NavigationHelper;
+import com.itsaky.tom.rv2ide.lsp.models.DefinitionParams;
+import com.itsaky.tom.rv2ide.lsp.models.DefinitionResult;
+import com.itsaky.tom.rv2ide.models.Location;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.progress.ICancelChecker;
+import com.itsaky.tom.rv2ide.utils.DocumentUtils;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Collections;

@@ -15,30 +15,30 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.progress
+package com.itsaky.tom.rv2ide.tooling.impl.progress
 
-import com.itsaky.androidide.tooling.events.StatusEvent
-import com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationOperationResult.PluginApplicationResult
-import com.itsaky.androidide.tooling.events.download.FileDownloadFinishEvent
-import com.itsaky.androidide.tooling.events.download.FileDownloadProgressEvent
-import com.itsaky.androidide.tooling.events.download.FileDownloadStartEvent
-import com.itsaky.androidide.tooling.events.internal.DefaultFinishEvent
-import com.itsaky.androidide.tooling.events.internal.DefaultOperationDescriptor
-import com.itsaky.androidide.tooling.events.internal.DefaultOperationResult
-import com.itsaky.androidide.tooling.events.internal.DefaultProgressEvent
-import com.itsaky.androidide.tooling.events.internal.DefaultStartEvent
-import com.itsaky.androidide.tooling.events.task.TaskFinishEvent
-import com.itsaky.androidide.tooling.events.task.TaskProgressEvent
-import com.itsaky.androidide.tooling.events.task.TaskStartEvent
-import com.itsaky.androidide.tooling.events.transform.TransformFinishEvent
-import com.itsaky.androidide.tooling.events.transform.TransformOperationDescriptor.SubjectDescriptor
-import com.itsaky.androidide.tooling.events.transform.TransformOperationResult
-import com.itsaky.androidide.tooling.events.transform.TransformStartEvent
-import com.itsaky.androidide.tooling.events.work.WorkItemFinishEvent
-import com.itsaky.androidide.tooling.events.work.WorkItemOperationResult
-import com.itsaky.androidide.tooling.events.work.WorkItemProgressEvent
-import com.itsaky.androidide.tooling.events.work.WorkItemStartEvent
-import com.itsaky.androidide.tooling.model.PluginIdentifier
+import com.itsaky.tom.rv2ide.tooling.events.StatusEvent
+import com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationOperationResult.PluginApplicationResult
+import com.itsaky.tom.rv2ide.tooling.events.download.FileDownloadFinishEvent
+import com.itsaky.tom.rv2ide.tooling.events.download.FileDownloadProgressEvent
+import com.itsaky.tom.rv2ide.tooling.events.download.FileDownloadStartEvent
+import com.itsaky.tom.rv2ide.tooling.events.internal.DefaultFinishEvent
+import com.itsaky.tom.rv2ide.tooling.events.internal.DefaultOperationDescriptor
+import com.itsaky.tom.rv2ide.tooling.events.internal.DefaultOperationResult
+import com.itsaky.tom.rv2ide.tooling.events.internal.DefaultProgressEvent
+import com.itsaky.tom.rv2ide.tooling.events.internal.DefaultStartEvent
+import com.itsaky.tom.rv2ide.tooling.events.task.TaskFinishEvent
+import com.itsaky.tom.rv2ide.tooling.events.task.TaskProgressEvent
+import com.itsaky.tom.rv2ide.tooling.events.task.TaskStartEvent
+import com.itsaky.tom.rv2ide.tooling.events.transform.TransformFinishEvent
+import com.itsaky.tom.rv2ide.tooling.events.transform.TransformOperationDescriptor.SubjectDescriptor
+import com.itsaky.tom.rv2ide.tooling.events.transform.TransformOperationResult
+import com.itsaky.tom.rv2ide.tooling.events.transform.TransformStartEvent
+import com.itsaky.tom.rv2ide.tooling.events.work.WorkItemFinishEvent
+import com.itsaky.tom.rv2ide.tooling.events.work.WorkItemOperationResult
+import com.itsaky.tom.rv2ide.tooling.events.work.WorkItemProgressEvent
+import com.itsaky.tom.rv2ide.tooling.events.work.WorkItemStartEvent
+import com.itsaky.tom.rv2ide.tooling.model.PluginIdentifier
 import org.gradle.tooling.events.OperationDescriptor
 import org.gradle.tooling.events.ProgressEvent
 import org.gradle.tooling.events.configuration.ProjectConfigurationFinishEvent
@@ -68,7 +68,7 @@ class EventTransformer {
     // ------------------------ COMMON -------------------------
     private fun operationDescriptor(
         descriptor: OperationDescriptor?
-    ): com.itsaky.androidide.tooling.events.OperationDescriptor? =
+    ): com.itsaky.tom.rv2ide.tooling.events.OperationDescriptor? =
         when (descriptor) {
           null -> null
           is ProjectConfigurationOperationDescriptor -> projectConfigurationDescriptor(descriptor)
@@ -87,8 +87,8 @@ class EventTransformer {
     @JvmStatic
     fun projectConfigurationStart(
         event: ProjectConfigurationStartEvent
-    ): com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationProgressEvent =
-        com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationStartEvent(
+    ): com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationProgressEvent =
+        com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationStartEvent(
             displayName = event.displayName,
             eventTime = event.eventTime,
             descriptor = projectConfigurationDescriptor(event.descriptor),
@@ -97,8 +97,8 @@ class EventTransformer {
     @JvmStatic
     fun projectConfigurationProgress(
         event: ProjectConfigurationProgressEvent
-    ): com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationProgressEvent =
-        com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationProgressEvent(
+    ): com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationProgressEvent =
+        com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationProgressEvent(
             displayName = event.displayName,
             eventTime = event.eventTime,
             descriptor = projectConfigurationDescriptor(event.descriptor),
@@ -107,8 +107,8 @@ class EventTransformer {
     @JvmStatic
     fun projectConfigurationFinish(
         event: ProjectConfigurationFinishEvent
-    ): com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationProgressEvent =
-        com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationFinishEvent(
+    ): com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationProgressEvent =
+        com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationFinishEvent(
             displayName = event.displayName,
             eventTime = event.eventTime,
             descriptor = projectConfigurationDescriptor(event.descriptor),
@@ -117,8 +117,8 @@ class EventTransformer {
 
     private fun projectConfigurationResult(
         result: ProjectConfigurationOperationResult
-    ): com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationOperationResult =
-        com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationOperationResult(
+    ): com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationOperationResult =
+        com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationOperationResult(
             pluginApplicationResults =
                 result.pluginApplicationResults.map {
                   PluginApplicationResult(
@@ -133,8 +133,8 @@ class EventTransformer {
 
     private fun projectConfigurationDescriptor(
         descriptor: ProjectConfigurationOperationDescriptor
-    ): com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationOperationDescriptor =
-        com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationOperationDescriptor(
+    ): com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationOperationDescriptor =
+        com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationOperationDescriptor(
             project = projectIdentifier(descriptor.project),
             name = descriptor.name,
             displayName = descriptor.displayName,
@@ -142,11 +142,11 @@ class EventTransformer {
 
     private fun projectIdentifier(
         project: ProjectIdentifier
-    ): com.itsaky.androidide.tooling.model.ProjectIdentifier =
-        com.itsaky.androidide.tooling.model.ProjectIdentifier(
+    ): com.itsaky.tom.rv2ide.tooling.model.ProjectIdentifier =
+        com.itsaky.tom.rv2ide.tooling.model.ProjectIdentifier(
             projectPath = project.projectPath,
             buildIdentifier =
-                com.itsaky.androidide.tooling.model.BuildIdentifier(project.buildIdentifier.rootDir),
+                com.itsaky.tom.rv2ide.tooling.model.BuildIdentifier(project.buildIdentifier.rootDir),
         )
 
     // ---------------------- FILE DOWNLOAD ---------------------------------
@@ -183,8 +183,8 @@ class EventTransformer {
 
     private fun fileDownloadResult(
         result: FileDownloadResult
-    ): com.itsaky.androidide.tooling.events.download.FileDownloadResult =
-        com.itsaky.androidide.tooling.events.download.FileDownloadResult(
+    ): com.itsaky.tom.rv2ide.tooling.events.download.FileDownloadResult =
+        com.itsaky.tom.rv2ide.tooling.events.download.FileDownloadResult(
             bytesDownloaded = result.bytesDownloaded,
             startTime = result.startTime,
             endTime = result.endTime,
@@ -192,8 +192,8 @@ class EventTransformer {
 
     private fun fileDownloadDescriptor(
         descriptor: FileDownloadOperationDescriptor
-    ): com.itsaky.androidide.tooling.events.download.FileDownloadOperationDescriptor =
-        com.itsaky.androidide.tooling.events.download.FileDownloadOperationDescriptor(
+    ): com.itsaky.tom.rv2ide.tooling.events.download.FileDownloadOperationDescriptor =
+        com.itsaky.tom.rv2ide.tooling.events.download.FileDownloadOperationDescriptor(
             descriptor.uri,
             descriptor.name,
             descriptor.displayName,
@@ -227,12 +227,12 @@ class EventTransformer {
 
     private fun taskResult(
         result: TaskOperationResult
-    ): com.itsaky.androidide.tooling.events.task.TaskOperationResult {
+    ): com.itsaky.tom.rv2ide.tooling.events.task.TaskOperationResult {
 
       // The order of conditions must not change here.
 
       if (result is TaskSuccessResult) {
-        return com.itsaky.androidide.tooling.events.task.TaskSuccessResult(
+        return com.itsaky.tom.rv2ide.tooling.events.task.TaskSuccessResult(
             result.isUpToDate,
             result.isFromCache,
             result.startTime,
@@ -243,14 +243,14 @@ class EventTransformer {
       }
 
       if (result is TaskFailureResult) {
-        return com.itsaky.androidide.tooling.events.task.TaskFailureResult(
+        return com.itsaky.tom.rv2ide.tooling.events.task.TaskFailureResult(
             result.startTime,
             result.endTime,
         )
       }
 
       if (result is TaskExecutionResult) {
-        return com.itsaky.androidide.tooling.events.task.TaskExecutionResult(
+        return com.itsaky.tom.rv2ide.tooling.events.task.TaskExecutionResult(
             result.startTime,
             result.endTime,
             result.isIncremental,
@@ -259,14 +259,14 @@ class EventTransformer {
       }
 
       if (result is TaskSkippedResult) {
-        return com.itsaky.androidide.tooling.events.task.TaskSkippedResult(
+        return com.itsaky.tom.rv2ide.tooling.events.task.TaskSkippedResult(
             result.skipMessage,
             result.startTime,
             result.endTime,
         )
       }
 
-      return com.itsaky.androidide.tooling.events.task.TaskOperationResult(
+      return com.itsaky.tom.rv2ide.tooling.events.task.TaskOperationResult(
           startTime = result.startTime,
           endTime = result.endTime,
       )
@@ -274,8 +274,8 @@ class EventTransformer {
 
     private fun taskDescriptor(
         descriptor: TaskOperationDescriptor
-    ): com.itsaky.androidide.tooling.events.task.TaskOperationDescriptor =
-        com.itsaky.androidide.tooling.events.task.TaskOperationDescriptor(
+    ): com.itsaky.tom.rv2ide.tooling.events.task.TaskOperationDescriptor =
+        com.itsaky.tom.rv2ide.tooling.events.task.TaskOperationDescriptor(
             dependencies =
                 descriptor.dependencies
                     .filterNotNull()
@@ -331,13 +331,13 @@ class EventTransformer {
 
     private fun transformDescriptor(
         descriptor: TransformOperationDescriptor
-    ): com.itsaky.androidide.tooling.events.transform.TransformOperationDescriptor =
-        com.itsaky.androidide.tooling.events.transform.TransformOperationDescriptor(
+    ): com.itsaky.tom.rv2ide.tooling.events.transform.TransformOperationDescriptor =
+        com.itsaky.tom.rv2ide.tooling.events.transform.TransformOperationDescriptor(
             name = descriptor.name,
             displayName = descriptor.displayName,
             subject = SubjectDescriptor(descriptor.subject.displayName),
             transformer =
-                com.itsaky.androidide.tooling.events.transform.TransformOperationDescriptor
+                com.itsaky.tom.rv2ide.tooling.events.transform.TransformOperationDescriptor
                     .TransformerDescriptor(descriptor.transformer.displayName),
             dependencies = descriptor.dependencies.mapNotNull { operationDescriptor(it) }.toSet(),
         )
@@ -381,8 +381,8 @@ class EventTransformer {
 
     private fun workDescriptor(
         descriptor: WorkItemOperationDescriptor
-    ): com.itsaky.androidide.tooling.events.work.WorkItemOperationDescriptor =
-        com.itsaky.androidide.tooling.events.work.WorkItemOperationDescriptor(
+    ): com.itsaky.tom.rv2ide.tooling.events.work.WorkItemOperationDescriptor =
+        com.itsaky.tom.rv2ide.tooling.events.work.WorkItemOperationDescriptor(
             name = descriptor.name,
             displayName = descriptor.displayName,
             className = descriptor.className,
@@ -400,7 +400,7 @@ class EventTransformer {
         )
 
     // ----------------------- DEFAULT ----------------------------------
-    fun progress(event: ProgressEvent): com.itsaky.androidide.tooling.events.ProgressEvent =
+    fun progress(event: ProgressEvent): com.itsaky.tom.rv2ide.tooling.events.ProgressEvent =
         DefaultProgressEvent(
             eventTime = event.eventTime,
             displayName = event.displayName,
@@ -409,7 +409,7 @@ class EventTransformer {
 
     fun start(
         event: org.gradle.tooling.events.StartEvent
-    ): com.itsaky.androidide.tooling.events.ProgressEvent =
+    ): com.itsaky.tom.rv2ide.tooling.events.ProgressEvent =
         DefaultStartEvent(
             eventTime = event.eventTime,
             displayName = event.displayName,
@@ -418,7 +418,7 @@ class EventTransformer {
 
     fun finish(
         event: org.gradle.tooling.events.FinishEvent
-    ): com.itsaky.androidide.tooling.events.ProgressEvent =
+    ): com.itsaky.tom.rv2ide.tooling.events.ProgressEvent =
         DefaultFinishEvent(
             eventTime = event.eventTime,
             displayName = event.displayName,

@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.actions.generators
+package com.itsaky.tom.rv2ide.lsp.java.actions.generators
 
 import android.content.Context
 import com.blankj.utilcode.util.ThreadUtils
@@ -25,20 +25,20 @@ import com.github.javaparser.ast.expr.SimpleName
 import com.github.javaparser.ast.stmt.BlockStmt
 import com.github.javaparser.ast.type.Type
 import com.github.javaparser.ast.type.VoidType
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.requireFile
-import com.itsaky.androidide.actions.requirePath
-import com.itsaky.androidide.lsp.java.JavaCompilerProvider
-import com.itsaky.androidide.lsp.java.actions.FieldBasedAction
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.utils.EditHelper
-import com.itsaky.androidide.lsp.java.utils.JavaParserUtils
-import com.itsaky.androidide.lsp.java.utils.TypeUtils.toType
-import com.itsaky.androidide.preferences.internal.EditorPreferences
-import com.itsaky.androidide.preferences.utils.indentationString
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.requireFile
+import com.itsaky.tom.rv2ide.actions.requirePath
+import com.itsaky.tom.rv2ide.lsp.java.JavaCompilerProvider
+import com.itsaky.tom.rv2ide.lsp.java.actions.FieldBasedAction
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.utils.EditHelper
+import com.itsaky.tom.rv2ide.lsp.java.utils.JavaParserUtils
+import com.itsaky.tom.rv2ide.lsp.java.utils.TypeUtils.toType
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences
+import com.itsaky.tom.rv2ide.preferences.utils.indentationString
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.flashError
 import io.github.rosemoe.sora.widget.CodeEditor
 import java.util.concurrent.CompletableFuture
 import jdkx.lang.model.element.Modifier.FINAL
@@ -94,7 +94,7 @@ class GenerateSettersAndGettersAction : FieldBasedAction() {
                 .getWorkspace()
                 ?.findModuleForFile(data.requireFile(), false) ?: return
         )
-    val range = data[com.itsaky.androidide.models.Range::class.java]!!
+    val range = data[com.itsaky.tom.rv2ide.models.Range::class.java]!!
     val file = data.requirePath()
 
     compiler.compile(file).run { task ->

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.aapt.logging
+package com.itsaky.tom.rv2ide.aapt.logging
 
 import com.android.utils.StdLogger
 import com.android.utils.StdLogger.Level.VERBOSE

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.annotations.ksp.inflater
+package com.itsaky.tom.rv2ide.annotations.ksp.inflater
 
 import com.google.devtools.ksp.containingFile
 import com.google.devtools.ksp.isOpen
@@ -27,7 +27,7 @@ import com.google.devtools.ksp.processing.SymbolProcessor
 import com.google.devtools.ksp.symbol.KSAnnotated
 import com.google.devtools.ksp.symbol.KSClassDeclaration
 import com.google.devtools.ksp.symbol.KSFile
-import com.itsaky.androidide.annotations.inflater.ViewAdapter
+import com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter
 
 /**
  * [SymbolProcessor] for [ViewAdapter] annotations.

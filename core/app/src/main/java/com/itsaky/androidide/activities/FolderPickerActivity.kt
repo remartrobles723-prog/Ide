@@ -1,4 +1,4 @@
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.app.Activity
 import android.content.Intent

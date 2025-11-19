@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.log
+package com.itsaky.tom.rv2ide.services.log
 
-import com.itsaky.androidide.logsender.socket.SenderInfoCommand
-import com.itsaky.androidide.models.LogLine
+import com.itsaky.tom.rv2ide.logsender.socket.SenderInfoCommand
+import com.itsaky.tom.rv2ide.models.LogLine
 import java.net.Socket
 import java.net.SocketException
 import kotlinx.coroutines.CancellationException

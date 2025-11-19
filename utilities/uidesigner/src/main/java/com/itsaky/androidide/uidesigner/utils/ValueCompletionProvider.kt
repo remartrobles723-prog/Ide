@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
 import android.text.Editable
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.inflater.internal.ViewImpl
-import com.itsaky.androidide.lsp.util.setupLookupForCompletion
-import com.itsaky.androidide.lsp.xml.models.XMLServerSettings
-import com.itsaky.androidide.lsp.xml.providers.XmlCompletionProvider
-import com.itsaky.androidide.lsp.xml.providers.completion.AttrValueCompletionProvider
-import com.itsaky.androidide.utils.SingleTextWatcher
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.lsp.util.setupLookupForCompletion
+import com.itsaky.tom.rv2ide.lsp.xml.models.XMLServerSettings
+import com.itsaky.tom.rv2ide.lsp.xml.providers.XmlCompletionProvider
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.AttrValueCompletionProvider
+import com.itsaky.tom.rv2ide.utils.SingleTextWatcher
 import java.io.File
 import org.slf4j.LoggerFactory
 
@@ -36,7 +36,7 @@ import org.slf4j.LoggerFactory
 internal class ValueCompletionProvider(
     private val file: File,
     private val view: ViewImpl,
-    private val attribute: com.itsaky.androidide.inflater.IAttribute,
+    private val attribute: com.itsaky.tom.rv2ide.inflater.IAttribute,
     private val onComplete: (List<String>) -> Unit,
 ) : SingleTextWatcher() {
 
@@ -77,7 +77,7 @@ internal class ValueCompletionProvider(
   ) : Thread("AttributeValueCompletionThread") {
 
     var prefix: String = ""
-    var attribute: com.itsaky.androidide.inflater.IAttribute? = null
+    var attribute: com.itsaky.tom.rv2ide.inflater.IAttribute? = null
 
     companion object {
 

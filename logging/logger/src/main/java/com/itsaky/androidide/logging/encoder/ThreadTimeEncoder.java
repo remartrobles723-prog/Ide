@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logging.encoder;
+package com.itsaky.tom.rv2ide.logging.encoder;
 
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.encoder.EncoderBase;
-import com.itsaky.androidide.logging.utils.LogUtils;
+import com.itsaky.tom.rv2ide.logging.utils.LogUtils;
 import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.Date;

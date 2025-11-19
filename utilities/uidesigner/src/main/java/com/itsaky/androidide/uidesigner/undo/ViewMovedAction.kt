@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.undo
+package com.itsaky.tom.rv2ide.uidesigner.undo
 
 /**
  * Represents the action when the user moves a view from one view group to another.
@@ -23,9 +23,9 @@ package com.itsaky.androidide.uidesigner.undo
  * @author Akash Yadav
  */
 class ViewMovedAction(
-    private val child: com.itsaky.androidide.inflater.IView,
-    private val fromParent: com.itsaky.androidide.inflater.IViewGroup,
-    private val toParent: com.itsaky.androidide.inflater.IViewGroup,
+    private val child: com.itsaky.tom.rv2ide.inflater.IView,
+    private val fromParent: com.itsaky.tom.rv2ide.inflater.IViewGroup,
+    private val toParent: com.itsaky.tom.rv2ide.inflater.IViewGroup,
     private val fromIndex: Int,
     private val toIndex: Int,
 ) : IUiAction {

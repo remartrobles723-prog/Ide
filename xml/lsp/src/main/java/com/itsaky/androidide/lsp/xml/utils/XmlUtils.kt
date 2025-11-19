@@ -14,13 +14,13 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.xml.utils
+package com.itsaky.tom.rv2ide.lsp.xml.utils
 
-import com.itsaky.androidide.lexers.xml.XMLLexer
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType.ATTRIBUTE
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType.ATTRIBUTE_VALUE
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType.TAG
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType.UNKNOWN
+import com.itsaky.tom.rv2ide.lexers.xml.XMLLexer
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType.ATTRIBUTE
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType.ATTRIBUTE_VALUE
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType.TAG
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType.UNKNOWN
 import org.antlr.v4.runtime.CharStreams
 import org.antlr.v4.runtime.Token
 import org.eclipse.lemminx.dom.DOMDocument

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.sidebar
+package com.itsaky.tom.rv2ide.fragments.sidebar
 
 import android.content.Intent
 import android.os.Bundle
@@ -23,8 +23,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.itsaky.androidide.activities.AssetStudioActivity
-import com.itsaky.androidide.databinding.FragmentAssetStudioBinding
+import com.itsaky.tom.rv2ide.activities.AssetStudioActivity
+import com.itsaky.tom.rv2ide.databinding.FragmentAssetStudioBinding
 
 /**
  * Fragment for the Asset Studio sidebar. Provides quick access to asset creation tools.

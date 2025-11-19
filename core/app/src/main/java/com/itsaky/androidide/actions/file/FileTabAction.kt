@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.file
+package com.itsaky.tom.rv2ide.actions.file
 
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem.Location
-import com.itsaky.androidide.actions.ActionItem.Location.EDITOR_FILE_TABS
-import com.itsaky.androidide.actions.EditorActivityAction
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.activities.editor.EditorHandlerActivity
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem.Location
+import com.itsaky.tom.rv2ide.actions.ActionItem.Location.EDITOR_FILE_TABS
+import com.itsaky.tom.rv2ide.actions.EditorActivityAction
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity
 
 /**
  * Action related to file tabs. Shown only when there is at least one file opened.

@@ -1,11 +1,11 @@
-package com.itsaky.androidide.fragments.onboarding
+package com.itsaky.tom.rv2ide.fragments.onboarding
 
 import android.content.Context
 import android.os.Bundle
 import android.view.ViewGroup
-import com.itsaky.androidide.R
-import com.itsaky.androidide.app.IDEApplication
-import com.itsaky.androidide.databinding.LayoutOnboardingStatisticsBinding
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.app.IDEApplication
+import com.itsaky.tom.rv2ide.databinding.LayoutOnboardingStatisticsBinding
 
 class StatisticsFragment : OnboardingFragment() {
 
@@ -44,7 +44,7 @@ class StatisticsFragment : OnboardingFragment() {
   }
 
   fun updateStatOptInStatus() {
-    com.itsaky.androidide.preferences.internal.StatPreferences.statOptIn =
+    com.itsaky.tom.rv2ide.preferences.internal.StatPreferences.statOptIn =
         _content?.statOptIn?.isChecked ?: false
 
     IDEApplication.instance.reportStatsIfNecessary()

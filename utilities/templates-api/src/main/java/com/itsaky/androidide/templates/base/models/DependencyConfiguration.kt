@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.models
+package com.itsaky.tom.rv2ide.templates.base.models
 
 enum class DependencyConfiguration(val configName: String) {
   Api("api"),

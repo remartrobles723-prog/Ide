@@ -15,17 +15,17 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.models
+package com.itsaky.tom.rv2ide.lsp.java.models
 
-import com.itsaky.androidide.lsp.edits.IEditHandler
-import com.itsaky.androidide.lsp.java.edits.BaseJavaEditHandler
-import com.itsaky.androidide.lsp.models.Command
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionItemKind
-import com.itsaky.androidide.lsp.models.ICompletionData
-import com.itsaky.androidide.lsp.models.InsertTextFormat
-import com.itsaky.androidide.lsp.models.MatchLevel
-import com.itsaky.androidide.lsp.models.TextEdit
+import com.itsaky.tom.rv2ide.lsp.edits.IEditHandler
+import com.itsaky.tom.rv2ide.lsp.java.edits.BaseJavaEditHandler
+import com.itsaky.tom.rv2ide.lsp.models.Command
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind
+import com.itsaky.tom.rv2ide.lsp.models.ICompletionData
+import com.itsaky.tom.rv2ide.lsp.models.InsertTextFormat
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit
 
 /**
  * Completion item model for java completion items.

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.vectormaster.utilities.parser;
+package com.itsaky.tom.rv2ide.inflater.vectormaster.utilities.parser;
 
 /*
 

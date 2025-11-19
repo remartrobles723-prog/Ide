@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.android.navigation.bottom
+package com.itsaky.tom.rv2ide.templates.android.navigation.bottom
 
 /*
  * @author Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null

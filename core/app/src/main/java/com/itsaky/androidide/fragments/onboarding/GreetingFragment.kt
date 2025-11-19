@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.onboarding
+package com.itsaky.tom.rv2ide.fragments.onboarding
 
-import com.itsaky.androidide.databinding.FragmentOnboardingGreetingBinding
-import com.itsaky.androidide.fragments.FragmentWithBinding
+import com.itsaky.tom.rv2ide.databinding.FragmentOnboardingGreetingBinding
+import com.itsaky.tom.rv2ide.fragments.FragmentWithBinding
 
 /** @author Akash Yadav */
 class GreetingFragment :

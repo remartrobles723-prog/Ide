@@ -32,12 +32,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.utils;
+package com.itsaky.tom.rv2ide.lsp.java.utils;
 
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.lsp.java.compiler.CompileTask;
-import com.itsaky.androidide.lsp.java.visitors.FindNameAt;
-import com.itsaky.androidide.progress.ICancelChecker;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindNameAt;
+import com.itsaky.tom.rv2ide.progress.ICancelChecker;
 import java.nio.file.Path;
 import jdkx.lang.model.element.Element;
 import jdkx.lang.model.element.Modifier;

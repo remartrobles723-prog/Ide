@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion
 
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.lsp.models.CompletionItem.Companion.matchLevel
-import com.itsaky.androidide.lsp.models.MatchLevel
-import com.itsaky.androidide.lsp.models.MatchLevel.NO_MATCH
-import com.itsaky.androidide.xml.res.IResourceTable
-import com.itsaky.androidide.xml.resources.ResourceTableRegistry
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem.Companion.matchLevel
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.NO_MATCH
+import com.itsaky.tom.rv2ide.xml.res.IResourceTable
+import com.itsaky.tom.rv2ide.xml.resources.ResourceTableRegistry
 import org.eclipse.lemminx.dom.DOMNode
 import kotlin.math.min
 

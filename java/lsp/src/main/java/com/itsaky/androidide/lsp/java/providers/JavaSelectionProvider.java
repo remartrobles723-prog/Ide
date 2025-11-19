@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers;
+package com.itsaky.tom.rv2ide.lsp.java.providers;
 
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.lsp.java.compiler.CompilerProvider;
-import com.itsaky.androidide.lsp.java.visitors.FindBiggerRange;
-import com.itsaky.androidide.lsp.models.ExpandSelectionParams;
-import com.itsaky.androidide.models.Range;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompilerProvider;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindBiggerRange;
+import com.itsaky.tom.rv2ide.lsp.models.ExpandSelectionParams;
+import com.itsaky.tom.rv2ide.models.Range;
 import openjdk.source.tree.CompilationUnitTree;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

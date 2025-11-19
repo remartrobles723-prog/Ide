@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui;
+package com.itsaky.tom.rv2ide.editor.ui;
 
 import static android.view.View.MeasureSpec.AT_MOST;
 import static android.view.View.MeasureSpec.makeMeasureSpec;
@@ -29,8 +29,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.resources.R;
-import com.itsaky.androidide.utils.ResourceUtilsKt;
+import com.itsaky.tom.rv2ide.resources.R;
+import com.itsaky.tom.rv2ide.utils.ResourceUtilsKt;
 import io.github.rosemoe.sora.widget.base.EditorPopupWindow;
 
 /**

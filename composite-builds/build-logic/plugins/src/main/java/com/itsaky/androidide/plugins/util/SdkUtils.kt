@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins.util
+package com.itsaky.tom.rv2ide.plugins.util
 
-import com.itsaky.androidide.build.config.BuildConfig
+import com.itsaky.tom.rv2ide.build.config.BuildConfig
 import com.android.build.api.variant.AndroidComponentsExtension
 import java.io.File
 

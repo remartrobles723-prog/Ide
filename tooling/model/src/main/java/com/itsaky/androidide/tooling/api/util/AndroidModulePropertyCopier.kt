@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.util
+package com.itsaky.tom.rv2ide.tooling.api.util
 
 import com.android.builder.model.v2.CustomSourceDirectory
 import com.android.builder.model.v2.ide.AndroidGradlePluginProjectFlags
@@ -34,22 +34,22 @@ import com.android.builder.model.v2.ide.SyncIssue
 import com.android.builder.model.v2.ide.UnresolvedDependency
 import com.android.builder.model.v2.ide.ViewBindingOptions
 import com.android.builder.model.v2.models.ProjectSyncIssues
-import com.itsaky.androidide.builder.model.DefaultAndroidGradlePluginProjectFlags
-import com.itsaky.androidide.builder.model.DefaultAndroidLibraryData
-import com.itsaky.androidide.builder.model.DefaultApiVersion
-import com.itsaky.androidide.builder.model.DefaultArtifactDependencies
-import com.itsaky.androidide.builder.model.DefaultCustomSourceDirectory
-import com.itsaky.androidide.builder.model.DefaultGraphItem
-import com.itsaky.androidide.builder.model.DefaultJavaCompileOptions
-import com.itsaky.androidide.builder.model.DefaultLibrary
-import com.itsaky.androidide.builder.model.DefaultLibraryInfo
-import com.itsaky.androidide.builder.model.DefaultProjectInfo
-import com.itsaky.androidide.builder.model.DefaultProjectSyncIssues
-import com.itsaky.androidide.builder.model.DefaultSourceProvider
-import com.itsaky.androidide.builder.model.DefaultSourceSetContainer
-import com.itsaky.androidide.builder.model.DefaultSyncIssue
-import com.itsaky.androidide.builder.model.DefaultUnresolvedDependency
-import com.itsaky.androidide.builder.model.DefaultViewBindingOptions
+import com.itsaky.tom.rv2ide.builder.model.DefaultAndroidGradlePluginProjectFlags
+import com.itsaky.tom.rv2ide.builder.model.DefaultAndroidLibraryData
+import com.itsaky.tom.rv2ide.builder.model.DefaultApiVersion
+import com.itsaky.tom.rv2ide.builder.model.DefaultArtifactDependencies
+import com.itsaky.tom.rv2ide.builder.model.DefaultCustomSourceDirectory
+import com.itsaky.tom.rv2ide.builder.model.DefaultGraphItem
+import com.itsaky.tom.rv2ide.builder.model.DefaultJavaCompileOptions
+import com.itsaky.tom.rv2ide.builder.model.DefaultLibrary
+import com.itsaky.tom.rv2ide.builder.model.DefaultLibraryInfo
+import com.itsaky.tom.rv2ide.builder.model.DefaultProjectInfo
+import com.itsaky.tom.rv2ide.builder.model.DefaultProjectSyncIssues
+import com.itsaky.tom.rv2ide.builder.model.DefaultSourceProvider
+import com.itsaky.tom.rv2ide.builder.model.DefaultSourceSetContainer
+import com.itsaky.tom.rv2ide.builder.model.DefaultSyncIssue
+import com.itsaky.tom.rv2ide.builder.model.DefaultUnresolvedDependency
+import com.itsaky.tom.rv2ide.builder.model.DefaultViewBindingOptions
 
 /**
  * As the data is sent over streams, and the instances of properties specified in [AndroidModule]

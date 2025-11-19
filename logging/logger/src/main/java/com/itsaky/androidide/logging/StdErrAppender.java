@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logging;
+package com.itsaky.tom.rv2ide.logging;
 
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.UnsynchronizedAppenderBase;
 import ch.qos.logback.core.encoder.Encoder;
-import com.itsaky.androidide.logging.encoder.ThreadTimeEncoder;
+import com.itsaky.tom.rv2ide.logging.encoder.ThreadTimeEncoder;
 import java.io.IOException;
 import java.util.Objects;
 

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.api;
+package com.itsaky.tom.rv2ide.lsp.api;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

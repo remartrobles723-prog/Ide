@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.snippets
+package com.itsaky.tom.rv2ide.lsp.snippets
 
 /**
  * Marker interface for snippet scopes.

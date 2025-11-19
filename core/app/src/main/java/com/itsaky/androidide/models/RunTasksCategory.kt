@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.models
+package com.itsaky.tom.rv2ide.models
 
 import androidx.annotation.StringRes
-import com.itsaky.androidide.tooling.api.models.GradleTask
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleTask
 
 /** @author Akash Yadav */
 data class RunTasksCategory(@StringRes val title: Int, val tasks: List<Checkable<GradleTask>>)

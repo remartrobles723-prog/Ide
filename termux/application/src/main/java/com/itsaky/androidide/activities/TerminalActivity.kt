@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.content.ComponentName
 import android.content.Intent
@@ -25,10 +25,10 @@ import android.util.Log
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
-import com.itsaky.androidide.terminal.IdeTerminalSessionClient
-import com.itsaky.androidide.terminal.IdesetupSession
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.terminal.IdeTerminalSessionClient
+import com.itsaky.tom.rv2ide.terminal.IdesetupSession
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.flashError
 import com.termux.R
 import com.termux.app.TermuxActivity
 import com.termux.app.terminal.TermuxTerminalSessionActivityClient

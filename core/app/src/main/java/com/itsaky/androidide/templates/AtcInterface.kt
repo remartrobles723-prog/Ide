@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-package com.itsaky.androidide.templates
+package com.itsaky.tom.rv2ide.templates
 
 import android.content.Context
 import android.view.ViewGroup
@@ -26,9 +26,9 @@ import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.card.MaterialCardView
 import com.google.android.material.color.MaterialColors
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.templates.android.Template
-import com.itsaky.androidide.templates.android.TemplateRegistry
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.templates.android.Template
+import com.itsaky.tom.rv2ide.templates.android.TemplateRegistry
 
 /*
  * @author Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null

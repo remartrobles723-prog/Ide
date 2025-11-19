@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.root
+package com.itsaky.tom.rv2ide.templates.base.root
 
-import com.itsaky.androidide.templates.base.ProjectTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.ProjectTemplateBuilder
 
 internal fun ProjectTemplateBuilder.settingsGradleSrcStr(): String {
   return """

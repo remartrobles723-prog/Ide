@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.api;
+package com.itsaky.tom.rv2ide.lsp.api;
 
-import com.itsaky.androidide.lsp.models.CompletionsKt;
-import com.itsaky.androidide.preferences.internal.EditorPreferences;
+import com.itsaky.tom.rv2ide.lsp.models.CompletionsKt;
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences;
 
 /**
  * Settings contain preferences for the language server. Clients can use settings to enable/disable

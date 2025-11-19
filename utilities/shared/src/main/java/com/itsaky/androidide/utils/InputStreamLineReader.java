@@ -17,7 +17,7 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  **************************************************************************************/
-package com.itsaky.androidide.utils;
+package com.itsaky.tom.rv2ide.utils;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

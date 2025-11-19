@@ -24,7 +24,7 @@ import com.google.devtools.ksp.processing.SymbolProcessorProvider
 
 /**
  * [SymbolProcessorProvider] implementation for
- * [ViewAdapter][com.itsaky.androidide.annotations.inflater.ViewAdapter] annotation.
+ * [ViewAdapter][com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter] annotation.
  *
  * @author Akash Yadav
  */

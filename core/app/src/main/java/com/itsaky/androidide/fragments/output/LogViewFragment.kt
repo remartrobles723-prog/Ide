@@ -15,23 +15,23 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.output
+package com.itsaky.tom.rv2ide.fragments.output
 
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.R
-import com.itsaky.androidide.databinding.FragmentLogBinding
-import com.itsaky.androidide.editor.language.treesitter.LogLanguage
-import com.itsaky.androidide.editor.language.treesitter.TreeSitterLanguageProvider
-import com.itsaky.androidide.editor.schemes.IDEColorScheme
-import com.itsaky.androidide.editor.schemes.IDEColorSchemeProvider
-import com.itsaky.androidide.fragments.EmptyStateFragment
-import com.itsaky.androidide.models.LogLine
-import com.itsaky.androidide.utils.ILogger.Level
-import com.itsaky.androidide.utils.jetbrainsMono
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.databinding.FragmentLogBinding
+import com.itsaky.tom.rv2ide.editor.language.treesitter.LogLanguage
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TreeSitterLanguageProvider
+import com.itsaky.tom.rv2ide.editor.schemes.IDEColorScheme
+import com.itsaky.tom.rv2ide.editor.schemes.IDEColorSchemeProvider
+import com.itsaky.tom.rv2ide.fragments.EmptyStateFragment
+import com.itsaky.tom.rv2ide.models.LogLine
+import com.itsaky.tom.rv2ide.utils.ILogger.Level
+import com.itsaky.tom.rv2ide.utils.jetbrainsMono
 import io.github.rosemoe.sora.widget.style.CursorAnimator
 import java.util.concurrent.ArrayBlockingQueue
 import java.util.concurrent.atomic.AtomicBoolean

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter
+package com.itsaky.tom.rv2ide.editor.language.treesitter
 
 import android.content.Context
 import java.io.File

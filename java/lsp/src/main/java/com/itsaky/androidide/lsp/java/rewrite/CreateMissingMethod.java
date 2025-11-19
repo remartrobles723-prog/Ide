@@ -15,23 +15,23 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.rewrite;
+package com.itsaky.tom.rv2ide.lsp.java.rewrite;
 
-import static com.itsaky.androidide.lsp.java.utils.EditHelper.indent;
-import static com.itsaky.androidide.lsp.java.utils.EditHelper.insertAfter;
-import static com.itsaky.androidide.lsp.java.utils.EditHelper.insertAtEndOfClass;
+import static com.itsaky.tom.rv2ide.lsp.java.utils.EditHelper.indent;
+import static com.itsaky.tom.rv2ide.lsp.java.utils.EditHelper.insertAfter;
+import static com.itsaky.tom.rv2ide.lsp.java.utils.EditHelper.insertAtEndOfClass;
 
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.lsp.java.compiler.CompileTask;
-import com.itsaky.androidide.lsp.java.compiler.CompilerProvider;
-import com.itsaky.androidide.lsp.java.compiler.SynchronizedTask;
-import com.itsaky.androidide.lsp.java.utils.EditHelper;
-import com.itsaky.androidide.lsp.java.visitors.FindMethodCallAt;
-import com.itsaky.androidide.lsp.models.TextEdit;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
-import com.itsaky.androidide.preferences.internal.EditorPreferences;
-import com.itsaky.androidide.preferences.utils.EditorUtilKt;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompilerProvider;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.SynchronizedTask;
+import com.itsaky.tom.rv2ide.lsp.java.utils.EditHelper;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindMethodCallAt;
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences;
+import com.itsaky.tom.rv2ide.preferences.utils.EditorUtilKt;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Collections;

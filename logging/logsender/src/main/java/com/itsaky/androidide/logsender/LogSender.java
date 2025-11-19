@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logsender;
+package com.itsaky.tom.rv2ide.logsender;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -25,8 +25,8 @@ import android.os.IBinder;
 import android.os.Process;
 import android.os.RemoteException;
 import android.util.Log;
-import com.itsaky.androidide.logsender.utils.LogReader;
-import com.itsaky.androidide.logsender.utils.Logger;
+import com.itsaky.tom.rv2ide.logsender.utils.LogReader;
+import com.itsaky.tom.rv2ide.logsender.utils.Logger;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -51,13 +51,13 @@ public final class LogSender extends ILogSender.Stub implements ServiceConnectio
     private String packageName;
 
     /** Action for the LogSender service. */
-    public static final String SERVICE_ACTION = "com.itsaky.androidide.LOG_SERVICE_ACTION";
+    public static final String SERVICE_ACTION = "com.itsaky.tom.rv2ide.LOG_SERVICE_ACTION";
 
     /** Constant used to indicate that the package name of the application cannot be determined. */
     public static final String PACKAGE_UNKNOWN = "<unknown-package-name>";
 
     /** AndroidIDE's package name. */
-    public static final String PACKAGE_ANDROIDIDE = "com.itsaky.androidide";
+    public static final String PACKAGE_ANDROIDIDE = "com.itsaky.tom.rv2ide";
 
     LogSender() {
         this.senderId = UUID.randomUUID().toString();

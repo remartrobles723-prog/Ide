@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.fragments
+package com.itsaky.tom.rv2ide.uidesigner.fragments
 
 import androidx.transition.ChangeBounds
 import androidx.transition.TransitionManager
-import com.itsaky.androidide.inflater.IViewGroup
-import com.itsaky.androidide.inflater.viewGroup
-import com.itsaky.androidide.uidesigner.R
-import com.itsaky.androidide.uidesigner.models.PlaceholderView
-import com.itsaky.androidide.uidesigner.undo.ViewAddedAction
-import com.itsaky.androidide.uidesigner.undo.ViewMovedAction
-import com.itsaky.androidide.uidesigner.undo.ViewRemovedAction
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.inflater.IViewGroup
+import com.itsaky.tom.rv2ide.inflater.viewGroup
+import com.itsaky.tom.rv2ide.uidesigner.R
+import com.itsaky.tom.rv2ide.uidesigner.models.PlaceholderView
+import com.itsaky.tom.rv2ide.uidesigner.undo.ViewAddedAction
+import com.itsaky.tom.rv2ide.uidesigner.undo.ViewMovedAction
+import com.itsaky.tom.rv2ide.uidesigner.undo.ViewRemovedAction
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
 
 /**
  * Handles hierarchy changes in [DesignerWorkspaceFragment].
@@ -54,7 +54,7 @@ internal class WorkspaceViewHierarchyHandler : IViewGroup.SingleOnHierarchyChang
   }
 
   private fun pushAction(
-      view: com.itsaky.androidide.inflater.IView,
+      view: com.itsaky.tom.rv2ide.inflater.IView,
       parent: IViewGroup,
       index: Int,
       added: Boolean,
@@ -81,19 +81,19 @@ internal class WorkspaceViewHierarchyHandler : IViewGroup.SingleOnHierarchyChang
     frag.requireActivity().invalidateOptionsMenu()
   }
 
-  override fun beforeViewAdded(group: IViewGroup, view: com.itsaky.androidide.inflater.IView, index: Int) {
+  override fun beforeViewAdded(group: IViewGroup, view: com.itsaky.tom.rv2ide.inflater.IView, index: Int) {
     animateLayoutChange()
   }
 
   override fun beforeViewRemoved(
       group: IViewGroup,
-      view: com.itsaky.androidide.inflater.IView,
+      view: com.itsaky.tom.rv2ide.inflater.IView,
       index: Int,
   ) {
     animateLayoutChange()
   }
 
-  override fun onViewAdded(group: IViewGroup, view: com.itsaky.androidide.inflater.IView, index: Int) {
+  override fun onViewAdded(group: IViewGroup, view: com.itsaky.tom.rv2ide.inflater.IView, index: Int) {
     val frag = this.fragment ?: return
     if (!frag.isInflating && view !is PlaceholderView) {
       // when the inflation process is in progress, setupView method will be called
@@ -116,7 +116,7 @@ internal class WorkspaceViewHierarchyHandler : IViewGroup.SingleOnHierarchyChang
     pushAction(view, group, index, true)
   }
 
-  override fun onViewRemoved(group: IViewGroup, view: com.itsaky.androidide.inflater.IView, index: Int) {
+  override fun onViewRemoved(group: IViewGroup, view: com.itsaky.tom.rv2ide.inflater.IView, index: Int) {
     val frag = this.fragment ?: return
     if (frag.workspaceView.viewGroup.childCount == 0) {
       frag.viewModel.errText = frag.getString(R.string.msg_empty_ui_layout)

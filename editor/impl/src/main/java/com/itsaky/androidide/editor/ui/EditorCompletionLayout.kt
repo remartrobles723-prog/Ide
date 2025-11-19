@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import android.graphics.drawable.GradientDrawable
 import android.view.ViewGroup
 import android.view.ViewGroup.MarginLayoutParams
 import androidx.core.view.updateLayoutParams
-import com.itsaky.androidide.editor.R
+import com.itsaky.tom.rv2ide.editor.R
 import io.github.rosemoe.sora.widget.component.DefaultCompletionLayout
 import io.github.rosemoe.sora.widget.schemes.EditorColorScheme
 

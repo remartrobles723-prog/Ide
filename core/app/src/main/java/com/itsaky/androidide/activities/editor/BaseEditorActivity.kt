@@ -18,7 +18,7 @@
 // Modified by Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null
 // ++ auto save
 
-package com.itsaky.androidide.activities.editor
+package com.itsaky.tom.rv2ide.activities.editor
 
 import android.content.Context
 import android.content.Intent
@@ -69,48 +69,48 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayout.Tab
-import com.itsaky.androidide.R
-import com.itsaky.androidide.R.string
-import com.itsaky.androidide.actions.ActionItem.Location.EDITOR_FILE_TABS
-import com.itsaky.androidide.adapters.DiagnosticsAdapter
-import com.itsaky.androidide.adapters.SearchListAdapter
-import com.itsaky.androidide.app.EdgeToEdgeIDEActivity
-import com.itsaky.androidide.databinding.ActivityEditorBinding
-import com.itsaky.androidide.databinding.ContentEditorBinding
-import com.itsaky.androidide.databinding.LayoutDiagnosticInfoBinding
-import com.itsaky.androidide.events.InstallationResultEvent
-import com.itsaky.androidide.fragments.SearchResultFragment
-import com.itsaky.androidide.fragments.sidebar.EditorSidebarFragment
-import com.itsaky.androidide.fragments.sidebar.FileTreeFragment
-import com.itsaky.androidide.handlers.EditorActivityLifecyclerObserver
-import com.itsaky.androidide.handlers.LspHandler.registerLanguageServers
-import com.itsaky.androidide.interfaces.DiagnosticClickListener
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.lsp.models.DiagnosticItem
-import com.itsaky.androidide.models.DiagnosticGroup
-import com.itsaky.androidide.models.OpenedFile
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.models.SearchResult
-import com.itsaky.androidide.preferences.internal.BuildPreferences
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.tasks.cancelIfActive
-import com.itsaky.androidide.ui.CodeEditorView
-import com.itsaky.androidide.ui.ContentTranslatingDrawerLayout
-import com.itsaky.androidide.ui.SwipeRevealLayout
-import com.itsaky.androidide.uidesigner.UIDesignerActivity
-import com.itsaky.androidide.utils.ActionMenuUtils.createMenu
-import com.itsaky.androidide.utils.ApkInstallationSessionCallback
-import com.itsaky.androidide.utils.DialogUtils.newMaterialDialogBuilder
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.InstallationResultHandler.onResult
-import com.itsaky.androidide.utils.IntentUtils
-import com.itsaky.androidide.utils.MemoryUsageWatcher
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.resolveAttr
-import com.itsaky.androidide.viewmodel.EditorViewModel
-import com.itsaky.androidide.xml.resources.ResourceTableRegistry
-import com.itsaky.androidide.xml.versions.ApiVersionsRegistry
-import com.itsaky.androidide.xml.widgets.WidgetTableRegistry
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.R.string
+import com.itsaky.tom.rv2ide.actions.ActionItem.Location.EDITOR_FILE_TABS
+import com.itsaky.tom.rv2ide.adapters.DiagnosticsAdapter
+import com.itsaky.tom.rv2ide.adapters.SearchListAdapter
+import com.itsaky.tom.rv2ide.app.EdgeToEdgeIDEActivity
+import com.itsaky.tom.rv2ide.databinding.ActivityEditorBinding
+import com.itsaky.tom.rv2ide.databinding.ContentEditorBinding
+import com.itsaky.tom.rv2ide.databinding.LayoutDiagnosticInfoBinding
+import com.itsaky.tom.rv2ide.events.InstallationResultEvent
+import com.itsaky.tom.rv2ide.fragments.SearchResultFragment
+import com.itsaky.tom.rv2ide.fragments.sidebar.EditorSidebarFragment
+import com.itsaky.tom.rv2ide.fragments.sidebar.FileTreeFragment
+import com.itsaky.tom.rv2ide.handlers.EditorActivityLifecyclerObserver
+import com.itsaky.tom.rv2ide.handlers.LspHandler.registerLanguageServers
+import com.itsaky.tom.rv2ide.interfaces.DiagnosticClickListener
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem
+import com.itsaky.tom.rv2ide.models.DiagnosticGroup
+import com.itsaky.tom.rv2ide.models.OpenedFile
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.models.SearchResult
+import com.itsaky.tom.rv2ide.preferences.internal.BuildPreferences
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.tasks.cancelIfActive
+import com.itsaky.tom.rv2ide.ui.CodeEditorView
+import com.itsaky.tom.rv2ide.ui.ContentTranslatingDrawerLayout
+import com.itsaky.tom.rv2ide.ui.SwipeRevealLayout
+import com.itsaky.tom.rv2ide.uidesigner.UIDesignerActivity
+import com.itsaky.tom.rv2ide.utils.ActionMenuUtils.createMenu
+import com.itsaky.tom.rv2ide.utils.ApkInstallationSessionCallback
+import com.itsaky.tom.rv2ide.utils.DialogUtils.newMaterialDialogBuilder
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.InstallationResultHandler.onResult
+import com.itsaky.tom.rv2ide.utils.IntentUtils
+import com.itsaky.tom.rv2ide.utils.MemoryUsageWatcher
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.viewmodel.EditorViewModel
+import com.itsaky.tom.rv2ide.xml.resources.ResourceTableRegistry
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersionsRegistry
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTableRegistry
 import java.io.File
 import java.util.concurrent.ConcurrentHashMap
 import kotlin.math.roundToInt
@@ -763,7 +763,7 @@ abstract class BaseEditorActivity :
           }
 
       // Register chart for memory cleanup
-      (application as? com.itsaky.androidide.app.IDEApplication)
+      (application as? com.itsaky.tom.rv2ide.app.IDEApplication)
           ?.getChartCleanupTask()
           ?.registerChart(this)
     }

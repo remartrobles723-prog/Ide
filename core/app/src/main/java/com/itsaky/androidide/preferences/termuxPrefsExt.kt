@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
 import android.content.Context
 import androidx.annotation.StringRes
@@ -23,8 +23,8 @@ import androidx.core.content.ContextCompat
 import androidx.preference.Preference
 import com.termux.shared.logger.Logger
 import com.termux.shared.termux.settings.preferences.TermuxAppSharedPreferences
-import com.itsaky.androidide.R
-import com.itsaky.androidide.app.IDEApplication
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.app.IDEApplication
 import kotlin.reflect.KMutableProperty0
 import kotlinx.parcelize.Parcelize
 

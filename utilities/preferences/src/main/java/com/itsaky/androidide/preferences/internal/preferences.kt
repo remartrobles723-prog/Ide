@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences.internal
+package com.itsaky.tom.rv2ide.preferences.internal
 
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.managers.PreferenceManager
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.managers.PreferenceManager
 
 /** The global preference manager instance. */
 val prefManager: PreferenceManager

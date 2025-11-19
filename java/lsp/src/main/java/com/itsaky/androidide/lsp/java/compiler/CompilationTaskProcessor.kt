@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.compiler
+package com.itsaky.tom.rv2ide.lsp.java.compiler
 
 import java.util.function.*
 import openjdk.source.tree.CompilationUnitTree

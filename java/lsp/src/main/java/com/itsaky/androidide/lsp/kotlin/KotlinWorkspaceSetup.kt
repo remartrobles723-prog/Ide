@@ -15,17 +15,17 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
 import android.content.Context
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
-import com.itsaky.androidide.lsp.kotlin.compiler.KotlinCompilerService
-import com.itsaky.androidide.lsp.kotlin.etc.LspFeatures
-import com.itsaky.androidide.projects.IWorkspace
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.lsp.kotlin.compiler.KotlinCompilerService
+import com.itsaky.tom.rv2ide.lsp.kotlin.etc.LspFeatures
+import com.itsaky.tom.rv2ide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.File
 import java.nio.file.*
 import java.util.concurrent.TimeUnit
@@ -343,7 +343,7 @@ class KotlinWorkspaceSetup(private val context: Context, private val workspace: 
 
       compilerService?.destroy()
       KotlinCompilerProvider.getInstance().destroy()
-      com.itsaky.androidide.lsp.kotlin.compiler.KotlinSourceFileManager.clearCache()
+      com.itsaky.tom.rv2ide.lsp.kotlin.compiler.KotlinSourceFileManager.clearCache()
     } catch (e: Exception) {
       KslLogs.warn("Error cleaning up compiler service", e)
     }
@@ -530,8 +530,8 @@ class KotlinWorkspaceSetup(private val context: Context, private val workspace: 
   private fun findJavaPath(): String {
     val candidates =
         listOf(
-            "/data/data/com.itsaky.androidide/files/usr/bin/java",
-            "/data/data/com.itsaky.androidide/files/usr/opt/openjdk/bin/java",
+            "/data/data/com.itsaky.tom.rv2ide/files/usr/bin/java",
+            "/data/data/com.itsaky.tom.rv2ide/files/usr/opt/openjdk/bin/java",
             System.getenv("JAVA_HOME")?.let { "$it/bin/java" },
         )
 
@@ -543,7 +543,7 @@ class KotlinWorkspaceSetup(private val context: Context, private val workspace: 
     }
 
     KslLogs.warn("Java not found in standard locations, using default")
-    return "/data/data/com.itsaky.androidide/files/usr/bin/java"
+    return "/data/data/com.itsaky.tom.rv2ide/files/usr/bin/java"
   }
 
   private fun createKlsClasspathScript() {
@@ -557,9 +557,9 @@ class KotlinWorkspaceSetup(private val context: Context, private val workspace: 
       val javaPath = findJavaPath()
       val javaHome =
           File(javaPath).parentFile?.parentFile?.absolutePath
-              ?: "/data/data/com.itsaky.androidide/files/usr"
+              ?: "/data/data/com.itsaky.tom.rv2ide/files/usr"
 
-      val javaBinPath = File(javaPath).parent ?: "/data/data/com.itsaky.androidide/files/usr/bin"
+      val javaBinPath = File(javaPath).parent ?: "/data/data/com.itsaky.tom.rv2ide/files/usr/bin"
 
       val scriptContent =
           """#!/system/bin/sh

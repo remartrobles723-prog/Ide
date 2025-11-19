@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.utils
+package com.itsaky.tom.rv2ide.inflater.internal.utils
 
 import com.android.SdkConstants.ANDROID_PKG
 

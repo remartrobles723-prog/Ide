@@ -14,9 +14,9 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.api;
+package com.itsaky.tom.rv2ide.lsp.api;
 
-import com.itsaky.androidide.lsp.util.DefaultServerSettings;
+import com.itsaky.tom.rv2ide.lsp.util.DefaultServerSettings;
 
 /**
  * @author Akash Yadav

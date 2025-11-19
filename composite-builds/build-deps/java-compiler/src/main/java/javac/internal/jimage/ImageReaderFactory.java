@@ -25,7 +25,7 @@
 
 package javac.internal.jimage;
 
-import com.itsaky.androidide.javac.config.JavacConfigProvider;
+import com.itsaky.tom.rv2ide.javac.config.JavacConfigProvider;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;

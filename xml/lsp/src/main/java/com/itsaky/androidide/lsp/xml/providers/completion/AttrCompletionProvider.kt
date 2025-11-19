@@ -15,24 +15,24 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion
 
 import com.android.aaptcompiler.AaptResourceType.STYLEABLE
 import com.android.aaptcompiler.ConfigDescription
 import com.android.aaptcompiler.ResourcePathData
 import com.android.aaptcompiler.Styleable
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.lsp.api.ICompletionProvider
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionParams
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.MatchLevel.NO_MATCH
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType.ATTRIBUTE
-import com.itsaky.androidide.xml.res.IResourceGroup
-import com.itsaky.androidide.xml.res.IResourceTablePackage
-import com.itsaky.androidide.xml.widgets.Widget
-import com.itsaky.androidide.xml.widgets.WidgetTable
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lsp.api.ICompletionProvider
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.NO_MATCH
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType.ATTRIBUTE
+import com.itsaky.tom.rv2ide.xml.res.IResourceGroup
+import com.itsaky.tom.rv2ide.xml.res.IResourceTablePackage
+import com.itsaky.tom.rv2ide.xml.widgets.Widget
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTable
 import org.eclipse.lemminx.dom.DOMDocument
 import org.eclipse.lemminx.dom.DOMNode
 

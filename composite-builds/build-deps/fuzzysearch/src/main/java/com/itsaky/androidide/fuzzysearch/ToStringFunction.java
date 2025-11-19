@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fuzzysearch;
+package com.itsaky.tom.rv2ide.fuzzysearch;
 
 /**
  * Transforms an item of type T to a String.

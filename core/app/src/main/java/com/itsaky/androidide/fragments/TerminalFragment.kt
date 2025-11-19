@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.itsaky.androidide.R
-import com.itsaky.androidide.databinding.FragmentTerminalBinding
-import com.itsaky.androidide.viewmodel.TerminalFragmentViewModel
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.databinding.FragmentTerminalBinding
+import com.itsaky.tom.rv2ide.viewmodel.TerminalFragmentViewModel
 import org.slf4j.LoggerFactory
 
 class TerminalFragment :

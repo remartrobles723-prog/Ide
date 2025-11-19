@@ -1,4 +1,4 @@
-package com.itsaky.androidide.build.config/*
+package com.itsaky.tom.rv2ide.build.config/*
  *  This file is part of AndroidIDE.
  *
  *  AndroidIDE is free software: you can redistribute it and/or modify

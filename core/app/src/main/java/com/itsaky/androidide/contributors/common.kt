@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.contributors
+package com.itsaky.tom.rv2ide.contributors
 
-import com.itsaky.androidide.buildinfo.BuildInfo
+import com.itsaky.tom.rv2ide.buildinfo.BuildInfo
 
 const val GITHUB_API_BASE_URL = "https://api.github.com"
 const val GITHUB_API_REPOS_URL = "${GITHUB_API_BASE_URL}/repos"

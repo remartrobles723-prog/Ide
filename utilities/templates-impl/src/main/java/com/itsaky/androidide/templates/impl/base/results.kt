@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.base
+package com.itsaky.tom.rv2ide.templates.impl.base
 
-import com.itsaky.androidide.templates.ModuleTemplateData
-import com.itsaky.androidide.templates.ModuleTemplateRecipeResult
-import com.itsaky.androidide.templates.ProjectTemplateData
-import com.itsaky.androidide.templates.ProjectTemplateRecipeResult
-import com.itsaky.androidide.templates.base.ModuleTemplateBuilder
-import com.itsaky.androidide.templates.base.ProjectTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.ModuleTemplateData
+import com.itsaky.tom.rv2ide.templates.ModuleTemplateRecipeResult
+import com.itsaky.tom.rv2ide.templates.ProjectTemplateData
+import com.itsaky.tom.rv2ide.templates.ProjectTemplateRecipeResult
+import com.itsaky.tom.rv2ide.templates.base.ModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.ProjectTemplateBuilder
 
 data class ProjectTemplateRecipeResultImpl(override val data: ProjectTemplateData) :
     ProjectTemplateRecipeResult

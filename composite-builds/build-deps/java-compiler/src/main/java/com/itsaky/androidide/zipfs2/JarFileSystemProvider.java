@@ -23,7 +23,7 @@
  * questions.
  */
 
-package com.itsaky.androidide.zipfs2;
+package com.itsaky.tom.rv2ide.zipfs2;
 
 import java.net.URI;
 import java.net.URISyntaxException;

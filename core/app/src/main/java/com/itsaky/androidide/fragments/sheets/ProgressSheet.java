@@ -15,7 +15,7 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.sheets;
+package com.itsaky.tom.rv2ide.fragments.sheets;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -26,7 +26,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintLayout.LayoutParams;
-import com.itsaky.androidide.databinding.LayoutProgressSheetBinding;
+import com.itsaky.tom.rv2ide.databinding.LayoutProgressSheetBinding;
 
 public class ProgressSheet extends BaseBottomSheetFragment {
 

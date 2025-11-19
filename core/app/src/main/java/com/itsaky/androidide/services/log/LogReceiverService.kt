@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.log
+package com.itsaky.tom.rv2ide.services.log
 
 import android.app.Service
 import android.content.Intent
 import android.os.IBinder
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import com.itsaky.androidide.logsender.LogSender
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.models.LogLine
-import com.itsaky.androidide.preferences.internal.DevOpsPreferences
+import com.itsaky.tom.rv2ide.logsender.LogSender
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.models.LogLine
+import com.itsaky.tom.rv2ide.preferences.internal.DevOpsPreferences
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.atomic.AtomicBoolean
@@ -48,8 +48,8 @@ class LogReceiverService : Service() {
     private val log = LoggerFactory.getLogger(LogReceiverService::class.java)
 
     internal const val ACTION_CONNECT_LOG_CONSUMER =
-        "com.itsaky.androidide.logrecevier.CONNECT_LOG_CONSUMER"
-    internal const val ACTION_CONNECTION_UPDATE = "com.itsaky.androidide.logreceiver.CONNECTION_UPDATE"
+        "com.itsaky.tom.rv2ide.logrecevier.CONNECT_LOG_CONSUMER"
+    internal const val ACTION_CONNECTION_UPDATE = "com.itsaky.tom.rv2ide.logreceiver.CONNECTION_UPDATE"
 
     private const val LOG_CONSUMER_WAIT_DURATION = 10 // seconds
 

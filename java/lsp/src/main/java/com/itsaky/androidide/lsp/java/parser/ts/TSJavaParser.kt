@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.parser.ts
+package com.itsaky.tom.rv2ide.lsp.java.parser.ts
 
-import com.itsaky.androidide.eventbus.events.file.FileDeletionEvent
-import com.itsaky.androidide.eventbus.events.file.FileRenameEvent
-import com.itsaky.androidide.lsp.java.parser.IJavaParser
-import com.itsaky.androidide.treesitter.TSParser
-import com.itsaky.androidide.treesitter.java.TSLanguageJava
-import com.itsaky.androidide.utils.StopWatch
+import com.itsaky.tom.rv2ide.eventbus.events.file.FileDeletionEvent
+import com.itsaky.tom.rv2ide.eventbus.events.file.FileRenameEvent
+import com.itsaky.tom.rv2ide.lsp.java.parser.IJavaParser
+import com.itsaky.tom.rv2ide.treesitter.TSParser
+import com.itsaky.tom.rv2ide.treesitter.java.TSLanguageJava
+import com.itsaky.tom.rv2ide.utils.StopWatch
 import jdkx.tools.JavaFileObject
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

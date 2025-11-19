@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.internal.versions
+package com.itsaky.tom.rv2ide.xml.internal.versions
 
 import androidx.collection.mutableIntObjectMapOf
-import com.itsaky.androidide.xml.versions.ApiVersion
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersion
 import jaxp.xml.namespace.QName
 import jaxp.xml.stream.XMLInputFactory
 import jaxp.xml.stream.events.Attribute

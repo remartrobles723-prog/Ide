@@ -1,4 +1,4 @@
-package com.itsaky.androidide.diffutils.structs;
+package com.itsaky.tom.rv2ide.diffutils.structs;
 
 public enum EditType {
   DELETE,

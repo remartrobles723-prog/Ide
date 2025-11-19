@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.util
+package com.itsaky.tom.rv2ide.tooling.api.util
 
 import com.android.builder.model.v2.ide.LibraryType.ANDROID_LIBRARY
-import com.itsaky.androidide.builder.model.DefaultLibrary
-import com.itsaky.androidide.builder.model.UNKNOWN_PACKAGE
-import com.itsaky.androidide.tooling.api.IAndroidProject
+import com.itsaky.tom.rv2ide.builder.model.DefaultLibrary
+import com.itsaky.tom.rv2ide.builder.model.UNKNOWN_PACKAGE
+import com.itsaky.tom.rv2ide.tooling.api.IAndroidProject
 import java.io.File
 import org.eclipse.lemminx.dom.DOMParser
 import org.eclipse.lemminx.uriresolver.URIResolverExtensionManager

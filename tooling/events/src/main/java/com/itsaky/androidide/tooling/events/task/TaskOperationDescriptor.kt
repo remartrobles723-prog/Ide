@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.events.task
+package com.itsaky.tom.rv2ide.tooling.events.task
 
-import com.itsaky.androidide.tooling.events.OperationDescriptor
-import com.itsaky.androidide.tooling.model.PluginIdentifier
+import com.itsaky.tom.rv2ide.tooling.events.OperationDescriptor
+import com.itsaky.tom.rv2ide.tooling.model.PluginIdentifier
 
 /** @author Akash Yadav */
 class TaskOperationDescriptor(

@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.modules.android
+package com.itsaky.tom.rv2ide.templates.base.modules.android
 
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
 import java.io.File
 
 /** @return The `proguard-rules.pro` file in the module directory. */

@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.modules.android
+package com.itsaky.tom.rv2ide.templates.base.modules.android
 
-import com.itsaky.androidide.templates.ModuleTemplate
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateConfigurator
-import com.itsaky.androidide.templates.base.ProjectTemplateBuilder
-import com.itsaky.androidide.templates.base.baseAndroidXDependencies
-import com.itsaky.androidide.templates.base.util.AndroidManifestBuilder.ConfigurationType.APPLICATION_ATTR
+import com.itsaky.tom.rv2ide.templates.ModuleTemplate
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateConfigurator
+import com.itsaky.tom.rv2ide.templates.base.ProjectTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.baseAndroidXDependencies
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidManifestBuilder.ConfigurationType.APPLICATION_ATTR
 
 /**
  * Configure the default template for the project.

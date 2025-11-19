@@ -15,24 +15,24 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion.manifest
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion.manifest
 
 import com.android.aaptcompiler.AaptResourceType.STYLEABLE
 import com.android.aaptcompiler.ResourcePathData
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.lsp.api.ICompletionProvider
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionParams
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.CompletionResult.Companion.EMPTY
-import com.itsaky.androidide.lsp.models.MatchLevel.NO_MATCH
-import com.itsaky.androidide.lsp.xml.providers.completion.IXmlCompletionProvider
-import com.itsaky.androidide.lsp.xml.providers.completion.MANIFEST_TAG_PREFIX
-import com.itsaky.androidide.lsp.xml.providers.completion.canCompleteManifest
-import com.itsaky.androidide.lsp.xml.providers.completion.transformToTagName
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType.TAG
-import com.itsaky.androidide.xml.resources.ResourceTableRegistry
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lsp.api.ICompletionProvider
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult.Companion.EMPTY
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.NO_MATCH
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.IXmlCompletionProvider
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.MANIFEST_TAG_PREFIX
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.canCompleteManifest
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.transformToTagName
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType.TAG
+import com.itsaky.tom.rv2ide.xml.resources.ResourceTableRegistry
 import org.eclipse.lemminx.dom.DOMDocument
 
 /**

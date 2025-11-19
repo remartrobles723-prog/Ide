@@ -15,11 +15,11 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
-package com.itsaky.androidide.models
+package com.itsaky.tom.rv2ide.models
 
 import com.google.gson.annotations.SerializedName
-import com.itsaky.androidide.utils.JSONUtility.gson
-import com.itsaky.androidide.utils.ListingFileRedirect.getListingFile
+import com.itsaky.tom.rv2ide.utils.JSONUtility.gson
+import com.itsaky.tom.rv2ide.utils.ListingFileRedirect.getListingFile
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.FileReader

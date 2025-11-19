@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.bottomNavActivity
+package com.itsaky.tom.rv2ide.templates.impl.bottomNavActivity
 
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
 
 internal fun AndroidModuleTemplateBuilder.bottomNavNavigationXmlSrc() =
     """

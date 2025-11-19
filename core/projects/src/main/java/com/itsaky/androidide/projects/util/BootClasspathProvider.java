@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.util;
+package com.itsaky.tom.rv2ide.projects.util;
 
-import com.itsaky.androidide.projects.classpath.JarFsClasspathReader;
-import com.itsaky.androidide.utils.ClassTrie;
-import com.itsaky.androidide.utils.StopWatch;
+import com.itsaky.tom.rv2ide.projects.classpath.JarFsClasspathReader;
+import com.itsaky.tom.rv2ide.utils.ClassTrie;
+import com.itsaky.tom.rv2ide.utils.StopWatch;
 import java.io.File;
 import java.util.Collection;
 import java.util.Collections;

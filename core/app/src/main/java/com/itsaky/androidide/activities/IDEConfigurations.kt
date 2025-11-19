@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -28,22 +28,22 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.google.android.material.button.MaterialButton
 import com.tom.customizablecardview.CustomizableCardView
-import com.itsaky.androidide.R
-import com.itsaky.androidide.activities.IdeConfigurations.*
-import com.itsaky.androidide.activities.IdeConfigurations.net.isOnline
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.app.EdgeToEdgeIDEActivity
-import com.itsaky.androidide.databinding.ActivityMainCrashBinding
-import com.itsaky.androidide.handlers.ConfigHandlerRegistry
-import com.itsaky.androidide.managers.PreferenceManager
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.FlashType.SUCCESS
-import com.itsaky.androidide.utils.GeneralFileUtils
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashInfo
-import com.itsaky.androidide.utils.flashMessage
-import com.itsaky.androidide.viewmodel.MainViewModel
-import com.itsaky.androidide.viewmodel.MainViewModel.Companion.SCREEN_MAIN
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.activities.IdeConfigurations.*
+import com.itsaky.tom.rv2ide.activities.IdeConfigurations.net.isOnline
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.app.EdgeToEdgeIDEActivity
+import com.itsaky.tom.rv2ide.databinding.ActivityMainCrashBinding
+import com.itsaky.tom.rv2ide.handlers.ConfigHandlerRegistry
+import com.itsaky.tom.rv2ide.managers.PreferenceManager
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.FlashType.SUCCESS
+import com.itsaky.tom.rv2ide.utils.GeneralFileUtils
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashInfo
+import com.itsaky.tom.rv2ide.utils.flashMessage
+import com.itsaky.tom.rv2ide.viewmodel.MainViewModel
+import com.itsaky.tom.rv2ide.viewmodel.MainViewModel.Companion.SCREEN_MAIN
 import java.io.File
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -92,7 +92,7 @@ class IDEConfigurations : EdgeToEdgeIDEActivity() {
     monitorNetworkConnection()
   }
 
-  private fun setupHandlerUI(handler: com.itsaky.androidide.handlers.IConfigHandler) {
+  private fun setupHandlerUI(handler: com.itsaky.tom.rv2ide.handlers.IConfigHandler) {
     try {
       val cardHolder = findViewById<View>(handler.cardHolderId) as? CustomizableCardView
       val removeButton = findViewById<View>(handler.removeButtonId) as? MaterialButton

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logging.encoder;
+package com.itsaky.tom.rv2ide.logging.encoder;
 
 import ch.qos.logback.classic.pattern.Abbreviator;
 import ch.qos.logback.classic.pattern.ClassNameOnlyAbbreviator;

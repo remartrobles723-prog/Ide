@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.models
+package com.itsaky.tom.rv2ide.templates.base.models
 
-import com.itsaky.androidide.templates.base.models.DependencyConfiguration.Implementation
+import com.itsaky.tom.rv2ide.templates.base.models.DependencyConfiguration.Implementation
 
 /**
  * Creates a [Dependency] object from the given maven coordinates.

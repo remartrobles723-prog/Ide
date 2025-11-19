@@ -15,29 +15,29 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.handlers
+package com.itsaky.tom.rv2ide.handlers
 
 import android.content.Context
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import com.itsaky.androidide.eventbus.events.Event
-import com.itsaky.androidide.eventbus.events.EventReceiver
-import com.itsaky.androidide.eventbus.events.editor.OnCreateEvent
-import com.itsaky.androidide.eventbus.events.editor.OnDestroyEvent
-import com.itsaky.androidide.eventbus.events.editor.OnPauseEvent
-import com.itsaky.androidide.eventbus.events.editor.OnResumeEvent
-import com.itsaky.androidide.eventbus.events.editor.OnStartEvent
-import com.itsaky.androidide.eventbus.events.editor.OnStopEvent
-import com.itsaky.androidide.projects.internal.ProjectManagerImpl
-import com.itsaky.androidide.projects.util.BootClasspathProvider
-import com.itsaky.androidide.utils.EditorActivityActions
-import com.itsaky.androidide.utils.EditorSidebarActions
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.eventbus.events.Event
+import com.itsaky.tom.rv2ide.eventbus.events.EventReceiver
+import com.itsaky.tom.rv2ide.eventbus.events.editor.OnCreateEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.OnDestroyEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.OnPauseEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.OnResumeEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.OnStartEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.OnStopEvent
+import com.itsaky.tom.rv2ide.projects.internal.ProjectManagerImpl
+import com.itsaky.tom.rv2ide.projects.util.BootClasspathProvider
+import com.itsaky.tom.rv2ide.utils.EditorActivityActions
+import com.itsaky.tom.rv2ide.utils.EditorSidebarActions
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.util.concurrent.CompletableFuture
 import org.greenrobot.eventbus.EventBus
 
 /**
- * Observes lifecycle events if [com.itsaky.androidide.EditorActivityKt].
+ * Observes lifecycle events if [com.itsaky.tom.rv2ide.EditorActivityKt].
  *
  * @author Akash Yadav
  */

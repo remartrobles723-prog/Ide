@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -26,7 +26,7 @@ import android.os.Build
 import android.util.TypedValue
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.projects.IWorkspace
 import java.io.File
 import org.slf4j.LoggerFactory
 

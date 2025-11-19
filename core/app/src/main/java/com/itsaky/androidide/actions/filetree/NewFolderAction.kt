@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.filetree
+package com.itsaky.tom.rv2ide.actions.filetree
 
 import android.content.Context
 import android.view.LayoutInflater
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.requireFile
-import com.itsaky.androidide.adapters.viewholders.FileTreeViewHolder
-import com.itsaky.androidide.preferences.databinding.LayoutDialogTextInputBinding
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.DialogUtils
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashSuccess
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.requireFile
+import com.itsaky.tom.rv2ide.adapters.viewholders.FileTreeViewHolder
+import com.itsaky.tom.rv2ide.preferences.databinding.LayoutDialogTextInputBinding
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashSuccess
 import com.unnamed.b.atv.model.TreeNode
 import java.io.File
 

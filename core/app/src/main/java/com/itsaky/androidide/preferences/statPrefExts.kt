@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
 import android.content.Context
 import androidx.preference.Preference
-import com.itsaky.androidide.preferences.internal.StatPreferences
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.stats.AndroidIDEStats
-import com.itsaky.androidide.stats.StatUploadWorker
+import com.itsaky.tom.rv2ide.preferences.internal.StatPreferences
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.stats.AndroidIDEStats
+import com.itsaky.tom.rv2ide.stats.StatUploadWorker
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion.manifest
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion.manifest
 
 import com.android.SdkConstants
 import com.android.SdkConstants.ANDROID_NS_NAME_PREFIX
@@ -25,26 +25,26 @@ import com.android.SdkConstants.TAG_INTENT_FILTER
 import com.android.SdkConstants.TAG_RECEIVER
 import com.android.SdkConstants.TAG_SERVICE
 import com.android.aaptcompiler.ResourcePathData
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.lsp.api.ICompletionProvider
-import com.itsaky.androidide.lsp.models.ClassCompletionData
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionItemKind.FIELD
-import com.itsaky.androidide.lsp.models.CompletionParams
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.CompletionResult.Companion.EMPTY
-import com.itsaky.androidide.lsp.models.FieldCompletionData
-import com.itsaky.androidide.lsp.models.InsertTextFormat.PLAIN_TEXT
-import com.itsaky.androidide.lsp.models.MatchLevel.NO_MATCH
-import com.itsaky.androidide.lsp.xml.providers.completion.AttrValueCompletionProvider
-import com.itsaky.androidide.lsp.xml.providers.completion.manifestResourceTable
-import com.itsaky.androidide.lsp.xml.providers.completion.match
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.xml.permissions.Permission
-import com.itsaky.androidide.xml.res.IResourceTable
-import com.itsaky.androidide.xml.resources.ResourceTableRegistry
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lsp.api.ICompletionProvider
+import com.itsaky.tom.rv2ide.lsp.models.ClassCompletionData
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind.FIELD
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult.Companion.EMPTY
+import com.itsaky.tom.rv2ide.lsp.models.FieldCompletionData
+import com.itsaky.tom.rv2ide.lsp.models.InsertTextFormat.PLAIN_TEXT
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.NO_MATCH
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.AttrValueCompletionProvider
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.manifestResourceTable
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.match
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.xml.permissions.Permission
+import com.itsaky.tom.rv2ide.xml.res.IResourceTable
+import com.itsaky.tom.rv2ide.xml.resources.ResourceTableRegistry
 import org.eclipse.lemminx.dom.DOMDocument
 
 /**

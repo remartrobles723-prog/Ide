@@ -15,17 +15,17 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects
+package com.itsaky.tom.rv2ide.projects
 
-import com.itsaky.androidide.tooling.api.ProjectType
-import com.itsaky.androidide.tooling.api.models.GradleTask
+import com.itsaky.tom.rv2ide.tooling.api.ProjectType
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleTask
 import java.io.File
 import java.util.concurrent.CompletableFuture
 
 /**
  * A Gradle project model which is identical to
- * [IGradleProject][com.itsaky.androidide.tooling.api.IGradleProject]. This project module caches all the
- * data from an [IGradleProject][com.itsaky.androidide.tooling.api.IGradleProject] eliminating the use of
+ * [IGradleProject][com.itsaky.tom.rv2ide.tooling.api.IGradleProject]. This project module caches all the
+ * data from an [IGradleProject][com.itsaky.tom.rv2ide.tooling.api.IGradleProject] eliminating the use of
  * [CompletableFuture] s.
  *
  * @param name The display name of the project.

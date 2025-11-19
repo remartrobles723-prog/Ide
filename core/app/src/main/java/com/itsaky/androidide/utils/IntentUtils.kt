@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.content.Context
 import android.content.Intent
@@ -25,7 +25,7 @@ import androidx.core.app.ShareCompat
 import androidx.core.content.FileProvider
 import com.blankj.utilcode.util.ImageUtils
 import com.blankj.utilcode.util.ImageUtils.ImageType.TYPE_UNKNOWN
-import com.itsaky.androidide.R
+import com.itsaky.tom.rv2ide.R
 import java.io.File
 
 /**

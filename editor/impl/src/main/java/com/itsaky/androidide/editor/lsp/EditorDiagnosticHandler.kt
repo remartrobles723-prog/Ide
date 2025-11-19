@@ -1,6 +1,6 @@
-package com.itsaky.androidide.editor.lsp
+package com.itsaky.tom.rv2ide.editor.lsp
 
-import com.itsaky.androidide.lsp.models.DiagnosticItem
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem
 import io.github.rosemoe.sora.widget.CodeEditor
 
 /**

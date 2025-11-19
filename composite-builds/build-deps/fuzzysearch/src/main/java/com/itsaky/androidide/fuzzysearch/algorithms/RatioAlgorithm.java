@@ -1,8 +1,8 @@
-package com.itsaky.androidide.fuzzysearch.algorithms;
+package com.itsaky.tom.rv2ide.fuzzysearch.algorithms;
 
-import com.itsaky.androidide.fuzzysearch.Ratio;
-import com.itsaky.androidide.fuzzysearch.ToStringFunction;
-import com.itsaky.androidide.fuzzysearch.ratios.SimpleRatio;
+import com.itsaky.tom.rv2ide.fuzzysearch.Ratio;
+import com.itsaky.tom.rv2ide.fuzzysearch.ToStringFunction;
+import com.itsaky.tom.rv2ide.fuzzysearch.ratios.SimpleRatio;
 
 public abstract class RatioAlgorithm extends BasicAlgorithm {
 

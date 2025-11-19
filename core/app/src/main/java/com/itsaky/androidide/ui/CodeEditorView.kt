@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.ui
+package com.itsaky.tom.rv2ide.ui
 
-// import com.itsaky.androidide.lsp.clang.ClangLanguageServer || planned for v..03
+// import com.itsaky.tom.rv2ide.lsp.clang.ClangLanguageServer || planned for v..03
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
@@ -26,36 +26,36 @@ import android.view.LayoutInflater
 import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.core.view.isVisible
 import com.blankj.utilcode.util.SizeUtils
-import com.itsaky.androidide.activities.editor.BaseEditorActivity
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.editor.api.IEditor
-import com.itsaky.androidide.editor.databinding.LayoutCodeEditorBinding
-import com.itsaky.androidide.editor.ui.EditorSearchLayout
-import com.itsaky.androidide.editor.ui.IDEEditor
-import com.itsaky.androidide.editor.ui.IDEEditor.Companion.createInputTypeFlags
-import com.itsaky.androidide.editor.ui.cleanupCompletionTooltips
-import com.itsaky.androidide.editor.ui.cleanupHoverTooltips
-import com.itsaky.androidide.editor.ui.clearDiagnostics
-import com.itsaky.androidide.editor.ui.initCompletionTooltips
-import com.itsaky.androidide.editor.ui.initDiagnosticHandling
-import com.itsaky.androidide.editor.ui.initHoverTooltips
-import com.itsaky.androidide.editor.ui.updateEditorDiagnostics
-import com.itsaky.androidide.editor.utils.ContentReadWrite.readContent
-import com.itsaky.androidide.editor.utils.ContentReadWrite.writeTo
-import com.itsaky.androidide.eventbus.events.preferences.PreferenceChangeEvent
-import com.itsaky.androidide.lsp.IDELanguageClientImpl
-import com.itsaky.androidide.lsp.api.ILanguageServer
-import com.itsaky.androidide.lsp.api.ILanguageServerRegistry
-import com.itsaky.androidide.lsp.java.JavaLanguageServer
-import com.itsaky.androidide.lsp.kotlin.KotlinLanguageServer
-import com.itsaky.androidide.lsp.models.DiagnosticResult
-import com.itsaky.androidide.lsp.xml.XMLLanguageServer
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.preferences.internal.EditorPreferences
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE
-import com.itsaky.androidide.tasks.cancelIfActive
-import com.itsaky.androidide.tasks.runOnUiThread
-import com.itsaky.androidide.utils.customOrJBMono
+import com.itsaky.tom.rv2ide.activities.editor.BaseEditorActivity
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.editor.api.IEditor
+import com.itsaky.tom.rv2ide.editor.databinding.LayoutCodeEditorBinding
+import com.itsaky.tom.rv2ide.editor.ui.EditorSearchLayout
+import com.itsaky.tom.rv2ide.editor.ui.IDEEditor
+import com.itsaky.tom.rv2ide.editor.ui.IDEEditor.Companion.createInputTypeFlags
+import com.itsaky.tom.rv2ide.editor.ui.cleanupCompletionTooltips
+import com.itsaky.tom.rv2ide.editor.ui.cleanupHoverTooltips
+import com.itsaky.tom.rv2ide.editor.ui.clearDiagnostics
+import com.itsaky.tom.rv2ide.editor.ui.initCompletionTooltips
+import com.itsaky.tom.rv2ide.editor.ui.initDiagnosticHandling
+import com.itsaky.tom.rv2ide.editor.ui.initHoverTooltips
+import com.itsaky.tom.rv2ide.editor.ui.updateEditorDiagnostics
+import com.itsaky.tom.rv2ide.editor.utils.ContentReadWrite.readContent
+import com.itsaky.tom.rv2ide.editor.utils.ContentReadWrite.writeTo
+import com.itsaky.tom.rv2ide.eventbus.events.preferences.PreferenceChangeEvent
+import com.itsaky.tom.rv2ide.lsp.IDELanguageClientImpl
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServer
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServerRegistry
+import com.itsaky.tom.rv2ide.lsp.java.JavaLanguageServer
+import com.itsaky.tom.rv2ide.lsp.kotlin.KotlinLanguageServer
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult
+import com.itsaky.tom.rv2ide.lsp.xml.XMLLanguageServer
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE
+import com.itsaky.tom.rv2ide.tasks.cancelIfActive
+import com.itsaky.tom.rv2ide.tasks.runOnUiThread
+import com.itsaky.tom.rv2ide.utils.customOrJBMono
 import io.github.rosemoe.sora.text.Content
 import io.github.rosemoe.sora.text.LineSeparator
 import io.github.rosemoe.sora.widget.CodeEditor
@@ -77,7 +77,7 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import org.slf4j.LoggerFactory
 
-// import com.itsaky.androidide.lsp.kotlin.utils.LspUtils // handled in the server now
+// import com.itsaky.tom.rv2ide.lsp.kotlin.utils.LspUtils // handled in the server now
 
 /**
  * A view that handles opened code editor.

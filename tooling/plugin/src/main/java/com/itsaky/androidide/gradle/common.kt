@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.gradle
+package com.itsaky.tom.rv2ide.gradle
 
-import com.itsaky.androidide.buildinfo.BuildInfo
-import com.itsaky.androidide.tooling.api.LogSenderConfig._PROPERTY_IS_TEST_ENV
+import com.itsaky.tom.rv2ide.buildinfo.BuildInfo
+import com.itsaky.tom.rv2ide.tooling.api.LogSenderConfig._PROPERTY_IS_TEST_ENV
 import org.gradle.api.Project
 import org.gradle.api.artifacts.Dependency
 import org.gradle.api.artifacts.dsl.DependencyHandler

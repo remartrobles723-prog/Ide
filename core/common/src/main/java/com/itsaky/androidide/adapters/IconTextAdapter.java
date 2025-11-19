@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters;
+package com.itsaky.tom.rv2ide.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.itsaky.androidide.common.databinding.LayoutSimpleIconTextBinding;
+import com.itsaky.tom.rv2ide.common.databinding.LayoutSimpleIconTextBinding;
 
 /**
  * A RecyclerView.Adapter which can be used to show a list with an icon and a text.

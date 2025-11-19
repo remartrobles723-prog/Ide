@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.sidebar
+package com.itsaky.tom.rv2ide.actions.sidebar
 
 import android.graphics.drawable.Drawable
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem
-import com.itsaky.androidide.actions.SidebarActionItem
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem
+import com.itsaky.tom.rv2ide.actions.SidebarActionItem
 
 /** @author Akash Yadav */
 abstract class AbstractSidebarAction : SidebarActionItem {

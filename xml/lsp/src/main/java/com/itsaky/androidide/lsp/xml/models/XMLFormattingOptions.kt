@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.models
+package com.itsaky.tom.rv2ide.lsp.xml.models
 
-import com.itsaky.androidide.lsp.xml.providers.format.FormatElementCategory
-import com.itsaky.androidide.lsp.xml.providers.format.FormatElementCategory.PreserveSpace
-import com.itsaky.androidide.preferences.internal.XmlPreferences
+import com.itsaky.tom.rv2ide.lsp.xml.providers.format.FormatElementCategory
+import com.itsaky.tom.rv2ide.lsp.xml.providers.format.FormatElementCategory.PreserveSpace
+import com.itsaky.tom.rv2ide.preferences.internal.XmlPreferences
 import org.eclipse.lemminx.dom.DOMElement
 import org.eclipse.lemminx.dom.builder.BaseXmlFormattingOptions
 import org.eclipse.lemminx.dom.builder.EmptyElements

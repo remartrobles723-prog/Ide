@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.onboarding
+package com.itsaky.tom.rv2ide.fragments.onboarding
 
-import com.itsaky.androidide.app.configuration.CpuArch
+import com.itsaky.tom.rv2ide.app.configuration.CpuArch
 
 private val ARM_ONLY = arrayOf(CpuArch.AARCH64, CpuArch.ARM)
 private val ALL = arrayOf(CpuArch.AARCH64, CpuArch.ARM, CpuArch.X86_64)

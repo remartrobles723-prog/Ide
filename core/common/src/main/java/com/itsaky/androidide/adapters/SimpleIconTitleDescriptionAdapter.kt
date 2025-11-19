@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters
+package com.itsaky.tom.rv2ide.adapters
 
-import com.itsaky.androidide.models.IconTitleDescriptionItem
+import com.itsaky.tom.rv2ide.models.IconTitleDescriptionItem
 
 /**
  * Simple implementation of [IconTitleDescriptionAdapter].

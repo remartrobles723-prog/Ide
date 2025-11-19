@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.app.Dialog
 import android.os.Build
@@ -37,23 +37,23 @@ import com.blankj.utilcode.util.ThreadUtils
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.transition.MaterialSharedAxis
-import com.itsaky.androidide.R.string
-import com.itsaky.androidide.adapters.RunTasksListAdapter
-import com.itsaky.androidide.databinding.LayoutRunTaskBinding
-import com.itsaky.androidide.databinding.LayoutRunTaskDialogBinding
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.models.Checkable
-import com.itsaky.androidide.projects.GradleProject
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.projects.builder.BuildService
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.tasks.executeAsync
-import com.itsaky.androidide.tooling.api.models.GradleTask
-import com.itsaky.androidide.utils.SingleTextWatcher
-import com.itsaky.androidide.utils.doOnApplyWindowInsets
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashInfo
-import com.itsaky.androidide.viewmodel.RunTasksViewModel
+import com.itsaky.tom.rv2ide.R.string
+import com.itsaky.tom.rv2ide.adapters.RunTasksListAdapter
+import com.itsaky.tom.rv2ide.databinding.LayoutRunTaskBinding
+import com.itsaky.tom.rv2ide.databinding.LayoutRunTaskDialogBinding
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.models.Checkable
+import com.itsaky.tom.rv2ide.projects.GradleProject
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.builder.BuildService
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.tasks.executeAsync
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleTask
+import com.itsaky.tom.rv2ide.utils.SingleTextWatcher
+import com.itsaky.tom.rv2ide.utils.doOnApplyWindowInsets
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashInfo
+import com.itsaky.tom.rv2ide.viewmodel.RunTasksViewModel
 import org.slf4j.LoggerFactory
 
 /**

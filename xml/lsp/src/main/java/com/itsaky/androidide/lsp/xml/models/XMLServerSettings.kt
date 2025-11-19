@@ -14,9 +14,9 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.xml.models
+package com.itsaky.tom.rv2ide.lsp.xml.models
 
-import com.itsaky.androidide.lsp.util.PrefBasedServerSettings
+import com.itsaky.tom.rv2ide.lsp.util.PrefBasedServerSettings
 
 /**
  * Preferences based settings for XML language server.

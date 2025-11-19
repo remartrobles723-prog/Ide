@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import com.blankj.utilcode.util.ResourceUtils
-import com.itsaky.androidide.app.IDEApplication
-import com.itsaky.androidide.templates.RecipeExecutor
+import com.itsaky.tom.rv2ide.app.IDEApplication
+import com.itsaky.tom.rv2ide.templates.RecipeExecutor
 import java.io.File
 import java.io.InputStream
 

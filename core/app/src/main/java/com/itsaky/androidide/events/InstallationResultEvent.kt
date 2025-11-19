@@ -14,12 +14,12 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.events
+package com.itsaky.tom.rv2ide.events
 
 import android.content.Intent
 
 /**
- * Event posted by [com.itsaky.androidide.services.InstallationResultReceiver] when an event is received.
+ * Event posted by [com.itsaky.tom.rv2ide.services.InstallationResultReceiver] when an event is received.
  *
  * @author Akash Yadav
  */

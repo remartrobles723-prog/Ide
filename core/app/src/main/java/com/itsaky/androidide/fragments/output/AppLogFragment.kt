@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.output
+package com.itsaky.tom.rv2ide.fragments.output
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -24,13 +24,13 @@ import android.content.IntentFilter
 import android.os.Bundle
 import android.view.View
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import com.itsaky.androidide.R
-import com.itsaky.androidide.preferences.internal.DevOpsPreferences
-import com.itsaky.androidide.services.log.ConnectionObserverParams
-import com.itsaky.androidide.services.log.LogReceiverImpl
-import com.itsaky.androidide.services.log.LogReceiverService
-import com.itsaky.androidide.services.log.LogReceiverServiceConnection
-import com.itsaky.androidide.services.log.lookupLogService
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.preferences.internal.DevOpsPreferences
+import com.itsaky.tom.rv2ide.services.log.ConnectionObserverParams
+import com.itsaky.tom.rv2ide.services.log.LogReceiverImpl
+import com.itsaky.tom.rv2ide.services.log.LogReceiverService
+import com.itsaky.tom.rv2ide.services.log.LogReceiverServiceConnection
+import com.itsaky.tom.rv2ide.services.log.lookupLogService
 import java.util.concurrent.atomic.AtomicBoolean
 import org.slf4j.LoggerFactory
 

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.onboarding
+package com.itsaky.tom.rv2ide.fragments.onboarding
 
 import android.content.res.ColorStateList
 import android.os.Bundle
@@ -23,8 +23,8 @@ import android.view.View
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
 import androidx.core.widget.ImageViewCompat
-import com.itsaky.androidide.databinding.FragmentOnboardingInfoBinding
-import com.itsaky.androidide.fragments.FragmentWithBinding
+import com.itsaky.tom.rv2ide.databinding.FragmentOnboardingInfoBinding
+import com.itsaky.tom.rv2ide.fragments.FragmentWithBinding
 
 /** @author Akash Yadav */
 class OnboardingInfoFragment :

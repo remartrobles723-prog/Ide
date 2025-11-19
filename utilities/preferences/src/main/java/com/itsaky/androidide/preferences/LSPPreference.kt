@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
 import android.view.LayoutInflater
 import android.view.View
@@ -23,11 +23,11 @@ import android.widget.ProgressBar
 import androidx.preference.Preference
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.textview.MaterialTextView
-import com.itsaky.androidide.preferences.databinding.LayoutDialogTextViewBinding
-import com.itsaky.androidide.preferences.observers.LSPStateObserver
-import com.itsaky.androidide.resources.R.string
-import com.itsaky.androidide.utils.AppRestartDialog
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.preferences.databinding.LayoutDialogTextViewBinding
+import com.itsaky.tom.rv2ide.preferences.observers.LSPStateObserver
+import com.itsaky.tom.rv2ide.resources.R.string
+import com.itsaky.tom.rv2ide.utils.AppRestartDialog
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.File
 import java.io.FileOutputStream
 import java.net.URL

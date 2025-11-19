@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.drawable
+package com.itsaky.tom.rv2ide.uidesigner.drawable
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.LayerDrawable
 import com.blankj.utilcode.util.SizeUtils
-import com.itsaky.androidide.uidesigner.utils.bgDesignerView
+import com.itsaky.tom.rv2ide.uidesigner.utils.bgDesignerView
 
 /**
  * Marker class to be able to differentiate between normal foregrounds and already layered

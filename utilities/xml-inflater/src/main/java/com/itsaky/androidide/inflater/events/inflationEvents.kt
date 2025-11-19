@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.events
+package com.itsaky.tom.rv2ide.inflater.events
 
-import com.itsaky.androidide.inflater.IAttribute
-import com.itsaky.androidide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.IAttribute
+import com.itsaky.tom.rv2ide.inflater.IView
 
 /** Indicates start of layout inflation. */
 class InflationStartEvent : IInflationEvent<Unit>(Unit)

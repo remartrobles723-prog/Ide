@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services;
+package com.itsaky.tom.rv2ide.services;
 
 /**
  * Thrown when trying to start Tooling API server but another instance is already running.

@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.utils
+package com.itsaky.tom.rv2ide.lsp.java.utils
 
 import com.squareup.javapoet.AnnotationSpec
 import com.squareup.javapoet.ImportCollectingCodeWriter
 import com.squareup.javapoet.MethodSpec
-import com.itsaky.androidide.preferences.utils.indentationString
+import com.itsaky.tom.rv2ide.preferences.utils.indentationString
 import jdkx.lang.model.element.ExecutableElement
 import jdkx.lang.model.element.Modifier
 import jdkx.lang.model.type.DeclaredType

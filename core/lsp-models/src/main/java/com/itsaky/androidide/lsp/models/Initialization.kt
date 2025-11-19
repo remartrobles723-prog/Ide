@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.models
+package com.itsaky.tom.rv2ide.lsp.models
 
 import java.nio.file.Path
 

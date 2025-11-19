@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 // Forked from JavacTaskImpl
-package com.itsaky.androidide.javac.services.compiler
+package com.itsaky.tom.rv2ide.javac.services.compiler
 
-import com.itsaky.androidide.javac.services.CancelService
+import com.itsaky.tom.rv2ide.javac.services.CancelService
 import jdkx.tools.DiagnosticListener
 import jdkx.tools.JavaFileManager
 import jdkx.tools.JavaFileObject

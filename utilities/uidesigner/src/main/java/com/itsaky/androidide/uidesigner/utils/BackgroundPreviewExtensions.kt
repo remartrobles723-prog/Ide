@@ -4,7 +4,7 @@
  * Integrates VectorDrawableRenderer and MaterialDesign3Renderer with modular architecture
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
 import android.content.Context
 import android.widget.ImageView
@@ -15,8 +15,8 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import com.google.android.material.textview.MaterialTextView
-import com.itsaky.androidide.inflater.internal.ViewImpl
-import com.itsaky.androidide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.projects.IWorkspace
 import java.io.File
 import org.slf4j.LoggerFactory
 

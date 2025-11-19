@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion.layout
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion.layout
 
 import com.android.aaptcompiler.ResourcePathData
-import com.itsaky.androidide.lsp.api.ICompletionProvider
-import com.itsaky.androidide.lsp.xml.providers.completion.AttrCompletionProvider
-import com.itsaky.androidide.lsp.xml.providers.completion.canCompleteLayout
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType
+import com.itsaky.tom.rv2ide.lsp.api.ICompletionProvider
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.AttrCompletionProvider
+import com.itsaky.tom.rv2ide.lsp.xml.providers.completion.canCompleteLayout
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType
 
 /**
  * Attribute completion provider for layout files.

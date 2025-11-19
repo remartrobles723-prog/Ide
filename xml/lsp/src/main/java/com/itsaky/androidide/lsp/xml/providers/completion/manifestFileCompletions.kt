@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion
 
 import com.android.SdkConstants.ANDROID_MANIFEST_XML
 import com.android.aaptcompiler.ResourcePathData
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType
-import com.itsaky.androidide.utils.VMUtils
-import com.itsaky.androidide.xml.res.IResourceTable
-import com.itsaky.androidide.xml.resources.ResourceTableRegistry
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType
+import com.itsaky.tom.rv2ide.utils.VMUtils
+import com.itsaky.tom.rv2ide.xml.res.IResourceTable
+import com.itsaky.tom.rv2ide.xml.resources.ResourceTableRegistry
 
 const val MANIFEST_TAG_PREFIX = "AndroidManifest"
 

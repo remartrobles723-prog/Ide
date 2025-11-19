@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.viewmodel
+package com.itsaky.tom.rv2ide.uidesigner.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.itsaky.androidide.uidesigner.models.UiAttribute
-import com.itsaky.androidide.uidesigner.undo.UndoManager
+import com.itsaky.tom.rv2ide.uidesigner.models.UiAttribute
+import com.itsaky.tom.rv2ide.uidesigner.undo.UndoManager
 import java.io.File
 
 /** FIXED: Workspace state data class to persist M3 components and other workspace changes */
@@ -43,7 +43,7 @@ internal class WorkspaceViewModel : ViewModel() {
   internal val _drawerOpened = MutableLiveData(false)
   internal val _errText = MutableLiveData("")
   internal val _workspaceScreen = MutableLiveData(SCREEN_WORKSPACE)
-  internal val _view = MutableLiveData<com.itsaky.androidide.inflater.IView>(null)
+  internal val _view = MutableLiveData<com.itsaky.tom.rv2ide.inflater.IView>(null)
   internal val _selectedAttr = MutableLiveData<UiAttribute>(null)
   internal val _addAttrMode = MutableLiveData(false)
   internal val _undoManager = MutableLiveData(UndoManager())
@@ -88,7 +88,7 @@ internal class WorkspaceViewModel : ViewModel() {
       _workspaceScreen.value = value
     }
 
-  var view: com.itsaky.androidide.inflater.IView?
+  var view: com.itsaky.tom.rv2ide.inflater.IView?
     get() = this._view.value
     set(value) {
       this._view.value = value

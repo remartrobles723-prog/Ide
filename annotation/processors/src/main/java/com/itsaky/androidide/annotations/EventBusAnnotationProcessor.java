@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.itsaky.androidide.annotations;
+package com.itsaky.tom.rv2ide.annotations;
 
 import com.google.auto.service.AutoService;
 import javax.annotation.processing.Processor;

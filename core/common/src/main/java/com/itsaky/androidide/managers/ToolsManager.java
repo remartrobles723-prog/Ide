@@ -15,16 +15,16 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
-package com.itsaky.androidide.managers;
+package com.itsaky.tom.rv2ide.managers;
 
 import androidx.annotation.NonNull;
 
 import com.blankj.utilcode.util.FileUtils;
 import com.blankj.utilcode.util.ResourceUtils;
-import com.itsaky.androidide.app.BaseApplication;
-import com.itsaky.androidide.app.configuration.IDEBuildConfigProvider;
-import com.itsaky.androidide.app.configuration.IJdkDistributionProvider;
-import com.itsaky.androidide.utils.Environment;
+import com.itsaky.tom.rv2ide.app.BaseApplication;
+import com.itsaky.tom.rv2ide.app.configuration.IDEBuildConfigProvider;
+import com.itsaky.tom.rv2ide.app.configuration.IJdkDistributionProvider;
+import com.itsaky.tom.rv2ide.utils.Environment;
 
 import org.jetbrains.annotations.Contract;
 import org.slf4j.Logger;

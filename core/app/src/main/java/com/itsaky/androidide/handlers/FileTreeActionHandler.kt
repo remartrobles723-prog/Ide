@@ -15,26 +15,26 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.handlers
+package com.itsaky.tom.rv2ide.handlers
 
 import android.content.Context
 import androidx.core.view.GravityCompat
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem.Location.EDITOR_FILE_TREE
-import com.itsaky.androidide.actions.ActionMenu
-import com.itsaky.androidide.actions.ActionsRegistry
-import com.itsaky.androidide.actions.internal.DefaultActionsRegistry
-import com.itsaky.androidide.activities.editor.EditorHandlerActivity
-import com.itsaky.androidide.eventbus.events.filetree.FileClickEvent
-import com.itsaky.androidide.eventbus.events.filetree.FileLongClickEvent
-import com.itsaky.androidide.events.ExpandTreeNodeRequestEvent
-import com.itsaky.androidide.events.FileContextMenuItemClickEvent
-import com.itsaky.androidide.events.ListProjectFilesRequestEvent
-import com.itsaky.androidide.fragments.sheets.OptionsListFragment
-import com.itsaky.androidide.models.SheetOption
-import com.itsaky.androidide.utils.ApkInstaller
-import com.itsaky.androidide.utils.InstallationResultHandler
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem.Location.EDITOR_FILE_TREE
+import com.itsaky.tom.rv2ide.actions.ActionMenu
+import com.itsaky.tom.rv2ide.actions.ActionsRegistry
+import com.itsaky.tom.rv2ide.actions.internal.DefaultActionsRegistry
+import com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity
+import com.itsaky.tom.rv2ide.eventbus.events.filetree.FileClickEvent
+import com.itsaky.tom.rv2ide.eventbus.events.filetree.FileLongClickEvent
+import com.itsaky.tom.rv2ide.events.ExpandTreeNodeRequestEvent
+import com.itsaky.tom.rv2ide.events.FileContextMenuItemClickEvent
+import com.itsaky.tom.rv2ide.events.ListProjectFilesRequestEvent
+import com.itsaky.tom.rv2ide.fragments.sheets.OptionsListFragment
+import com.itsaky.tom.rv2ide.models.SheetOption
+import com.itsaky.tom.rv2ide.utils.ApkInstaller
+import com.itsaky.tom.rv2ide.utils.InstallationResultHandler
+import com.itsaky.tom.rv2ide.utils.flashError
 import com.unnamed.b.atv.model.TreeNode
 import java.io.File
 import org.greenrobot.eventbus.EventBus

@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.widgets
+package com.itsaky.tom.rv2ide.xml.widgets
 
-import com.itsaky.androidide.utils.ServiceLoader
-import com.itsaky.androidide.xml.registry.XmlRegistry
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.xml.registry.XmlRegistry
 
 /**
  * Information about widgets, layouts and layout params extracted from `widgets.txt` from the

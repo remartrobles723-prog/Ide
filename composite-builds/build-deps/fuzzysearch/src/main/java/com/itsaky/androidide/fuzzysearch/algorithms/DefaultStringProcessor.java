@@ -1,6 +1,6 @@
-package com.itsaky.androidide.fuzzysearch.algorithms;
+package com.itsaky.tom.rv2ide.fuzzysearch.algorithms;
 
-import com.itsaky.androidide.fuzzysearch.StringProcessor;
+import com.itsaky.tom.rv2ide.fuzzysearch.StringProcessor;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

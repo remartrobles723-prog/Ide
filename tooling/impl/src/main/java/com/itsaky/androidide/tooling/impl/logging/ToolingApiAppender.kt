@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.logging
+package com.itsaky.tom.rv2ide.tooling.impl.logging
 
 import ch.qos.logback.classic.spi.ILoggingEvent
 import ch.qos.logback.core.AppenderBase
-import com.itsaky.androidide.tooling.api.messages.LogMessageParams
-import com.itsaky.androidide.tooling.impl.Main
+import com.itsaky.tom.rv2ide.tooling.api.messages.LogMessageParams
+import com.itsaky.tom.rv2ide.tooling.impl.Main
 
 /**
  * [AppenderBase] implementation which forwards all logs to the tooling API client.

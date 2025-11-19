@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.schemes
+package com.itsaky.tom.rv2ide.editor.schemes
 
 import androidx.collection.MutableIntIntMap
-import com.itsaky.androidide.editor.schemes.internal.parser.SchemeParser
-import com.itsaky.androidide.syntax.colorschemes.DynamicColorScheme
+import com.itsaky.tom.rv2ide.editor.schemes.internal.parser.SchemeParser
+import com.itsaky.tom.rv2ide.syntax.colorschemes.DynamicColorScheme
 import io.github.rosemoe.sora.lang.styling.TextStyle
 import io.github.rosemoe.sora.widget.schemes.EditorColorScheme
 import java.io.File

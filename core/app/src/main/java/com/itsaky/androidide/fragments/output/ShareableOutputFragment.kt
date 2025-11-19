@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.output
+package com.itsaky.tom.rv2ide.fragments.output
 
 /**
  * Any fragment that allows to share it's content.

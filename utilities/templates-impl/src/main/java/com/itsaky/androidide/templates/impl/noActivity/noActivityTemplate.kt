@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.noActivity
+package com.itsaky.tom.rv2ide.templates.impl.noActivity
 
-import com.itsaky.androidide.templates.base.modules.android.defaultAppModule
-import com.itsaky.androidide.templates.impl.R
-import com.itsaky.androidide.templates.impl.base.createRecipe
-import com.itsaky.androidide.templates.impl.base.emptyThemesAndColors
-import com.itsaky.androidide.templates.impl.baseProjectImpl
+import com.itsaky.tom.rv2ide.templates.base.modules.android.defaultAppModule
+import com.itsaky.tom.rv2ide.templates.impl.R
+import com.itsaky.tom.rv2ide.templates.impl.base.createRecipe
+import com.itsaky.tom.rv2ide.templates.impl.base.emptyThemesAndColors
+import com.itsaky.tom.rv2ide.templates.impl.baseProjectImpl
 
 fun noActivityProjectTemplate() = baseProjectImpl {
   templateName = R.string.template_no_activity

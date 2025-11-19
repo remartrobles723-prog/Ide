@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.fragments
+package com.itsaky.tom.rv2ide.uidesigner.fragments
 
-// import com.itsaky.androidide.uidesigner.utils.applyBackgroundPreview
+// import com.itsaky.tom.rv2ide.uidesigner.utils.applyBackgroundPreview
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -32,31 +32,31 @@ import com.google.android.material.chip.Chip
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.textfield.TextInputLayout
 import com.google.android.material.textview.MaterialTextView
-import com.itsaky.androidide.fragments.BaseFragment
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.internal.AttributeImpl
-import com.itsaky.androidide.inflater.internal.LayoutFile
-import com.itsaky.androidide.inflater.internal.ViewGroupImpl
-import com.itsaky.androidide.inflater.internal.ViewImpl
-import com.itsaky.androidide.inflater.utils.endParse
-import com.itsaky.androidide.inflater.utils.startParse
-import com.itsaky.androidide.uidesigner.R
-import com.itsaky.androidide.uidesigner.UIDesignerActivity
-import com.itsaky.androidide.uidesigner.databinding.FragmentDesignerWorkspaceBinding
-import com.itsaky.androidide.uidesigner.drag.WidgetDragListener
-import com.itsaky.androidide.uidesigner.drag.WidgetTouchListener
-import com.itsaky.androidide.uidesigner.drawable.UiViewLayeredForeground
-import com.itsaky.androidide.uidesigner.models.CommonUiView
-import com.itsaky.androidide.uidesigner.models.PlaceholderView
-import com.itsaky.androidide.uidesigner.models.RootWorkspaceView
-import com.itsaky.androidide.uidesigner.models.UiViewGroup
-import com.itsaky.androidide.uidesigner.undo.UndoManager
-import com.itsaky.androidide.uidesigner.utils.UiLayoutInflater
-import com.itsaky.androidide.uidesigner.utils.applyPreview
-import com.itsaky.androidide.uidesigner.utils.bgDesignerView
-import com.itsaky.androidide.uidesigner.utils.layeredForeground
-import com.itsaky.androidide.uidesigner.viewmodel.M3ComponentState
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.fragments.BaseFragment
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.internal.AttributeImpl
+import com.itsaky.tom.rv2ide.inflater.internal.LayoutFile
+import com.itsaky.tom.rv2ide.inflater.internal.ViewGroupImpl
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.inflater.utils.endParse
+import com.itsaky.tom.rv2ide.inflater.utils.startParse
+import com.itsaky.tom.rv2ide.uidesigner.R
+import com.itsaky.tom.rv2ide.uidesigner.UIDesignerActivity
+import com.itsaky.tom.rv2ide.uidesigner.databinding.FragmentDesignerWorkspaceBinding
+import com.itsaky.tom.rv2ide.uidesigner.drag.WidgetDragListener
+import com.itsaky.tom.rv2ide.uidesigner.drag.WidgetTouchListener
+import com.itsaky.tom.rv2ide.uidesigner.drawable.UiViewLayeredForeground
+import com.itsaky.tom.rv2ide.uidesigner.models.CommonUiView
+import com.itsaky.tom.rv2ide.uidesigner.models.PlaceholderView
+import com.itsaky.tom.rv2ide.uidesigner.models.RootWorkspaceView
+import com.itsaky.tom.rv2ide.uidesigner.models.UiViewGroup
+import com.itsaky.tom.rv2ide.uidesigner.undo.UndoManager
+import com.itsaky.tom.rv2ide.uidesigner.utils.UiLayoutInflater
+import com.itsaky.tom.rv2ide.uidesigner.utils.applyPreview
+import com.itsaky.tom.rv2ide.uidesigner.utils.bgDesignerView
+import com.itsaky.tom.rv2ide.uidesigner.utils.layeredForeground
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.M3ComponentState
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
 import java.io.File
 import org.slf4j.LoggerFactory
 
@@ -378,27 +378,27 @@ class DesignerWorkspaceFragment : BaseFragment() {
           }
 
       // CRITICAL FIX: Create IView wrapper with the CORRECT view type name
-      val layoutFile = com.itsaky.androidide.inflater.internal.LayoutFile(File(""), "")
+      val layoutFile = com.itsaky.tom.rv2ide.inflater.internal.LayoutFile(File(""), "")
       val iView =
           when (view) {
             is MaterialButton -> {
               // Use ViewImpl instead of checking the actual view type
-              com.itsaky.androidide.inflater.internal.ViewImpl(layoutFile, m3Component.type, view)
+              com.itsaky.tom.rv2ide.inflater.internal.ViewImpl(layoutFile, m3Component.type, view)
             }
             is MaterialCardView -> {
-              com.itsaky.androidide.inflater.internal.ViewGroupImpl(layoutFile, m3Component.type, view)
+              com.itsaky.tom.rv2ide.inflater.internal.ViewGroupImpl(layoutFile, m3Component.type, view)
             }
             is MaterialTextView -> {
-              com.itsaky.androidide.inflater.internal.ViewImpl(layoutFile, m3Component.type, view)
+              com.itsaky.tom.rv2ide.inflater.internal.ViewImpl(layoutFile, m3Component.type, view)
             }
             is FloatingActionButton -> {
-              com.itsaky.androidide.inflater.internal.ViewImpl(layoutFile, m3Component.type, view)
+              com.itsaky.tom.rv2ide.inflater.internal.ViewImpl(layoutFile, m3Component.type, view)
             }
             is Chip -> {
-              com.itsaky.androidide.inflater.internal.ViewImpl(layoutFile, m3Component.type, view)
+              com.itsaky.tom.rv2ide.inflater.internal.ViewImpl(layoutFile, m3Component.type, view)
             }
             is TextInputLayout -> {
-              com.itsaky.androidide.inflater.internal.ViewGroupImpl(layoutFile, m3Component.type, view)
+              com.itsaky.tom.rv2ide.inflater.internal.ViewGroupImpl(layoutFile, m3Component.type, view)
             }
             else -> return null
           }
@@ -418,12 +418,12 @@ class DesignerWorkspaceFragment : BaseFragment() {
         try {
           val namespace =
               if (attrName.startsWith("app:")) {
-                com.itsaky.androidide.inflater.INamespace.APP
+                com.itsaky.tom.rv2ide.inflater.INamespace.APP
               } else {
-                com.itsaky.androidide.inflater.INamespace.ANDROID
+                com.itsaky.tom.rv2ide.inflater.INamespace.ANDROID
               }
           val attr =
-              com.itsaky.androidide.inflater.internal.AttributeImpl(
+              com.itsaky.tom.rv2ide.inflater.internal.AttributeImpl(
                   namespace = namespace,
                   name = attrName.replace("app:", "").replace("android:", ""),
                   value = attrValue,

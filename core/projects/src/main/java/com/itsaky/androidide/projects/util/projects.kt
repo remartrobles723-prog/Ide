@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.util
+package com.itsaky.tom.rv2ide.projects.util
 
 import androidx.annotation.RestrictTo
 import androidx.annotation.VisibleForTesting
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.projects.android.androidAppProjects
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.projects.android.androidAppProjects
 
 /** **For testing purposes only!** */
 @RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.itsaky.androidide.layoutlib.resources;
+package com.itsaky.tom.rv2ide.layoutlib.resources;
 
 /**
  * An enum representing a resource qualifier value.

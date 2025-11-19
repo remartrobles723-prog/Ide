@@ -1,4 +1,4 @@
-package com.itsaky.androidide.terminal.session
+package com.itsaky.tom.rv2ide.terminal.session
 
 /** Interface for handling terminal session events */
 interface TerminalSessionClient {

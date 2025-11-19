@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater
+package com.itsaky.tom.rv2ide.inflater
 
 import android.graphics.RectF
 import android.view.View

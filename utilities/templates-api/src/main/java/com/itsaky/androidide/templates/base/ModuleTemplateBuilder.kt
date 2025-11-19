@@ -15,20 +15,20 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base
+package com.itsaky.tom.rv2ide.templates.base
 
-import com.itsaky.androidide.templates.Language
-import com.itsaky.androidide.templates.ModuleTemplate
-import com.itsaky.androidide.templates.ModuleTemplateData
-import com.itsaky.androidide.templates.ModuleTemplateRecipeResult
-import com.itsaky.androidide.templates.RecipeExecutor
-import com.itsaky.androidide.templates.SrcSet
-import com.itsaky.androidide.templates.TemplateBuilder
-import com.itsaky.androidide.templates.TemplateRecipeConfigurator
-import com.itsaky.androidide.templates.TemplateRecipeFinalizer
-import com.itsaky.androidide.templates.base.models.Dependency
-import com.itsaky.androidide.templates.base.models.defaultDependency
-import com.itsaky.androidide.templates.base.util.SourceWriter
+import com.itsaky.tom.rv2ide.templates.Language
+import com.itsaky.tom.rv2ide.templates.ModuleTemplate
+import com.itsaky.tom.rv2ide.templates.ModuleTemplateData
+import com.itsaky.tom.rv2ide.templates.ModuleTemplateRecipeResult
+import com.itsaky.tom.rv2ide.templates.RecipeExecutor
+import com.itsaky.tom.rv2ide.templates.SrcSet
+import com.itsaky.tom.rv2ide.templates.TemplateBuilder
+import com.itsaky.tom.rv2ide.templates.TemplateRecipeConfigurator
+import com.itsaky.tom.rv2ide.templates.TemplateRecipeFinalizer
+import com.itsaky.tom.rv2ide.templates.base.models.Dependency
+import com.itsaky.tom.rv2ide.templates.base.models.defaultDependency
+import com.itsaky.tom.rv2ide.templates.base.util.SourceWriter
 import java.io.File
 
 /**
@@ -58,9 +58,9 @@ abstract class ModuleTemplateBuilder :
    * Get the asset path for base module project template.
    *
    * @param path The path for the asset.
-   * @see com.itsaky.androidide.templates.base.baseAsset
+   * @see com.itsaky.tom.rv2ide.templates.base.baseAsset
    */
-  open fun baseAsset(path: String) = com.itsaky.androidide.templates.base.util.baseAsset("module", path)
+  open fun baseAsset(path: String) = com.itsaky.tom.rv2ide.templates.base.util.baseAsset("module", path)
 
   /** Get the `build.gradle[.kts]` file for this module.l */
   fun buildGradleFile(): File {
@@ -160,7 +160,7 @@ abstract class ModuleTemplateBuilder :
 
   /**
    * Add the dependency with the given maven coordinates to this module with the
-   * [Implementation][com.itsaky.androidide.templates.base.models.DependencyConfiguration.Implementation]
+   * [Implementation][com.itsaky.tom.rv2ide.templates.base.models.DependencyConfiguration.Implementation]
    * configuration.
    *
    * @param group The group ID of the dependency.

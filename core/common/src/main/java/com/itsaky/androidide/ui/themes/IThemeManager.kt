@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.ui.themes
+package com.itsaky.tom.rv2ide.ui.themes
 
 import android.app.Activity
-import com.itsaky.androidide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
 
 /**
  * Theme manager for AndroidIDE.

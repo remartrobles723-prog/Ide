@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.edits
+package com.itsaky.tom.rv2ide.lsp.xml.edits
 
 /**
  * Handles insertion of attribute values.

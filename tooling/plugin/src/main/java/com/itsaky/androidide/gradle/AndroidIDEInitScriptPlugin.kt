@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.gradle
+package com.itsaky.tom.rv2ide.gradle
 
-import com.itsaky.androidide.buildinfo.BuildInfo
-import com.itsaky.androidide.tooling.api.LogSenderConfig._PROPERTY_IS_TEST_ENV
-import com.itsaky.androidide.tooling.api.LogSenderConfig._PROPERTY_MAVEN_LOCAL_REPOSITORY
+import com.itsaky.tom.rv2ide.buildinfo.BuildInfo
+import com.itsaky.tom.rv2ide.tooling.api.LogSenderConfig._PROPERTY_IS_TEST_ENV
+import com.itsaky.tom.rv2ide.tooling.api.LogSenderConfig._PROPERTY_MAVEN_LOCAL_REPOSITORY
 import java.io.File
 import java.io.FileNotFoundException
 import java.net.URI

@@ -14,13 +14,13 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.editor.language.groovy;
+package com.itsaky.tom.rv2ide.editor.language.groovy;
 
 import android.os.Bundle;
 import com.blankj.utilcode.util.StringUtils;
-import com.itsaky.androidide.lsp.models.CompletionItem;
-import com.itsaky.androidide.lsp.models.CompletionItemKind;
-import com.itsaky.androidide.lsp.models.InsertTextFormat;
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem;
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind;
+import com.itsaky.tom.rv2ide.lsp.models.InsertTextFormat;
 import io.github.rosemoe.sora.lang.completion.CompletionHelper;
 import io.github.rosemoe.sora.lang.completion.CompletionPublisher;
 import io.github.rosemoe.sora.text.CharPosition;

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.os.Bundle
 import androidx.preference.PreferenceFragmentCompat
-import com.itsaky.androidide.R.xml
+import com.itsaky.tom.rv2ide.R.xml
 
 abstract class BasePreferenceFragment : PreferenceFragmentCompat() {
 

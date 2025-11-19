@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.internal
+package com.itsaky.tom.rv2ide.projects.internal
 
 import com.android.builder.model.v2.models.ProjectSyncIssues
 import com.google.common.collect.ImmutableList
 import com.google.common.collect.ImmutableMap
-import com.itsaky.androidide.projects.GradleProject
-import com.itsaky.androidide.projects.IWorkspace
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.tooling.api.models.BuildVariantInfo
+import com.itsaky.tom.rv2ide.projects.GradleProject
+import com.itsaky.tom.rv2ide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.tooling.api.models.BuildVariantInfo
 import java.io.File
 import java.nio.file.Files
 import java.nio.file.Path

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.editor
+package com.itsaky.tom.rv2ide.actions.editor
 
 import android.content.Context
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.BaseEditorAction
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.BaseEditorAction
 
 /** @author Akash Yadav */
 class CutAction(context: Context, override val order: Int) : BaseEditorAction() {

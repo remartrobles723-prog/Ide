@@ -15,20 +15,20 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.etc
+package com.itsaky.tom.rv2ide.actions.etc
 
 import android.content.Context
 import android.view.MenuItem
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.R
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.EditorActivityAction
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.actions.openApplicationModuleChooser
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.projects.android.androidAppProjects
-import com.itsaky.androidide.utils.IntentUtils
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.EditorActivityAction
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.actions.openApplicationModuleChooser
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.android.androidAppProjects
+import com.itsaky.tom.rv2ide.utils.IntentUtils
+import com.itsaky.tom.rv2ide.utils.flashError
 import org.slf4j.LoggerFactory
 
 /**

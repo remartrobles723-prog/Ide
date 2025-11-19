@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.models
+package com.itsaky.tom.rv2ide.lsp.models
 
-import com.itsaky.androidide.models.Range
+import com.itsaky.tom.rv2ide.models.Range
 
 /**
  * Represents a line-column based text edit. The text in the given [range] must be replaced with the

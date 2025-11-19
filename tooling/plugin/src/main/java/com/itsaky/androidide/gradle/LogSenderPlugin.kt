@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.gradle
+package com.itsaky.tom.rv2ide.gradle
 
 import com.android.build.api.component.analytics.AnalyticsEnabledApplicationVariant
 import com.android.build.api.variant.ApplicationAndroidComponentsExtension

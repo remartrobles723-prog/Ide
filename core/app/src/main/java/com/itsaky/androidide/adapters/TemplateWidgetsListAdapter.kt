@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters
+package com.itsaky.tom.rv2ide.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
-import com.itsaky.androidide.adapters.TemplateWidgetsListAdapter.WidgetViewHolder
-import com.itsaky.androidide.databinding.LayoutTemplateWidgetlistItemBinding
-import com.itsaky.androidide.templates.ITemplateWidgetViewProvider
-import com.itsaky.androidide.templates.Widget
+import com.itsaky.tom.rv2ide.adapters.TemplateWidgetsListAdapter.WidgetViewHolder
+import com.itsaky.tom.rv2ide.databinding.LayoutTemplateWidgetlistItemBinding
+import com.itsaky.tom.rv2ide.templates.ITemplateWidgetViewProvider
+import com.itsaky.tom.rv2ide.templates.Widget
 
 /**
  * A [RecyclerView.Adapter] that is used to show the widgets from templates.

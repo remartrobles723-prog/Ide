@@ -1,15 +1,15 @@
-package com.itsaky.androidide.fuzzysearch.algorithms;
+package com.itsaky.tom.rv2ide.fuzzysearch.algorithms;
 
-import static com.itsaky.androidide.fuzzysearch.FuzzySearch.partialRatio;
-import static com.itsaky.androidide.fuzzysearch.FuzzySearch.ratio;
-import static com.itsaky.androidide.fuzzysearch.FuzzySearch.tokenSetPartialRatio;
-import static com.itsaky.androidide.fuzzysearch.FuzzySearch.tokenSetRatio;
-import static com.itsaky.androidide.fuzzysearch.FuzzySearch.tokenSortPartialRatio;
-import static com.itsaky.androidide.fuzzysearch.FuzzySearch.tokenSortRatio;
-import static com.itsaky.androidide.fuzzysearch.algorithms.PrimitiveUtils.max;
+import static com.itsaky.tom.rv2ide.fuzzysearch.FuzzySearch.partialRatio;
+import static com.itsaky.tom.rv2ide.fuzzysearch.FuzzySearch.ratio;
+import static com.itsaky.tom.rv2ide.fuzzysearch.FuzzySearch.tokenSetPartialRatio;
+import static com.itsaky.tom.rv2ide.fuzzysearch.FuzzySearch.tokenSetRatio;
+import static com.itsaky.tom.rv2ide.fuzzysearch.FuzzySearch.tokenSortPartialRatio;
+import static com.itsaky.tom.rv2ide.fuzzysearch.FuzzySearch.tokenSortRatio;
+import static com.itsaky.tom.rv2ide.fuzzysearch.algorithms.PrimitiveUtils.max;
 import static java.lang.Math.round;
 
-import com.itsaky.androidide.fuzzysearch.ToStringFunction;
+import com.itsaky.tom.rv2ide.fuzzysearch.ToStringFunction;
 
 @SuppressWarnings("WeakerAccess")
 public class WeightedRatio extends BasicAlgorithm {

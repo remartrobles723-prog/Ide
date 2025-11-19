@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.events.task
+package com.itsaky.tom.rv2ide.tooling.events.task
 
 /** @author Akash Yadav */
 class TaskSkippedResult(val skipMessage: String, startTime: Long, endTime: Long) :

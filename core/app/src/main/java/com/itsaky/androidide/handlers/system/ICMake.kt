@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.handlers.system
+package com.itsaky.tom.rv2ide.handlers.system
 
 import android.content.Context
 import android.graphics.Color
@@ -26,19 +26,19 @@ import android.widget.Toast
 import androidx.lifecycle.LifecycleCoroutineScope
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.tom.customizablecardview.CustomizableCardView
-import com.itsaky.androidide.R
-import com.itsaky.androidide.activities.IDEConfigurations
-import com.itsaky.androidide.activities.IdeConfigurations.*
-import com.itsaky.androidide.fragments.sidebar.utils.showErrorDialog
-import com.itsaky.androidide.handlers.IConfigHandler
-import com.itsaky.androidide.handlers.system.installer.IPackageInstaller
-import com.itsaky.androidide.ideconfigurations.utils.IDEUtils
-import com.itsaky.androidide.managers.PreferenceManager
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.GeneralFileUtils
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashProgress
-import com.itsaky.androidide.utils.flashSuccess
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.activities.IDEConfigurations
+import com.itsaky.tom.rv2ide.activities.IdeConfigurations.*
+import com.itsaky.tom.rv2ide.fragments.sidebar.utils.showErrorDialog
+import com.itsaky.tom.rv2ide.handlers.IConfigHandler
+import com.itsaky.tom.rv2ide.handlers.system.installer.IPackageInstaller
+import com.itsaky.tom.rv2ide.ideconfigurations.utils.IDEUtils
+import com.itsaky.tom.rv2ide.managers.PreferenceManager
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.GeneralFileUtils
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashProgress
+import com.itsaky.tom.rv2ide.utils.flashSuccess
 import java.io.File
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

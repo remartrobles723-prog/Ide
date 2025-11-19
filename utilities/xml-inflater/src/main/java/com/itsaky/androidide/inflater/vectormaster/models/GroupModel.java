@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.vectormaster.models;
+package com.itsaky.tom.rv2ide.inflater.vectormaster.models;
 
 import android.graphics.Canvas;
 import android.graphics.Matrix;
-import com.itsaky.androidide.inflater.vectormaster.DefaultValues;
-import com.itsaky.androidide.inflater.vectormaster.utilities.Utils;
+import com.itsaky.tom.rv2ide.inflater.vectormaster.DefaultValues;
+import com.itsaky.tom.rv2ide.inflater.vectormaster.utilities.Utils;
 import java.util.ArrayList;
 
 public class GroupModel {

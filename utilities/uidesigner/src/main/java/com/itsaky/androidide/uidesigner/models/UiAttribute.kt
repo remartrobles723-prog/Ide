@@ -15,17 +15,17 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.models
+package com.itsaky.tom.rv2ide.uidesigner.models
 
 import android.os.Parcel
 import android.os.Parcelable
 import android.os.Parcelable.Creator
-import com.itsaky.androidide.inflater.IAttribute
-import com.itsaky.androidide.inflater.INamespace
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.internal.AttributeImpl
-import com.itsaky.androidide.inflater.internal.NamespaceImpl
-import com.itsaky.androidide.inflater.viewAdapter
+import com.itsaky.tom.rv2ide.inflater.IAttribute
+import com.itsaky.tom.rv2ide.inflater.INamespace
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.internal.AttributeImpl
+import com.itsaky.tom.rv2ide.inflater.internal.NamespaceImpl
+import com.itsaky.tom.rv2ide.inflater.viewAdapter
 
 /**
  * UI Designer specific implementation of [IAttribute].

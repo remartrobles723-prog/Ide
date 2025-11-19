@@ -14,19 +14,19 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.tooling.impl.sync
+package com.itsaky.tom.rv2ide.tooling.impl.sync
 
 import com.android.builder.model.v2.ide.SyncIssue
 import com.android.builder.model.v2.models.Versions
-import com.itsaky.androidide.builder.model.DefaultSyncIssue
-import com.itsaky.androidide.builder.model.IDESyncIssue
-import com.itsaky.androidide.tooling.api.messages.InitializeProjectParams
-import com.itsaky.androidide.tooling.api.util.ToolingProps
-import com.itsaky.androidide.utils.AndroidPluginVersion
-import com.itsaky.androidide.utils.AndroidPluginVersion.Companion.MINIMUM_SUPPORTED
-import com.itsaky.androidide.utils.ILogger
-import com.itsaky.androidide.utils.LogUtils
-import com.itsaky.androidide.utils.StopWatch
+import com.itsaky.tom.rv2ide.builder.model.DefaultSyncIssue
+import com.itsaky.tom.rv2ide.builder.model.IDESyncIssue
+import com.itsaky.tom.rv2ide.tooling.api.messages.InitializeProjectParams
+import com.itsaky.tom.rv2ide.tooling.api.util.ToolingProps
+import com.itsaky.tom.rv2ide.utils.AndroidPluginVersion
+import com.itsaky.tom.rv2ide.utils.AndroidPluginVersion.Companion.MINIMUM_SUPPORTED
+import com.itsaky.tom.rv2ide.utils.ILogger
+import com.itsaky.tom.rv2ide.utils.LogUtils
+import com.itsaky.tom.rv2ide.utils.StopWatch
 import java.util.concurrent.atomic.AtomicBoolean
 import org.gradle.api.Action
 import org.gradle.tooling.BuildController
@@ -203,8 +203,8 @@ abstract class AbstractModelBuilder<P, R>(
 
     /**
      * Generates the log message for the given objects. This works similar to
-     * [ generateMessage(Object...)][com.itsaky.androidide.utils.ILogger.generateMessage] in
-     * [ILogger][com.itsaky.androidide.utils.ILogger].
+     * [ generateMessage(Object...)][com.itsaky.tom.rv2ide.utils.ILogger.generateMessage] in
+     * [ILogger][com.itsaky.tom.rv2ide.utils.ILogger].
      *
      * @param objects The objects to print in the message.
      * @return The generated message.

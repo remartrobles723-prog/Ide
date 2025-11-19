@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
 import android.view.LayoutInflater
 import androidx.preference.Preference
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.textfield.TextInputLayout
-import com.itsaky.androidide.preferences.databinding.LayoutDialogTextInputBinding
+import com.itsaky.tom.rv2ide.preferences.databinding.LayoutDialogTextInputBinding
 
 /**
  * A preference which shows an edittext

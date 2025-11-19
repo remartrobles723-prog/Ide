@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.diffutils;
+package com.itsaky.tom.rv2ide.diffutils;
 
-import com.itsaky.androidide.diffutils.structs.EditOp;
-import com.itsaky.androidide.diffutils.structs.EditType;
-import com.itsaky.androidide.diffutils.structs.MatchingBlock;
-import com.itsaky.androidide.diffutils.structs.OpCode;
+import com.itsaky.tom.rv2ide.diffutils.structs.EditOp;
+import com.itsaky.tom.rv2ide.diffutils.structs.EditType;
+import com.itsaky.tom.rv2ide.diffutils.structs.MatchingBlock;
+import com.itsaky.tom.rv2ide.diffutils.structs.OpCode;
 
 /**
  * This is a port of all the functions needed from python-levenshtein C implementation. The code was

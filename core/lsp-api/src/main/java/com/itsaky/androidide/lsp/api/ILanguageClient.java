@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.api;
+package com.itsaky.tom.rv2ide.lsp.api;
 
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.lsp.models.CodeActionItem;
-import com.itsaky.androidide.lsp.models.DiagnosticItem;
-import com.itsaky.androidide.lsp.models.DiagnosticResult;
-import com.itsaky.androidide.lsp.models.PerformCodeActionParams;
-import com.itsaky.androidide.lsp.models.ShowDocumentParams;
-import com.itsaky.androidide.lsp.models.ShowDocumentResult;
-import com.itsaky.androidide.models.Location;
+import com.itsaky.tom.rv2ide.lsp.models.CodeActionItem;
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem;
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult;
+import com.itsaky.tom.rv2ide.lsp.models.PerformCodeActionParams;
+import com.itsaky.tom.rv2ide.lsp.models.ShowDocumentParams;
+import com.itsaky.tom.rv2ide.lsp.models.ShowDocumentResult;
+import com.itsaky.tom.rv2ide.models.Location;
 import java.io.File;
 import java.util.List;
 

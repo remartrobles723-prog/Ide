@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.sidebar
+package com.itsaky.tom.rv2ide.fragments.sidebar
 
 import android.os.Bundle
 import android.view.View
@@ -28,9 +28,9 @@ import androidx.core.view.marginTop
 import androidx.core.view.updateLayoutParams
 import androidx.core.view.updateMarginsRelative
 import androidx.core.view.updatePadding
-import com.itsaky.androidide.databinding.FragmentEditorSidebarBinding
-import com.itsaky.androidide.fragments.FragmentWithBinding
-import com.itsaky.androidide.utils.EditorSidebarActions
+import com.itsaky.tom.rv2ide.databinding.FragmentEditorSidebarBinding
+import com.itsaky.tom.rv2ide.fragments.FragmentWithBinding
+import com.itsaky.tom.rv2ide.utils.EditorSidebarActions
 
 /**
  * Fragment for showing the default items in the editor activity's sidebar.

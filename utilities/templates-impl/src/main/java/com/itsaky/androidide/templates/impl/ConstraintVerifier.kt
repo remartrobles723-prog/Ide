@@ -15,22 +15,22 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl
+package com.itsaky.tom.rv2ide.templates.impl
 
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.templates.ParameterConstraint
-import com.itsaky.androidide.templates.ParameterConstraint.CLASS
-import com.itsaky.androidide.templates.ParameterConstraint.CLASS_NAME
-import com.itsaky.androidide.templates.ParameterConstraint.DIRECTORY
-import com.itsaky.androidide.templates.ParameterConstraint.EXISTS
-import com.itsaky.androidide.templates.ParameterConstraint.FILE
-import com.itsaky.androidide.templates.ParameterConstraint.LAYOUT
-import com.itsaky.androidide.templates.ParameterConstraint.MODULE_NAME
-import com.itsaky.androidide.templates.ParameterConstraint.NONEMPTY
-import com.itsaky.androidide.templates.ParameterConstraint.PACKAGE
-import com.itsaky.androidide.templates.base.util.isValidModuleName
-import com.itsaky.androidide.templates.impl.R.string
-import com.itsaky.androidide.utils.AndroidUtils
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.CLASS
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.CLASS_NAME
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.DIRECTORY
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.EXISTS
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.FILE
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.LAYOUT
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.MODULE_NAME
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.NONEMPTY
+import com.itsaky.tom.rv2ide.templates.ParameterConstraint.PACKAGE
+import com.itsaky.tom.rv2ide.templates.base.util.isValidModuleName
+import com.itsaky.tom.rv2ide.templates.impl.R.string
+import com.itsaky.tom.rv2ide.utils.AndroidUtils
 import java.io.File
 import jdkx.lang.model.SourceVersion
 

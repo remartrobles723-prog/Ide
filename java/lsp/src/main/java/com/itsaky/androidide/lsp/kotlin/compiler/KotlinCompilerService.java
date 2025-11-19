@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin.compiler;
+package com.itsaky.tom.rv2ide.lsp.kotlin.compiler;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.projects.ModuleProject;
-import com.itsaky.androidide.projects.android.AndroidModule;
-import com.itsaky.androidide.projects.util.BootClasspathProvider;
-import com.itsaky.androidide.utils.Environment;
+import com.itsaky.tom.rv2ide.projects.ModuleProject;
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule;
+import com.itsaky.tom.rv2ide.projects.util.BootClasspathProvider;
+import com.itsaky.tom.rv2ide.utils.Environment;
 import java.io.File;
 import java.nio.file.Path;
 import java.util.Collections;

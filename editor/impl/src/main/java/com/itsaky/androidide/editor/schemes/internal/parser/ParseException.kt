@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.schemes.internal.parser
+package com.itsaky.tom.rv2ide.editor.schemes.internal.parser
 
 import com.google.gson.JsonParseException
 

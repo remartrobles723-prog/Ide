@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logsender.socket;
+package com.itsaky.tom.rv2ide.logsender.socket;
 
 import java.util.Objects;
 

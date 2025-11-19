@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.sync
+package com.itsaky.tom.rv2ide.tooling.impl.sync
 
-import com.itsaky.androidide.tooling.api.IModuleProject
-import com.itsaky.androidide.tooling.api.messages.InitializeProjectParams
+import com.itsaky.tom.rv2ide.tooling.api.IModuleProject
+import com.itsaky.tom.rv2ide.tooling.api.messages.InitializeProjectParams
 
 /**
  * Builds models for module projects (either Android app/library or Java library projects).

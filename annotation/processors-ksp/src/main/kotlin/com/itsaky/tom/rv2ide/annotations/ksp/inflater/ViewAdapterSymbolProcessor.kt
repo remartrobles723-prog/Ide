@@ -27,7 +27,7 @@ import com.google.devtools.ksp.processing.SymbolProcessor
 import com.google.devtools.ksp.symbol.KSAnnotated
 import com.google.devtools.ksp.symbol.KSClassDeclaration
 import com.google.devtools.ksp.symbol.KSFile
-import com.itsaky.androidide.annotations.inflater.ViewAdapter
+import com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter
 
 /**
  * [SymbolProcessor] for [ViewAdapter] annotations.

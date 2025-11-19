@@ -19,7 +19,7 @@ package com.itsaky.tom.rv2ide.actions
 
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.itsaky.androidide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.utils.DialogUtils
 import io.github.rosemoe.sora.widget.CodeEditor
 import java.io.File
 import java.nio.file.Path

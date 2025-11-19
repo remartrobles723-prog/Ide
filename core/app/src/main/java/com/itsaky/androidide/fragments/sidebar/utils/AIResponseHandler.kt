@@ -14,15 +14,15 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.fragments.sidebar.utils
+package com.itsaky.tom.rv2ide.fragments.sidebar.utils
 
 import android.content.Context
 import android.widget.LinearLayout
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.projects.internal.ProjectManagerImpl
-import com.itsaky.androidide.utils.ProjectHelper
+import com.itsaky.tom.rv2ide.projects.internal.ProjectManagerImpl
+import com.itsaky.tom.rv2ide.utils.ProjectHelper
 import kotlinx.coroutines.launch
 import org.slf4j.LoggerFactory
 

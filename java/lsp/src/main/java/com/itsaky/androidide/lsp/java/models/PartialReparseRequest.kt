@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.models
+package com.itsaky.tom.rv2ide.lsp.java.models
 
 /**
  * Data provided to the compiler to request a partial reparse if needed.

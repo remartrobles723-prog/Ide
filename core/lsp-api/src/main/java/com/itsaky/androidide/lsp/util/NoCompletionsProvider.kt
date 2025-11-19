@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.util
+package com.itsaky.tom.rv2ide.lsp.util
 
-import com.itsaky.androidide.lsp.api.ICompletionProvider
+import com.itsaky.tom.rv2ide.lsp.api.ICompletionProvider
 
 /** @author Akash Yadav */
 class NoCompletionsProvider : ICompletionProvider {
   override fun complete(
-      params: com.itsaky.androidide.lsp.models.CompletionParams?
-  ): com.itsaky.androidide.lsp.models.CompletionResult = com.itsaky.androidide.lsp.models.CompletionResult.EMPTY
+      params: com.itsaky.tom.rv2ide.lsp.models.CompletionParams?
+  ): com.itsaky.tom.rv2ide.lsp.models.CompletionResult = com.itsaky.tom.rv2ide.lsp.models.CompletionResult.EMPTY
 }

@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.messages
+package com.itsaky.tom.rv2ide.tooling.api.messages
 
-import com.itsaky.androidide.models.LogLine
-import com.itsaky.androidide.utils.ILogger
+import com.itsaky.tom.rv2ide.models.LogLine
+import com.itsaky.tom.rv2ide.utils.ILogger
 
 /**
  * Parameters for sending a log message from the tooling API to the IDE.

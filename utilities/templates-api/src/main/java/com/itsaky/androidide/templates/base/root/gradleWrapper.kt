@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.root
+package com.itsaky.tom.rv2ide.templates.base.root
 
-import com.itsaky.androidide.templates.base.ProjectTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.ProjectTemplateBuilder
 import java.io.File
 
 internal fun ProjectTemplateBuilder.gradleWrapperProps() {
@@ -32,7 +32,7 @@ internal fun ProjectTemplateBuilder.gradleWrapperPropsSrc(): String {
   return """
     distributionBase=GRADLE_USER_HOME
     distributionPath=wrapper/dists
-    distributionUrl=https\://services.gradle.org/distributions/gradle-${com.itsaky.androidide.templates.GRADLE_WRAPPER_DISTRIBUTION_VERSION}-bin.zip
+    distributionUrl=https\://services.gradle.org/distributions/gradle-${com.itsaky.tom.rv2ide.templates.GRADLE_WRAPPER_DISTRIBUTION_VERSION}-bin.zip
     networkTimeout=10000
     zipStoreBase=GRADLE_USER_HOME
     zipStorePath=wrapper/dists

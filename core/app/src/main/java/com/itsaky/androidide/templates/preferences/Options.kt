@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.preferences
+package com.itsaky.tom.rv2ide.templates.preferences
 
 /**
  * Global template configuration options.

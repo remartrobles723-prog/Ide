@@ -14,11 +14,11 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.activities.editor
+package com.itsaky.tom.rv2ide.activities.editor
 
 import android.os.Process
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.transferToStream
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.transferToStream
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date

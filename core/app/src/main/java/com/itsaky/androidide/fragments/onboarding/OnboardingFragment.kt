@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.onboarding
+package com.itsaky.tom.rv2ide.fragments.onboarding
 
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.text.method.LinkMovementMethodCompat
 import androidx.core.view.updateLayoutParams
-import com.itsaky.androidide.databinding.FragmentOnboardingBinding
-import com.itsaky.androidide.fragments.FragmentWithBinding
+import com.itsaky.tom.rv2ide.databinding.FragmentOnboardingBinding
+import com.itsaky.tom.rv2ide.fragments.FragmentWithBinding
 
 open class OnboardingFragment :
     FragmentWithBinding<FragmentOnboardingBinding>(FragmentOnboardingBinding::inflate) {

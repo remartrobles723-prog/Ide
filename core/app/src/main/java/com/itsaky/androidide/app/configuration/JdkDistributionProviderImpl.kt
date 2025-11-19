@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.app.configuration
+package com.itsaky.tom.rv2ide.app.configuration
 
 import com.google.auto.service.AutoService
-import com.itsaky.androidide.models.JdkDistribution
-import com.itsaky.androidide.preferences.internal.BuildPreferences
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.JdkUtils
+import com.itsaky.tom.rv2ide.models.JdkDistribution
+import com.itsaky.tom.rv2ide.preferences.internal.BuildPreferences
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.JdkUtils
 import java.io.File
 import org.slf4j.LoggerFactory
 

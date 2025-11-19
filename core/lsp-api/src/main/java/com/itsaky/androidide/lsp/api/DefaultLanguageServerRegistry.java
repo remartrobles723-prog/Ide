@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.api;
+package com.itsaky.tom.rv2ide.lsp.api;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.itsaky.androidide.eventbus.events.project.ProjectInitializedEvent;
-import com.itsaky.androidide.projects.IWorkspace;
-import com.itsaky.androidide.utils.ILogger;
+import com.itsaky.tom.rv2ide.eventbus.events.project.ProjectInitializedEvent;
+import com.itsaky.tom.rv2ide.projects.IWorkspace;
+import com.itsaky.tom.rv2ide.utils.ILogger;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

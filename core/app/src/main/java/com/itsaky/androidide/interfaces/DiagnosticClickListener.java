@@ -15,10 +15,10 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  **************************************************************************************/
-package com.itsaky.androidide.interfaces;
+package com.itsaky.tom.rv2ide.interfaces;
 
-import com.itsaky.androidide.lsp.models.DiagnosticItem;
-import com.itsaky.androidide.models.DiagnosticGroup;
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem;
+import com.itsaky.tom.rv2ide.models.DiagnosticGroup;
 import java.io.File;
 
 public interface DiagnosticClickListener {

@@ -15,12 +15,12 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
 import com.google.gson.Gson
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.File
 import java.security.MessageDigest
 import org.slf4j.LoggerFactory

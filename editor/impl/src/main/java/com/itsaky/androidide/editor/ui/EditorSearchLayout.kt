@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -27,10 +27,10 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.FrameLayout
 import android.widget.PopupMenu
-import com.itsaky.androidide.editor.databinding.LayoutFindInFileBinding
-import com.itsaky.androidide.editor.ui.ReplaceAction.doReplace
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.SingleTextWatcher
+import com.itsaky.tom.rv2ide.editor.databinding.LayoutFindInFileBinding
+import com.itsaky.tom.rv2ide.editor.ui.ReplaceAction.doReplace
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.SingleTextWatcher
 import io.github.rosemoe.sora.widget.EditorSearcher.SearchOptions
 import java.util.regex.Pattern
 

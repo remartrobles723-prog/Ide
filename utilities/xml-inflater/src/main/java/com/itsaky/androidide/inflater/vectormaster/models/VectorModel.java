@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.vectormaster.models;
+package com.itsaky.tom.rv2ide.inflater.vectormaster.models;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.Path;
-import com.itsaky.androidide.inflater.vectormaster.enums.TintMode;
+import com.itsaky.tom.rv2ide.inflater.vectormaster.enums.TintMode;
 import java.util.ArrayList;
 
 public class VectorModel {

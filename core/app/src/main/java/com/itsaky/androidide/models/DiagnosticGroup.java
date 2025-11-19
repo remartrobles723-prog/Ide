@@ -15,9 +15,9 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  **************************************************************************************/
-package com.itsaky.androidide.models;
+package com.itsaky.tom.rv2ide.models;
 
-import com.itsaky.androidide.lsp.models.DiagnosticItem;
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem;
 import java.io.File;
 import java.util.List;
 

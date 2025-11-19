@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.groovy
+package com.itsaky.tom.rv2ide.editor.language.groovy
 
-import com.itsaky.androidide.editor.language.incremental.BaseIncrementalAnalyzeManager
-import com.itsaky.androidide.editor.language.incremental.IncrementalToken
-import com.itsaky.androidide.editor.language.incremental.LineState
-import com.itsaky.androidide.lexers.groovy.GroovyLexer
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE
+import com.itsaky.tom.rv2ide.editor.language.incremental.BaseIncrementalAnalyzeManager
+import com.itsaky.tom.rv2ide.editor.language.incremental.IncrementalToken
+import com.itsaky.tom.rv2ide.editor.language.incremental.LineState
+import com.itsaky.tom.rv2ide.lexers.groovy.GroovyLexer
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE
 import io.github.rosemoe.sora.lang.analysis.IncrementalAnalyzeManager.LineTokenizeResult
 import io.github.rosemoe.sora.lang.styling.Span
 import io.github.rosemoe.sora.lang.styling.SpanFactory

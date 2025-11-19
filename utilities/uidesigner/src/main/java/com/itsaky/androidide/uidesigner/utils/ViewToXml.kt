@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
 import android.content.Context
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.IViewGroup
-import com.itsaky.androidide.inflater.internal.ViewGroupImpl
-import com.itsaky.androidide.inflater.internal.ViewImpl
-import com.itsaky.androidide.lsp.xml.utils.XMLBuilder
-import com.itsaky.androidide.tasks.executeAsyncProvideError
-import com.itsaky.androidide.uidesigner.R
-import com.itsaky.androidide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.IViewGroup
+import com.itsaky.tom.rv2ide.inflater.internal.ViewGroupImpl
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XMLBuilder
+import com.itsaky.tom.rv2ide.tasks.executeAsyncProvideError
+import com.itsaky.tom.rv2ide.uidesigner.R
+import com.itsaky.tom.rv2ide.utils.DialogUtils
 import java.util.concurrent.CompletableFuture
 import java.util.concurrent.CompletionException
 import org.slf4j.LoggerFactory

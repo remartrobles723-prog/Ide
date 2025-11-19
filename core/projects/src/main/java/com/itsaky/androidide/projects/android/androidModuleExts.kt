@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.android
+package com.itsaky.tom.rv2ide.projects.android
 
-import com.itsaky.androidide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.projects.IWorkspace
 
 /** Get a sequence of all Android application projects in this workspace. */
 fun IWorkspace.androidAppProjects() = androidProjects().filterIsAndroidApp()

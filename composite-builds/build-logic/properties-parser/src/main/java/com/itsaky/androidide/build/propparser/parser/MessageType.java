@@ -23,7 +23,7 @@
  * questions.
  */
 
-package com.itsaky.androidide.build.propparser.parser;
+package com.itsaky.tom.rv2ide.build.propparser.parser;
 
 /**
  * Common interface to all kinds of diagnostic argument types.

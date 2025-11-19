@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.utils
+package com.itsaky.tom.rv2ide.lsp.java.utils
 
 import openjdk.source.tree.MethodTree
 import openjdk.source.tree.Tree

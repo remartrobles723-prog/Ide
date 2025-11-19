@@ -15,21 +15,21 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.widget.VideoView
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner.Group.WIDGETS
-import com.itsaky.androidide.inflater.models.UiWidget
-import com.itsaky.androidide.resources.R.drawable
-import com.itsaky.androidide.resources.R.string
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner.Group.WIDGETS
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.resources.R.drawable
+import com.itsaky.tom.rv2ide.resources.R.string
 
 /**
  * Attribute adapter for [VideoView].
  *
  * @author Deep Kr. Ghosh
  */
-@com.itsaky.androidide.annotations.inflater.ViewAdapter(VideoView::class)
+@com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter(VideoView::class)
 @IncludeInDesigner(group = WIDGETS)
 open class VideoViewAdapter<T : VideoView> : SurfaceViewAdapter<T>() {
   override fun createUiWidgets(): List<UiWidget> {

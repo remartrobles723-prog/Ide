@@ -14,11 +14,11 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.tooling.impl.sync
+package com.itsaky.tom.rv2ide.tooling.impl.sync
 
-import com.itsaky.androidide.tooling.api.IGradleProject
-import com.itsaky.androidide.tooling.api.messages.InitializeProjectParams
-import com.itsaky.androidide.tooling.impl.internal.GradleProjectImpl
+import com.itsaky.tom.rv2ide.tooling.api.IGradleProject
+import com.itsaky.tom.rv2ide.tooling.api.messages.InitializeProjectParams
+import com.itsaky.tom.rv2ide.tooling.impl.internal.GradleProjectImpl
 import org.gradle.tooling.model.GradleProject
 
 /**

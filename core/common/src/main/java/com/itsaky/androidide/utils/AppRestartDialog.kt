@@ -15,13 +15,13 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.resources.R
 
 /*
  * @author Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null

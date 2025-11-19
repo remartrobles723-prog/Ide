@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -28,19 +28,19 @@ import androidx.core.view.isVisible
 import androidx.transition.TransitionManager
 import androidx.transition.doOnEnd
 import com.google.android.material.transition.MaterialSharedAxis
-import com.itsaky.androidide.activities.editor.EditorActivityKt
-import com.itsaky.androidide.app.EdgeToEdgeIDEActivity
-import com.itsaky.androidide.databinding.ActivityMainBinding
-import com.itsaky.androidide.preferences.internal.GeneralPreferences
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.resources.R.string
-import com.itsaky.androidide.templates.ITemplateProvider
-import com.itsaky.androidide.utils.DialogUtils
-import com.itsaky.androidide.utils.flashInfo
-import com.itsaky.androidide.viewmodel.MainViewModel
-import com.itsaky.androidide.viewmodel.MainViewModel.Companion.SCREEN_MAIN
-import com.itsaky.androidide.viewmodel.MainViewModel.Companion.SCREEN_TEMPLATE_DETAILS
-import com.itsaky.androidide.viewmodel.MainViewModel.Companion.SCREEN_TEMPLATE_LIST
+import com.itsaky.tom.rv2ide.activities.editor.EditorActivityKt
+import com.itsaky.tom.rv2ide.app.EdgeToEdgeIDEActivity
+import com.itsaky.tom.rv2ide.databinding.ActivityMainBinding
+import com.itsaky.tom.rv2ide.preferences.internal.GeneralPreferences
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.resources.R.string
+import com.itsaky.tom.rv2ide.templates.ITemplateProvider
+import com.itsaky.tom.rv2ide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.utils.flashInfo
+import com.itsaky.tom.rv2ide.viewmodel.MainViewModel
+import com.itsaky.tom.rv2ide.viewmodel.MainViewModel.Companion.SCREEN_MAIN
+import com.itsaky.tom.rv2ide.viewmodel.MainViewModel.Companion.SCREEN_TEMPLATE_DETAILS
+import com.itsaky.tom.rv2ide.viewmodel.MainViewModel.Companion.SCREEN_TEMPLATE_LIST
 import java.io.File
 
 class MainActivity : EdgeToEdgeIDEActivity() {
@@ -141,7 +141,7 @@ class MainActivity : EdgeToEdgeIDEActivity() {
         when (screen) {
           SCREEN_MAIN -> binding.main
           SCREEN_TEMPLATE_LIST ->
-              com.itsaky.androidide.templates.AtcInterface().create(this) // binding.templateList
+              com.itsaky.tom.rv2ide.templates.AtcInterface().create(this) // binding.templateList
           SCREEN_TEMPLATE_DETAILS -> binding.templateDetails
           else -> throw IllegalArgumentException("Invalid screen id: '$screen'")
         }

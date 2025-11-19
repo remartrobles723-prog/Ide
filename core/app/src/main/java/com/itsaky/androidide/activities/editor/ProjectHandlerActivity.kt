@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities.editor
+package com.itsaky.tom.rv2ide.activities.editor
 
 import android.content.Intent
 import android.os.Bundle
@@ -27,44 +27,44 @@ import androidx.annotation.GravityInt
 import androidx.appcompat.app.AlertDialog
 import com.blankj.utilcode.util.SizeUtils
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.R
-import com.itsaky.androidide.R.string
-import com.itsaky.androidide.databinding.LayoutSearchProjectBinding
-import com.itsaky.androidide.flashbar.Flashbar
-import com.itsaky.androidide.fragments.sheets.ProgressSheet
-import com.itsaky.androidide.handlers.EditorBuildEventListener
-import com.itsaky.androidide.handlers.LspHandler.connectClient
-import com.itsaky.androidide.handlers.LspHandler.destroyLanguageServers
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.lsp.IDELanguageClientImpl
-import com.itsaky.androidide.lsp.java.utils.CancelChecker
-import com.itsaky.androidide.preferences.internal.GeneralPreferences
-import com.itsaky.androidide.projects.GradleProject
-import com.itsaky.androidide.projects.builder.BuildService
-import com.itsaky.androidide.projects.internal.ProjectManagerImpl
-import com.itsaky.androidide.services.builder.GradleBuildService
-import com.itsaky.androidide.services.builder.GradleBuildServiceConnnection
-import com.itsaky.androidide.services.builder.gradleDistributionParams
-import com.itsaky.androidide.tasks.executeAsyncProvideError
-import com.itsaky.androidide.tasks.executeWithProgress
-import com.itsaky.androidide.tooling.api.messages.AndroidInitializationParams
-import com.itsaky.androidide.tooling.api.messages.InitializeProjectParams
-import com.itsaky.androidide.tooling.api.messages.result.InitializeResult
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_DIRECTORY_INACCESSIBLE
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_NOT_DIRECTORY
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_NOT_FOUND
-import com.itsaky.androidide.tooling.api.models.BuildVariantInfo
-import com.itsaky.androidide.tooling.api.models.mapToSelectedVariants
-import com.itsaky.androidide.utils.DURATION_INDEFINITE
-import com.itsaky.androidide.utils.DialogUtils.newMaterialDialogBuilder
-import com.itsaky.androidide.utils.RecursiveFileSearcher
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashbarBuilder
-import com.itsaky.androidide.utils.resolveAttr
-import com.itsaky.androidide.utils.showOnUiThread
-import com.itsaky.androidide.utils.withIcon
-import com.itsaky.androidide.viewmodel.BuildVariantsViewModel
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.R.string
+import com.itsaky.tom.rv2ide.databinding.LayoutSearchProjectBinding
+import com.itsaky.tom.rv2ide.flashbar.Flashbar
+import com.itsaky.tom.rv2ide.fragments.sheets.ProgressSheet
+import com.itsaky.tom.rv2ide.handlers.EditorBuildEventListener
+import com.itsaky.tom.rv2ide.handlers.LspHandler.connectClient
+import com.itsaky.tom.rv2ide.handlers.LspHandler.destroyLanguageServers
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lsp.IDELanguageClientImpl
+import com.itsaky.tom.rv2ide.lsp.java.utils.CancelChecker
+import com.itsaky.tom.rv2ide.preferences.internal.GeneralPreferences
+import com.itsaky.tom.rv2ide.projects.GradleProject
+import com.itsaky.tom.rv2ide.projects.builder.BuildService
+import com.itsaky.tom.rv2ide.projects.internal.ProjectManagerImpl
+import com.itsaky.tom.rv2ide.services.builder.GradleBuildService
+import com.itsaky.tom.rv2ide.services.builder.GradleBuildServiceConnnection
+import com.itsaky.tom.rv2ide.services.builder.gradleDistributionParams
+import com.itsaky.tom.rv2ide.tasks.executeAsyncProvideError
+import com.itsaky.tom.rv2ide.tasks.executeWithProgress
+import com.itsaky.tom.rv2ide.tooling.api.messages.AndroidInitializationParams
+import com.itsaky.tom.rv2ide.tooling.api.messages.InitializeProjectParams
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.InitializeResult
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_DIRECTORY_INACCESSIBLE
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_NOT_DIRECTORY
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_NOT_FOUND
+import com.itsaky.tom.rv2ide.tooling.api.models.BuildVariantInfo
+import com.itsaky.tom.rv2ide.tooling.api.models.mapToSelectedVariants
+import com.itsaky.tom.rv2ide.utils.DURATION_INDEFINITE
+import com.itsaky.tom.rv2ide.utils.DialogUtils.newMaterialDialogBuilder
+import com.itsaky.tom.rv2ide.utils.RecursiveFileSearcher
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashbarBuilder
+import com.itsaky.tom.rv2ide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.utils.showOnUiThread
+import com.itsaky.tom.rv2ide.utils.withIcon
+import com.itsaky.tom.rv2ide.viewmodel.BuildVariantsViewModel
 import java.io.File
 import java.util.concurrent.CompletableFuture
 import java.util.regex.Pattern
@@ -298,7 +298,7 @@ abstract class ProjectHandlerActivity : BaseEditorActivity() {
   fun initializeProject(buildVariantsProvider: () -> Map<String, String>) {
     executeWithProgress { progress ->
       executeAsyncProvideError(buildVariantsProvider::invoke) { result, error ->
-        com.itsaky.androidide.tasks.runOnUiThread { progress.dismiss() }
+        com.itsaky.tom.rv2ide.tasks.runOnUiThread { progress.dismiss() }
 
         if (result == null || error != null) {
           val msg = getString(string.msg_build_variants_fetch_failed)
@@ -307,7 +307,7 @@ abstract class ProjectHandlerActivity : BaseEditorActivity() {
           return@executeAsyncProvideError
         }
 
-        com.itsaky.androidide.tasks.runOnUiThread { initializeProject(result) }
+        com.itsaky.tom.rv2ide.tasks.runOnUiThread { initializeProject(result) }
       }
     }
   }
@@ -515,7 +515,7 @@ abstract class ProjectHandlerActivity : BaseEditorActivity() {
         val workspace = manager.getWorkspace()
 
         if (workspace == null) {
-          com.itsaky.androidide.tasks.runOnUiThread {
+          com.itsaky.tom.rv2ide.tasks.runOnUiThread {
             showProjectSetupFailedDialog(
                 "Workspace initialization failed. The project structure could not be analyzed."
             )
@@ -527,9 +527,9 @@ abstract class ProjectHandlerActivity : BaseEditorActivity() {
         manager.notifyProjectUpdate()
         updateBuildVariants(workspace.getAndroidVariantSelections())
 
-        com.itsaky.androidide.tasks.runOnUiThread { postProjectInit(true, null) }
+        com.itsaky.tom.rv2ide.tasks.runOnUiThread { postProjectInit(true, null) }
       } catch (e: Exception) {
-        com.itsaky.androidide.tasks.runOnUiThread {
+        com.itsaky.tom.rv2ide.tasks.runOnUiThread {
           val errorMessage =
               when {
                 e.message?.contains("workspace", ignoreCase = true) == true ->
@@ -612,7 +612,7 @@ abstract class ProjectHandlerActivity : BaseEditorActivity() {
 
   private fun updateBuildVariants(buildVariants: Map<String, BuildVariantInfo>) {
     // avoid using the 'runOnUiThread' method defined in the activity
-    com.itsaky.androidide.tasks.runOnUiThread {
+    com.itsaky.tom.rv2ide.tasks.runOnUiThread {
       buildVariantsViewModel.buildVariants = buildVariants
       buildVariantsViewModel.resetUpdatedSelections()
     }

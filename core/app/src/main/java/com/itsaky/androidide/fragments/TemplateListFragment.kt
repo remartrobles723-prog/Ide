@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.os.Bundle
 import android.view.View
@@ -24,13 +24,13 @@ import androidx.fragment.app.viewModels
 import com.google.android.flexbox.FlexDirection
 import com.google.android.flexbox.FlexboxLayoutManager
 import com.google.android.flexbox.JustifyContent
-import com.itsaky.androidide.R
-import com.itsaky.androidide.activities.MainActivity
-import com.itsaky.androidide.adapters.TemplateListAdapter
-import com.itsaky.androidide.databinding.FragmentTemplateListBinding
-import com.itsaky.androidide.templates.AtcInterface
-import com.itsaky.androidide.utils.FlexboxUtils
-import com.itsaky.androidide.viewmodel.MainViewModel
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.activities.MainActivity
+import com.itsaky.tom.rv2ide.adapters.TemplateListAdapter
+import com.itsaky.tom.rv2ide.databinding.FragmentTemplateListBinding
+import com.itsaky.tom.rv2ide.templates.AtcInterface
+import com.itsaky.tom.rv2ide.utils.FlexboxUtils
+import com.itsaky.tom.rv2ide.viewmodel.MainViewModel
 import java.io.File
 import org.slf4j.LoggerFactory
 

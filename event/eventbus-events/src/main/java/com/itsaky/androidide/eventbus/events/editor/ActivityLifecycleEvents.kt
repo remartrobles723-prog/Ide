@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.eventbus.events.editor
+package com.itsaky.tom.rv2ide.eventbus.events.editor
 
-import com.itsaky.androidide.eventbus.events.Event
+import com.itsaky.tom.rv2ide.eventbus.events.Event
 
 abstract class EditorActivityLifecycleEvent : Event()
 

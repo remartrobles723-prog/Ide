@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.schemes
+package com.itsaky.tom.rv2ide.editor.schemes
 
 import io.github.rosemoe.sora.editor.ts.LocalsCaptureSpec
 import org.slf4j.LoggerFactory

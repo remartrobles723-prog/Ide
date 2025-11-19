@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api
+package com.itsaky.tom.rv2ide.tooling.api
 
-import com.itsaky.androidide.builder.model.DefaultLibrary
-import com.itsaky.androidide.builder.model.DefaultSourceSetContainer
-import com.itsaky.androidide.tooling.api.models.AndroidVariantMetadata
-import com.itsaky.androidide.tooling.api.models.BasicAndroidVariantMetadata
-import com.itsaky.androidide.tooling.api.models.params.StringParameter
+import com.itsaky.tom.rv2ide.builder.model.DefaultLibrary
+import com.itsaky.tom.rv2ide.builder.model.DefaultSourceSetContainer
+import com.itsaky.tom.rv2ide.tooling.api.models.AndroidVariantMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.BasicAndroidVariantMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.params.StringParameter
 import java.io.File
 import java.util.concurrent.CompletableFuture
 import org.eclipse.lsp4j.jsonrpc.services.JsonRequest

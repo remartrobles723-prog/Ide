@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.ui.themes
+package com.itsaky.tom.rv2ide.ui.themes
 
 import androidx.annotation.StringRes
 import androidx.annotation.StyleRes
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.resources.R
 
 /**
  * Themes in AndroidIDE.

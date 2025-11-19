@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
 /*
  * @author Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null
@@ -29,7 +29,7 @@ class KotlinEventHandler(private val documentManager: KotlinDocumentManager) {
   private val saveDebounceMs = 40L
 
   @org.greenrobot.eventbus.Subscribe(threadMode = org.greenrobot.eventbus.ThreadMode.ASYNC)
-  fun onContentChange(event: com.itsaky.androidide.eventbus.events.editor.DocumentChangeEvent) {
+  fun onContentChange(event: com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentChangeEvent) {
     val file = event.changedFile
     if (!(file.toString().endsWith(".kt") || file.toString().endsWith(".kts"))) return
 
@@ -66,7 +66,7 @@ class KotlinEventHandler(private val documentManager: KotlinDocumentManager) {
   }
 
   @org.greenrobot.eventbus.Subscribe(threadMode = org.greenrobot.eventbus.ThreadMode.ASYNC)
-  fun onFileOpened(event: com.itsaky.androidide.eventbus.events.editor.DocumentOpenEvent) {
+  fun onFileOpened(event: com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentOpenEvent) {
     val file = event.openedFile
     if (!(file.toString().endsWith(".kt") || file.toString().endsWith(".kts"))) return
 
@@ -75,7 +75,7 @@ class KotlinEventHandler(private val documentManager: KotlinDocumentManager) {
   }
 
   @org.greenrobot.eventbus.Subscribe(threadMode = org.greenrobot.eventbus.ThreadMode.ASYNC)
-  fun onFileSelected(event: com.itsaky.androidide.eventbus.events.editor.DocumentSelectedEvent) {
+  fun onFileSelected(event: com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentSelectedEvent) {
     val file = event.selectedFile
     if (!(file.toString().endsWith(".kt") || file.toString().endsWith(".kts"))) return
     KslLogs.debug("Document selected event for: {}", file)
@@ -83,7 +83,7 @@ class KotlinEventHandler(private val documentManager: KotlinDocumentManager) {
   }
 
   @org.greenrobot.eventbus.Subscribe(threadMode = org.greenrobot.eventbus.ThreadMode.ASYNC)
-  fun onFileClosed(event: com.itsaky.androidide.eventbus.events.editor.DocumentCloseEvent) {
+  fun onFileClosed(event: com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentCloseEvent) {
     val file = event.closedFile
     if (!(file.toString().endsWith(".kt") || file.toString().endsWith(".kts"))) return
 

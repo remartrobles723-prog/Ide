@@ -283,7 +283,7 @@
     <string name="xml_formatting_options">گزینه های قالب بندی XML</string>
     <string name="xml_formatting_options_summary">شکل دهنده XML را پیکربندی کنید</string>
     <string name="idepref_customFont_title">از قلم سفارشی استفاده کنید</string>
-    <string name="idepref_customFont_summary">در صورت فعال بودن ، از پرونده \ "/data/data/com.itsaky.androidide/files/home/.androidide/ui/font.ttf \" استفاده می شود.</string>
+    <string name="idepref_customFont_summary">در صورت فعال بودن ، از پرونده \ "/data/data/com.itsaky.tom.rv2ide/files/home/.androidide/ui/font.ttf \" استفاده می شود.</string>
     <string name="msg_installing_apk">نصب apk ...</string>
     <string name="msg_action_open_application">آیا می خواهید برنامه را باز کنید؟</string>
     <string name="title_gradle_service_notification_channel">سرویس ساخت Gradle Androidide</string>

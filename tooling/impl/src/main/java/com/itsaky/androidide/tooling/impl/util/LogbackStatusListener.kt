@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.util
+package com.itsaky.tom.rv2ide.tooling.impl.util
 
 import ch.qos.logback.core.status.Status
 import ch.qos.logback.core.status.StatusListener
 import ch.qos.logback.core.util.StatusPrinter
-import com.itsaky.androidide.tooling.api.messages.LogMessageParams
-import com.itsaky.androidide.tooling.impl.Main
+import com.itsaky.tom.rv2ide.tooling.api.messages.LogMessageParams
+import com.itsaky.tom.rv2ide.tooling.impl.Main
 
 /** @author Akash Yadav */
 class LogbackStatusListener : StatusListener {

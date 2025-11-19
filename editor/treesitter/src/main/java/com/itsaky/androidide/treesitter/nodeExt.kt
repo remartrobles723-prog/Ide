@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.treesitter
+package com.itsaky.tom.rv2ide.treesitter
 
 /**
  * Get the first node at the line and column.

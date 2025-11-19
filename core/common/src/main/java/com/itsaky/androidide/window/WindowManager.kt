@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.itsaky.androidide.window
+package com.itsaky.tom.rv2ide.window
 
 import android.app.Activity
 import android.content.Context
@@ -40,8 +40,8 @@ class WindowManager(
   /**
    * Activity that was registered with this instance of [WindowManager] at creation. This is used to
    * find the token identifier of the window when requesting layout information from the
-   * [com.itsaky.androidide.window.sidecar.SidecarInterface] or is passed directly to the
-   * [com.itsaky.androidide.window.extensions.ExtensionInterface].
+   * [com.itsaky.tom.rv2ide.window.sidecar.SidecarInterface] or is passed directly to the
+   * [com.itsaky.tom.rv2ide.window.extensions.ExtensionInterface].
    */
   private val activity: Activity =
       getActivityFromContext(context)

@@ -14,15 +14,15 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.fragments.output
+package com.itsaky.tom.rv2ide.fragments.output
 
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.R
-import com.itsaky.androidide.preferences.internal.BuildPreferences
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.preferences.internal.BuildPreferences
 
 class BuildOutputFragment : NonEditableEditorFragment() {
   private val unsavedLines: MutableList<String?> = ArrayList()

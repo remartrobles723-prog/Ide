@@ -14,10 +14,10 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.handlers.system.installer
+package com.itsaky.tom.rv2ide.handlers.system.installer
 
 import android.util.Log
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.*
 
 /**

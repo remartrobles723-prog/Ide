@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import java.nio.file.Files
 import java.nio.file.Path
@@ -33,7 +33,7 @@ open class SourceClassTrie(root: SourcePackageNode = SourcePackageNode()) : Clas
   companion object {
     @JvmStatic
     private val pkgNameMethod by lazy {
-      Class.forName("com.itsaky.androidide.projects.util.StringSearch")
+      Class.forName("com.itsaky.tom.rv2ide.projects.util.StringSearch")
         .getDeclaredMethod("packageName", Path::class.java)
     }
 

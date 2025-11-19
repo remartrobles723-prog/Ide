@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.builder.model
+package com.itsaky.tom.rv2ide.builder.model
 
 import com.android.builder.model.v2.models.ProjectSyncIssues
 import java.io.Serializable

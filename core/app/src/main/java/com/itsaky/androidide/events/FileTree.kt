@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.events
+package com.itsaky.tom.rv2ide.events
 
-import com.itsaky.androidide.eventbus.events.Event
-import com.itsaky.androidide.models.SheetOption
+import com.itsaky.tom.rv2ide.eventbus.events.Event
+import com.itsaky.tom.rv2ide.models.SheetOption
 import com.unnamed.b.atv.model.TreeNode
 
 internal data class FileContextMenuItemClickEvent(val option: SheetOption) : Event()

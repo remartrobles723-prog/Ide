@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.models
+package com.itsaky.tom.rv2ide.lsp.models
 
-import com.itsaky.androidide.lsp.models.DiagnosticSeverity.ERROR
-import com.itsaky.androidide.lsp.models.DiagnosticSeverity.HINT
-import com.itsaky.androidide.lsp.models.DiagnosticSeverity.INFO
-import com.itsaky.androidide.lsp.models.DiagnosticSeverity.WARNING
-import com.itsaky.androidide.models.Range
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity.ERROR
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity.HINT
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity.INFO
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity.WARNING
+import com.itsaky.tom.rv2ide.models.Range
 import io.github.rosemoe.sora.lang.diagnostic.DiagnosticRegion
 import io.github.rosemoe.sora.lang.diagnostic.DiagnosticRegion.SEVERITY_ERROR
 import io.github.rosemoe.sora.lang.diagnostic.DiagnosticRegion.SEVERITY_NONE

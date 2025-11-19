@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.noAndroidXActivity
+package com.itsaky.tom.rv2ide.templates.impl.noAndroidXActivity
 
 internal fun noAndroidXActivityLayout() =
     """

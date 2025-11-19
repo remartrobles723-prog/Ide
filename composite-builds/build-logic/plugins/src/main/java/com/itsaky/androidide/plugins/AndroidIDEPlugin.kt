@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins
+package com.itsaky.tom.rv2ide.plugins
 
 import com.android.build.gradle.BaseExtension
-import com.itsaky.androidide.plugins.util.isAndroidModule
+import com.itsaky.tom.rv2ide.plugins.util.isAndroidModule
 import org.gradle.api.GradleException
 import org.gradle.api.Plugin
 import org.gradle.api.Project

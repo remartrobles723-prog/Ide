@@ -14,13 +14,13 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.handlers
+package com.itsaky.tom.rv2ide.handlers
 
 import android.content.Context
 import androidx.lifecycle.LifecycleCoroutineScope
-import com.itsaky.androidide.handlers.system.ICMake
-import com.itsaky.androidide.handlers.system.INdk
-import com.itsaky.androidide.managers.PreferenceManager
+import com.itsaky.tom.rv2ide.handlers.system.ICMake
+import com.itsaky.tom.rv2ide.handlers.system.INdk
+import com.itsaky.tom.rv2ide.managers.PreferenceManager
 
 /** * @author Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null */
 object ConfigHandlerRegistry {

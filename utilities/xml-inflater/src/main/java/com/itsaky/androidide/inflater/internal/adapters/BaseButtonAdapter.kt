@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.content.Context
 import android.view.View
 import android.widget.Button
-import com.itsaky.androidide.inflater.AttributeHandlerScope
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.IViewAdapter
+import com.itsaky.tom.rv2ide.inflater.AttributeHandlerScope
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.IViewAdapter
 
 /**
  * Base adapter for button-like views.
@@ -105,8 +105,8 @@ abstract class BaseButtonAdapter<T : Button> : IViewAdapter<T>() {
         )
   }
 
-  override fun isRequiredAttribute(attribute: com.itsaky.androidide.inflater.IAttribute): Boolean {
-    if (attribute.namespace?.uri != com.itsaky.androidide.inflater.INamespace.ANDROID.uri) {
+  override fun isRequiredAttribute(attribute: com.itsaky.tom.rv2ide.inflater.IAttribute): Boolean {
+    if (attribute.namespace?.uri != com.itsaky.tom.rv2ide.inflater.INamespace.ANDROID.uri) {
       return false
     }
 

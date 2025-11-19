@@ -3,7 +3,7 @@
  * Detects when user finishes typing string literals and offers extraction
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.content.Context
 import android.graphics.drawable.GradientDrawable
@@ -17,7 +17,7 @@ import android.widget.LinearLayout
 import android.widget.PopupWindow
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.ui.CodeEditorView
+import com.itsaky.tom.rv2ide.ui.CodeEditorView
 import java.io.File
 import java.util.concurrent.ConcurrentHashMap
 import java.util.regex.Pattern

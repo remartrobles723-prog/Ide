@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
-import com.itsaky.androidide.R
-import com.itsaky.androidide.preferences.internal.JavaPreferences
-import com.itsaky.androidide.resources.R.drawable
-import com.itsaky.androidide.resources.R.string
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.preferences.internal.JavaPreferences
+import com.itsaky.tom.rv2ide.resources.R.drawable
+import com.itsaky.tom.rv2ide.resources.R.string
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

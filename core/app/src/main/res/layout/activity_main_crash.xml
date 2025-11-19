@@ -9,7 +9,7 @@
   android:id="@+id/root_layout"
   android:orientation="vertical"
   android:fitsSystemWindows="true"
-  tools:context="com.itsaky.androidide.ideconfigurations.MainActivityCfg">
+  tools:context="com.itsaky.tom.rv2ide.ideconfigurations.MainActivityCfg">
 
   <com.google.android.material.appbar.AppBarLayout
     android:id="@+id/appbar"

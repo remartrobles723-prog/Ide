@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.models
+package com.itsaky.tom.rv2ide.projects.models
 
-import com.itsaky.androidide.projects.util.StringSearch
+import com.itsaky.tom.rv2ide.projects.util.StringSearch
 import java.nio.file.Path
 import java.time.Instant
 

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.utils
+package com.itsaky.tom.rv2ide.inflater.internal.utils
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -55,11 +55,11 @@ import com.android.aaptcompiler.tryParseBool
 import com.android.aaptcompiler.tryParseFlagSymbol
 import com.android.aaptcompiler.tryParseInt
 import com.android.aaptcompiler.tryParseReference
-import com.itsaky.androidide.inflater.drawable.DrawableParserFactory
-import com.itsaky.androidide.inflater.utils.module
-import com.itsaky.androidide.xml.res.IResourceEntry
-import com.itsaky.androidide.xml.res.IResourceTable
-import com.itsaky.androidide.xml.res.IResourceTablePackage
+import com.itsaky.tom.rv2ide.inflater.drawable.DrawableParserFactory
+import com.itsaky.tom.rv2ide.inflater.utils.module
+import com.itsaky.tom.rv2ide.xml.res.IResourceEntry
+import com.itsaky.tom.rv2ide.xml.res.IResourceTable
+import com.itsaky.tom.rv2ide.xml.res.IResourceTablePackage
 import java.io.File
 import java.text.SimpleDateFormat
 import org.slf4j.LoggerFactory

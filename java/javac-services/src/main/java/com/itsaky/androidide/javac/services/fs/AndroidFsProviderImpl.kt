@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.fs
+package com.itsaky.tom.rv2ide.javac.services.fs
 
-import com.itsaky.androidide.zipfs2.AndroidFsProvider
+import com.itsaky.tom.rv2ide.zipfs2.AndroidFsProvider
 import java.nio.file.spi.FileSystemProvider
 
 /** @author Akash Yadav */

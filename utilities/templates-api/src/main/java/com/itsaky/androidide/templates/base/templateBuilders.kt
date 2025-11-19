@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base
+package com.itsaky.tom.rv2ide.templates.base
 
-import com.itsaky.androidide.templates.EMPTY_RECIPE
-import com.itsaky.androidide.templates.RecipeExecutor
-import com.itsaky.androidide.templates.TemplateBuilder
-import com.itsaky.androidide.templates.TemplateData
-import com.itsaky.androidide.templates.TemplateRecipe
-import com.itsaky.androidide.templates.TemplateRecipeConfigurator
-import com.itsaky.androidide.templates.TemplateRecipeFinalizer
-import com.itsaky.androidide.templates.TemplateRecipeResult
+import com.itsaky.tom.rv2ide.templates.EMPTY_RECIPE
+import com.itsaky.tom.rv2ide.templates.RecipeExecutor
+import com.itsaky.tom.rv2ide.templates.TemplateBuilder
+import com.itsaky.tom.rv2ide.templates.TemplateData
+import com.itsaky.tom.rv2ide.templates.TemplateRecipe
+import com.itsaky.tom.rv2ide.templates.TemplateRecipeConfigurator
+import com.itsaky.tom.rv2ide.templates.TemplateRecipeFinalizer
+import com.itsaky.tom.rv2ide.templates.TemplateRecipeResult
 
 sealed class PrePostRecipeTemplateBuilder<R : TemplateRecipeResult> : TemplateBuilder<R>() {
 

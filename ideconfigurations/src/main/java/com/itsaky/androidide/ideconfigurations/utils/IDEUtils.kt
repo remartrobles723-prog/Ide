@@ -15,11 +15,11 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.ideconfigurations.utils
+package com.itsaky.tom.rv2ide.ideconfigurations.utils
 
 import android.content.Context
 import android.widget.Toast
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.File
 import java.io.IOException
 

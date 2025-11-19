@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.app.configuration
+package com.itsaky.tom.rv2ide.app.configuration
 
 /**
  * Enum for supported CPU architectures.

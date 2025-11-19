@@ -15,10 +15,10 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.ai
+package com.itsaky.tom.rv2ide.services.ai
 
-import com.itsaky.androidide.services.ai.Instructions.system_instructions
-import com.itsaky.androidide.services.ai.preferences.getAgentName
+import com.itsaky.tom.rv2ide.services.ai.Instructions.system_instructions
+import com.itsaky.tom.rv2ide.services.ai.preferences.getAgentName
 import java.util.concurrent.TimeUnit
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

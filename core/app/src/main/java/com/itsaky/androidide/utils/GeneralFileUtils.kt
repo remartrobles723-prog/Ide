@@ -15,7 +15,7 @@
  *   along with Android Code Studio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 /** * @Author Tom */
 import java.io.File

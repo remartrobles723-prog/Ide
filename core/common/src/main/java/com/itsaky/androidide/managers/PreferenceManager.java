@@ -14,13 +14,13 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.managers;
+package com.itsaky.tom.rv2ide.managers;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
-import com.itsaky.androidide.eventbus.events.preferences.PreferenceChangeEvent;
-import com.itsaky.androidide.eventbus.events.preferences.PreferenceRemoveEvent;
+import com.itsaky.tom.rv2ide.eventbus.events.preferences.PreferenceChangeEvent;
+import com.itsaky.tom.rv2ide.eventbus.events.preferences.PreferenceRemoveEvent;
 import kotlin.text.StringsKt;
 import org.greenrobot.eventbus.EventBus;
 

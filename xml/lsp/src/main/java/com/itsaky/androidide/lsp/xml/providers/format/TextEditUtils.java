@@ -26,11 +26,11 @@
  * Contributors:
  *     Red Hat Inc. - initial API and implementation
  *******************************************************************************/
-package com.itsaky.androidide.lsp.xml.providers.format;
+package com.itsaky.tom.rv2ide.lsp.xml.providers.format;
 
-import com.itsaky.androidide.lsp.models.TextEdit;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
 
 import org.eclipse.lemminx.commons.BadLocationException;
 import org.eclipse.lemminx.commons.TextDocument;

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.visitors
+package com.itsaky.tom.rv2ide.lsp.java.visitors
 
 import androidx.core.util.Pair
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.models.Range
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.models.Range
 import openjdk.source.tree.CompilationUnitTree
 import openjdk.source.tree.LineMap
 import openjdk.source.tree.MethodTree

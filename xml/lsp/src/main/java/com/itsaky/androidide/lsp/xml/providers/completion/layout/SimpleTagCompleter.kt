@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.completion.layout
+package com.itsaky.tom.rv2ide.lsp.xml.providers.completion.layout
 
 import com.android.aaptcompiler.ResourcePathData
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.lsp.api.ICompletionProvider
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionParams
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.xml.utils.XmlUtils.NodeType
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.utils.ClassTrie
-import com.itsaky.androidide.xml.widgets.WidgetTable
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lsp.api.ICompletionProvider
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.xml.utils.XmlUtils.NodeType
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.utils.ClassTrie
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTable
 import org.eclipse.lemminx.dom.DOMDocument
 
 /**

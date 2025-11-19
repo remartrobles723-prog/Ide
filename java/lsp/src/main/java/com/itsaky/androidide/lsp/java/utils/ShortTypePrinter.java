@@ -1,4 +1,4 @@
-package com.itsaky.androidide.lsp.java.utils;
+package com.itsaky.tom.rv2ide.lsp.java.utils;
 
 import java.util.stream.Collectors;
 import jdkx.lang.model.type.ArrayType;

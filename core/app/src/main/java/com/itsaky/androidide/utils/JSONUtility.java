@@ -15,11 +15,11 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
-package com.itsaky.androidide.utils;
+package com.itsaky.tom.rv2ide.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.itsaky.androidide.tooling.api.util.ToolingApiLauncher;
+import com.itsaky.tom.rv2ide.tooling.api.util.ToolingApiLauncher;
 
 public class JSONUtility {
   public static final Gson gson = new Gson();

@@ -35,9 +35,9 @@ import com.squareup.javapoet.ParameterSpec
 import com.squareup.javapoet.ParameterizedTypeName
 import com.squareup.javapoet.TypeSpec
 import com.squareup.javapoet.WildcardTypeName
-import com.itsaky.androidide.annotations.inflater.ViewAdapter
-import com.itsaky.androidide.annotations.ksp.getKSAnnotationsByType
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner
+import com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter
+import com.itsaky.tom.rv2ide.annotations.ksp.getKSAnnotationsByType
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner
 import java.io.OutputStream
 import java.io.OutputStreamWriter
 import java.util.Collections

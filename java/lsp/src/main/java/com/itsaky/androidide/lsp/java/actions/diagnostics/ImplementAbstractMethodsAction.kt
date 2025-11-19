@@ -14,16 +14,16 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.actions.diagnostics
+package com.itsaky.tom.rv2ide.lsp.java.actions.diagnostics
 
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.hasRequiredData
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.javac.services.util.JavaDiagnosticUtils
-import com.itsaky.androidide.lsp.java.actions.BaseJavaCodeAction
-import com.itsaky.androidide.lsp.java.models.DiagnosticCode
-import com.itsaky.androidide.lsp.java.rewrite.ImplementAbstractMethods
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.hasRequiredData
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.javac.services.util.JavaDiagnosticUtils
+import com.itsaky.tom.rv2ide.lsp.java.actions.BaseJavaCodeAction
+import com.itsaky.tom.rv2ide.lsp.java.models.DiagnosticCode
+import com.itsaky.tom.rv2ide.lsp.java.rewrite.ImplementAbstractMethods
+import com.itsaky.tom.rv2ide.resources.R
 import jdkx.tools.Diagnostic
 import jdkx.tools.JavaFileObject
 import org.slf4j.LoggerFactory
@@ -50,12 +50,12 @@ class ImplementAbstractMethodsAction : BaseJavaCodeAction() {
       return
     }
 
-    if (!data.hasRequiredData(com.itsaky.androidide.lsp.models.DiagnosticItem::class.java)) {
+    if (!data.hasRequiredData(com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem::class.java)) {
       markInvisible()
       return
     }
 
-    val diagnostic = data.get(com.itsaky.androidide.lsp.models.DiagnosticItem::class.java)!!
+    val diagnostic = data.get(com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem::class.java)!!
     if (diagnosticCode != diagnostic.code || diagnostic.extra !is Diagnostic<*>) {
       markInvisible()
       return
@@ -75,7 +75,7 @@ class ImplementAbstractMethodsAction : BaseJavaCodeAction() {
   override suspend fun execAction(data: ActionData): Any {
     val diagnostic =
         JavaDiagnosticUtils.asJCDiagnostic(
-            data.get(com.itsaky.androidide.lsp.models.DiagnosticItem::class.java)!!.extra
+            data.get(com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem::class.java)!!.extra
                 as Diagnostic<out JavaFileObject>
         )
     return ImplementAbstractMethods(diagnostic!!)

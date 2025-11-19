@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.adapters
+package com.itsaky.tom.rv2ide.uidesigner.adapters
 
 import android.content.ClipData
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.itsaky.androidide.inflater.models.UiWidget
-import com.itsaky.androidide.uidesigner.adapters.WidgetsItemAdapter.VH
-import com.itsaky.androidide.uidesigner.databinding.LayoutUiWidgetsItemBinding
-import com.itsaky.androidide.uidesigner.drag.WidgetDragShadowBuilder
-import com.itsaky.androidide.uidesigner.fragments.DesignerWorkspaceFragment
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.uidesigner.adapters.WidgetsItemAdapter.VH
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutUiWidgetsItemBinding
+import com.itsaky.tom.rv2ide.uidesigner.drag.WidgetDragShadowBuilder
+import com.itsaky.tom.rv2ide.uidesigner.fragments.DesignerWorkspaceFragment
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
 
 /** @author Akash Yadav */
 internal class WidgetsItemAdapter(

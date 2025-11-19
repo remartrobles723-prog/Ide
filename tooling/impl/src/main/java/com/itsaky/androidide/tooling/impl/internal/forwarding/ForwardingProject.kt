@@ -15,20 +15,20 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.internal.forwarding
+package com.itsaky.tom.rv2ide.tooling.impl.internal.forwarding
 
-import com.itsaky.androidide.builder.model.DefaultLibrary
-import com.itsaky.androidide.builder.model.DefaultSourceSetContainer
-import com.itsaky.androidide.tooling.api.IAndroidProject
-import com.itsaky.androidide.tooling.api.IGradleProject
-import com.itsaky.androidide.tooling.api.IJavaProject
-import com.itsaky.androidide.tooling.api.models.AndroidVariantMetadata
-import com.itsaky.androidide.tooling.api.models.BasicAndroidVariantMetadata
-import com.itsaky.androidide.tooling.api.models.GradleTask
-import com.itsaky.androidide.tooling.api.models.JavaContentRoot
-import com.itsaky.androidide.tooling.api.models.JavaModuleDependency
-import com.itsaky.androidide.tooling.api.models.ProjectMetadata
-import com.itsaky.androidide.tooling.api.models.params.StringParameter
+import com.itsaky.tom.rv2ide.builder.model.DefaultLibrary
+import com.itsaky.tom.rv2ide.builder.model.DefaultSourceSetContainer
+import com.itsaky.tom.rv2ide.tooling.api.IAndroidProject
+import com.itsaky.tom.rv2ide.tooling.api.IGradleProject
+import com.itsaky.tom.rv2ide.tooling.api.IJavaProject
+import com.itsaky.tom.rv2ide.tooling.api.models.AndroidVariantMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.BasicAndroidVariantMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleTask
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaContentRoot
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaModuleDependency
+import com.itsaky.tom.rv2ide.tooling.api.models.ProjectMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.params.StringParameter
 import java.io.File
 import java.util.concurrent.CompletableFuture
 

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.models
+package com.itsaky.tom.rv2ide.uidesigner.models
 
 import android.view.ViewGroup
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.internal.LayoutFile
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.internal.LayoutFile
 
 /**
  * [UiViewGroup] implementation that is used for the root workspace view.

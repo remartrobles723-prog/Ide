@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.edits
+package com.itsaky.tom.rv2ide.lsp.xml.edits
 
-import com.itsaky.androidide.lsp.edits.DefaultEditHandler
-import com.itsaky.androidide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.edits.DefaultEditHandler
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
 
 /**
  * Handles edits for attribute values with qualified binary names. The default implementation in

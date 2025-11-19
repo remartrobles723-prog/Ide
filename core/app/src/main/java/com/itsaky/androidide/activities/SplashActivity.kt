@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.app.Activity
 import android.content.Intent

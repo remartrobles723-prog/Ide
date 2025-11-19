@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.visitors
+package com.itsaky.tom.rv2ide.lsp.java.visitors
 
 import openjdk.tools.javac.tree.JCTree
 import openjdk.tools.javac.tree.JCTree.JCErroneous

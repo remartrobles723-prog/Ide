@@ -23,12 +23,12 @@
  * questions.
  */
 
-package com.itsaky.androidide.build.propparser.parser;
+package com.itsaky.tom.rv2ide.build.propparser.parser;
 
-import com.itsaky.androidide.build.propparser.parser.MessageType.CompoundType;
-import com.itsaky.androidide.build.propparser.parser.MessageType.OrType;
-import com.itsaky.androidide.build.propparser.parser.MessageType.SimpleType;
-import com.itsaky.androidide.build.propparser.parser.MessageType.UnionType;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageType.CompoundType;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageType.OrType;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageType.SimpleType;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageType.UnionType;
 import java.util.ArrayList;
 import java.util.List;
 

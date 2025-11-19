@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.projects.internal.ProjectManagerImpl
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.projects.internal.ProjectManagerImpl
 import java.io.File
 import org.slf4j.LoggerFactory
 

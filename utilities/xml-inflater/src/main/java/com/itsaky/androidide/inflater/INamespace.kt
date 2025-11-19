@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater
+package com.itsaky.tom.rv2ide.inflater
 
 import com.android.SdkConstants.ANDROID_NS_NAME
 import com.android.SdkConstants.ANDROID_URI
 import com.android.SdkConstants.APP_PREFIX
-import com.itsaky.androidide.inflater.internal.NamespaceImpl
+import com.itsaky.tom.rv2ide.inflater.internal.NamespaceImpl
 
 /**
  * An XML namespace declaration.

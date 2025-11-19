@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.util
+package com.itsaky.tom.rv2ide.lsp.util
 
 import androidx.annotation.UiThread
-import com.itsaky.androidide.lsp.models.TextEdit
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit
 import io.github.rosemoe.sora.widget.CodeEditor
 
 /** @author Akash Yadav */

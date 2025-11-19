@@ -15,21 +15,21 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers.completion
+package com.itsaky.tom.rv2ide.lsp.java.providers.completion
 
-import com.itsaky.androidide.lsp.api.IServerSettings
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.lsp.java.providers.CompletionProvider.MAX_COMPLETION_ITEMS
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.MatchLevel.CASE_SENSITIVE_EQUAL
-import com.itsaky.androidide.lsp.models.MatchLevel.NO_MATCH
-import com.itsaky.androidide.progress.ProgressManager.Companion.abortIfCancelled
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.projects.util.BootClasspathProvider
-import com.itsaky.androidide.utils.ClassTrie
-import com.itsaky.androidide.utils.ClassTrie.Node
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.lsp.java.providers.CompletionProvider.MAX_COMPLETION_ITEMS
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.CASE_SENSITIVE_EQUAL
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel.NO_MATCH
+import com.itsaky.tom.rv2ide.progress.ProgressManager.Companion.abortIfCancelled
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.projects.util.BootClasspathProvider
+import com.itsaky.tom.rv2ide.utils.ClassTrie
+import com.itsaky.tom.rv2ide.utils.ClassTrie.Node
 import java.nio.file.Path
 import jdkx.lang.model.element.Element
 import jdkx.lang.model.element.ElementKind
@@ -236,7 +236,7 @@ class ImportCompletionProvider(
    * @param pkgName The package name of the package to find node for.
    * @return The found package name. Or `null` if no package can be found.
    */
-  private fun collectPackageNode(trie: com.itsaky.androidide.utils.ClassTrie, pkgName: String): Node? {
+  private fun collectPackageNode(trie: com.itsaky.tom.rv2ide.utils.ClassTrie, pkgName: String): Node? {
     val segments = trie.segments(pkgName)
     var node: Node? = trie.root
     for (segment in segments) {

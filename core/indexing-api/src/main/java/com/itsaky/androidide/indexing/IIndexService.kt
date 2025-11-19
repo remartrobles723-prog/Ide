@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.indexing
+package com.itsaky.tom.rv2ide.indexing
 
-import com.itsaky.androidide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.projects.IWorkspace
 import java.io.File
 import kotlinx.coroutines.Deferred
 

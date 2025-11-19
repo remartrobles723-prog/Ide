@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.shell
+package com.itsaky.tom.rv2ide.shell
 
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.File
 import kotlin.coroutines.CoroutineContext
 import kotlinx.coroutines.withContext

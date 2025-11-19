@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.utils
+package com.itsaky.tom.rv2ide.inflater.utils
 
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
 import java.io.File
 
 private var currentModule: AndroidModule? = null

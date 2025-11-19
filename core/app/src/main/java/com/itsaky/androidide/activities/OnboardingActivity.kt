@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -28,21 +28,21 @@ import com.github.appintro.AppIntroPageTransformerType
 import com.termux.shared.android.PackageUtils
 import com.termux.shared.markdown.MarkdownUtils
 import com.termux.shared.termux.TermuxConstants
-import com.itsaky.androidide.R
-import com.itsaky.androidide.R.string
-import com.itsaky.androidide.app.configuration.IDEBuildConfigProvider
-import com.itsaky.androidide.app.configuration.IJdkDistributionProvider
-import com.itsaky.androidide.fragments.onboarding.GreetingFragment
-import com.itsaky.androidide.fragments.onboarding.IdeSetupConfigurationFragment
-import com.itsaky.androidide.fragments.onboarding.OnboardingInfoFragment
-import com.itsaky.androidide.fragments.onboarding.PermissionsFragment
-import com.itsaky.androidide.fragments.onboarding.StatisticsFragment
-import com.itsaky.androidide.models.JdkDistribution
-import com.itsaky.androidide.preferences.internal.StatPreferences
-import com.itsaky.androidide.preferences.internal.prefManager
-import com.itsaky.androidide.tasks.launchAsyncWithProgress
-import com.itsaky.androidide.ui.themes.IThemeManager
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.R.string
+import com.itsaky.tom.rv2ide.app.configuration.IDEBuildConfigProvider
+import com.itsaky.tom.rv2ide.app.configuration.IJdkDistributionProvider
+import com.itsaky.tom.rv2ide.fragments.onboarding.GreetingFragment
+import com.itsaky.tom.rv2ide.fragments.onboarding.IdeSetupConfigurationFragment
+import com.itsaky.tom.rv2ide.fragments.onboarding.OnboardingInfoFragment
+import com.itsaky.tom.rv2ide.fragments.onboarding.PermissionsFragment
+import com.itsaky.tom.rv2ide.fragments.onboarding.StatisticsFragment
+import com.itsaky.tom.rv2ide.models.JdkDistribution
+import com.itsaky.tom.rv2ide.preferences.internal.StatPreferences
+import com.itsaky.tom.rv2ide.preferences.internal.prefManager
+import com.itsaky.tom.rv2ide.tasks.launchAsyncWithProgress
+import com.itsaky.tom.rv2ide.ui.themes.IThemeManager
+import com.itsaky.tom.rv2ide.utils.Environment
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

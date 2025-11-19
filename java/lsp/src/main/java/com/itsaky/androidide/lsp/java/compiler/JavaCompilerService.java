@@ -15,33 +15,33 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.compiler;
+package com.itsaky.tom.rv2ide.lsp.java.compiler;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.util.Pair;
-import com.itsaky.androidide.eventbus.events.editor.DocumentChangeEvent;
-import com.itsaky.androidide.javac.services.compiler.ReusableCompiler;
-import com.itsaky.androidide.javac.services.partial.CompilationInfo;
-import com.itsaky.androidide.javac.services.partial.PartialReparser;
-import com.itsaky.androidide.javac.services.partial.PartialReparserImpl;
-import com.itsaky.androidide.lsp.java.models.CompilationRequest;
-import com.itsaky.androidide.lsp.java.models.PartialReparseRequest;
-import com.itsaky.androidide.lsp.java.parser.ParseTask;
-import com.itsaky.androidide.lsp.java.parser.Parser;
-import com.itsaky.androidide.lsp.java.utils.Extractors;
-import com.itsaky.androidide.lsp.java.visitors.FindTypeDeclarations;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
-import com.itsaky.androidide.projects.FileManager;
-import com.itsaky.androidide.projects.android.AndroidModule;
-import com.itsaky.androidide.projects.ModuleProject;
-import com.itsaky.androidide.projects.util.BootClasspathProvider;
-import com.itsaky.androidide.projects.util.StringSearch;
-import com.itsaky.androidide.utils.Cache;
-import com.itsaky.androidide.utils.Environment;
-import com.itsaky.androidide.utils.SourceClassTrie;
-import com.itsaky.androidide.utils.StopWatch;
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentChangeEvent;
+import com.itsaky.tom.rv2ide.javac.services.compiler.ReusableCompiler;
+import com.itsaky.tom.rv2ide.javac.services.partial.CompilationInfo;
+import com.itsaky.tom.rv2ide.javac.services.partial.PartialReparser;
+import com.itsaky.tom.rv2ide.javac.services.partial.PartialReparserImpl;
+import com.itsaky.tom.rv2ide.lsp.java.models.CompilationRequest;
+import com.itsaky.tom.rv2ide.lsp.java.models.PartialReparseRequest;
+import com.itsaky.tom.rv2ide.lsp.java.parser.ParseTask;
+import com.itsaky.tom.rv2ide.lsp.java.parser.Parser;
+import com.itsaky.tom.rv2ide.lsp.java.utils.Extractors;
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindTypeDeclarations;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
+import com.itsaky.tom.rv2ide.projects.FileManager;
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule;
+import com.itsaky.tom.rv2ide.projects.ModuleProject;
+import com.itsaky.tom.rv2ide.projects.util.BootClasspathProvider;
+import com.itsaky.tom.rv2ide.projects.util.StringSearch;
+import com.itsaky.tom.rv2ide.utils.Cache;
+import com.itsaky.tom.rv2ide.utils.Environment;
+import com.itsaky.tom.rv2ide.utils.SourceClassTrie;
+import com.itsaky.tom.rv2ide.utils.StopWatch;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;

@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.internal
+package com.itsaky.tom.rv2ide.tooling.impl.internal
 
-import com.itsaky.androidide.builder.model.DefaultProjectSyncIssues
-import com.itsaky.androidide.tooling.api.IAndroidProject
-import com.itsaky.androidide.tooling.api.IGradleProject
-import com.itsaky.androidide.tooling.api.IJavaProject
-import com.itsaky.androidide.tooling.api.IProject
-import com.itsaky.androidide.tooling.api.ProjectType
-import com.itsaky.androidide.tooling.api.models.BasicProjectMetadata
-import com.itsaky.androidide.tooling.api.models.params.StringParameter
-import com.itsaky.androidide.tooling.api.models.result.SelectProjectResult
-import com.itsaky.androidide.tooling.impl.internal.forwarding.ForwardingProject
+import com.itsaky.tom.rv2ide.builder.model.DefaultProjectSyncIssues
+import com.itsaky.tom.rv2ide.tooling.api.IAndroidProject
+import com.itsaky.tom.rv2ide.tooling.api.IGradleProject
+import com.itsaky.tom.rv2ide.tooling.api.IJavaProject
+import com.itsaky.tom.rv2ide.tooling.api.IProject
+import com.itsaky.tom.rv2ide.tooling.api.ProjectType
+import com.itsaky.tom.rv2ide.tooling.api.models.BasicProjectMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.params.StringParameter
+import com.itsaky.tom.rv2ide.tooling.api.models.result.SelectProjectResult
+import com.itsaky.tom.rv2ide.tooling.impl.internal.forwarding.ForwardingProject
 import java.io.Serializable
 import java.util.concurrent.CompletableFuture
 

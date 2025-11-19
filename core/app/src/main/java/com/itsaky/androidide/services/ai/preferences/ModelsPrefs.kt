@@ -1,7 +1,7 @@
-package com.itsaky.androidide.services.ai.preferences
+package com.itsaky.tom.rv2ide.services.ai.preferences
 
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.managers.PreferenceManager
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.managers.PreferenceManager
 
 fun getAgentName(): String? {
   val prefManager: PreferenceManager = BaseApplication.getBaseInstance().prefManager

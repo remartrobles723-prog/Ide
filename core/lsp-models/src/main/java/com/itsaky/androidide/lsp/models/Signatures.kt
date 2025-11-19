@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.models
+package com.itsaky.tom.rv2ide.lsp.models
 
-import com.itsaky.androidide.lsp.CancellableRequestParams
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.lsp.CancellableRequestParams
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
 import java.nio.file.Path
 import java.util.*
 

@@ -1,7 +1,7 @@
-package com.itsaky.androidide.desugaring.internal.dsl
+package com.itsaky.tom.rv2ide.desugaring.internal.dsl
 
-import com.itsaky.androidide.desugaring.dsl.MethodOpcode
-import com.itsaky.androidide.desugaring.dsl.ReplaceMethodInsn
+import com.itsaky.tom.rv2ide.desugaring.dsl.MethodOpcode
+import com.itsaky.tom.rv2ide.desugaring.dsl.ReplaceMethodInsn
 import java.io.Serializable
 
 /**

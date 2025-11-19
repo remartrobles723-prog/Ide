@@ -1,4 +1,4 @@
-package com.itsaky.androidide.logsender;
+package com.itsaky.tom.rv2ide.logsender;
 
 /**
  * The LogSender interface.

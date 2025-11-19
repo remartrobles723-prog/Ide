@@ -8,7 +8,7 @@
  * <p>Contributors: Nikolas Komonen <nikolaskomonen@gmail.com>, Red Hat Inc. - initial API and
  * implementation
  */
-package com.itsaky.androidide.lsp.xml.utils;
+package com.itsaky.tom.rv2ide.lsp.xml.utils;
 
 import java.util.Arrays;
 import java.util.Collection;

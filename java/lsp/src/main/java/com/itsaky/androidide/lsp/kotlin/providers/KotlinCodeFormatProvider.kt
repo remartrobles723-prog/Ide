@@ -15,16 +15,16 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin.providers
+package com.itsaky.tom.rv2ide.lsp.kotlin.providers
 
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
-import com.itsaky.androidide.lsp.kotlin.KotlinServerProcessManager
-import com.itsaky.androidide.lsp.kotlin.KslLogs
-import com.itsaky.androidide.lsp.kotlin.etc.LspFeatures
-import com.itsaky.androidide.lsp.models.CodeFormatResult
-import com.itsaky.androidide.lsp.models.FormatCodeParams
-import com.itsaky.androidide.lsp.models.IndexedTextEdit
+import com.itsaky.tom.rv2ide.lsp.kotlin.KotlinServerProcessManager
+import com.itsaky.tom.rv2ide.lsp.kotlin.KslLogs
+import com.itsaky.tom.rv2ide.lsp.kotlin.etc.LspFeatures
+import com.itsaky.tom.rv2ide.lsp.models.CodeFormatResult
+import com.itsaky.tom.rv2ide.lsp.models.FormatCodeParams
+import com.itsaky.tom.rv2ide.lsp.models.IndexedTextEdit
 import java.nio.file.Path
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.runBlocking

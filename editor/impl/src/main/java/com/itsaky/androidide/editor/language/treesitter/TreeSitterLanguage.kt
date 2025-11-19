@@ -15,19 +15,19 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter
+package com.itsaky.tom.rv2ide.editor.language.treesitter
 
 import android.content.Context
-import com.itsaky.androidide.editor.language.IDELanguage
-import com.itsaky.androidide.editor.language.newline.TSBracketsHandler
-import com.itsaky.androidide.editor.language.utils.CommonSymbolPairs
-import com.itsaky.androidide.editor.schemes.IDEColorScheme
-import com.itsaky.androidide.editor.schemes.LanguageScheme
-import com.itsaky.androidide.editor.schemes.LanguageSpecProvider.getLanguageSpec
-import com.itsaky.androidide.editor.schemes.LocalCaptureSpecProvider.newLocalCaptureSpec
-import com.itsaky.androidide.editor.utils.isNonBlankLine
-import com.itsaky.androidide.treesitter.TSLanguage
-import com.itsaky.androidide.utils.IntPair
+import com.itsaky.tom.rv2ide.editor.language.IDELanguage
+import com.itsaky.tom.rv2ide.editor.language.newline.TSBracketsHandler
+import com.itsaky.tom.rv2ide.editor.language.utils.CommonSymbolPairs
+import com.itsaky.tom.rv2ide.editor.schemes.IDEColorScheme
+import com.itsaky.tom.rv2ide.editor.schemes.LanguageScheme
+import com.itsaky.tom.rv2ide.editor.schemes.LanguageSpecProvider.getLanguageSpec
+import com.itsaky.tom.rv2ide.editor.schemes.LocalCaptureSpecProvider.newLocalCaptureSpec
+import com.itsaky.tom.rv2ide.editor.utils.isNonBlankLine
+import com.itsaky.tom.rv2ide.treesitter.TSLanguage
+import com.itsaky.tom.rv2ide.utils.IntPair
 import io.github.rosemoe.sora.editor.ts.TsTheme
 import io.github.rosemoe.sora.lang.Language.INTERRUPTION_LEVEL_STRONG
 import io.github.rosemoe.sora.lang.analysis.AnalyzeManager

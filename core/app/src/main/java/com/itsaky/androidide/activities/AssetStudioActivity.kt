@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.app.Activity
 import android.content.Intent
@@ -36,12 +36,12 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.itsaky.androidide.R
-import com.itsaky.androidide.adapters.ColorPresetAdapter
-import com.itsaky.androidide.app.EdgeToEdgeIDEActivity
-import com.itsaky.androidide.databinding.ActivityAssetStudioBinding
-import com.itsaky.androidide.databinding.DialogColorPickerBinding
-import com.itsaky.androidide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.adapters.ColorPresetAdapter
+import com.itsaky.tom.rv2ide.app.EdgeToEdgeIDEActivity
+import com.itsaky.tom.rv2ide.databinding.ActivityAssetStudioBinding
+import com.itsaky.tom.rv2ide.databinding.DialogColorPickerBinding
+import com.itsaky.tom.rv2ide.projects.IProjectManager
 import java.io.File
 import java.io.FileOutputStream
 
@@ -956,7 +956,7 @@ class AssetStudioActivity : EdgeToEdgeIDEActivity() {
 
   private fun generateToLocation(sourceBitmap: Bitmap, iconName: String, useMipmap: Boolean) {
     try {
-      val projectDir = com.itsaky.androidide.projects.IProjectManager.getInstance().projectDirPath
+      val projectDir = com.itsaky.tom.rv2ide.projects.IProjectManager.getInstance().projectDirPath
       if (projectDir == null) {
         Toast.makeText(this, "No project opened", Toast.LENGTH_SHORT).show()
         return

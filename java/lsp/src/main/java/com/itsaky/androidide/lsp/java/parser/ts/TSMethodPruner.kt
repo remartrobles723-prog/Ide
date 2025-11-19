@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.parser.ts
+package com.itsaky.tom.rv2ide.lsp.java.parser.ts
 
-import com.itsaky.androidide.treesitter.TSQuery
-import com.itsaky.androidide.treesitter.TSQueryCursor
-import com.itsaky.androidide.treesitter.TSQueryMatch
-import com.itsaky.androidide.treesitter.TSTree
-import com.itsaky.androidide.treesitter.java.TSLanguageJava
+import com.itsaky.tom.rv2ide.treesitter.TSQuery
+import com.itsaky.tom.rv2ide.treesitter.TSQueryCursor
+import com.itsaky.tom.rv2ide.treesitter.TSQueryMatch
+import com.itsaky.tom.rv2ide.treesitter.TSTree
+import com.itsaky.tom.rv2ide.treesitter.java.TSLanguageJava
 
 /**
  * Helper class to prune method bodies in Java source code using.

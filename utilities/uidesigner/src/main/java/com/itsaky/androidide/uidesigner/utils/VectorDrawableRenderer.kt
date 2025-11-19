@@ -4,7 +4,7 @@
  * and provides better fallback mechanisms for complex vector drawables
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
 import android.content.Context
 import android.graphics.*

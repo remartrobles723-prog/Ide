@@ -32,16 +32,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.api;
+package com.itsaky.tom.rv2ide.lsp.api;
 
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.lookup.Lookup;
-import com.itsaky.androidide.lsp.models.CompletionItem;
-import com.itsaky.androidide.lsp.models.CompletionParams;
-import com.itsaky.androidide.lsp.models.CompletionResult;
-import com.itsaky.androidide.lsp.models.CompletionsKt;
-import com.itsaky.androidide.lsp.models.MatchLevel;
-import com.itsaky.androidide.progress.ICancelChecker;
+import com.itsaky.tom.rv2ide.lookup.Lookup;
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem;
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams;
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult;
+import com.itsaky.tom.rv2ide.lsp.models.CompletionsKt;
+import com.itsaky.tom.rv2ide.lsp.models.MatchLevel;
+import com.itsaky.tom.rv2ide.progress.ICancelChecker;
 import java.nio.file.Files;
 import java.nio.file.Path;
 

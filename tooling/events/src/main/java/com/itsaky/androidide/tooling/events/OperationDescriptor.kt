@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.events
+package com.itsaky.tom.rv2ide.tooling.events
 
 /**
  * Describes an operation for which an event has occurred.

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates
+package com.itsaky.tom.rv2ide.templates
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.itsaky.androidide.templates.base.util.optonallyKts
+import com.itsaky.tom.rv2ide.templates.base.util.optonallyKts
 import java.io.File
 import java.util.UUID
 

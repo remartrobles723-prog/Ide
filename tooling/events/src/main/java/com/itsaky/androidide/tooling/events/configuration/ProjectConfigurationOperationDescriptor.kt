@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.events.configuration
+package com.itsaky.tom.rv2ide.tooling.events.configuration
 
-import com.itsaky.androidide.tooling.events.OperationDescriptor
-import com.itsaky.androidide.tooling.model.ProjectIdentifier
+import com.itsaky.tom.rv2ide.tooling.events.OperationDescriptor
+import com.itsaky.tom.rv2ide.tooling.model.ProjectIdentifier
 
 /** @author Akash Yadav */
 class ProjectConfigurationOperationDescriptor(

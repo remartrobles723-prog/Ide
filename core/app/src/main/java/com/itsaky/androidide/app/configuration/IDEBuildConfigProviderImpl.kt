@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.app.configuration
+package com.itsaky.tom.rv2ide.app.configuration
 
 import android.os.Build
 import com.google.auto.service.AutoService
-import com.itsaky.androidide.app.IDEApplication
+import com.itsaky.tom.rv2ide.app.IDEApplication
 
 /** @author Akash Yadav */
 @AutoService(IDEBuildConfigProvider::class)

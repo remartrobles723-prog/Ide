@@ -20,23 +20,23 @@
  * ++ ndk checks
  */
 
-package com.itsaky.androidide.handlers
+package com.itsaky.tom.rv2ide.handlers
 
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.itsaky.androidide.R
-import com.itsaky.androidide.activities.editor.EditorHandlerActivity
-import com.itsaky.androidide.preferences.internal.GeneralPreferences
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.resources.R.string
-import com.itsaky.androidide.services.builder.GradleBuildService
-import com.itsaky.androidide.tooling.api.messages.result.BuildInfo
-import com.itsaky.androidide.tooling.events.ProgressEvent
-import com.itsaky.androidide.tooling.events.configuration.ProjectConfigurationStartEvent
-import com.itsaky.androidide.tooling.events.task.TaskStartEvent
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashSuccess
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity
+import com.itsaky.tom.rv2ide.preferences.internal.GeneralPreferences
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.resources.R.string
+import com.itsaky.tom.rv2ide.services.builder.GradleBuildService
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.BuildInfo
+import com.itsaky.tom.rv2ide.tooling.events.ProgressEvent
+import com.itsaky.tom.rv2ide.tooling.events.configuration.ProjectConfigurationStartEvent
+import com.itsaky.tom.rv2ide.tooling.events.task.TaskStartEvent
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashSuccess
 import java.io.File
 import java.lang.ref.WeakReference
 import org.slf4j.LoggerFactory

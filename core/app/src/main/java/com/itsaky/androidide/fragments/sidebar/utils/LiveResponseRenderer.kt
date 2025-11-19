@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.fragments.sidebar.utils
+package com.itsaky.tom.rv2ide.fragments.sidebar.utils
 
 import android.content.ClipData
 import android.content.ClipboardManager

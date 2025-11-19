@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
 // M3 Components
 import android.view.ViewGroup
@@ -43,15 +43,15 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import com.google.android.material.textview.MaterialTextView
-import com.itsaky.androidide.inflater.ILayoutInflater
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.IViewGroup
-import com.itsaky.androidide.inflater.internal.LayoutInflaterImpl
-import com.itsaky.androidide.inflater.internal.ViewGroupImpl
-import com.itsaky.androidide.inflater.internal.ViewImpl
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.xml.widgets.WidgetTable
+import com.itsaky.tom.rv2ide.inflater.ILayoutInflater
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.IViewGroup
+import com.itsaky.tom.rv2ide.inflater.internal.LayoutInflaterImpl
+import com.itsaky.tom.rv2ide.inflater.internal.ViewGroupImpl
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTable
 import org.slf4j.LoggerFactory
 
 /**
@@ -225,7 +225,7 @@ class UiLayoutInflater : LayoutInflaterImpl() {
     }
 
     // Notify inflation listener
-    inflationEventListener?.onEvent(com.itsaky.androidide.inflater.events.OnInflateViewEvent(view))
+    inflationEventListener?.onEvent(com.itsaky.tom.rv2ide.inflater.events.OnInflateViewEvent(view))
 
     return listOf(view)
   }

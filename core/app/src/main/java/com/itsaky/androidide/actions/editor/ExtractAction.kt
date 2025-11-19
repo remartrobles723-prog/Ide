@@ -15,14 +15,14 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.editor
+package com.itsaky.tom.rv2ide.actions.editor
 
 import android.content.Context
 import androidx.core.content.ContextCompat
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.itsaky.androidide.R
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.BaseEditorAction
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.BaseEditorAction
 import java.io.File
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
@@ -467,7 +467,7 @@ $newStringEntry
   }
 
   private fun replaceSelectedText(
-      editor: com.itsaky.androidide.editor.ui.IDEEditor,
+      editor: com.itsaky.tom.rv2ide.editor.ui.IDEEditor,
       stringName: String,
       file: File,
       hasQuotes: Boolean,

@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters
+package com.itsaky.tom.rv2ide.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.itsaky.androidide.databinding.LayoutMainActionItemBinding
-import com.itsaky.androidide.models.MainScreenAction
+import com.itsaky.tom.rv2ide.databinding.LayoutMainActionItemBinding
+import com.itsaky.tom.rv2ide.models.MainScreenAction
 
 /**
  * Adapter for the actions available on the main screen.

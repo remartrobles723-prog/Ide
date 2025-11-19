@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.shell
+package com.itsaky.tom.rv2ide.shell
 
 import java.io.File
 import kotlin.coroutines.CoroutineContext
@@ -36,7 +36,7 @@ interface IProcessBuilder {
 
   /**
    * The working directory for the command. If set to `null`, the
-   * [Environment.HOME][com.itsaky.androidide.utils.Environment.HOME] directory will be used.
+   * [Environment.HOME][com.itsaky.tom.rv2ide.utils.Environment.HOME] directory will be used.
    *
    * Default value is `null`.
    */

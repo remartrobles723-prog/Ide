@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins.util
+package com.itsaky.tom.rv2ide.plugins.util
 
-import com.itsaky.androidide.build.config.AUTH_PASS
-import com.itsaky.androidide.build.config.AUTH_USER
-import com.itsaky.androidide.build.config.KEY_BIN
-import com.itsaky.androidide.build.config.KEY_URL
+import com.itsaky.tom.rv2ide.build.config.AUTH_PASS
+import com.itsaky.tom.rv2ide.build.config.AUTH_USER
+import com.itsaky.tom.rv2ide.build.config.KEY_BIN
+import com.itsaky.tom.rv2ide.build.config.KEY_URL
 import org.gradle.api.Project
-import com.itsaky.androidide.build.config.signingKey
+import com.itsaky.tom.rv2ide.build.config.signingKey
 import org.gradle.api.invocation.Gradle
 import java.util.Base64
 

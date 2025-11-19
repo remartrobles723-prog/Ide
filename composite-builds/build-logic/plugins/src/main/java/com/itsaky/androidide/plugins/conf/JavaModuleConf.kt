@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins.conf
+package com.itsaky.tom.rv2ide.plugins.conf
 
-import com.itsaky.androidide.build.config.BuildConfig
+import com.itsaky.tom.rv2ide.build.config.BuildConfig
 import org.gradle.api.Project
 import org.gradle.api.plugins.JavaPluginExtension
 import org.gradle.kotlin.dsl.configure

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.log
+package com.itsaky.tom.rv2ide.services.log
 
 import android.content.Intent
 import android.os.Bundle
@@ -32,8 +32,8 @@ data class ConnectionObserverParams(val clientId: String, val totalConnections: 
 
   companion object {
 
-    const val KEY_CLIENT_ID = "com.itsaky.androidide.logreceiver.connectedClientId"
-    const val KEY_CONNECTION_COUNT = "com.itsaky.androidide.logreceiver.connectionCount"
+    const val KEY_CLIENT_ID = "com.itsaky.tom.rv2ide.logreceiver.connectedClientId"
+    const val KEY_CONNECTION_COUNT = "com.itsaky.tom.rv2ide.logreceiver.connectionCount"
 
     @JvmStatic
     internal fun from(intent: Intent?): ConnectionObserverParams? {

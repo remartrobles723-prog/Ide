@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.progress
+package com.itsaky.tom.rv2ide.tooling.impl.progress
 
-import com.itsaky.androidide.tooling.api.IToolingApiClient
-import com.itsaky.androidide.tooling.impl.Main
+import com.itsaky.tom.rv2ide.tooling.api.IToolingApiClient
+import com.itsaky.tom.rv2ide.tooling.impl.Main
 import org.gradle.tooling.events.FinishEvent
 import org.gradle.tooling.events.ProgressEvent
 import org.gradle.tooling.events.ProgressListener
@@ -55,7 +55,7 @@ class ForwardingProgressListener : ProgressListener {
       return
     }
 
-    val ideEvent: com.itsaky.androidide.tooling.events.ProgressEvent =
+    val ideEvent: com.itsaky.tom.rv2ide.tooling.events.ProgressEvent =
         when (event) {
           is ProjectConfigurationProgressEvent ->
               when (event) {

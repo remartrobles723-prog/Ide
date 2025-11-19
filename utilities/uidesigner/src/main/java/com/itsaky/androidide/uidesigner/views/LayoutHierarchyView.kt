@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.views
+package com.itsaky.tom.rv2ide.uidesigner.views
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -31,9 +31,9 @@ import androidx.core.view.updateMarginsRelative
 import androidx.core.view.updatePaddingRelative
 import com.blankj.utilcode.util.SizeUtils
 import com.google.android.material.textview.MaterialTextView
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.uidesigner.R
-import com.itsaky.androidide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.uidesigner.R
+import com.itsaky.tom.rv2ide.utils.resolveAttr
 
 /**
  * A view that shows component hierarchy in the UI Designer.
@@ -85,7 +85,7 @@ constructor(
         }
     addView(text)
 
-    if (view is com.itsaky.androidide.inflater.IViewGroup) {
+    if (view is com.itsaky.tom.rv2ide.inflater.IViewGroup) {
       text.childCount = computeChildCount(view)
       view.forEach { addViews(it, depth + 1) }
     }
@@ -93,10 +93,10 @@ constructor(
     textToIView[text] = view
   }
 
-  private fun computeChildCount(view: com.itsaky.androidide.inflater.IViewGroup): Int {
+  private fun computeChildCount(view: com.itsaky.tom.rv2ide.inflater.IViewGroup): Int {
     var count = view.childCount
     view.forEachIndexed { index, child ->
-      if (index != view.childCount - 1 && child is com.itsaky.androidide.inflater.IViewGroup) {
+      if (index != view.childCount - 1 && child is com.itsaky.tom.rv2ide.inflater.IViewGroup) {
         count += computeChildCount(child)
       }
     }

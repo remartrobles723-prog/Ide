@@ -15,22 +15,22 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects
+package com.itsaky.tom.rv2ide.projects
 
 import android.text.TextUtils
 import androidx.annotation.RestrictTo
-import com.itsaky.androidide.builder.model.IJavaCompilerSettings
-import com.itsaky.androidide.javac.services.fs.CacheFSInfoSingleton
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.projects.classpath.JarFsClasspathReader
-import com.itsaky.androidide.projects.util.BootClasspathProvider
-import com.itsaky.androidide.tooling.api.models.GradleTask
-import com.itsaky.androidide.utils.ClassTrie
-import com.itsaky.androidide.utils.DocumentUtils
-import com.itsaky.androidide.utils.SourceClassTrie
-import com.itsaky.androidide.utils.SourceClassTrie.SourceNode
-import com.itsaky.androidide.utils.StopWatch
+import com.itsaky.tom.rv2ide.builder.model.IJavaCompilerSettings
+import com.itsaky.tom.rv2ide.javac.services.fs.CacheFSInfoSingleton
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.projects.classpath.JarFsClasspathReader
+import com.itsaky.tom.rv2ide.projects.util.BootClasspathProvider
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleTask
+import com.itsaky.tom.rv2ide.utils.ClassTrie
+import com.itsaky.tom.rv2ide.utils.DocumentUtils
+import com.itsaky.tom.rv2ide.utils.SourceClassTrie
+import com.itsaky.tom.rv2ide.utils.SourceClassTrie.SourceNode
+import com.itsaky.tom.rv2ide.utils.StopWatch
 import java.io.File
 import java.nio.file.Path
 import kotlin.io.path.pathString

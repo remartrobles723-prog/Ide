@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.undo
+package com.itsaky.tom.rv2ide.uidesigner.undo
 
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.uidesigner.models.UiAttribute
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.uidesigner.models.UiAttribute
 
 /**
  * Represents the action when the user updates an attribute in an [IView].
@@ -26,7 +26,7 @@ import com.itsaky.androidide.uidesigner.models.UiAttribute
  * @author Akash Yadav
  */
 internal class AttrUpdatedAction(
-    view: com.itsaky.androidide.inflater.IView,
+    view: com.itsaky.tom.rv2ide.inflater.IView,
     attr: UiAttribute,
     private val oldValue: String,
 ) : AttrAction(view, attr) {

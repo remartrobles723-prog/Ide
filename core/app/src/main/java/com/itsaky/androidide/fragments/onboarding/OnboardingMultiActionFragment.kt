@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.onboarding
+package com.itsaky.tom.rv2ide.fragments.onboarding
 
 import android.os.Build
 import android.os.Bundle
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.itsaky.androidide.adapters.onboarding.DefaultOnboardingItemAdapter
-import com.itsaky.androidide.databinding.LayoutOnboardingMultiactionBinding
-import com.itsaky.androidide.models.OnboardingItem
-import com.itsaky.androidide.utils.uncheckedCast
+import com.itsaky.tom.rv2ide.adapters.onboarding.DefaultOnboardingItemAdapter
+import com.itsaky.tom.rv2ide.databinding.LayoutOnboardingMultiactionBinding
+import com.itsaky.tom.rv2ide.models.OnboardingItem
+import com.itsaky.tom.rv2ide.utils.uncheckedCast
 
 /** @author Akash Yadav */
 open class OnboardingMultiActionFragment : OnboardingFragment() {

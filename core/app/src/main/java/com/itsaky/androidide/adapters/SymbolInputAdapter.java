@@ -15,19 +15,19 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
-package com.itsaky.androidide.adapters;
+package com.itsaky.tom.rv2ide.adapters;
 
-import static com.itsaky.androidide.utils.ResourceUtilsKt.resolveAttr;
+import static com.itsaky.tom.rv2ide.utils.ResourceUtilsKt.resolveAttr;
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.itsaky.androidide.R;
-import com.itsaky.androidide.databinding.LayoutSymbolItemBinding;
-import com.itsaky.androidide.editor.ui.IDEEditor;
-import com.itsaky.androidide.models.Symbol;
+import com.itsaky.tom.rv2ide.R;
+import com.itsaky.tom.rv2ide.databinding.LayoutSymbolItemBinding;
+import com.itsaky.tom.rv2ide.editor.ui.IDEEditor;
+import com.itsaky.tom.rv2ide.models.Symbol;
 import io.github.rosemoe.sora.widget.SelectionMovement;
 import java.util.ArrayList;
 import java.util.List;

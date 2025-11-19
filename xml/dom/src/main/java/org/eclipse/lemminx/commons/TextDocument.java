@@ -9,8 +9,8 @@
  */
 package org.eclipse.lemminx.commons;
 
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

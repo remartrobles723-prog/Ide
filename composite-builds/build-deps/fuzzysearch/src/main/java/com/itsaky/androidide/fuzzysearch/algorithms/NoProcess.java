@@ -1,6 +1,6 @@
-package com.itsaky.androidide.fuzzysearch.algorithms;
+package com.itsaky.tom.rv2ide.fuzzysearch.algorithms;
 
-import com.itsaky.androidide.fuzzysearch.StringProcessor;
+import com.itsaky.tom.rv2ide.fuzzysearch.StringProcessor;
 
 /**
  * @deprecated Use {@code ToStringFunction#NO_PROCESS} instead.

@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.fs
+package com.itsaky.tom.rv2ide.javac.services.fs
 
-import com.itsaky.androidide.utils.VMUtils
+import com.itsaky.tom.rv2ide.utils.VMUtils
 import java.nio.file.Path
 import openjdk.tools.javac.file.CacheFSInfo
 import org.slf4j.LoggerFactory

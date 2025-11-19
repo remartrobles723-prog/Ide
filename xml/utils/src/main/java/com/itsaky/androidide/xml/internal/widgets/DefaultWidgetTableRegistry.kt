@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.internal.widgets
+package com.itsaky.tom.rv2ide.xml.internal.widgets
 
 import com.google.auto.service.AutoService
-import com.itsaky.androidide.xml.widgets.WidgetTable
-import com.itsaky.androidide.xml.widgets.WidgetTableRegistry
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTable
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTableRegistry
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.util.concurrent.ConcurrentHashMap

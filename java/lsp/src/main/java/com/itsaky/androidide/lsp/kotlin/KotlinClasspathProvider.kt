@@ -15,15 +15,15 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
-import com.itsaky.androidide.lsp.kotlin.compiler.KotlinCompilerService
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.projects.classpath.ClassInfo
-import com.itsaky.androidide.projects.classpath.IClasspathReader
-import com.itsaky.androidide.projects.classpath.JarFsClasspathReader
+import com.itsaky.tom.rv2ide.lsp.kotlin.compiler.KotlinCompilerService
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.projects.classpath.ClassInfo
+import com.itsaky.tom.rv2ide.projects.classpath.IClasspathReader
+import com.itsaky.tom.rv2ide.projects.classpath.JarFsClasspathReader
 import java.io.File
 import org.slf4j.LoggerFactory
 
@@ -249,7 +249,7 @@ class KotlinClasspathProvider {
       val gradleHomeDirs =
           listOf(
               File(System.getProperty("user.home", ""), ".gradle"),
-              File("/data/data/com.itsaky.androidide/files/home/.gradle"),
+              File("/data/data/com.itsaky.tom.rv2ide/files/home/.gradle"),
               File("/storage/emulated/0/.gradle"),
               // Android app's own gradle cache
               File(System.getProperty("user.home", ""), "../../.gradle"),

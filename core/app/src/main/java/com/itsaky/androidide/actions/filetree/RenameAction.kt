@@ -15,22 +15,22 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.filetree
+package com.itsaky.tom.rv2ide.actions.filetree
 
 import android.content.Context
 import android.view.LayoutInflater
 import com.blankj.utilcode.util.FileUtils
-import com.itsaky.androidide.R
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.requireFile
-import com.itsaky.androidide.adapters.viewholders.FileTreeViewHolder
-import com.itsaky.androidide.eventbus.events.file.FileRenameEvent
-import com.itsaky.androidide.preferences.databinding.LayoutDialogTextInputBinding
-import com.itsaky.androidide.projects.FileManager
-import com.itsaky.androidide.tasks.launchAsyncWithProgress
-import com.itsaky.androidide.utils.DialogUtils
-import com.itsaky.androidide.utils.FlashType
-import com.itsaky.androidide.utils.flashMessage
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.requireFile
+import com.itsaky.tom.rv2ide.adapters.viewholders.FileTreeViewHolder
+import com.itsaky.tom.rv2ide.eventbus.events.file.FileRenameEvent
+import com.itsaky.tom.rv2ide.preferences.databinding.LayoutDialogTextInputBinding
+import com.itsaky.tom.rv2ide.projects.FileManager
+import com.itsaky.tom.rv2ide.tasks.launchAsyncWithProgress
+import com.itsaky.tom.rv2ide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.utils.FlashType
+import com.itsaky.tom.rv2ide.utils.flashMessage
 import com.unnamed.b.atv.model.TreeNode
 import java.io.File
 import kotlinx.coroutines.Dispatchers
@@ -57,17 +57,17 @@ class RenameAction(context: Context, override val order: Int) :
     val lastHeld = data.getTreeNode()
     val binding = LayoutDialogTextInputBinding.inflate(LayoutInflater.from(context))
     val builder = DialogUtils.newMaterialDialogBuilder(context)
-    binding.name.editText!!.hint = context.getString(com.itsaky.androidide.resources.R.string.new_name)
+    binding.name.editText!!.hint = context.getString(com.itsaky.tom.rv2ide.resources.R.string.new_name)
     binding.name.editText!!.setText(file.name)
-    builder.setTitle(com.itsaky.androidide.resources.R.string.rename_file)
-    builder.setMessage(com.itsaky.androidide.resources.R.string.msg_rename_file)
+    builder.setTitle(com.itsaky.tom.rv2ide.resources.R.string.rename_file)
+    builder.setMessage(com.itsaky.tom.rv2ide.resources.R.string.msg_rename_file)
     builder.setView(binding.root)
     builder.setNegativeButton(android.R.string.cancel, null)
-    builder.setPositiveButton(com.itsaky.androidide.resources.R.string.rename_file) { dialogInterface, _ ->
+    builder.setPositiveButton(com.itsaky.tom.rv2ide.resources.R.string.rename_file) { dialogInterface, _ ->
       dialogInterface.dismiss()
       actionScope.launchAsyncWithProgress(
           configureFlashbar = { builder, cancelChecker ->
-            builder.message(com.itsaky.androidide.resources.R.string.please_wait)
+            builder.message(com.itsaky.tom.rv2ide.resources.R.string.please_wait)
           },
           action = { _, _ ->
             val name: String = binding.name.editText!!.text.toString().trim()
@@ -79,8 +79,8 @@ class RenameAction(context: Context, override val order: Int) :
 
             withContext(Dispatchers.Main) {
               flashMessage(
-                  if (renamed) com.itsaky.androidide.resources.R.string.renamed
-                  else com.itsaky.androidide.resources.R.string.rename_failed,
+                  if (renamed) com.itsaky.tom.rv2ide.resources.R.string.renamed
+                  else com.itsaky.tom.rv2ide.resources.R.string.rename_failed,
                   if (renamed) FlashType.SUCCESS else FlashType.ERROR,
               )
               if (!renamed) {

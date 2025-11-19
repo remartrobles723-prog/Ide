@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.content.Intent
 import android.os.Environment
@@ -25,9 +25,9 @@ import androidx.core.provider.DocumentsContractCompat.buildDocumentUriUsingTree
 import androidx.core.provider.DocumentsContractCompat.getTreeDocumentId
 import androidx.documentfile.provider.DocumentFile
 import androidx.fragment.app.Fragment
-import com.itsaky.androidide.common.R
-import com.itsaky.androidide.resources.R.string
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.common.R
+import com.itsaky.tom.rv2ide.resources.R.string
+import com.itsaky.tom.rv2ide.utils.flashError
 import java.io.File
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope
@@ -45,7 +45,7 @@ open class BaseFragment @JvmOverloads constructor(contentLayoutId: Int = 0) :
 
   companion object {
     const val ANDROID_DOCS_AUTHORITY = "com.android.externalstorage.documents"
-    const val ANDROIDIDE_DOCS_AUTHORITY = "com.itsaky.androidide.documents"
+    const val ANDROIDIDE_DOCS_AUTHORITY = "com.itsaky.tom.rv2ide.documents"
   }
 
   override fun onDestroyView() {

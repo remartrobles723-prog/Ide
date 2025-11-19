@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.sidebar
+package com.itsaky.tom.rv2ide.actions.sidebar
 
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import com.itsaky.androidide.R
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.requireContext
-import com.itsaky.androidide.activities.PreferencesActivity
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.requireContext
+import com.itsaky.tom.rv2ide.activities.PreferencesActivity
 import kotlin.reflect.KClass
 
 /**

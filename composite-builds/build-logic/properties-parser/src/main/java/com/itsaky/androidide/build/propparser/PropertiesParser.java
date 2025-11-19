@@ -23,10 +23,10 @@
  * questions.
  */
 
-package com.itsaky.androidide.build.propparser;
+package com.itsaky.tom.rv2ide.build.propparser;
 
-import com.itsaky.androidide.build.propparser.gen.ClassGenerator;
-import com.itsaky.androidide.build.propparser.parser.MessageFile;
+import com.itsaky.tom.rv2ide.build.propparser.gen.ClassGenerator;
+import com.itsaky.tom.rv2ide.build.propparser.parser.MessageFile;
 import java.io.File;
 import java.io.PrintStream;
 import java.util.Map;

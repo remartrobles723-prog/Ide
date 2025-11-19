@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins
+package com.itsaky.tom.rv2ide.plugins
 
-import com.itsaky.androidide.build.propparser.PropertiesParser
-import com.itsaky.androidide.build.propparser.gen.ClassGenerator
+import com.itsaky.tom.rv2ide.build.propparser.PropertiesParser
+import com.itsaky.tom.rv2ide.build.propparser.gen.ClassGenerator
 import org.gradle.api.GradleException
 import org.gradle.api.Plugin
 import org.gradle.api.Project

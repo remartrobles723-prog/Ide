@@ -1,4 +1,4 @@
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -11,8 +11,8 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.Toast
 import com.google.android.material.appbar.MaterialToolbar
-import com.itsaky.androidide.R
-import com.itsaky.androidide.app.EdgeToEdgeIDEActivity
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.app.EdgeToEdgeIDEActivity
 
 class MaterialIconsWebActivity : EdgeToEdgeIDEActivity() {
 

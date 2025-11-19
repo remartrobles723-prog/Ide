@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.visitors;
+package com.itsaky.tom.rv2ide.lsp.java.visitors;
 
-import com.itsaky.androidide.lsp.java.compiler.CompileTask;
-import com.itsaky.androidide.lsp.java.utils.FindHelper;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask;
+import com.itsaky.tom.rv2ide.lsp.java.utils.FindHelper;
 import jdkx.lang.model.element.Name;
 import openjdk.source.tree.ClassTree;
 import openjdk.source.tree.CompilationUnitTree;

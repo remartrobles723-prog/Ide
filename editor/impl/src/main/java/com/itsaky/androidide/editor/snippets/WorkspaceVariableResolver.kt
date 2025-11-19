@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.snippets
+package com.itsaky.tom.rv2ide.editor.snippets
 
-import com.itsaky.androidide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.IProjectManager
 import io.github.rosemoe.sora.widget.snippet.variable.WorkspaceBasedSnippetVariableResolver
 
 /**

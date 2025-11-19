@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.app.configuration
+package com.itsaky.tom.rv2ide.app.configuration
 
 import android.os.Build
-import com.itsaky.androidide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
 
 /**
  * [IDEBuildConfigProvider] provides information about the build variant of the IDE itself.

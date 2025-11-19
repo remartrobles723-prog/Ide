@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.fragments
+package com.itsaky.tom.rv2ide.uidesigner.fragments
 
-// import com.itsaky.androidide.uidesigner.utils.applyBackgroundPreview
+// import com.itsaky.tom.rv2ide.uidesigner.utils.applyBackgroundPreview
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.text.TextWatcher
@@ -27,12 +27,12 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.itsaky.androidide.inflater.internal.ViewImpl
-import com.itsaky.androidide.uidesigner.databinding.LayoutAttrValueEditorBinding
-import com.itsaky.androidide.uidesigner.databinding.LayoutViewInfoHeaderBinding
-import com.itsaky.androidide.uidesigner.utils.ValueCompletionProvider
-import com.itsaky.androidide.uidesigner.utils.applyAttributePreview
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutAttrValueEditorBinding
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutViewInfoHeaderBinding
+import com.itsaky.tom.rv2ide.uidesigner.utils.ValueCompletionProvider
+import com.itsaky.tom.rv2ide.uidesigner.utils.applyAttributePreview
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
 
 /**
  * Fragment to allow the user to edit the value of the selected fragment.

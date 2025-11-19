@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.etc
+package com.itsaky.tom.rv2ide.actions.etc
 
 import android.content.Context
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
-import com.itsaky.androidide.R
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.EditorActivityAction
-import com.itsaky.androidide.editor.schemes.IDEColorSchemeProvider
-import com.itsaky.androidide.tasks.launchAsyncWithProgress
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.EditorActivityAction
+import com.itsaky.tom.rv2ide.editor.schemes.IDEColorSchemeProvider
+import com.itsaky.tom.rv2ide.tasks.launchAsyncWithProgress
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

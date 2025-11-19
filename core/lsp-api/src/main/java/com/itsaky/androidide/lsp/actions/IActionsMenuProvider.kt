@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.actions
+package com.itsaky.tom.rv2ide.lsp.actions
 
 import com.itsaky.tom.rv2ide.actions.ActionItem
 

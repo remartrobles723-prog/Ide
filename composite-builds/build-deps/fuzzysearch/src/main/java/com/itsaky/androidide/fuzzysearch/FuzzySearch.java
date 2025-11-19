@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fuzzysearch;
+package com.itsaky.tom.rv2ide.fuzzysearch;
 
-import com.itsaky.androidide.fuzzysearch.algorithms.TokenSet;
-import com.itsaky.androidide.fuzzysearch.algorithms.TokenSort;
-import com.itsaky.androidide.fuzzysearch.algorithms.WeightedRatio;
-import com.itsaky.androidide.fuzzysearch.model.BoundExtractedResult;
-import com.itsaky.androidide.fuzzysearch.model.ExtractedResult;
-import com.itsaky.androidide.fuzzysearch.ratios.PartialRatio;
-import com.itsaky.androidide.fuzzysearch.ratios.SimpleRatio;
+import com.itsaky.tom.rv2ide.fuzzysearch.algorithms.TokenSet;
+import com.itsaky.tom.rv2ide.fuzzysearch.algorithms.TokenSort;
+import com.itsaky.tom.rv2ide.fuzzysearch.algorithms.WeightedRatio;
+import com.itsaky.tom.rv2ide.fuzzysearch.model.BoundExtractedResult;
+import com.itsaky.tom.rv2ide.fuzzysearch.model.ExtractedResult;
+import com.itsaky.tom.rv2ide.fuzzysearch.ratios.PartialRatio;
+import com.itsaky.tom.rv2ide.fuzzysearch.ratios.SimpleRatio;
 
 import java.util.Collection;
 import java.util.List;

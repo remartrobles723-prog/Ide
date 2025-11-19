@@ -23,7 +23,7 @@
  * questions.
  */
 
-package com.itsaky.androidide.build.propparser.parser;
+package com.itsaky.tom.rv2ide.build.propparser.parser;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.util
+package com.itsaky.tom.rv2ide.templates.base.util
 
 import com.android.aaptcompiler.ConfigDescription
-import com.itsaky.androidide.templates.SrcSet
-import com.itsaky.androidide.templates.SrcSet.Main
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
-import com.itsaky.androidide.templates.base.util.AndroidModuleResManager.ResourceType.VALUES
+import com.itsaky.tom.rv2ide.templates.SrcSet
+import com.itsaky.tom.rv2ide.templates.SrcSet.Main
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.util.AndroidModuleResManager.ResourceType.VALUES
 import java.io.File
 import org.eclipse.lemminx.dom.builder.IndentedXmlBuilder
 import org.eclipse.lemminx.dom.builder.XmlBuilder

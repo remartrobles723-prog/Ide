@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.content.Context
 import android.os.Build
@@ -24,10 +24,10 @@ import com.blankj.utilcode.util.DeviceUtils
 import com.termux.shared.android.PackageUtils
 import com.termux.shared.termux.TermuxConstants
 import com.termux.shared.termux.TermuxUtils
-import com.itsaky.androidide.BuildConfig
-import com.itsaky.androidide.app.IDEApplication
-import com.itsaky.androidide.app.configuration.IDEBuildConfigProvider
-import com.itsaky.androidide.buildinfo.BuildInfo
+import com.itsaky.tom.rv2ide.BuildConfig
+import com.itsaky.tom.rv2ide.app.IDEApplication
+import com.itsaky.tom.rv2ide.app.configuration.IDEBuildConfigProvider
+import com.itsaky.tom.rv2ide.buildinfo.BuildInfo
 
 /** @author Akash Yadav */
 object BuildInfoUtils {

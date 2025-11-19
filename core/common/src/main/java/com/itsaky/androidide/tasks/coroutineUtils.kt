@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tasks
+package com.itsaky.tom.rv2ide.tasks
 
-import com.itsaky.androidide.flashbar.Flashbar
-import com.itsaky.androidide.progress.ICancelChecker
-import com.itsaky.androidide.utils.flashProgress
+import com.itsaky.tom.rv2ide.flashbar.Flashbar
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.utils.flashProgress
 import java.io.InterruptedIOException
 import kotlin.coroutines.CoroutineContext
 import kotlin.coroutines.EmptyCoroutineContext

@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.newline
+package com.itsaky.tom.rv2ide.editor.language.newline
 
-import com.itsaky.androidide.editor.language.treesitter.TreeSitterLanguage
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TreeSitterLanguage
 import io.github.rosemoe.sora.lang.smartEnter.NewlineHandleResult
 import io.github.rosemoe.sora.lang.styling.Styles
 import io.github.rosemoe.sora.text.CharPosition

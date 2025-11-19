@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters.onboarding
+package com.itsaky.tom.rv2ide.adapters.onboarding
 
 import android.content.res.ColorStateList
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.itsaky.androidide.databinding.LayoutOnboardingItemBinding
-import com.itsaky.androidide.models.OnboardingItem
+import com.itsaky.tom.rv2ide.databinding.LayoutOnboardingItemBinding
+import com.itsaky.tom.rv2ide.models.OnboardingItem
 
 /**
  * Default implmentation of [RecyclerView.Adapter] for showing [OnboardingItem]s.

@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.log
+package com.itsaky.tom.rv2ide.services.log
 
 import android.util.Log
-import com.itsaky.androidide.logsender.ILogReceiver
-import com.itsaky.androidide.logsender.ILogSender
-import com.itsaky.androidide.models.LogLine
-import com.itsaky.androidide.tasks.executeAsyncProvideError
+import com.itsaky.tom.rv2ide.logsender.ILogReceiver
+import com.itsaky.tom.rv2ide.logsender.ILogSender
+import com.itsaky.tom.rv2ide.models.LogLine
+import com.itsaky.tom.rv2ide.tasks.executeAsyncProvideError
 import java.util.concurrent.atomic.AtomicBoolean
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock

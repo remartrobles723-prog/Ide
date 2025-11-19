@@ -14,13 +14,13 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.rewrite
+package com.itsaky.tom.rv2ide.lsp.java.rewrite
 
-import com.itsaky.androidide.lsp.java.compiler.CompilerProvider
-import com.itsaky.androidide.lsp.models.CodeActionItem
-import com.itsaky.androidide.lsp.models.CodeActionKind
-import com.itsaky.androidide.lsp.models.DocumentChange
-import com.itsaky.androidide.lsp.models.TextEdit
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompilerProvider
+import com.itsaky.tom.rv2ide.lsp.models.CodeActionItem
+import com.itsaky.tom.rv2ide.lsp.models.CodeActionKind
+import com.itsaky.tom.rv2ide.lsp.models.DocumentChange
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit
 import java.nio.file.Path
 
 /**

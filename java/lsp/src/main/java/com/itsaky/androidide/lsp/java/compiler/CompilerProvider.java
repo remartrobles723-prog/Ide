@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.compiler;
+package com.itsaky.tom.rv2ide.lsp.java.compiler;
 
-import com.itsaky.androidide.lsp.java.models.CompilationRequest;
-import com.itsaky.androidide.lsp.java.parser.ParseTask;
+import com.itsaky.tom.rv2ide.lsp.java.models.CompilationRequest;
+import com.itsaky.tom.rv2ide.lsp.java.parser.ParseTask;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;

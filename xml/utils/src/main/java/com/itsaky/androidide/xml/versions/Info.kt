@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.versions
+package com.itsaky.tom.rv2ide.xml.versions
 
 /**
  * Base class for info about class, fields and methods.

@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater
+package com.itsaky.tom.rv2ide.inflater
 
 import android.view.ViewGroup
-import com.itsaky.androidide.inflater.events.IInflateEventsListener
-import com.itsaky.androidide.inflater.internal.LayoutInflaterImpl
-import com.itsaky.androidide.lookup.Lookup.Key
-import com.itsaky.androidide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.inflater.events.IInflateEventsListener
+import com.itsaky.tom.rv2ide.inflater.internal.LayoutInflaterImpl
+import com.itsaky.tom.rv2ide.lookup.Lookup.Key
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
 import java.io.Closeable
 import java.io.File
 
@@ -44,11 +44,11 @@ interface ILayoutInflater : Closeable {
   /**
    * Inflate the given raw XML file.
    *
-   * **NOTE** : The [startParse][com.itsaky.androidide.inflater.utils.startParse] method is called if it
-   * hasn't been called yet. However, the [endParse] [com.itsaky.androidide.inflater.utils.endParse] method
+   * **NOTE** : The [startParse][com.itsaky.tom.rv2ide.inflater.utils.startParse] method is called if it
+   * hasn't been called yet. However, the [endParse] [com.itsaky.tom.rv2ide.inflater.utils.endParse] method
    * is not called after the parse is done. The caller is expected to call [close] when this
    * inflater instance is no longer needed. The [close] method calls the [endParse]
-   * [com.itsaky.androidide.inflater.utils.endParse].
+   * [com.itsaky.tom.rv2ide.inflater.utils.endParse].
    *
    * @param file The file to inflate.
    * @param parent The parent view.
@@ -58,11 +58,11 @@ interface ILayoutInflater : Closeable {
   /**
    * Inflate the given raw XML file.
    *
-   * **NOTE** : The [startParse][com.itsaky.androidide.inflater.utils.startParse] method is called if it
-   * hasn't been called yet. However, the [endParse] [com.itsaky.androidide.inflater.utils.endParse] method
+   * **NOTE** : The [startParse][com.itsaky.tom.rv2ide.inflater.utils.startParse] method is called if it
+   * hasn't been called yet. However, the [endParse] [com.itsaky.tom.rv2ide.inflater.utils.endParse] method
    * is not called after the parse is done. The caller is expected to call [close] when this
    * inflater instance is no longer needed. The [close] method calls the [endParse]
-   * [com.itsaky.androidide.inflater.utils.endParse].
+   * [com.itsaky.tom.rv2ide.inflater.utils.endParse].
    *
    * @param file The file to inflate.
    * @param parent The parent view.

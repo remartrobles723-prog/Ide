@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -30,8 +30,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.button.MaterialButton
-import com.itsaky.androidide.R
-import com.itsaky.androidide.actions.SidebarActionItem
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.actions.SidebarActionItem
 
 /**
  * Data class representing a navigation item in the sidebar.

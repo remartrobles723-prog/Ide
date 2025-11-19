@@ -30,23 +30,23 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.api
+package com.itsaky.tom.rv2ide.lsp.api
 
-import com.itsaky.androidide.lsp.models.CodeFormatResult
-import com.itsaky.androidide.lsp.models.CompletionParams
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.DefinitionParams
-import com.itsaky.androidide.lsp.models.DefinitionResult
-import com.itsaky.androidide.lsp.models.DiagnosticResult
-import com.itsaky.androidide.lsp.models.ExpandSelectionParams
-import com.itsaky.androidide.lsp.models.FormatCodeParams
-import com.itsaky.androidide.lsp.models.LSPFailure
-import com.itsaky.androidide.lsp.models.ReferenceParams
-import com.itsaky.androidide.lsp.models.ReferenceResult
-import com.itsaky.androidide.lsp.models.SignatureHelp
-import com.itsaky.androidide.lsp.models.SignatureHelpParams
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.lsp.models.CodeFormatResult
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.DefinitionParams
+import com.itsaky.tom.rv2ide.lsp.models.DefinitionResult
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult
+import com.itsaky.tom.rv2ide.lsp.models.ExpandSelectionParams
+import com.itsaky.tom.rv2ide.lsp.models.FormatCodeParams
+import com.itsaky.tom.rv2ide.lsp.models.LSPFailure
+import com.itsaky.tom.rv2ide.lsp.models.ReferenceParams
+import com.itsaky.tom.rv2ide.lsp.models.ReferenceResult
+import com.itsaky.tom.rv2ide.lsp.models.SignatureHelp
+import com.itsaky.tom.rv2ide.lsp.models.SignatureHelpParams
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.projects.IWorkspace
 import java.nio.file.Path
 
 /**
@@ -91,7 +91,7 @@ interface ILanguageServer {
   /**
    * Setup this language server with the given workspace. Servers are not expected to keep a
    * reference to the provided workspace. Instead, use
-   * [getRootWorkspace()][com.itsaky.androidide.projects.IProjectManager.workspace] to obtain the workspace
+   * [getRootWorkspace()][com.itsaky.tom.rv2ide.projects.IProjectManager.workspace] to obtain the workspace
    * instance.
    *
    * @param workspace The initialized workspace.
@@ -142,8 +142,8 @@ interface ILanguageServer {
   suspend fun signatureHelp(params: SignatureHelpParams): SignatureHelp
 
   /** Request hover/tooltip documentation at a position. Default returns empty content. */
-  suspend fun hover(params: DefinitionParams): com.itsaky.androidide.lsp.models.MarkupContent {
-    return com.itsaky.androidide.lsp.models.MarkupContent()
+  suspend fun hover(params: DefinitionParams): com.itsaky.tom.rv2ide.lsp.models.MarkupContent {
+    return com.itsaky.tom.rv2ide.lsp.models.MarkupContent()
   }
 
   /**

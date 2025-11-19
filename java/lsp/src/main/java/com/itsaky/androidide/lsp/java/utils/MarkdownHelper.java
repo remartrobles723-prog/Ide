@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.utils;
+package com.itsaky.tom.rv2ide.lsp.java.utils;
 
-import com.itsaky.androidide.lsp.models.MarkupContent;
-import com.itsaky.androidide.lsp.models.MarkupKind;
+import com.itsaky.tom.rv2ide.lsp.models.MarkupContent;
+import com.itsaky.tom.rv2ide.lsp.models.MarkupKind;
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;

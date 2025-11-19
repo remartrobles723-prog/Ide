@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.app.Activity
 import android.graphics.Color
@@ -29,12 +29,12 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.FloatRange
 import androidx.annotation.StringRes
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.flashbar.Flashbar
-import com.itsaky.androidide.flashbar.Flashbar.Gravity.TOP
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.FlashType.ERROR
-import com.itsaky.androidide.utils.FlashType.INFO
-import com.itsaky.androidide.utils.FlashType.SUCCESS
+import com.itsaky.tom.rv2ide.flashbar.Flashbar
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.Gravity.TOP
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.FlashType.ERROR
+import com.itsaky.tom.rv2ide.utils.FlashType.INFO
+import com.itsaky.tom.rv2ide.utils.FlashType.SUCCESS
 
 const val DURATION_SHORT = 2000L
 const val DURATION_LONG = 3500L

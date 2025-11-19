@@ -15,9 +15,9 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
-import com.itsaky.androidide.models.Symbol
+import com.itsaky.tom.rv2ide.models.Symbol
 import java.io.File
 
 object Symbols {

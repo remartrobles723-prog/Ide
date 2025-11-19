@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lookup;
+package com.itsaky.tom.rv2ide.lookup;
 
 import org.jetbrains.annotations.Nullable;
 

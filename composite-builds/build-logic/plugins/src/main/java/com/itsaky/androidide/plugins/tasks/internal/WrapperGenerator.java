@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins.tasks.internal;
+package com.itsaky.tom.rv2ide.plugins.tasks.internal;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.io.ByteStreams;

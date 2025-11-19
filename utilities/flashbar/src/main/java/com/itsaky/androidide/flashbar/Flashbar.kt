@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.flashbar
+package com.itsaky.tom.rv2ide.flashbar
 
 import android.app.Activity
 import android.graphics.Bitmap
@@ -31,14 +31,14 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.annotation.StyleRes
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.flashbar.Flashbar.Gravity.BOTTOM
-import com.itsaky.androidide.flashbar.Flashbar.Gravity.TOP
-import com.itsaky.androidide.flashbar.Flashbar.ProgressPosition.LEFT
-import com.itsaky.androidide.flashbar.Flashbar.ProgressPosition.RIGHT
-import com.itsaky.androidide.flashbar.anim.FlashAnim
-import com.itsaky.androidide.flashbar.anim.FlashAnimBarBuilder
-import com.itsaky.androidide.flashbar.anim.FlashAnimIconBuilder
-import com.itsaky.androidide.flashbar.R
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.Gravity.BOTTOM
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.Gravity.TOP
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.ProgressPosition.LEFT
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.ProgressPosition.RIGHT
+import com.itsaky.tom.rv2ide.flashbar.anim.FlashAnim
+import com.itsaky.tom.rv2ide.flashbar.anim.FlashAnimBarBuilder
+import com.itsaky.tom.rv2ide.flashbar.anim.FlashAnimIconBuilder
+import com.itsaky.tom.rv2ide.flashbar.R
 
 private const val DEFAULT_SHADOW_STRENGTH = 4
 private const val DEFAUT_ICON_SCALE = 1.0f

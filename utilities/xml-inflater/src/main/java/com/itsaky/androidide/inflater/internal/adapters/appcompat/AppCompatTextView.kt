@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters.appcompat
+package com.itsaky.tom.rv2ide.inflater.internal.adapters.appcompat
 
 /** @author Akash Yadav */
 class AppCompatTextView {}

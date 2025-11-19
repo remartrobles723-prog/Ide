@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.res
+package com.itsaky.tom.rv2ide.xml.res
 
 /**
  * @author Akash Yadav

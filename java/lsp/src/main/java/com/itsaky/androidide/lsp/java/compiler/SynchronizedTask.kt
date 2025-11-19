@@ -30,10 +30,10 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.compiler
+package com.itsaky.tom.rv2ide.lsp.java.compiler
 
-import com.itsaky.androidide.lsp.java.CompilationCancellationException
-import com.itsaky.androidide.lsp.java.utils.CancelChecker.Companion.isCancelled
+import com.itsaky.tom.rv2ide.lsp.java.CompilationCancellationException
+import com.itsaky.tom.rv2ide.lsp.java.utils.CancelChecker.Companion.isCancelled
 import java.util.concurrent.Semaphore
 import org.slf4j.LoggerFactory
 

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters.onboarding
+package com.itsaky.tom.rv2ide.adapters.onboarding
 
 import android.content.res.ColorStateList
 import android.view.LayoutInflater
@@ -24,9 +24,9 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.blankj.utilcode.util.SizeUtils
 import com.google.android.material.button.MaterialButton
-import com.itsaky.androidide.R
-import com.itsaky.androidide.databinding.LayoutOnboardingPermissionItemBinding
-import com.itsaky.androidide.models.OnboardingPermissionItem
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.databinding.LayoutOnboardingPermissionItemBinding
+import com.itsaky.tom.rv2ide.models.OnboardingPermissionItem
 
 /** @author Akash Yadav */
 class OnboardingPermissionsAdapter(

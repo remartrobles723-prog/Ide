@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logsender.utils;
+package com.itsaky.tom.rv2ide.logsender.utils;
 
-import com.itsaky.androidide.logsender.socket.ISocketCommand;
-import com.itsaky.androidide.logsender.socket.SenderInfoCommand;
+import com.itsaky.tom.rv2ide.logsender.socket.ISocketCommand;
+import com.itsaky.tom.rv2ide.logsender.socket.SenderInfoCommand;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

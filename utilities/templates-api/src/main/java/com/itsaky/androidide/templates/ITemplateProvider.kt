@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates
+package com.itsaky.tom.rv2ide.templates
 
-import com.itsaky.androidide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
 
 /**
  * An [ITemplateProvider] provides templates to the IDE.

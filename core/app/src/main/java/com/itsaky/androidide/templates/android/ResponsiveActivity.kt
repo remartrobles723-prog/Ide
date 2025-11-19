@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.android
+package com.itsaky.tom.rv2ide.templates.android
 
 import android.content.Context
 import android.util.Log
@@ -26,11 +26,11 @@ import com.tom.androidcodestudio.project.manager.SdkVersionHelper
 import com.tom.androidcodestudio.project.manager.builder.*
 import com.tom.androidcodestudio.project.manager.builder.module.*
 import com.tom.androidcodestudio.project.manager.builder.toplevel.*
-import com.itsaky.androidide.templates.*
-import com.itsaky.androidide.templates.AtcInterface
-import com.itsaky.androidide.templates.android.navigation.responsive.Fragment
-import com.itsaky.androidide.templates.android.navigation.responsive.ResponsiveSources
-import com.itsaky.androidide.templates.android.navigation.responsive.ViewModel
+import com.itsaky.tom.rv2ide.templates.*
+import com.itsaky.tom.rv2ide.templates.AtcInterface
+import com.itsaky.tom.rv2ide.templates.android.navigation.responsive.Fragment
+import com.itsaky.tom.rv2ide.templates.android.navigation.responsive.ResponsiveSources
+import com.itsaky.tom.rv2ide.templates.android.navigation.responsive.ViewModel
 import java.io.File
 import java.io.FileOutputStream
 import java.io.InputStream

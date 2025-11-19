@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.models
+package com.itsaky.tom.rv2ide.models
 
 import android.view.View
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.resources.R
 import java.util.Collections
 
 /**

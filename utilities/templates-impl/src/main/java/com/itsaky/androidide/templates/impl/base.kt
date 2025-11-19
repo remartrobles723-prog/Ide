@@ -15,24 +15,24 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl
+package com.itsaky.tom.rv2ide.templates.impl
 
-import com.itsaky.androidide.templates.BooleanParameter
-import com.itsaky.androidide.templates.EnumParameter
-import com.itsaky.androidide.templates.Language
-import com.itsaky.androidide.templates.ProjectTemplate
-import com.itsaky.androidide.templates.ProjectVersionData
-import com.itsaky.androidide.templates.Sdk
-import com.itsaky.androidide.templates.StringParameter
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
-import com.itsaky.androidide.templates.base.ProjectTemplateBuilder
-import com.itsaky.androidide.templates.base.baseProject
-import com.itsaky.androidide.templates.impl.base.createRecipe
-import com.itsaky.androidide.templates.minSdkParameter
-import com.itsaky.androidide.templates.packageNameParameter
-import com.itsaky.androidide.templates.projectLanguageParameter
-import com.itsaky.androidide.templates.projectNameParameter
-import com.itsaky.androidide.templates.useKtsParameter
+import com.itsaky.tom.rv2ide.templates.BooleanParameter
+import com.itsaky.tom.rv2ide.templates.EnumParameter
+import com.itsaky.tom.rv2ide.templates.Language
+import com.itsaky.tom.rv2ide.templates.ProjectTemplate
+import com.itsaky.tom.rv2ide.templates.ProjectVersionData
+import com.itsaky.tom.rv2ide.templates.Sdk
+import com.itsaky.tom.rv2ide.templates.StringParameter
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.ProjectTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.baseProject
+import com.itsaky.tom.rv2ide.templates.impl.base.createRecipe
+import com.itsaky.tom.rv2ide.templates.minSdkParameter
+import com.itsaky.tom.rv2ide.templates.packageNameParameter
+import com.itsaky.tom.rv2ide.templates.projectLanguageParameter
+import com.itsaky.tom.rv2ide.templates.projectNameParameter
+import com.itsaky.tom.rv2ide.templates.useKtsParameter
 
 /** Indents the given string for the given [indentation level][level]. */
 fun String.indentToLevel(level: Int): String {

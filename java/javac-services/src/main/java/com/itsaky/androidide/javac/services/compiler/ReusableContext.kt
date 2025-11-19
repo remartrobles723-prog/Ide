@@ -15,22 +15,22 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.compiler
+package com.itsaky.tom.rv2ide.javac.services.compiler
 
-import com.itsaky.androidide.javac.services.CancelService
-import com.itsaky.androidide.javac.services.NBAttr
-import com.itsaky.androidide.javac.services.NBClassFinder
-import com.itsaky.androidide.javac.services.NBClassReader
-import com.itsaky.androidide.javac.services.NBEnter
-import com.itsaky.androidide.javac.services.NBJavacTrees
-import com.itsaky.androidide.javac.services.NBMemberEnter
-import com.itsaky.androidide.javac.services.NBParserFactory
-import com.itsaky.androidide.javac.services.NBResolve
-import com.itsaky.androidide.javac.services.NBTreeMaker
-import com.itsaky.androidide.javac.services.fs.CacheFSInfoSingleton
-import com.itsaky.androidide.javac.services.fs.JarPackageProviderImpl
-import com.itsaky.androidide.utils.VMUtils
-import com.itsaky.androidide.zipfs2.JarPackageProvider
+import com.itsaky.tom.rv2ide.javac.services.CancelService
+import com.itsaky.tom.rv2ide.javac.services.NBAttr
+import com.itsaky.tom.rv2ide.javac.services.NBClassFinder
+import com.itsaky.tom.rv2ide.javac.services.NBClassReader
+import com.itsaky.tom.rv2ide.javac.services.NBEnter
+import com.itsaky.tom.rv2ide.javac.services.NBJavacTrees
+import com.itsaky.tom.rv2ide.javac.services.NBMemberEnter
+import com.itsaky.tom.rv2ide.javac.services.NBParserFactory
+import com.itsaky.tom.rv2ide.javac.services.NBResolve
+import com.itsaky.tom.rv2ide.javac.services.NBTreeMaker
+import com.itsaky.tom.rv2ide.javac.services.fs.CacheFSInfoSingleton
+import com.itsaky.tom.rv2ide.javac.services.fs.JarPackageProviderImpl
+import com.itsaky.tom.rv2ide.utils.VMUtils
+import com.itsaky.tom.rv2ide.zipfs2.JarPackageProvider
 import java.net.URI
 import jdkx.tools.DiagnosticListener
 import jdkx.tools.JavaFileManager

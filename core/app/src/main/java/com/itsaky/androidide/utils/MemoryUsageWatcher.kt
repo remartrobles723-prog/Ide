@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.app.ActivityManager
 import android.os.Debug
@@ -24,8 +24,8 @@ import androidx.collection.IntObjectMap
 import androidx.collection.MutableIntObjectMap
 import androidx.core.content.getSystemService
 import com.termux.shared.reflection.ReflectionUtils
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.tasks.cancelIfActive
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.tasks.cancelIfActive
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.atomic.AtomicBoolean
 import kotlinx.coroutines.CoroutineScope

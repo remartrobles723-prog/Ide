@@ -15,20 +15,20 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.widget.ProgressBar
-import com.itsaky.androidide.inflater.AttributeHandlerScope
-import com.itsaky.androidide.inflater.models.UiWidget
-import com.itsaky.androidide.resources.R.drawable
-import com.itsaky.androidide.resources.R.string
+import com.itsaky.tom.rv2ide.inflater.AttributeHandlerScope
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.resources.R.drawable
+import com.itsaky.tom.rv2ide.resources.R.string
 
 /**
  * Attribute adapter for [ProgressBar].
  *
  * @author Akash Yadav
  */
-@com.itsaky.androidide.annotations.inflater.ViewAdapter(ProgressBar::class)
+@com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter(ProgressBar::class)
 open class ProgressBarAdapter<T : ProgressBar> : ViewAdapter<T>() {
 
   override fun createAttrHandlers(create: (String, AttributeHandlerScope<T>.() -> Unit) -> Unit) {

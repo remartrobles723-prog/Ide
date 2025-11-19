@@ -1,4 +1,4 @@
-package com.itsaky.androidide.fuzzysearch.model;
+package com.itsaky.tom.rv2ide.fuzzysearch.model;
 
 public class ExtractedResult implements Comparable<ExtractedResult> {
 

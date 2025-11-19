@@ -1,9 +1,9 @@
-package com.itsaky.androidide.lsp.xml.providers;
+package com.itsaky.tom.rv2ide.lsp.xml.providers;
 
-import com.itsaky.androidide.lsp.models.CodeFormatResult;
-import com.itsaky.androidide.lsp.models.FormatCodeParams;
-import com.itsaky.androidide.lsp.xml.providers.format.XMLFormatter;
-import com.itsaky.androidide.utils.StopWatch;
+import com.itsaky.tom.rv2ide.lsp.models.CodeFormatResult;
+import com.itsaky.tom.rv2ide.lsp.models.FormatCodeParams;
+import com.itsaky.tom.rv2ide.lsp.xml.providers.format.XMLFormatter;
+import com.itsaky.tom.rv2ide.utils.StopWatch;
 
 import org.eclipse.lemminx.dom.DOMParser;
 import org.eclipse.lemminx.uriresolver.URIResolverExtensionManager;

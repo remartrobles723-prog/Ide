@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.api
+package com.itsaky.tom.rv2ide.lsp.api
 
-import com.itsaky.androidide.lsp.models.SnippetDescription
+import com.itsaky.tom.rv2ide.lsp.models.SnippetDescription
 import io.github.rosemoe.sora.lang.completion.snippet.CodeSnippet
 
 @JvmOverloads

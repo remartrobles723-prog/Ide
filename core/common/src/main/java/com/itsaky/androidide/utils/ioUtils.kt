@@ -40,7 +40,7 @@
  * questions.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import java.io.IOException
 import java.io.InputStream

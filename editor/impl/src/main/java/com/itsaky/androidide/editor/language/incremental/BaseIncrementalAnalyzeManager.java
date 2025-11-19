@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.incremental;
+package com.itsaky.tom.rv2ide.editor.language.incremental;
 
-import static com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.FIXME_COMMENT;
-import static com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.TODO_COMMENT;
-import static com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.withoutCompletion;
+import static com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.FIXME_COMMENT;
+import static com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.TODO_COMMENT;
+import static com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.withoutCompletion;
 
 import androidx.annotation.NonNull;
 import com.blankj.utilcode.util.ArrayUtils;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.EvictingQueue;
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE;
-import com.itsaky.androidide.utils.CharSequenceReader;
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE;
+import com.itsaky.tom.rv2ide.utils.CharSequenceReader;
 import io.github.rosemoe.sora.lang.analysis.AsyncIncrementalAnalyzeManager;
 import io.github.rosemoe.sora.lang.styling.CodeBlock;
 import io.github.rosemoe.sora.lang.styling.Span;

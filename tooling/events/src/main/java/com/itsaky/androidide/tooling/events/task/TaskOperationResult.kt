@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.events.task
+package com.itsaky.tom.rv2ide.tooling.events.task
 
-import com.itsaky.androidide.tooling.events.OperationResult
+import com.itsaky.tom.rv2ide.tooling.events.OperationResult
 
 /** @author Akash Yadav */
 open class TaskOperationResult(override val startTime: Long, override val endTime: Long) :

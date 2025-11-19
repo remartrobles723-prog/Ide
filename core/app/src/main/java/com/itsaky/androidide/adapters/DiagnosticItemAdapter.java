@@ -15,7 +15,7 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
-package com.itsaky.androidide.adapters;
+package com.itsaky.tom.rv2ide.adapters;
 
 import android.graphics.PorterDuff;
 import android.view.LayoutInflater;
@@ -23,11 +23,11 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
-import com.itsaky.androidide.databinding.LayoutDiagnosticItemBinding;
-import com.itsaky.androidide.interfaces.DiagnosticClickListener;
-import com.itsaky.androidide.lsp.models.DiagnosticItem;
-import com.itsaky.androidide.lsp.models.DiagnosticSeverity;
-import com.itsaky.androidide.resources.R;
+import com.itsaky.tom.rv2ide.databinding.LayoutDiagnosticItemBinding;
+import com.itsaky.tom.rv2ide.interfaces.DiagnosticClickListener;
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem;
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity;
+import com.itsaky.tom.rv2ide.resources.R;
 import java.io.File;
 import java.util.List;
 import java.util.Objects;

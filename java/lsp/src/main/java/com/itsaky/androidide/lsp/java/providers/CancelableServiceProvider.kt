@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.providers
+package com.itsaky.tom.rv2ide.lsp.java.providers
 
-import com.itsaky.androidide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
 
 /**
  * A service provider which supports cancellation.

@@ -15,20 +15,20 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base
+package com.itsaky.tom.rv2ide.templates.base
 
-import com.itsaky.androidide.managers.ToolsManager
-import com.itsaky.androidide.templates.ModuleTemplate
-import com.itsaky.androidide.templates.ModuleTemplateData
-import com.itsaky.androidide.templates.ProjectTemplate
-import com.itsaky.androidide.templates.ProjectTemplateData
-import com.itsaky.androidide.templates.ProjectTemplateRecipeResult
-import com.itsaky.androidide.templates.base.root.buildGradleSrcGroovy
-import com.itsaky.androidide.templates.base.root.buildGradleSrcKts
-import com.itsaky.androidide.templates.base.root.gradleWrapperProps
-import com.itsaky.androidide.templates.base.root.settingsGradleSrcStr
-import com.itsaky.androidide.templates.base.util.optonallyKts
-import com.itsaky.androidide.utils.transferToStream
+import com.itsaky.tom.rv2ide.managers.ToolsManager
+import com.itsaky.tom.rv2ide.templates.ModuleTemplate
+import com.itsaky.tom.rv2ide.templates.ModuleTemplateData
+import com.itsaky.tom.rv2ide.templates.ProjectTemplate
+import com.itsaky.tom.rv2ide.templates.ProjectTemplateData
+import com.itsaky.tom.rv2ide.templates.ProjectTemplateRecipeResult
+import com.itsaky.tom.rv2ide.templates.base.root.buildGradleSrcGroovy
+import com.itsaky.tom.rv2ide.templates.base.root.buildGradleSrcKts
+import com.itsaky.tom.rv2ide.templates.base.root.gradleWrapperProps
+import com.itsaky.tom.rv2ide.templates.base.root.settingsGradleSrcStr
+import com.itsaky.tom.rv2ide.templates.base.util.optonallyKts
+import com.itsaky.tom.rv2ide.utils.transferToStream
 import java.io.File
 import java.util.zip.ZipEntry
 import java.util.zip.ZipInputStream
@@ -77,9 +77,9 @@ class ProjectTemplateBuilder :
    * Get the asset path for base root project template.
    *
    * @param path The path to the asset.
-   * @see com.itsaky.androidide.templates.base.baseAsset
+   * @see com.itsaky.tom.rv2ide.templates.base.baseAsset
    */
-  fun baseAsset(path: String) = com.itsaky.androidide.templates.base.util.baseAsset("root", path)
+  fun baseAsset(path: String) = com.itsaky.tom.rv2ide.templates.base.util.baseAsset("root", path)
 
   /** Get the `build.gradle[.kts] file for the project. */
   fun buildGradleFile(): File {

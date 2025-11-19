@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities.editor
+package com.itsaky.tom.rv2ide.activities.editor
 
-// import com.itsaky.androidide.editor.language.treesitter.CppLang
+// import com.itsaky.tom.rv2ide.editor.language.treesitter.CppLang
 import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Bundle
@@ -30,34 +30,34 @@ import androidx.collection.MutableIntObjectMap
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.view.GravityCompat
 import com.blankj.utilcode.util.ImageUtils
-import com.itsaky.androidide.R.string
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem.Location.EDITOR_TOOLBAR
-import com.itsaky.androidide.actions.ActionsRegistry.Companion.getInstance
-import com.itsaky.androidide.actions.FillMenuParams
-import com.itsaky.androidide.editor.language.treesitter.JavaLanguage
-import com.itsaky.androidide.editor.language.treesitter.JsonLanguage
-import com.itsaky.androidide.editor.language.treesitter.KotlinLanguage
-import com.itsaky.androidide.editor.language.treesitter.LogLanguage
-import com.itsaky.androidide.editor.language.treesitter.TSLanguageRegistry
-import com.itsaky.androidide.editor.language.treesitter.XMLLanguage
-import com.itsaky.androidide.editor.schemes.IDEColorSchemeProvider
-import com.itsaky.androidide.editor.ui.IDEEditor
-import com.itsaky.androidide.eventbus.events.editor.DocumentChangeEvent
-import com.itsaky.androidide.eventbus.events.file.FileRenameEvent
-import com.itsaky.androidide.interfaces.IEditorHandler
-import com.itsaky.androidide.models.FileExtension
-import com.itsaky.androidide.models.OpenedFile
-import com.itsaky.androidide.models.OpenedFilesCache
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.models.SaveResult
-import com.itsaky.androidide.projects.internal.ProjectManagerImpl
-import com.itsaky.androidide.tasks.executeAsync
-import com.itsaky.androidide.ui.CodeEditorView
-import com.itsaky.androidide.utils.DialogUtils.newYesNoDialog
-import com.itsaky.androidide.utils.IntentUtils.openImage
-import com.itsaky.androidide.utils.UniqueNameBuilder
-import com.itsaky.androidide.utils.flashSuccess
+import com.itsaky.tom.rv2ide.R.string
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem.Location.EDITOR_TOOLBAR
+import com.itsaky.tom.rv2ide.actions.ActionsRegistry.Companion.getInstance
+import com.itsaky.tom.rv2ide.actions.FillMenuParams
+import com.itsaky.tom.rv2ide.editor.language.treesitter.JavaLanguage
+import com.itsaky.tom.rv2ide.editor.language.treesitter.JsonLanguage
+import com.itsaky.tom.rv2ide.editor.language.treesitter.KotlinLanguage
+import com.itsaky.tom.rv2ide.editor.language.treesitter.LogLanguage
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TSLanguageRegistry
+import com.itsaky.tom.rv2ide.editor.language.treesitter.XMLLanguage
+import com.itsaky.tom.rv2ide.editor.schemes.IDEColorSchemeProvider
+import com.itsaky.tom.rv2ide.editor.ui.IDEEditor
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentChangeEvent
+import com.itsaky.tom.rv2ide.eventbus.events.file.FileRenameEvent
+import com.itsaky.tom.rv2ide.interfaces.IEditorHandler
+import com.itsaky.tom.rv2ide.models.FileExtension
+import com.itsaky.tom.rv2ide.models.OpenedFile
+import com.itsaky.tom.rv2ide.models.OpenedFilesCache
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.models.SaveResult
+import com.itsaky.tom.rv2ide.projects.internal.ProjectManagerImpl
+import com.itsaky.tom.rv2ide.tasks.executeAsync
+import com.itsaky.tom.rv2ide.ui.CodeEditorView
+import com.itsaky.tom.rv2ide.utils.DialogUtils.newYesNoDialog
+import com.itsaky.tom.rv2ide.utils.IntentUtils.openImage
+import com.itsaky.tom.rv2ide.utils.UniqueNameBuilder
+import com.itsaky.tom.rv2ide.utils.flashSuccess
 import java.io.File
 import java.util.concurrent.atomic.AtomicBoolean
 import kotlin.collections.set

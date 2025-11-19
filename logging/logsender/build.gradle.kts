@@ -2,8 +2,8 @@
  *  This file is part of AndroidIDE.
  */
 
-import com.itsaky.androidide.plugins.NoDesugarPlugin
-import com.itsaky.androidide.build.config.BuildConfig
+import com.itsaky.tom.rv2ide.plugins.NoDesugarPlugin
+import com.itsaky.tom.rv2ide.build.config.BuildConfig
 
 plugins {
     id("com.android.library")

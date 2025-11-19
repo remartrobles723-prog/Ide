@@ -16,7 +16,7 @@
  *
  */
 
-package com.itsaky.androidide.app
+package com.itsaky.tom.rv2ide.app
 
 import android.content.Context
 import android.content.Intent
@@ -36,31 +36,31 @@ import com.blankj.utilcode.util.ThrowableUtils.getFullStackTrace
 import com.google.android.material.color.DynamicColors
 import com.termux.app.TermuxApplication
 import com.termux.shared.reflection.ReflectionUtils
-import com.itsaky.androidide.BuildConfig
-import com.itsaky.androidide.activities.CrashHandlerActivity
-import com.itsaky.androidide.activities.editor.IDELogcatReader
-import com.itsaky.androidide.buildinfo.BuildInfo
-import com.itsaky.androidide.editor.schemes.IDEColorSchemeProvider
-import com.itsaky.androidide.eventbus.events.preferences.PreferenceChangeEvent
-import com.itsaky.androidide.events.AppEventsIndex
-import com.itsaky.androidide.events.EditorEventsIndex
-import com.itsaky.androidide.events.LspApiEventsIndex
-import com.itsaky.androidide.events.LspJavaEventsIndex
-import com.itsaky.androidide.preferences.internal.DevOpsPreferences
-import com.itsaky.androidide.preferences.internal.GeneralPreferences
-import com.itsaky.androidide.preferences.internal.StatPreferences
-import com.itsaky.androidide.resources.localization.LocaleProvider
-import com.itsaky.androidide.stats.AndroidIDEStats
-import com.itsaky.androidide.stats.StatUploadWorker
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE
-import com.itsaky.androidide.treesitter.TreeSitter
-import com.itsaky.androidide.ui.themes.IDETheme
-import com.itsaky.androidide.ui.themes.IThemeManager
-import com.itsaky.androidide.utils.ChartMemoryCleanupTask
-import com.itsaky.androidide.utils.MemoryManager
-import com.itsaky.androidide.utils.RecyclableObjectPool
-import com.itsaky.androidide.utils.VMUtils
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.BuildConfig
+import com.itsaky.tom.rv2ide.activities.CrashHandlerActivity
+import com.itsaky.tom.rv2ide.activities.editor.IDELogcatReader
+import com.itsaky.tom.rv2ide.buildinfo.BuildInfo
+import com.itsaky.tom.rv2ide.editor.schemes.IDEColorSchemeProvider
+import com.itsaky.tom.rv2ide.eventbus.events.preferences.PreferenceChangeEvent
+import com.itsaky.tom.rv2ide.events.AppEventsIndex
+import com.itsaky.tom.rv2ide.events.EditorEventsIndex
+import com.itsaky.tom.rv2ide.events.LspApiEventsIndex
+import com.itsaky.tom.rv2ide.events.LspJavaEventsIndex
+import com.itsaky.tom.rv2ide.preferences.internal.DevOpsPreferences
+import com.itsaky.tom.rv2ide.preferences.internal.GeneralPreferences
+import com.itsaky.tom.rv2ide.preferences.internal.StatPreferences
+import com.itsaky.tom.rv2ide.resources.localization.LocaleProvider
+import com.itsaky.tom.rv2ide.stats.AndroidIDEStats
+import com.itsaky.tom.rv2ide.stats.StatUploadWorker
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE
+import com.itsaky.tom.rv2ide.treesitter.TreeSitter
+import com.itsaky.tom.rv2ide.ui.themes.IDETheme
+import com.itsaky.tom.rv2ide.ui.themes.IThemeManager
+import com.itsaky.tom.rv2ide.utils.ChartMemoryCleanupTask
+import com.itsaky.tom.rv2ide.utils.MemoryManager
+import com.itsaky.tom.rv2ide.utils.RecyclableObjectPool
+import com.itsaky.tom.rv2ide.utils.VMUtils
+import com.itsaky.tom.rv2ide.utils.flashError
 import io.github.miyazkaori.silentinstaller.SilentInstaller
 import io.github.rosemoe.sora.widget.schemes.EditorColorScheme
 import java.lang.Thread.UncaughtExceptionHandler

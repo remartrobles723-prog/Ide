@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.compiler
+package com.itsaky.tom.rv2ide.javac.services.compiler
 
-import com.itsaky.androidide.javac.services.NBJavaCompiler
+import com.itsaky.tom.rv2ide.javac.services.NBJavaCompiler
 import openjdk.tools.javac.main.JavaCompiler
 import openjdk.tools.javac.util.Context
 

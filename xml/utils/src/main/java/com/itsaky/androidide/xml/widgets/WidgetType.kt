@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.widgets
+package com.itsaky.tom.rv2ide.xml.widgets
 
 /**
  * The type of [Widget].

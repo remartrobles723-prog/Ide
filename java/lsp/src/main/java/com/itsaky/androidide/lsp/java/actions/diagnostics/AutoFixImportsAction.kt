@@ -15,23 +15,23 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.actions.diagnostics
+package com.itsaky.tom.rv2ide.lsp.java.actions.diagnostics
 
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.requireContext
-import com.itsaky.androidide.actions.requirePath
-import com.itsaky.androidide.lsp.java.R
-import com.itsaky.androidide.lsp.java.actions.BaseJavaCodeAction
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.models.DiagnosticCode
-import com.itsaky.androidide.lsp.java.utils.positionForImports
-import com.itsaky.androidide.lsp.models.CodeActionItem
-import com.itsaky.androidide.lsp.models.CodeActionKind
-import com.itsaky.androidide.lsp.models.DocumentChange
-import com.itsaky.androidide.lsp.models.TextEdit
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.utils.DialogUtils
-import com.itsaky.androidide.utils.flashInfo
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.requireContext
+import com.itsaky.tom.rv2ide.actions.requirePath
+import com.itsaky.tom.rv2ide.lsp.java.R
+import com.itsaky.tom.rv2ide.lsp.java.actions.BaseJavaCodeAction
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.models.DiagnosticCode
+import com.itsaky.tom.rv2ide.lsp.java.utils.positionForImports
+import com.itsaky.tom.rv2ide.lsp.models.CodeActionItem
+import com.itsaky.tom.rv2ide.lsp.models.CodeActionKind
+import com.itsaky.tom.rv2ide.lsp.models.DocumentChange
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.utils.flashInfo
 import java.nio.file.Path
 import org.slf4j.LoggerFactory
 

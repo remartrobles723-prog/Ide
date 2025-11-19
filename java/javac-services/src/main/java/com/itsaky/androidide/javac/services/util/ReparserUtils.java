@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.util;
+package com.itsaky.tom.rv2ide.javac.services.util;
 
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.javac.services.visitors.UnEnter;
-import com.itsaky.androidide.utils.VMUtils;
+import com.itsaky.tom.rv2ide.javac.services.visitors.UnEnter;
+import com.itsaky.tom.rv2ide.utils.VMUtils;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.Map;

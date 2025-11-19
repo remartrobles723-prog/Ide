@@ -15,16 +15,16 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
-package com.itsaky.androidide.ui;
+package com.itsaky.tom.rv2ide.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.itsaky.androidide.adapters.SymbolInputAdapter;
-import com.itsaky.androidide.editor.ui.IDEEditor;
-import com.itsaky.androidide.models.Symbol;
-import com.itsaky.androidide.utils.Symbols;
+import com.itsaky.tom.rv2ide.adapters.SymbolInputAdapter;
+import com.itsaky.tom.rv2ide.editor.ui.IDEEditor;
+import com.itsaky.tom.rv2ide.models.Symbol;
+import com.itsaky.tom.rv2ide.utils.Symbols;
 import java.util.List;
 
 public class SymbolInputView extends RecyclerView {

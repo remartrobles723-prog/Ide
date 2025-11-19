@@ -15,14 +15,14 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter
+package com.itsaky.tom.rv2ide.editor.language.treesitter
 
 import android.content.Context
-import com.itsaky.androidide.editor.language.treesitter.TreeSitterLanguage.Factory
-import com.itsaky.androidide.lsp.api.ILanguageServer
-import com.itsaky.androidide.lsp.api.ILanguageServerRegistry
-import com.itsaky.androidide.lsp.clang.ClangLanguageServer
-import com.itsaky.androidide.treesitter.cpp.TSLanguageCpp
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TreeSitterLanguage.Factory
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServer
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServerRegistry
+import com.itsaky.tom.rv2ide.lsp.clang.ClangLanguageServer
+import com.itsaky.tom.rv2ide.treesitter.cpp.TSLanguageCpp
 
 /**
  * [TreeSitterLanguage] implementation for Cpp.

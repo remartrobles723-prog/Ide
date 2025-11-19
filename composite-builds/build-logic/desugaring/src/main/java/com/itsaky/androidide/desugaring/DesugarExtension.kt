@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring
+package com.itsaky.tom.rv2ide.desugaring
 
-import com.itsaky.androidide.desugaring.dsl.DesugarReplacementsContainer
+import com.itsaky.tom.rv2ide.desugaring.dsl.DesugarReplacementsContainer
 import org.gradle.api.Action
 import org.gradle.api.provider.Property
 import org.gradle.api.tasks.Nested

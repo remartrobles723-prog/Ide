@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.itsaky.androidide.layoutlib.resources;
+package com.itsaky.tom.rv2ide.layoutlib.resources;
 
 /**
  * Screen Round enum.

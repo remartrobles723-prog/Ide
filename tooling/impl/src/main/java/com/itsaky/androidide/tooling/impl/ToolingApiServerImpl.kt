@@ -15,40 +15,40 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl
+package com.itsaky.tom.rv2ide.tooling.impl
 
-import com.itsaky.androidide.tooling.api.IProject
-import com.itsaky.androidide.tooling.api.IToolingApiClient
-import com.itsaky.androidide.tooling.api.IToolingApiServer
-import com.itsaky.androidide.tooling.api.messages.GradleDistributionParams
-import com.itsaky.androidide.tooling.api.messages.GradleDistributionType
-import com.itsaky.androidide.tooling.api.messages.InitializeProjectParams
-import com.itsaky.androidide.tooling.api.messages.TaskExecutionMessage
-import com.itsaky.androidide.tooling.api.messages.result.BuildCancellationRequestResult
-import com.itsaky.androidide.tooling.api.messages.result.BuildCancellationRequestResult.Reason.CANCELLATION_ERROR
-import com.itsaky.androidide.tooling.api.messages.result.BuildInfo
-import com.itsaky.androidide.tooling.api.messages.result.BuildResult
-import com.itsaky.androidide.tooling.api.messages.result.InitializeResult
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.BUILD_CANCELLED
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.BUILD_FAILED
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.CONNECTION_CLOSED
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.CONNECTION_ERROR
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_DIRECTORY_INACCESSIBLE
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_NOT_DIRECTORY
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_NOT_FOUND
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_NOT_INITIALIZED
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.UNKNOWN
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.UNSUPPORTED_BUILD_ARGUMENT
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.UNSUPPORTED_CONFIGURATION
-import com.itsaky.androidide.tooling.api.messages.result.TaskExecutionResult.Failure.UNSUPPORTED_GRADLE_VERSION
-import com.itsaky.androidide.tooling.api.models.ToolingServerMetadata
-import com.itsaky.androidide.tooling.impl.internal.ProjectImpl
-import com.itsaky.androidide.tooling.impl.sync.ModelBuilderException
-import com.itsaky.androidide.tooling.impl.sync.RootModelBuilder
-import com.itsaky.androidide.tooling.impl.sync.RootProjectModelBuilderParams
-import com.itsaky.androidide.utils.StopWatch
+import com.itsaky.tom.rv2ide.tooling.api.IProject
+import com.itsaky.tom.rv2ide.tooling.api.IToolingApiClient
+import com.itsaky.tom.rv2ide.tooling.api.IToolingApiServer
+import com.itsaky.tom.rv2ide.tooling.api.messages.GradleDistributionParams
+import com.itsaky.tom.rv2ide.tooling.api.messages.GradleDistributionType
+import com.itsaky.tom.rv2ide.tooling.api.messages.InitializeProjectParams
+import com.itsaky.tom.rv2ide.tooling.api.messages.TaskExecutionMessage
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.BuildCancellationRequestResult
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.BuildCancellationRequestResult.Reason.CANCELLATION_ERROR
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.BuildInfo
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.BuildResult
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.InitializeResult
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.BUILD_CANCELLED
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.BUILD_FAILED
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.CONNECTION_CLOSED
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.CONNECTION_ERROR
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_DIRECTORY_INACCESSIBLE
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_NOT_DIRECTORY
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_NOT_FOUND
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.PROJECT_NOT_INITIALIZED
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.UNKNOWN
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.UNSUPPORTED_BUILD_ARGUMENT
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.UNSUPPORTED_CONFIGURATION
+import com.itsaky.tom.rv2ide.tooling.api.messages.result.TaskExecutionResult.Failure.UNSUPPORTED_GRADLE_VERSION
+import com.itsaky.tom.rv2ide.tooling.api.models.ToolingServerMetadata
+import com.itsaky.tom.rv2ide.tooling.impl.internal.ProjectImpl
+import com.itsaky.tom.rv2ide.tooling.impl.sync.ModelBuilderException
+import com.itsaky.tom.rv2ide.tooling.impl.sync.RootModelBuilder
+import com.itsaky.tom.rv2ide.tooling.impl.sync.RootProjectModelBuilderParams
+import com.itsaky.tom.rv2ide.utils.StopWatch
 import java.io.File
 import java.util.concurrent.CompletableFuture
 import java.util.concurrent.CompletionException
@@ -353,7 +353,7 @@ internal class ToolingApiServerImpl(private val project: ProjectImpl) : ITooling
       this.isInitialized = false
 
       // cancelling this future will finish the Tooling API server process
-      // see com.itsaky.androidide.tooling.impl.Main.main(String[])
+      // see com.itsaky.tom.rv2ide.tooling.impl.Main.main(String[])
       Main.future?.cancel(true)
 
       this.client = null

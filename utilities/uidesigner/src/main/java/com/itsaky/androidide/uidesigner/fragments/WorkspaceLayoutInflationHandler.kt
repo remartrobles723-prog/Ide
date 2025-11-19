@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.fragments
+package com.itsaky.tom.rv2ide.uidesigner.fragments
 
-import com.itsaky.androidide.inflater.events.IInflateEventsListener
-import com.itsaky.androidide.inflater.events.IInflationEvent
-import com.itsaky.androidide.inflater.events.InflationFinishEvent
-import com.itsaky.androidide.inflater.events.InflationStartEvent
-import com.itsaky.androidide.inflater.events.OnInflateViewEvent
-import com.itsaky.androidide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.inflater.events.IInflateEventsListener
+import com.itsaky.tom.rv2ide.inflater.events.IInflationEvent
+import com.itsaky.tom.rv2ide.inflater.events.InflationFinishEvent
+import com.itsaky.tom.rv2ide.inflater.events.InflationStartEvent
+import com.itsaky.tom.rv2ide.inflater.events.OnInflateViewEvent
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
 
 /**
  * Handles layout inflation events in [DesignerWorkspaceFragment].

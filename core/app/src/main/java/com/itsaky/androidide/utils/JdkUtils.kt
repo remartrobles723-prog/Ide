@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.WorkerThread
 import com.termux.shared.termux.shell.command.environment.TermuxShellEnvironment
-import com.itsaky.androidide.app.IDEApplication
-import com.itsaky.androidide.models.JdkDistribution
-import com.itsaky.androidide.shell.executeProcessAsync
+import com.itsaky.tom.rv2ide.app.IDEApplication
+import com.itsaky.tom.rv2ide.models.JdkDistribution
+import com.itsaky.tom.rv2ide.shell.executeProcessAsync
 import java.io.File
 import java.nio.file.Files
 import org.slf4j.LoggerFactory

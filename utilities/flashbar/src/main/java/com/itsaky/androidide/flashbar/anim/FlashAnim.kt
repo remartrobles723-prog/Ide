@@ -1,4 +1,4 @@
-package com.itsaky.androidide.flashbar.anim
+package com.itsaky.tom.rv2ide.flashbar.anim
 
 import android.animation.Animator
 import android.animation.AnimatorSet

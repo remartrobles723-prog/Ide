@@ -15,19 +15,19 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.content.Context
 import android.view.View
 import android.widget.PopupMenu
 import androidx.core.widget.PopupMenuCompat.getDragToOpenListener
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem
-import com.itsaky.androidide.actions.ActionsRegistry
-import com.itsaky.androidide.actions.FillMenuParams
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem
+import com.itsaky.tom.rv2ide.actions.ActionsRegistry
+import com.itsaky.tom.rv2ide.actions.FillMenuParams
 
 /**
- * Utility class to show a popup menu with [com.itsaky.androidide.actions.ActionsRegistry].
+ * Utility class to show a popup menu with [com.itsaky.tom.rv2ide.actions.ActionsRegistry].
  *
  * @author Akash Yadav
  */

@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
 import android.content.Context
 import android.graphics.PorterDuff.Mode.SRC_ATOP
 import android.graphics.PorterDuffColorFilter
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat.getDrawable
-import com.itsaky.androidide.uidesigner.R
-import com.itsaky.androidide.uidesigner.drawable.UiViewLayeredForeground
-import com.itsaky.androidide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.uidesigner.R
+import com.itsaky.tom.rv2ide.uidesigner.drawable.UiViewLayeredForeground
+import com.itsaky.tom.rv2ide.utils.resolveAttr
 
 fun layeredForeground(context: Context, drawable: Drawable): Drawable {
   return UiViewLayeredForeground(context, drawable)

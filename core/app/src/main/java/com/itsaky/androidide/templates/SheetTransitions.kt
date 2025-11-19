@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-package com.itsaky.androidide.templates
+package com.itsaky.tom.rv2ide.templates
 
 import android.view.View
 import android.view.ViewGroup

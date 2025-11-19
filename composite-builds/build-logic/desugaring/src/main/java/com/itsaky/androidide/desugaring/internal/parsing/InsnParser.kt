@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring.internal.parsing
+package com.itsaky.tom.rv2ide.desugaring.internal.parsing
 
-import com.itsaky.androidide.desugaring.dsl.MethodOpcode
-import com.itsaky.androidide.desugaring.dsl.ReplaceMethodInsn
-import com.itsaky.androidide.desugaring.internal.parsing.InsnLexer.Token
-import com.itsaky.androidide.desugaring.internal.parsing.InsnLexer.TokenType
+import com.itsaky.tom.rv2ide.desugaring.dsl.MethodOpcode
+import com.itsaky.tom.rv2ide.desugaring.dsl.ReplaceMethodInsn
+import com.itsaky.tom.rv2ide.desugaring.internal.parsing.InsnLexer.Token
+import com.itsaky.tom.rv2ide.desugaring.internal.parsing.InsnLexer.TokenType
 
 /**
  * A parser implementation to parse method invocation instructions.

@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.internal
+package com.itsaky.tom.rv2ide.tooling.impl.internal
 
-import com.itsaky.androidide.tooling.api.IGradleProject
-import com.itsaky.androidide.tooling.api.ProjectType
-import com.itsaky.androidide.tooling.api.models.GradleTask
-import com.itsaky.androidide.tooling.api.models.ProjectMetadata
+import com.itsaky.tom.rv2ide.tooling.api.IGradleProject
+import com.itsaky.tom.rv2ide.tooling.api.ProjectType
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleTask
+import com.itsaky.tom.rv2ide.tooling.api.models.ProjectMetadata
 import java.io.Serializable
 import java.util.concurrent.CompletableFuture
 import org.gradle.tooling.model.GradleProject

@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.compiler
+package com.itsaky.tom.rv2ide.lsp.java.compiler
 
-import com.itsaky.androidide.javac.services.compiler.ReusableCompiler
-import com.itsaky.androidide.javac.services.compiler.ReusableContext
+import com.itsaky.tom.rv2ide.javac.services.compiler.ReusableCompiler
+import com.itsaky.tom.rv2ide.javac.services.compiler.ReusableContext
 
 /**
  * Implementation of the [ReusableCompiler] which replaces necessary components from the

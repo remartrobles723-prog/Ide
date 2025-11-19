@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.undo
+package com.itsaky.tom.rv2ide.uidesigner.undo
 
 /**
  * An action related to a view.
@@ -28,7 +28,7 @@ package com.itsaky.androidide.uidesigner.undo
 abstract class ViewAction
 @JvmOverloads
 constructor(
-    val child: com.itsaky.androidide.inflater.IView,
-    val parent: com.itsaky.androidide.inflater.IViewGroup,
+    val child: com.itsaky.tom.rv2ide.inflater.IView,
+    val parent: com.itsaky.tom.rv2ide.inflater.IViewGroup,
     var index: Int = parent.indexOfChild(child),
 ) : IUiAction

@@ -26,7 +26,7 @@ import com.itsaky.tom.rv2ide.actions.ActionsRegistry
 import com.itsaky.tom.rv2ide.actions.FillMenuParams
 import com.itsaky.tom.rv2ide.actions.OnActionClickListener
 import com.itsaky.tom.rv2ide.actions.locations.CodeActionsMenu
-import com.itsaky.androidide.utils.withStopWatch
+import com.itsaky.tom.rv2ide.utils.withStopWatch
 import java.util.concurrent.ConcurrentHashMap
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope

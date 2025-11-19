@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.app;
+package com.itsaky.tom.rv2ide.app;
 
 import android.app.Application;
 import android.content.ActivityNotFoundException;
@@ -22,14 +22,14 @@ import android.content.Intent;
 import android.net.Uri;
 import com.blankj.utilcode.util.ThrowableUtils;
 import com.tom.rv2ide.buildinfo.BuildInfo;
-import com.itsaky.androidide.common.R;
-import com.itsaky.androidide.managers.PreferenceManager;
-import com.itsaky.androidide.managers.ToolsManager;
-import com.itsaky.androidide.utils.Environment;
-import com.itsaky.androidide.utils.FileUtil;
-import com.itsaky.androidide.utils.FlashbarUtilsKt;
-import com.itsaky.androidide.utils.JavaCharacter;
-import com.itsaky.androidide.utils.VMUtils;
+import com.itsaky.tom.rv2ide.common.R;
+import com.itsaky.tom.rv2ide.managers.PreferenceManager;
+import com.itsaky.tom.rv2ide.managers.ToolsManager;
+import com.itsaky.tom.rv2ide.utils.Environment;
+import com.itsaky.tom.rv2ide.utils.FileUtil;
+import com.itsaky.tom.rv2ide.utils.FlashbarUtilsKt;
+import com.itsaky.tom.rv2ide.utils.JavaCharacter;
+import com.itsaky.tom.rv2ide.utils.VMUtils;
 import java.io.File;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
@@ -136,8 +136,8 @@ public class BaseApplication extends Application {
         android.util.Log.i("BaseApplication", "=== STARTING KOTLIN SERVER INITIALIZATION ===");
         
         // Use reflection to avoid circular dependency
-        Class<?> managerClass = Class.forName("com.itsaky.androidide.lsp.kotlin.KotlinServerProcessManager");
-        Class<?> providerClass = Class.forName("com.itsaky.androidide.lsp.kotlin.KotlinClasspathProvider");
+        Class<?> managerClass = Class.forName("com.itsaky.tom.rv2ide.lsp.kotlin.KotlinServerProcessManager");
+        Class<?> providerClass = Class.forName("com.itsaky.tom.rv2ide.lsp.kotlin.KotlinClasspathProvider");
         
         android.util.Log.i("BaseApplication", "Creating manager and provider instances...");
         Object manager = managerClass.getConstructor(android.content.Context.class).newInstance(this);

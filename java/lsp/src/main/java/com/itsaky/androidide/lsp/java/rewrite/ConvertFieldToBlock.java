@@ -15,17 +15,17 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.rewrite;
+package com.itsaky.tom.rv2ide.lsp.java.rewrite;
 
-import static com.itsaky.androidide.lsp.java.rewrite.ConvertVariableToStatement.findVariable;
-import static com.itsaky.androidide.lsp.java.rewrite.ConvertVariableToStatement.isExpressionStatement;
+import static com.itsaky.tom.rv2ide.lsp.java.rewrite.ConvertVariableToStatement.findVariable;
+import static com.itsaky.tom.rv2ide.lsp.java.rewrite.ConvertVariableToStatement.isExpressionStatement;
 
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.lsp.java.compiler.CompilerProvider;
-import com.itsaky.androidide.lsp.java.parser.ParseTask;
-import com.itsaky.androidide.lsp.models.TextEdit;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompilerProvider;
+import com.itsaky.tom.rv2ide.lsp.java.parser.ParseTask;
+import com.itsaky.tom.rv2ide.lsp.models.TextEdit;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
 import java.nio.file.Path;
 import java.util.Collections;
 import java.util.Map;

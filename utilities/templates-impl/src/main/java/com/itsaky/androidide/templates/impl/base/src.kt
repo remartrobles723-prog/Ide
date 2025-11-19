@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.base
+package com.itsaky.tom.rv2ide.templates.impl.base
 
-import com.itsaky.androidide.templates.Language
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
-import com.itsaky.androidide.templates.base.modules.android.ManifestActivity
-import com.itsaky.androidide.templates.base.util.SourceWriter
-import com.itsaky.androidide.templates.base.util.withXmlDecl
+import com.itsaky.tom.rv2ide.templates.Language
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.modules.android.ManifestActivity
+import com.itsaky.tom.rv2ide.templates.base.util.SourceWriter
+import com.itsaky.tom.rv2ide.templates.base.util.withXmlDecl
 
 internal inline fun AndroidModuleTemplateBuilder.writeMainActivity(
     writer: SourceWriter,

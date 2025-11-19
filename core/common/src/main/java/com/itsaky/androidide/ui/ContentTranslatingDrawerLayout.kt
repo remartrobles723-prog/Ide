@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.ui
+package com.itsaky.tom.rv2ide.ui
 
 import android.content.Context
 import android.util.AttributeSet

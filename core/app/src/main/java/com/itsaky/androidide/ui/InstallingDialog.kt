@@ -1,4 +1,4 @@
-package com.itsaky.androidide.ui
+package com.itsaky.tom.rv2ide.ui
 
 import android.content.Context
 import android.view.Gravity

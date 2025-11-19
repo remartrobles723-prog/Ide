@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.internal.widgets.util
+package com.itsaky.tom.rv2ide.xml.internal.widgets.util
 
-import com.itsaky.androidide.xml.widgets.Widget
-import com.itsaky.androidide.xml.widgets.WidgetType
+import com.itsaky.tom.rv2ide.xml.widgets.Widget
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetType
 
 /**
  * Default implementation of [Widget].

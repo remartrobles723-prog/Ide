@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.fragments.sidebar
+package com.itsaky.tom.rv2ide.fragments.sidebar
 
 import android.content.Context
 import android.os.Bundle
@@ -29,20 +29,20 @@ import androidx.transition.ChangeBounds
 import androidx.transition.TransitionManager
 import com.blankj.utilcode.util.SizeUtils
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.itsaky.androidide.adapters.viewholders.FileTreeViewHolder
-import com.itsaky.androidide.databinding.LayoutEditorFileTreeBinding
-import com.itsaky.androidide.eventbus.events.filetree.FileClickEvent
-import com.itsaky.androidide.eventbus.events.filetree.FileLongClickEvent
-import com.itsaky.androidide.events.ExpandTreeNodeRequestEvent
-import com.itsaky.androidide.events.ListProjectFilesRequestEvent
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.resources.R.drawable
-import com.itsaky.androidide.tasks.TaskExecutor.executeAsync
-import com.itsaky.androidide.tasks.callables.FileTreeCallable
-import com.itsaky.androidide.tasks.callables.FileTreeCallable.SortFileName
-import com.itsaky.androidide.tasks.callables.FileTreeCallable.SortFolder
-import com.itsaky.androidide.utils.doOnApplyWindowInsets
-import com.itsaky.androidide.viewmodel.FileTreeViewModel
+import com.itsaky.tom.rv2ide.adapters.viewholders.FileTreeViewHolder
+import com.itsaky.tom.rv2ide.databinding.LayoutEditorFileTreeBinding
+import com.itsaky.tom.rv2ide.eventbus.events.filetree.FileClickEvent
+import com.itsaky.tom.rv2ide.eventbus.events.filetree.FileLongClickEvent
+import com.itsaky.tom.rv2ide.events.ExpandTreeNodeRequestEvent
+import com.itsaky.tom.rv2ide.events.ListProjectFilesRequestEvent
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.resources.R.drawable
+import com.itsaky.tom.rv2ide.tasks.TaskExecutor.executeAsync
+import com.itsaky.tom.rv2ide.tasks.callables.FileTreeCallable
+import com.itsaky.tom.rv2ide.tasks.callables.FileTreeCallable.SortFileName
+import com.itsaky.tom.rv2ide.tasks.callables.FileTreeCallable.SortFolder
+import com.itsaky.tom.rv2ide.utils.doOnApplyWindowInsets
+import com.itsaky.tom.rv2ide.viewmodel.FileTreeViewModel
 import com.unnamed.b.atv.model.TreeNode
 import com.unnamed.b.atv.model.TreeNode.TreeNodeClickListener
 import com.unnamed.b.atv.model.TreeNode.TreeNodeLongClickListener

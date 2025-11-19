@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.ui
+package com.itsaky.tom.rv2ide.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -28,7 +28,7 @@ import androidx.annotation.FloatRange
 import androidx.annotation.IdRes
 import androidx.customview.widget.ViewDragHelper
 import com.google.android.material.shape.MaterialShapeDrawable
-import com.itsaky.androidide.R
+import com.itsaky.tom.rv2ide.R
 import kotlin.math.max
 import kotlin.math.min
 

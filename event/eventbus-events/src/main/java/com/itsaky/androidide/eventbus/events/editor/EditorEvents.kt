@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.eventbus.events.editor
+package com.itsaky.tom.rv2ide.eventbus.events.editor
 
-import com.itsaky.androidide.eventbus.events.Event
+import com.itsaky.tom.rv2ide.eventbus.events.Event
 
 /**
  * Dispatched when the color schemes has been reloaded. Listeners should update any UI which use

@@ -3,7 +3,7 @@ package com.termux.shared.termux.shell;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.itsaky.androidide.utils.Environment;
+import com.itsaky.tom.rv2ide.utils.Environment;
 import com.termux.shared.errors.Error;
 import com.termux.shared.file.filesystem.FileTypes;
 import com.termux.shared.shell.command.environment.UnixShellEnvironment;

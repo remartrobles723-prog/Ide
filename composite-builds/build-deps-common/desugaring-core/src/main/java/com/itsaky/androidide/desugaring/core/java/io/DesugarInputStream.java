@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring.core.java.io;
+package com.itsaky.tom.rv2ide.desugaring.core.java.io;
 
 import java.io.IOException;
 import java.io.InputStream;

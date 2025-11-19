@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter
+package com.itsaky.tom.rv2ide.editor.language.treesitter
 
-import com.itsaky.androidide.editor.schemes.LanguageScheme
+import com.itsaky.tom.rv2ide.editor.schemes.LanguageScheme
 import io.github.rosemoe.sora.editor.ts.TsAnalyzeManager
 import io.github.rosemoe.sora.editor.ts.TsLanguageSpec
 import io.github.rosemoe.sora.editor.ts.TsTheme

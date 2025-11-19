@@ -15,9 +15,9 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
-import com.itsaky.androidide.lsp.models.DiagnosticResult
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult
 import io.github.rosemoe.sora.lang.diagnostic.DiagnosticsContainer
 import io.github.rosemoe.sora.widget.CodeEditor
 import org.slf4j.LoggerFactory

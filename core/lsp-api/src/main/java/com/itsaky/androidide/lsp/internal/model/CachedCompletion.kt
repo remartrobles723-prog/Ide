@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.internal.model
+package com.itsaky.tom.rv2ide.lsp.internal.model
 
-import com.itsaky.androidide.lsp.models.CompletionParams
-import com.itsaky.androidide.progress.ICancelChecker
-import com.itsaky.androidide.utils.DocumentUtils
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.utils.DocumentUtils
 import java.nio.file.Paths
 import org.slf4j.LoggerFactory
 
@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory
 class CachedCompletion
 private constructor(
     val params: CompletionParams,
-    val result: com.itsaky.androidide.lsp.models.CompletionResult,
+    val result: com.itsaky.tom.rv2ide.lsp.models.CompletionResult,
 ) {
 
   companion object {
@@ -43,11 +43,11 @@ private constructor(
     val EMPTY =
         cache(
             CompletionParams(
-                com.itsaky.androidide.models.Position.NONE,
+                com.itsaky.tom.rv2ide.models.Position.NONE,
                 Paths.get(""),
                 ICancelChecker.CANCELLED,
             ),
-            com.itsaky.androidide.lsp.models.CompletionResult.EMPTY,
+            com.itsaky.tom.rv2ide.lsp.models.CompletionResult.EMPTY,
         )
 
     /**
@@ -60,7 +60,7 @@ private constructor(
     @JvmStatic
     fun cache(
         _params: CompletionParams,
-        result: com.itsaky.androidide.lsp.models.CompletionResult,
+        result: com.itsaky.tom.rv2ide.lsp.models.CompletionResult,
     ): CachedCompletion {
       val params =
           CompletionParams(_params.position, _params.file, ICancelChecker.CANCELLED).apply {

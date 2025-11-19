@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.adapters
+package com.itsaky.tom.rv2ide.uidesigner.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.itsaky.androidide.uidesigner.adapters.WidgetsCategoryAdapter.VH
-import com.itsaky.androidide.uidesigner.databinding.LayoutUiWidgetsCategoryBinding
-import com.itsaky.androidide.uidesigner.models.UiWidgetCategory
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.uidesigner.adapters.WidgetsCategoryAdapter.VH
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutUiWidgetsCategoryBinding
+import com.itsaky.tom.rv2ide.uidesigner.models.UiWidgetCategory
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
 
 /** @author Akash Yadav */
 internal class WidgetsCategoryAdapter(

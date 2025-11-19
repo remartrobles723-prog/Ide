@@ -15,17 +15,17 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.java
+package com.itsaky.tom.rv2ide.projects.java
 
-import com.itsaky.androidide.builder.model.IJavaCompilerSettings
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.tooling.api.ProjectType.Java
-import com.itsaky.androidide.tooling.api.models.GradleTask
-import com.itsaky.androidide.tooling.api.models.JavaContentRoot
-import com.itsaky.androidide.tooling.api.models.JavaModuleDependency
-import com.itsaky.androidide.tooling.api.models.JavaModuleExternalDependency
-import com.itsaky.androidide.tooling.api.models.JavaModuleProjectDependency
+import com.itsaky.tom.rv2ide.builder.model.IJavaCompilerSettings
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.tooling.api.ProjectType.Java
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleTask
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaContentRoot
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaModuleDependency
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaModuleExternalDependency
+import com.itsaky.tom.rv2ide.tooling.api.models.JavaModuleProjectDependency
 import java.io.File
 
 /**

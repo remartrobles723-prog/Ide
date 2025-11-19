@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.flashbar
+package com.itsaky.tom.rv2ide.flashbar
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

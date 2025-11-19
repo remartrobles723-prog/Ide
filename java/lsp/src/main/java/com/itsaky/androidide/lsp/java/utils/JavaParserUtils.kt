@@ -16,7 +16,7 @@
  */
 @file:Suppress("unused", "MemberVisibilityCanBePrivate")
 
-package com.itsaky.androidide.lsp.java.utils
+package com.itsaky.tom.rv2ide.lsp.java.utils
 
 import androidx.annotation.NonNull
 import androidx.annotation.Nullable
@@ -76,8 +76,8 @@ import com.github.javaparser.ast.type.TypeParameter
 import com.github.javaparser.printer.DefaultPrettyPrinter
 import com.github.javaparser.printer.configuration.DefaultPrinterConfiguration
 import com.github.javaparser.printer.configuration.PrinterConfiguration
-import com.itsaky.androidide.lsp.java.utils.TypeUtils.toType
-import com.itsaky.androidide.lsp.java.visitors.PrettyPrintingVisitor
+import com.itsaky.tom.rv2ide.lsp.java.utils.TypeUtils.toType
+import com.itsaky.tom.rv2ide.lsp.java.visitors.PrettyPrintingVisitor
 import java.util.function.Predicate
 import java.util.stream.IntStream
 import java.util.stream.Stream

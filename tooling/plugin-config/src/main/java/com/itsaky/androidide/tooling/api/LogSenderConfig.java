@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api;
+package com.itsaky.tom.rv2ide.tooling.api;
 
 /**
  * Configuration options for LogSender. Properties defined in this class whose name start with an

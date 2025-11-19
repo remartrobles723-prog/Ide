@@ -14,14 +14,14 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.services.ai
+package com.itsaky.tom.rv2ide.services.ai
 
 import com.google.ai.client.generativeai.GenerativeModel
 import com.google.ai.client.generativeai.type.content
-import com.itsaky.androidide.fragments.sidebar.utils.ResponseMode
-import com.itsaky.androidide.fragments.sidebar.utils.ResponseMode.CHAT
-import com.itsaky.androidide.services.ai.Instructions.system_instructions
-import com.itsaky.androidide.services.ai.preferences.getAgentName
+import com.itsaky.tom.rv2ide.fragments.sidebar.utils.ResponseMode
+import com.itsaky.tom.rv2ide.fragments.sidebar.utils.ResponseMode.CHAT
+import com.itsaky.tom.rv2ide.services.ai.Instructions.system_instructions
+import com.itsaky.tom.rv2ide.services.ai.preferences.getAgentName
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.slf4j.LoggerFactory

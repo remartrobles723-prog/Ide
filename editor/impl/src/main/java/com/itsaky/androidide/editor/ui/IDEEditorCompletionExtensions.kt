@@ -1,6 +1,6 @@
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
-import com.itsaky.androidide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
 import io.github.rosemoe.sora.widget.CodeEditor
 import io.github.rosemoe.sora.widget.component.EditorAutoCompletion
 

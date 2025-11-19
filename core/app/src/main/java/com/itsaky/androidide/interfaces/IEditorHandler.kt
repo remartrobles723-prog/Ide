@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.interfaces
+package com.itsaky.tom.rv2ide.interfaces
 
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.models.SaveResult
-import com.itsaky.androidide.ui.CodeEditorView
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.models.SaveResult
+import com.itsaky.tom.rv2ide.ui.CodeEditorView
 import java.io.File
 
 /** @author Akash Yadav */

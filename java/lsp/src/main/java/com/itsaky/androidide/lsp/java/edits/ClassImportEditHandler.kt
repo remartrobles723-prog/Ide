@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.edits
+package com.itsaky.tom.rv2ide.lsp.java.edits
 
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.lsp.java.utils.EditHelper
-import com.itsaky.androidide.lsp.models.ClassCompletionData
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.util.RewriteHelper
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.lsp.java.utils.EditHelper
+import com.itsaky.tom.rv2ide.lsp.models.ClassCompletionData
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.util.RewriteHelper
 import io.github.rosemoe.sora.widget.CodeEditor
 import java.nio.file.Path
 

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import android.graphics.Canvas
 import android.graphics.Rect
@@ -24,7 +24,7 @@ import android.graphics.RenderNode
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.collection.MutableIntList
-import com.itsaky.androidide.editor.BuildConfig
+import com.itsaky.tom.rv2ide.editor.BuildConfig
 import io.github.rosemoe.sora.lang.styling.CodeBlock
 import io.github.rosemoe.sora.lang.styling.Spans
 import io.github.rosemoe.sora.text.ContentLine

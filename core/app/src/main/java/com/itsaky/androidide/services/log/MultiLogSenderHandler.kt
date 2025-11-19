@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.log
+package com.itsaky.tom.rv2ide.services.log
 
-import com.itsaky.androidide.logsender.socket.SenderInfoCommand
-import com.itsaky.androidide.logsender.socket.SocketCommandParser
-import com.itsaky.androidide.models.LogLine
-import com.itsaky.androidide.tasks.cancelIfActive
+import com.itsaky.tom.rv2ide.logsender.socket.SenderInfoCommand
+import com.itsaky.tom.rv2ide.logsender.socket.SocketCommandParser
+import com.itsaky.tom.rv2ide.models.LogLine
+import com.itsaky.tom.rv2ide.tasks.cancelIfActive
 import java.lang.Thread.currentThread
 import java.net.ServerSocket
 import java.util.concurrent.ConcurrentHashMap

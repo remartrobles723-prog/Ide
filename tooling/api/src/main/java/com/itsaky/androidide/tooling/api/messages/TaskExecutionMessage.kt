@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.messages
+package com.itsaky.tom.rv2ide.tooling.api.messages
 
 /**
  * Message sent by client to execute given tasks using the Tooling API.

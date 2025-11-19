@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.composeActivity
+package com.itsaky.tom.rv2ide.templates.impl.composeActivity
 
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
 
 fun AndroidModuleTemplateBuilder.composeThemesXml() =
     """

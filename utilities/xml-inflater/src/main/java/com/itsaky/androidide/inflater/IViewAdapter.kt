@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater
+package com.itsaky.tom.rv2ide.inflater
 
 import android.content.Context
 import android.view.View
 import com.android.SdkConstants
-import com.itsaky.androidide.inflater.internal.AttributeImpl
-import com.itsaky.androidide.inflater.internal.ViewImpl
-import com.itsaky.androidide.inflater.models.UiWidget
+import com.itsaky.tom.rv2ide.inflater.internal.AttributeImpl
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.inflater.models.UiWidget
 
 /**
  * A view adapter provides support for a specific view to the layout inflater and the UI designer.
@@ -34,9 +34,9 @@ import com.itsaky.androidide.inflater.models.UiWidget
  * - Provides list of supported attributes for the view.
  *
  * The following annotations are used to provide metadata about the view adapter implementation :
- * - [ViewAdapter][com.itsaky.androidide.annotations.inflater.ViewAdapter] is used to specify the view
+ * - [ViewAdapter][com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter] is used to specify the view
  *   whose attributes are handled by the view adapter implementation.
- * - [IncludeInDesigner][com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner] is used to
+ * - [IncludeInDesigner][com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner] is used to
  *   indicate that the view adapter provides [UiWidget] models to the UI designer.
  * - [RequiresApi][androidx.annotation.RequiresApi] is used to indicate that the view adapter
  *   implementation provides support for views that can be used only for the given API version (or
@@ -49,7 +49,7 @@ abstract class IViewAdapter<T : View> : AbstractParser() {
   /**
    * The package name or namespace of the module/artifact in which the view that this adapter
    * handles is defined. The value is set to "android" by default unless explicitly specified in the
-   * [ViewAdapter][com.itsaky.androidide.annotations.inflater.ViewAdapter] annotation.
+   * [ViewAdapter][com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter] annotation.
    *
    * This is used by the UI designer to quickly look for attributes of an inflated view from the
    * resource tables.

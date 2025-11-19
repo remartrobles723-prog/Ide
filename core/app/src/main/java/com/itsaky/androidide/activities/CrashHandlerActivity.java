@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities;
+package com.itsaky.tom.rv2ide.activities;
 
 import android.os.Bundle;
 import android.view.View;
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.app.IDEActivity;
-import com.itsaky.androidide.databinding.ActivityCrashHandlerBinding;
-import com.itsaky.androidide.fragments.CrashReportFragment;
+import com.itsaky.tom.rv2ide.app.IDEActivity;
+import com.itsaky.tom.rv2ide.databinding.ActivityCrashHandlerBinding;
+import com.itsaky.tom.rv2ide.fragments.CrashReportFragment;
 
 public class CrashHandlerActivity extends IDEActivity {
 
-  public static final String REPORT_ACTION = "com.itsaky.androidide.REPORT_CRASH";
+  public static final String REPORT_ACTION = "com.itsaky.tom.rv2ide.REPORT_CRASH";
   public static final String TRACE_KEY = "crash_trace";
   private ActivityCrashHandlerBinding binding;
 

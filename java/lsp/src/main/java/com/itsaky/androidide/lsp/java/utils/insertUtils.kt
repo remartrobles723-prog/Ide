@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.utils
+package com.itsaky.tom.rv2ide.lsp.java.utils
 
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.parser.ParseTask
-import com.itsaky.androidide.models.Position
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.parser.ParseTask
+import com.itsaky.tom.rv2ide.models.Position
 import openjdk.source.tree.CompilationUnitTree
 import openjdk.source.tree.Tree
 import openjdk.source.util.JavacTask

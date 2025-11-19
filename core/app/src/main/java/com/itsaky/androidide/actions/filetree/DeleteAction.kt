@@ -15,20 +15,20 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.filetree
+package com.itsaky.tom.rv2ide.actions.filetree
 
 import android.app.ProgressDialog
 import android.content.Context
 import com.blankj.utilcode.util.FileUtils
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.requireFile
-import com.itsaky.androidide.eventbus.events.file.FileDeletionEvent
-import com.itsaky.androidide.projects.FileManager
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.tasks.executeAsync
-import com.itsaky.androidide.utils.DialogUtils
-import com.itsaky.androidide.utils.FlashType
-import com.itsaky.androidide.utils.flashMessage
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.requireFile
+import com.itsaky.tom.rv2ide.eventbus.events.file.FileDeletionEvent
+import com.itsaky.tom.rv2ide.projects.FileManager
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.tasks.executeAsync
+import com.itsaky.tom.rv2ide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.utils.FlashType
+import com.itsaky.tom.rv2ide.utils.flashMessage
 import java.io.File
 import org.greenrobot.eventbus.EventBus
 

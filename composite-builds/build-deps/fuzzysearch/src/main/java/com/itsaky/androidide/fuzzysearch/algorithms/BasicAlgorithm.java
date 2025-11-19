@@ -1,7 +1,7 @@
-package com.itsaky.androidide.fuzzysearch.algorithms;
+package com.itsaky.tom.rv2ide.fuzzysearch.algorithms;
 
-import com.itsaky.androidide.fuzzysearch.Applicable;
-import com.itsaky.androidide.fuzzysearch.ToStringFunction;
+import com.itsaky.tom.rv2ide.fuzzysearch.Applicable;
+import com.itsaky.tom.rv2ide.fuzzysearch.ToStringFunction;
 
 public abstract class BasicAlgorithm implements Applicable {
 

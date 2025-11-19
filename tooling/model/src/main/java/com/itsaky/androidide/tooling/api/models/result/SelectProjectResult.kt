@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.models.result
+package com.itsaky.tom.rv2ide.tooling.api.models.result
 
 /**
  * Result sent to the client when selecting a project in
- * [IProjectQueries][com.itsaky.androidide.tooling.api.IProjectQueries].
+ * [IProjectQueries][com.itsaky.tom.rv2ide.tooling.api.IProjectQueries].
  *
  * @param isSuccessful Whether the project selection was successful. If the value is `false`, it is
  *   because the project with the provided path was not found.

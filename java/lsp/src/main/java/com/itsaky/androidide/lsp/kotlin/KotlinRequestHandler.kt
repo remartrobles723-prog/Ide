@@ -15,11 +15,11 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
 import com.google.gson.JsonObject
-import com.itsaky.androidide.lsp.kotlin.etc.LspFeatures
-import com.itsaky.androidide.lsp.models.*
+import com.itsaky.tom.rv2ide.lsp.kotlin.etc.LspFeatures
+import com.itsaky.tom.rv2ide.lsp.models.*
 import java.nio.file.Paths
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.atomic.AtomicLong
@@ -223,7 +223,7 @@ class KotlinRequestHandler(
     }
   }
 
-  private fun extractPrefix(content: String, position: com.itsaky.androidide.models.Position): String {
+  private fun extractPrefix(content: String, position: com.itsaky.tom.rv2ide.models.Position): String {
     val lines = content.split("\n")
     if (position.line < 0 || position.line >= lines.size) return ""
 
@@ -493,24 +493,24 @@ class KotlinRequestHandler(
     }
   }
 
-  private fun convertToLocations(result: JsonObject?): List<com.itsaky.androidide.models.Location> {
+  private fun convertToLocations(result: JsonObject?): List<com.itsaky.tom.rv2ide.models.Location> {
     return result?.asJsonArray?.map { element ->
       val loc = element.asJsonObject
       val range = loc.getAsJsonObject("range")
       val start = range.getAsJsonObject("start")
       val end = range.getAsJsonObject("end")
 
-      com.itsaky.androidide.models.Location(
+      com.itsaky.tom.rv2ide.models.Location(
           file = Paths.get(java.net.URI(loc.get("uri").asString)),
           range =
-              com.itsaky.androidide.models.Range(
+              com.itsaky.tom.rv2ide.models.Range(
                   start =
-                      com.itsaky.androidide.models.Position(
+                      com.itsaky.tom.rv2ide.models.Position(
                           start.get("line").asInt,
                           start.get("character").asInt,
                       ),
                   end =
-                      com.itsaky.androidide.models.Position(
+                      com.itsaky.tom.rv2ide.models.Position(
                           end.get("line").asInt,
                           end.get("character").asInt,
                       ),

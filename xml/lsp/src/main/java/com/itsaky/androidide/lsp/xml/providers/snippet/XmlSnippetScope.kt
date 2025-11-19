@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.xml.providers.snippet
+package com.itsaky.tom.rv2ide.lsp.xml.providers.snippet
 
-import com.itsaky.androidide.lsp.snippets.ISnippetScope
+import com.itsaky.tom.rv2ide.lsp.snippets.ISnippetScope
 
 val XML_SNIPPET_SCOPES : Array<IXmlSnippetScope> =
   arrayOf(

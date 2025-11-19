@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.viewmodel
+package com.itsaky.tom.rv2ide.viewmodel
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.itsaky.androidide.contributors.Contributor
-import com.itsaky.androidide.contributors.CrowdinTranslator
-import com.itsaky.androidide.contributors.CrowdinTranslators
-import com.itsaky.androidide.contributors.GitHubContributor
-import com.itsaky.androidide.contributors.GitHubContributors
+import com.itsaky.tom.rv2ide.contributors.Contributor
+import com.itsaky.tom.rv2ide.contributors.CrowdinTranslator
+import com.itsaky.tom.rv2ide.contributors.CrowdinTranslators
+import com.itsaky.tom.rv2ide.contributors.GitHubContributor
+import com.itsaky.tom.rv2ide.contributors.GitHubContributors
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

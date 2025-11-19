@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import java.io.File
 import java.io.IOException
@@ -42,7 +42,7 @@ class ModuleCreator {
    */
   fun createModule(
       moduleName: String,
-      language: com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
+      language: com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
       projectRoot: File,
   ): CreationResult {
     return try {
@@ -146,7 +146,7 @@ class ModuleCreator {
   private fun createModuleStructure(
       moduleDir: File,
       moduleName: String,
-      language: com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
+      language: com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
       useKotlinDsl: Boolean,
       basePackageName: String,
       appConfig: AppModuleConfig,
@@ -156,7 +156,7 @@ class ModuleCreator {
         File(
             srcMainDir,
             if (
-                language == com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN
+                language == com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN
             )
                 "kotlin"
             else "java",
@@ -177,7 +177,7 @@ class ModuleCreator {
   private fun createBuildGradle(
       moduleDir: File,
       moduleName: String,
-      language: com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
+      language: com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
       useKotlinDsl: Boolean,
       basePackageName: String,
       appConfig: AppModuleConfig,
@@ -196,19 +196,19 @@ class ModuleCreator {
 
   private fun generateKotlinDslBuildScript(
       moduleName: String,
-      language: com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
+      language: com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
       basePackageName: String,
       appConfig: AppModuleConfig,
   ): String {
     val kotlinPlugin =
-        if (language == com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
+        if (language == com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
           "id(\"kotlin-android\")"
         } else {
           "// Java module - no additional plugin needed"
         }
 
     val kotlinOptions =
-        if (language == com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
+        if (language == com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
           """
   kotlinOptions {
     jvmTarget = "1.8"
@@ -253,19 +253,19 @@ dependencies {
 
   private fun generateGroovyBuildScript(
       moduleName: String,
-      language: com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
+      language: com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
       basePackageName: String,
       appConfig: AppModuleConfig,
   ): String {
     val kotlinPlugin =
-        if (language == com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
+        if (language == com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
           "id 'kotlin-android'"
         } else {
           "// Java module - no additional plugin needed"
         }
 
     val kotlinOptions =
-        if (language == com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
+        if (language == com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
           """
   kotlinOptions {
     jvmTarget = '1.8'
@@ -354,14 +354,14 @@ dependencies {
   private fun createSampleSourceFile(
       sourceDir: File,
       moduleName: String,
-      language: com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
+      language: com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage,
       basePackageName: String,
   ) {
     val packageDir = File(sourceDir, basePackageName.replace(".", "/") + "/$moduleName")
     packageDir.mkdirs()
 
     val fileName =
-        if (language == com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
+        if (language == com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
           "SampleClass.kt"
         } else {
           "SampleClass.java"
@@ -370,7 +370,7 @@ dependencies {
     val sampleFile = File(packageDir, fileName)
 
     val content =
-        if (language == com.itsaky.androidide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
+        if (language == com.itsaky.tom.rv2ide.fragments.sidebar.SubModuleFragment.ModuleLanguage.KOTLIN) {
           """
 package $basePackageName.$moduleName
 

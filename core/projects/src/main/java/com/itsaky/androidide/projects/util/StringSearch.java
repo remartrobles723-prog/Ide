@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.util;
+package com.itsaky.tom.rv2ide.projects.util;
 
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.projects.FileManager;
-import com.itsaky.androidide.projects.models.ActiveJavaDocument;
-import com.itsaky.androidide.utils.Cache;
+import com.itsaky.tom.rv2ide.projects.FileManager;
+import com.itsaky.tom.rv2ide.projects.models.ActiveJavaDocument;
+import com.itsaky.tom.rv2ide.utils.Cache;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;

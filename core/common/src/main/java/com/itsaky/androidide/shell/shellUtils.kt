@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.shell
+package com.itsaky.tom.rv2ide.shell
 
 import kotlin.coroutines.CoroutineContext
 import kotlinx.coroutines.Dispatchers

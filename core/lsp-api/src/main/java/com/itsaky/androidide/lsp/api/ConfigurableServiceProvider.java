@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.api;
+package com.itsaky.tom.rv2ide.lsp.api;
 
 /**
  * Base class for service providers which can be configured using {@link IServerSettings}.
@@ -28,7 +28,7 @@ public interface ConfigurableServiceProvider {
    * Apply the given settings to this service provider.
    *
    * @param settings The settings to apply. If {@code null}, {@link
-   *     com.itsaky.androidide.lsp.util.DefaultServerSettings} should be used.
+   *     com.itsaky.tom.rv2ide.lsp.util.DefaultServerSettings} should be used.
    */
   void applySettings(IServerSettings settings);
 }

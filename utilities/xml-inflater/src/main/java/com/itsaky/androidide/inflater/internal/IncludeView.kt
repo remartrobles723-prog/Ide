@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal
+package com.itsaky.tom.rv2ide.inflater.internal
 
-import com.itsaky.androidide.inflater.IAttribute
-import com.itsaky.androidide.inflater.IViewGroup
+import com.itsaky.tom.rv2ide.inflater.IAttribute
+import com.itsaky.tom.rv2ide.inflater.IViewGroup
 
 /**
- * [IView][com.itsaky.androidide.inflater.IView] implementation for `<include>` tags.
+ * [IView][com.itsaky.tom.rv2ide.inflater.IView] implementation for `<include>` tags.
  *
  * @author Akash Yadav
  */

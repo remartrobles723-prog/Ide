@@ -9,7 +9,7 @@
     android:padding="26dp"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
-    tools:context="com.itsaky.androidide.ideconfigurations.MainActivityCfg">
+    tools:context="com.itsaky.tom.rv2ide.ideconfigurations.MainActivityCfg">
 
 <LinearLayout
     android:layout_height="match_parent"

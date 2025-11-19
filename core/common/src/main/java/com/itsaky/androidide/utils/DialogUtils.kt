@@ -14,16 +14,16 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.content.Context
 import android.content.DialogInterface.OnClickListener
 import android.view.LayoutInflater
 import android.view.View
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.itsaky.androidide.common.databinding.LayoutDialogProgressBinding
-import com.itsaky.androidide.resources.R.string
-import com.itsaky.androidide.resources.R.style
+import com.itsaky.tom.rv2ide.common.databinding.LayoutDialogProgressBinding
+import com.itsaky.tom.rv2ide.resources.R.string
+import com.itsaky.tom.rv2ide.resources.R.style
 import java.util.concurrent.atomic.AtomicInteger
 import org.jetbrains.annotations.Contract
 

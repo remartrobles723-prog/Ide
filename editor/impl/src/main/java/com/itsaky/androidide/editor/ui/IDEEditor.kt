@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import android.content.Context
 import android.graphics.Rect
@@ -27,52 +27,52 @@ import android.view.inputmethod.EditorInfo
 import androidx.annotation.StringRes
 import com.blankj.utilcode.util.FileUtils
 import com.blankj.utilcode.util.SizeUtils
-import com.itsaky.androidide.editor.R.string
-import com.itsaky.androidide.editor.adapters.CompletionListAdapter
-import com.itsaky.androidide.editor.api.IEditor
-import com.itsaky.androidide.editor.api.ILspEditor
-import com.itsaky.androidide.editor.language.IDELanguage
-import com.itsaky.androidide.editor.language.cpp.CppLanguage
-import com.itsaky.androidide.editor.language.groovy.GroovyLanguage
-import com.itsaky.androidide.editor.language.treesitter.TreeSitterLanguage
-import com.itsaky.androidide.editor.language.treesitter.TreeSitterLanguageProvider
-import com.itsaky.androidide.editor.schemes.IDEColorScheme
-import com.itsaky.androidide.editor.schemes.IDEColorSchemeProvider
-import com.itsaky.androidide.editor.snippets.AbstractSnippetVariableResolver
-import com.itsaky.androidide.editor.snippets.FileVariableResolver
-import com.itsaky.androidide.editor.snippets.WorkspaceVariableResolver
-import com.itsaky.androidide.eventbus.events.editor.ChangeType
-import com.itsaky.androidide.eventbus.events.editor.ColorSchemeInvalidatedEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentChangeEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentCloseEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentOpenEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentSaveEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentSelectedEvent
-import com.itsaky.androidide.flashbar.Flashbar
-import com.itsaky.androidide.lsp.api.ILanguageClient
-import com.itsaky.androidide.lsp.api.ILanguageServer
-import com.itsaky.androidide.lsp.java.utils.CancelChecker
-import com.itsaky.androidide.lsp.models.Command
-import com.itsaky.androidide.lsp.models.DefinitionParams
-import com.itsaky.androidide.lsp.models.DefinitionResult
-import com.itsaky.androidide.lsp.models.ExpandSelectionParams
-import com.itsaky.androidide.lsp.models.ReferenceParams
-import com.itsaky.androidide.lsp.models.ReferenceResult
-import com.itsaky.androidide.lsp.models.ShowDocumentParams
-import com.itsaky.androidide.lsp.models.SignatureHelp
-import com.itsaky.androidide.lsp.models.SignatureHelpParams
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.preferences.internal.EditorPreferences
-import com.itsaky.androidide.progress.ICancelChecker
-import com.itsaky.androidide.syntax.colorschemes.DynamicColorScheme
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE
-import com.itsaky.androidide.tasks.JobCancelChecker
-import com.itsaky.androidide.tasks.cancelIfActive
-import com.itsaky.androidide.tasks.launchAsyncWithProgress
-import com.itsaky.androidide.utils.DocumentUtils
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashInfo
+import com.itsaky.tom.rv2ide.editor.R.string
+import com.itsaky.tom.rv2ide.editor.adapters.CompletionListAdapter
+import com.itsaky.tom.rv2ide.editor.api.IEditor
+import com.itsaky.tom.rv2ide.editor.api.ILspEditor
+import com.itsaky.tom.rv2ide.editor.language.IDELanguage
+import com.itsaky.tom.rv2ide.editor.language.cpp.CppLanguage
+import com.itsaky.tom.rv2ide.editor.language.groovy.GroovyLanguage
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TreeSitterLanguage
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TreeSitterLanguageProvider
+import com.itsaky.tom.rv2ide.editor.schemes.IDEColorScheme
+import com.itsaky.tom.rv2ide.editor.schemes.IDEColorSchemeProvider
+import com.itsaky.tom.rv2ide.editor.snippets.AbstractSnippetVariableResolver
+import com.itsaky.tom.rv2ide.editor.snippets.FileVariableResolver
+import com.itsaky.tom.rv2ide.editor.snippets.WorkspaceVariableResolver
+import com.itsaky.tom.rv2ide.eventbus.events.editor.ChangeType
+import com.itsaky.tom.rv2ide.eventbus.events.editor.ColorSchemeInvalidatedEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentChangeEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentCloseEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentOpenEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentSaveEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentSelectedEvent
+import com.itsaky.tom.rv2ide.flashbar.Flashbar
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageClient
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServer
+import com.itsaky.tom.rv2ide.lsp.java.utils.CancelChecker
+import com.itsaky.tom.rv2ide.lsp.models.Command
+import com.itsaky.tom.rv2ide.lsp.models.DefinitionParams
+import com.itsaky.tom.rv2ide.lsp.models.DefinitionResult
+import com.itsaky.tom.rv2ide.lsp.models.ExpandSelectionParams
+import com.itsaky.tom.rv2ide.lsp.models.ReferenceParams
+import com.itsaky.tom.rv2ide.lsp.models.ReferenceResult
+import com.itsaky.tom.rv2ide.lsp.models.ShowDocumentParams
+import com.itsaky.tom.rv2ide.lsp.models.SignatureHelp
+import com.itsaky.tom.rv2ide.lsp.models.SignatureHelpParams
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.syntax.colorschemes.DynamicColorScheme
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE
+import com.itsaky.tom.rv2ide.tasks.JobCancelChecker
+import com.itsaky.tom.rv2ide.tasks.cancelIfActive
+import com.itsaky.tom.rv2ide.tasks.launchAsyncWithProgress
+import com.itsaky.tom.rv2ide.utils.DocumentUtils
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashInfo
 import io.github.rosemoe.sora.event.ContentChangeEvent
 import io.github.rosemoe.sora.event.SelectionChangeEvent
 import io.github.rosemoe.sora.lang.EmptyLanguage
@@ -148,7 +148,7 @@ constructor(
       if (text.isNullOrBlank()) return@launch
       withContext(Dispatchers.Main) {
         // Show brief tooltip using Flashbar
-        com.itsaky.androidide.utils.dismissFlashbar()
+        com.itsaky.tom.rv2ide.utils.dismissFlashbar()
         (context as? android.app.Activity)?.flashInfo(text)
       }
     }

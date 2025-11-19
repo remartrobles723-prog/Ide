@@ -31,7 +31,7 @@
  * limitations under the License.
  */
 
-package com.itsaky.androidide.utils;
+package com.itsaky.tom.rv2ide.utils;
 
 import static android.graphics.Color.TRANSPARENT;
 import static com.google.android.material.color.MaterialColors.isColorLight;

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logging.utils;
+package com.itsaky.tom.rv2ide.logging.utils;
 
 /**
  * @author Akash Yadav

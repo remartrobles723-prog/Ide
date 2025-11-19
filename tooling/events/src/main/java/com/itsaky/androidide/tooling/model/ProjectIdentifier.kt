@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.tooling.model
+package com.itsaky.tom.rv2ide.tooling.model
 
 /** @author Akash Yadav */
 data class ProjectIdentifier(val buildIdentifier: BuildIdentifier, val projectPath: String) {}

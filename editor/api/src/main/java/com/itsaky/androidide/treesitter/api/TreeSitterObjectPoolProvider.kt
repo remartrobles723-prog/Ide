@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.treesitter.api
+package com.itsaky.tom.rv2ide.treesitter.api
 
-import com.itsaky.androidide.utils.RecyclableObjectPool
-import com.itsaky.androidide.utils.RecyclableObjectPool.Companion.CAPACITY_DEFAULT
-import com.itsaky.androidide.utils.RecyclableObjectPool.Companion.CAPACITY_MINI
-import com.itsaky.androidide.utils.newRecyclableObjectPool
-import com.itsaky.androidide.utils.uncheckedCast
+import com.itsaky.tom.rv2ide.utils.RecyclableObjectPool
+import com.itsaky.tom.rv2ide.utils.RecyclableObjectPool.Companion.CAPACITY_DEFAULT
+import com.itsaky.tom.rv2ide.utils.RecyclableObjectPool.Companion.CAPACITY_MINI
+import com.itsaky.tom.rv2ide.utils.newRecyclableObjectPool
+import com.itsaky.tom.rv2ide.utils.uncheckedCast
 import java.util.concurrent.ConcurrentHashMap
 
 /**

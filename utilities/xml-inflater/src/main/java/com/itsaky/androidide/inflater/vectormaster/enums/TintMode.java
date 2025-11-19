@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.vectormaster.enums;
+package com.itsaky.tom.rv2ide.inflater.vectormaster.enums;
 
 /** Created by Harjot on 20-Jun-17. */
 public enum TintMode {

@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.impl.sync
+package com.itsaky.tom.rv2ide.tooling.impl.sync
 
-import com.itsaky.androidide.builder.model.DefaultProjectSyncIssues
-import com.itsaky.androidide.builder.model.DefaultSyncIssue
-import com.itsaky.androidide.builder.model.shouldBeIgnored
-import com.itsaky.androidide.tooling.api.IAndroidProject
-import com.itsaky.androidide.tooling.api.IProject
-import com.itsaky.androidide.tooling.api.messages.InitializeProjectParams
-import com.itsaky.androidide.tooling.api.util.AndroidModulePropertyCopier
-import com.itsaky.androidide.tooling.impl.Main
-import com.itsaky.androidide.tooling.impl.Main.finalizeLauncher
-import com.itsaky.androidide.tooling.impl.internal.ProjectImpl
+import com.itsaky.tom.rv2ide.builder.model.DefaultProjectSyncIssues
+import com.itsaky.tom.rv2ide.builder.model.DefaultSyncIssue
+import com.itsaky.tom.rv2ide.builder.model.shouldBeIgnored
+import com.itsaky.tom.rv2ide.tooling.api.IAndroidProject
+import com.itsaky.tom.rv2ide.tooling.api.IProject
+import com.itsaky.tom.rv2ide.tooling.api.messages.InitializeProjectParams
+import com.itsaky.tom.rv2ide.tooling.api.util.AndroidModulePropertyCopier
+import com.itsaky.tom.rv2ide.tooling.impl.Main
+import com.itsaky.tom.rv2ide.tooling.impl.Main.finalizeLauncher
+import com.itsaky.tom.rv2ide.tooling.impl.internal.ProjectImpl
 import java.io.Serializable
 import org.gradle.tooling.ConfigurableLauncher
 import org.gradle.tooling.model.idea.IdeaProject

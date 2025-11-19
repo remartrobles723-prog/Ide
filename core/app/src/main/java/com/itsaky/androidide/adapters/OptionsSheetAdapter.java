@@ -18,13 +18,13 @@
  *
  **************************************************************************************/
 
-package com.itsaky.androidide.adapters;
+package com.itsaky.tom.rv2ide.adapters;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
-import com.itsaky.androidide.databinding.LayoutOptionssheetItemBinding;
-import com.itsaky.androidide.models.SheetOption;
+import com.itsaky.tom.rv2ide.databinding.LayoutOptionssheetItemBinding;
+import com.itsaky.tom.rv2ide.models.SheetOption;
 import java.util.List;
 
 public class OptionsSheetAdapter extends RecyclerView.Adapter<OptionsSheetAdapter.VH> {

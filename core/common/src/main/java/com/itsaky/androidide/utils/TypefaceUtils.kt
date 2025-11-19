@@ -15,10 +15,10 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.graphics.Typeface
-import com.itsaky.androidide.app.BaseApplication
+import com.itsaky.tom.rv2ide.app.BaseApplication
 import java.io.File
 
 fun quicksand(): Typeface =

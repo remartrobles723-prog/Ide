@@ -15,21 +15,21 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl
+package com.itsaky.tom.rv2ide.templates.impl
 
 import com.google.auto.service.AutoService
 import com.google.common.collect.ImmutableList
-import com.itsaky.androidide.templates.ITemplateProvider
-import com.itsaky.androidide.templates.Template
-import com.itsaky.androidide.templates.impl.basicActivity.basicActivityProject
-import com.itsaky.androidide.templates.impl.bottomNavActivity.bottomNavActivityProject
-import com.itsaky.androidide.templates.impl.composeActivity.composeActivityProject
-import com.itsaky.androidide.templates.impl.emptyActivity.emptyActivityProject
-import com.itsaky.androidide.templates.impl.navDrawerActivity.navDrawerActivityProject
-import com.itsaky.androidide.templates.impl.noActivity.noActivityProjectTemplate
-import com.itsaky.androidide.templates.impl.noAndroidXActivity.noAndroidXActivityProject
-import com.itsaky.androidide.templates.impl.tabbedActivity.tabbedActivityProject
-import com.itsaky.androidide.templates.impl.withCpp.withCppProject
+import com.itsaky.tom.rv2ide.templates.ITemplateProvider
+import com.itsaky.tom.rv2ide.templates.Template
+import com.itsaky.tom.rv2ide.templates.impl.basicActivity.basicActivityProject
+import com.itsaky.tom.rv2ide.templates.impl.bottomNavActivity.bottomNavActivityProject
+import com.itsaky.tom.rv2ide.templates.impl.composeActivity.composeActivityProject
+import com.itsaky.tom.rv2ide.templates.impl.emptyActivity.emptyActivityProject
+import com.itsaky.tom.rv2ide.templates.impl.navDrawerActivity.navDrawerActivityProject
+import com.itsaky.tom.rv2ide.templates.impl.noActivity.noActivityProjectTemplate
+import com.itsaky.tom.rv2ide.templates.impl.noAndroidXActivity.noAndroidXActivityProject
+import com.itsaky.tom.rv2ide.templates.impl.tabbedActivity.tabbedActivityProject
+import com.itsaky.tom.rv2ide.templates.impl.withCpp.withCppProject
 
 /**
  * Default implementation of the [ITemplateProvider].

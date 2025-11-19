@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.fs
+package com.itsaky.tom.rv2ide.javac.services.fs
 
-import com.itsaky.androidide.zipfs2.JarPackageProvider
+import com.itsaky.tom.rv2ide.zipfs2.JarPackageProvider
 import java.nio.file.Path
 import openjdk.tools.javac.file.RelativePath.RelativeDirectory
 

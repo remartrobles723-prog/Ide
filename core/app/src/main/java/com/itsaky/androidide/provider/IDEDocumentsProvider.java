@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.provider;
+package com.itsaky.tom.rv2ide.provider;
 
 import android.content.res.AssetFileDescriptor;
 import android.database.Cursor;
@@ -28,8 +28,8 @@ import android.provider.DocumentsContract.Root;
 import android.provider.DocumentsProvider;
 import android.webkit.MimeTypeMap;
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.resources.R;
-import com.itsaky.androidide.utils.Environment;
+import com.itsaky.tom.rv2ide.resources.R;
+import com.itsaky.tom.rv2ide.utils.Environment;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package com.itsaky.androidide.logsender;
+package com.itsaky.tom.rv2ide.logsender;
 
-import com.itsaky.androidide.logsender.ILogSender;
+import com.itsaky.tom.rv2ide.logsender.ILogSender;
 
 /**
  * The LogReceiver interface.

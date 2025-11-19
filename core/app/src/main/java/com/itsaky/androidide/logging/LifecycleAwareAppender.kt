@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.logging
+package com.itsaky.tom.rv2ide.logging
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
@@ -23,7 +23,7 @@ import androidx.lifecycle.LifecycleOwner
 import ch.qos.logback.classic.spi.ILoggingEvent
 import ch.qos.logback.core.AppenderBase
 import ch.qos.logback.core.Context
-import com.itsaky.androidide.logging.encoder.IDELogFormatLayout
+import com.itsaky.tom.rv2ide.logging.encoder.IDELogFormatLayout
 
 /**
  * An [AppenderBase] implementation to show the logs in the GUI.

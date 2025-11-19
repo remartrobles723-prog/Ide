@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.schemes.internal.parser
+package com.itsaky.tom.rv2ide.editor.schemes.internal.parser
 
 import com.google.gson.stream.JsonReader
 import com.google.gson.stream.JsonToken.BEGIN_OBJECT
 import com.google.gson.stream.JsonToken.STRING
-import com.itsaky.androidide.editor.schemes.IDEColorScheme
-import com.itsaky.androidide.editor.schemes.LanguageScheme
-import com.itsaky.androidide.editor.schemes.StyleDef
+import com.itsaky.tom.rv2ide.editor.schemes.IDEColorScheme
+import com.itsaky.tom.rv2ide.editor.schemes.LanguageScheme
+import com.itsaky.tom.rv2ide.editor.schemes.StyleDef
 
 /**
  * Parses language definitions in JSON color scheme files.

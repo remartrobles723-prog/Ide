@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater
+package com.itsaky.tom.rv2ide.inflater
 
 import android.view.View
-import com.itsaky.androidide.inflater.internal.LayoutFile
-import com.itsaky.androidide.lookup.Lookup.Key
+import com.itsaky.tom.rv2ide.inflater.internal.LayoutFile
+import com.itsaky.tom.rv2ide.lookup.Lookup.Key
 
 /** Creates instances of views and attributes. */
 interface IComponentFactory {

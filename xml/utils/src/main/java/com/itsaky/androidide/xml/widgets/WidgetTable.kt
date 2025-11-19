@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.widgets
+package com.itsaky.tom.rv2ide.xml.widgets
 
-import com.itsaky.androidide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lookup.Lookup
 
 /**
  * A widget table holds information about all widgets defined in the `widgets.txt`.

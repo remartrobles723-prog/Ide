@@ -15,16 +15,16 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.schemes
+package com.itsaky.tom.rv2ide.editor.schemes
 
 import android.content.Context
-import com.itsaky.androidide.editor.language.treesitter.TreeSitterLanguageSpec
-import com.itsaky.androidide.editor.language.treesitter.predicates.AnyOfPredicate
-import com.itsaky.androidide.editor.language.treesitter.predicates.EqualPredicate
-import com.itsaky.androidide.editor.language.treesitter.predicates.MatchPredicate
-import com.itsaky.androidide.editor.language.treesitter.predicates.NotEqualPredicate
-import com.itsaky.androidide.editor.language.treesitter.predicates.NotMatchPredicate
-import com.itsaky.androidide.treesitter.TSLanguage
+import com.itsaky.tom.rv2ide.editor.language.treesitter.TreeSitterLanguageSpec
+import com.itsaky.tom.rv2ide.editor.language.treesitter.predicates.AnyOfPredicate
+import com.itsaky.tom.rv2ide.editor.language.treesitter.predicates.EqualPredicate
+import com.itsaky.tom.rv2ide.editor.language.treesitter.predicates.MatchPredicate
+import com.itsaky.tom.rv2ide.editor.language.treesitter.predicates.NotEqualPredicate
+import com.itsaky.tom.rv2ide.editor.language.treesitter.predicates.NotMatchPredicate
+import com.itsaky.tom.rv2ide.treesitter.TSLanguage
 import io.github.rosemoe.sora.editor.ts.LocalsCaptureSpec
 import io.github.rosemoe.sora.editor.ts.TsLanguageSpec
 import java.io.FileNotFoundException

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.app.configuration
+package com.itsaky.tom.rv2ide.app.configuration
 
 import androidx.annotation.WorkerThread
-import com.itsaky.androidide.models.JdkDistribution
-import com.itsaky.androidide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.models.JdkDistribution
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
 
 /**
  * Provides information about various JDK distributions installed on the device.

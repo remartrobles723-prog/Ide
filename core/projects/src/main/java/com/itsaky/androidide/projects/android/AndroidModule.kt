@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects.android
+package com.itsaky.tom.rv2ide.projects.android
 
 import com.android.SdkConstants
 import com.android.aaptcompiler.AaptResourceType
@@ -23,26 +23,26 @@ import com.android.builder.model.v2.ide.LibraryType.ANDROID_LIBRARY
 import com.android.builder.model.v2.ide.LibraryType.JAVA_LIBRARY
 import com.android.builder.model.v2.ide.LibraryType.PROJECT
 import com.android.builder.model.v2.ide.ProjectType
-import com.itsaky.androidide.builder.model.DefaultAndroidGradlePluginProjectFlags
-import com.itsaky.androidide.builder.model.DefaultJavaCompileOptions
-import com.itsaky.androidide.builder.model.DefaultLibrary
-import com.itsaky.androidide.builder.model.DefaultSourceSetContainer
-import com.itsaky.androidide.builder.model.DefaultViewBindingOptions
-import com.itsaky.androidide.builder.model.UNKNOWN_PACKAGE
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.projects.IWorkspace
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.tooling.api.ProjectType.Android
-import com.itsaky.androidide.tooling.api.models.BasicAndroidVariantMetadata
-import com.itsaky.androidide.tooling.api.models.GradleTask
-import com.itsaky.androidide.tooling.api.util.findPackageName
-import com.itsaky.androidide.utils.withStopWatch
-import com.itsaky.androidide.xml.res.IResourceTable
-import com.itsaky.androidide.xml.resources.ResourceTableRegistry
-import com.itsaky.androidide.xml.versions.ApiVersions
-import com.itsaky.androidide.xml.versions.ApiVersionsRegistry
-import com.itsaky.androidide.xml.widgets.WidgetTable
-import com.itsaky.androidide.xml.widgets.WidgetTableRegistry
+import com.itsaky.tom.rv2ide.builder.model.DefaultAndroidGradlePluginProjectFlags
+import com.itsaky.tom.rv2ide.builder.model.DefaultJavaCompileOptions
+import com.itsaky.tom.rv2ide.builder.model.DefaultLibrary
+import com.itsaky.tom.rv2ide.builder.model.DefaultSourceSetContainer
+import com.itsaky.tom.rv2ide.builder.model.DefaultViewBindingOptions
+import com.itsaky.tom.rv2ide.builder.model.UNKNOWN_PACKAGE
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.tooling.api.ProjectType.Android
+import com.itsaky.tom.rv2ide.tooling.api.models.BasicAndroidVariantMetadata
+import com.itsaky.tom.rv2ide.tooling.api.models.GradleTask
+import com.itsaky.tom.rv2ide.tooling.api.util.findPackageName
+import com.itsaky.tom.rv2ide.utils.withStopWatch
+import com.itsaky.tom.rv2ide.xml.res.IResourceTable
+import com.itsaky.tom.rv2ide.xml.resources.ResourceTableRegistry
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersions
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersionsRegistry
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTable
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTableRegistry
 import java.io.File
 import java.util.concurrent.CompletableFuture
 import kotlinx.coroutines.CoroutineName
@@ -271,7 +271,7 @@ open class AndroidModule( // Class must be open because BaseXMLTest mocks this..
     return try {
       log.debug("Resolving dependencies from version catalog for module: {}", path)
 
-      val catalogProvider = com.itsaky.androidide.projects.classpath.VersionCatalogClasspathProvider()
+      val catalogProvider = com.itsaky.tom.rv2ide.projects.classpath.VersionCatalogClasspathProvider()
 
       // Pass existing dependency map to avoid duplicates
       val jars = catalogProvider.getClasspathFromCatalog(rootProjectDir, existingDeps)

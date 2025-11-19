@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services
+package com.itsaky.tom.rv2ide.services
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.itsaky.androidide.events.InstallationResultEvent
+import com.itsaky.tom.rv2ide.events.InstallationResultEvent
 import org.greenrobot.eventbus.EventBus
 
 /**

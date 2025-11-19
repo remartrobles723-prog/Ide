@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.internal.adapters
+package com.itsaky.tom.rv2ide.inflater.internal.adapters
 
 import android.gesture.GestureOverlayView
 import com.blankj.utilcode.util.ReflectUtils
-import com.itsaky.androidide.annotations.inflater.ViewAdapter
-import com.itsaky.androidide.inflater.AttributeHandlerScope
+import com.itsaky.tom.rv2ide.annotations.inflater.ViewAdapter
+import com.itsaky.tom.rv2ide.inflater.AttributeHandlerScope
 
 /**
  * Attribute adapter for [GestureOverlayView].

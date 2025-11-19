@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.indexing.core.platform
+package com.itsaky.tom.rv2ide.indexing.core.platform
 
-import com.itsaky.androidide.indexing.IIndexFactory
-import com.itsaky.androidide.indexing.IIndexParams
-import com.itsaky.androidide.indexing.IIndexable
+import com.itsaky.tom.rv2ide.indexing.IIndexFactory
+import com.itsaky.tom.rv2ide.indexing.IIndexParams
+import com.itsaky.tom.rv2ide.indexing.IIndexable
 
 /**
  * Abstract implementation of the [IIndexFactory].

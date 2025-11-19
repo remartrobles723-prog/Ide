@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import android.view.LayoutInflater
-import com.itsaky.androidide.editor.databinding.LayoutEditorFindReplaceBinding
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.editor.databinding.LayoutEditorFindReplaceBinding
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.DialogUtils
 import org.slf4j.LoggerFactory
 
 /**

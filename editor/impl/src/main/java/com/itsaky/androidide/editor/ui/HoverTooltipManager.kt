@@ -1,4 +1,4 @@
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import android.content.Context
 import android.os.Handler
@@ -8,9 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.TextView
-import com.itsaky.androidide.lsp.models.DefinitionParams
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.progress.ICancelChecker
+import com.itsaky.tom.rv2ide.lsp.models.DefinitionParams
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.progress.ICancelChecker
 import kotlinx.coroutines.*
 import org.slf4j.LoggerFactory
 

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring
+package com.itsaky.tom.rv2ide.desugaring
 
 import com.android.build.api.instrumentation.AsmClassVisitorFactory
 import com.android.build.api.instrumentation.ClassContext

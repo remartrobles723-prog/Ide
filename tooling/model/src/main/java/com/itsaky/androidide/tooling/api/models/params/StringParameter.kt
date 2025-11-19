@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.api.models.params
+package com.itsaky.tom.rv2ide.tooling.api.models.params
 
 /**
  * Use for requests/notification which accept one string parameter.

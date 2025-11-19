@@ -41,7 +41,7 @@
  * questions.
  */
 
-package com.itsaky.androidide.utils;
+package com.itsaky.tom.rv2ide.utils;
 
 import androidx.annotation.NonNull;
 import java.io.BufferedReader;

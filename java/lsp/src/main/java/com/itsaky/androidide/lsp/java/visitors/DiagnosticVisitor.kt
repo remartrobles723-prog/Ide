@@ -14,9 +14,9 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.visitors
+package com.itsaky.tom.rv2ide.lsp.java.visitors
 
-import com.itsaky.androidide.progress.ProgressManager.Companion.abortIfCancelled
+import com.itsaky.tom.rv2ide.progress.ProgressManager.Companion.abortIfCancelled
 import java.util.Objects
 import jdkx.lang.model.element.Element
 import jdkx.lang.model.element.ExecutableElement

@@ -1,12 +1,12 @@
-package com.itsaky.androidide.handlers
+package com.itsaky.tom.rv2ide.handlers
 
-// import com.itsaky.androidide.lsp.clang.ClangLanguageServer || planned for v..03
+// import com.itsaky.tom.rv2ide.lsp.clang.ClangLanguageServer || planned for v..03
 import android.content.Context
-import com.itsaky.androidide.lsp.api.ILanguageClient
-import com.itsaky.androidide.lsp.api.ILanguageServerRegistry
-import com.itsaky.androidide.lsp.java.JavaLanguageServer
-import com.itsaky.androidide.lsp.kotlin.KotlinLanguageServer
-import com.itsaky.androidide.lsp.xml.XMLLanguageServer
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageClient
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServerRegistry
+import com.itsaky.tom.rv2ide.lsp.java.JavaLanguageServer
+import com.itsaky.tom.rv2ide.lsp.kotlin.KotlinLanguageServer
+import com.itsaky.tom.rv2ide.lsp.xml.XMLLanguageServer
 
 /** @author Akash Yadav */
 object LspHandler {

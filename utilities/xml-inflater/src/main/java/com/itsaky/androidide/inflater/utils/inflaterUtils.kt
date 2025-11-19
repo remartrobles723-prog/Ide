@@ -15,24 +15,24 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.utils
+package com.itsaky.tom.rv2ide.inflater.utils
 
 import com.android.aaptcompiler.AaptResourceType
 import com.android.aaptcompiler.ResourceFile.Type.ProtoXml
 import com.android.aaptcompiler.XmlProcessor
 import com.android.aaptcompiler.extractPathData
-import com.itsaky.androidide.aapt.logging.IDELogger
-import com.itsaky.androidide.inflater.IAttribute
-import com.itsaky.androidide.inflater.IComponentFactory
-import com.itsaky.androidide.inflater.ILayoutInflater
-import com.itsaky.androidide.inflater.ILayoutInflater.Companion
-import com.itsaky.androidide.inflater.INamespace
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.InflateException
-import com.itsaky.androidide.inflater.internal.AttributeImpl
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.aapt.logging.IDELogger
+import com.itsaky.tom.rv2ide.inflater.IAttribute
+import com.itsaky.tom.rv2ide.inflater.IComponentFactory
+import com.itsaky.tom.rv2ide.inflater.ILayoutInflater
+import com.itsaky.tom.rv2ide.inflater.ILayoutInflater.Companion
+import com.itsaky.tom.rv2ide.inflater.INamespace
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.InflateException
+import com.itsaky.tom.rv2ide.inflater.internal.AttributeImpl
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
 import java.io.File
 
 /** Get the [ILayoutInflater] registered with [Lookup]. */

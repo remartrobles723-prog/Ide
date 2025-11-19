@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.edits
+package com.itsaky.tom.rv2ide.lsp.edits
 
 import android.os.Looper
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.lsp.models.Command
-import com.itsaky.androidide.lsp.models.CompletionItem
-import com.itsaky.androidide.lsp.models.InsertTextFormat.SNIPPET
-import com.itsaky.androidide.lsp.util.RewriteHelper
+import com.itsaky.tom.rv2ide.lsp.models.Command
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.InsertTextFormat.SNIPPET
+import com.itsaky.tom.rv2ide.lsp.util.RewriteHelper
 import io.github.rosemoe.sora.lang.completion.snippet.parser.CodeSnippetParser
 import io.github.rosemoe.sora.text.Content
 import io.github.rosemoe.sora.widget.CodeEditor

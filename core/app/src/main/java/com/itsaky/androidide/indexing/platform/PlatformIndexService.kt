@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.indexing.platform
+package com.itsaky.tom.rv2ide.indexing.platform
 
 import com.google.auto.service.AutoService
-import com.itsaky.androidide.indexing.IIndexService
-import com.itsaky.androidide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.indexing.IIndexService
+import com.itsaky.tom.rv2ide.projects.IWorkspace
 import java.io.File
 import org.slf4j.LoggerFactory
 

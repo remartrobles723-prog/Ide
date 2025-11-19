@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.fragments
+package com.itsaky.tom.rv2ide.uidesigner.fragments
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -29,9 +29,9 @@ import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.itsaky.androidide.uidesigner.R
-import com.itsaky.androidide.uidesigner.databinding.LayoutViewInfoSheetBinding
-import com.itsaky.androidide.uidesigner.viewmodel.WorkspaceViewModel
+import com.itsaky.tom.rv2ide.uidesigner.R
+import com.itsaky.tom.rv2ide.uidesigner.databinding.LayoutViewInfoSheetBinding
+import com.itsaky.tom.rv2ide.uidesigner.viewmodel.WorkspaceViewModel
 
 /** @author Akash Yadav */
 class ViewInfoSheet : BottomSheetDialogFragment() {

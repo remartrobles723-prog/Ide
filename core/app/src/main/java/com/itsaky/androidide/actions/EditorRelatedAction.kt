@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions
+package com.itsaky.tom.rv2ide.actions
 
-import com.itsaky.androidide.editor.ui.IDEEditor
-import com.itsaky.androidide.ui.CodeEditorView
+import com.itsaky.tom.rv2ide.editor.ui.IDEEditor
+import com.itsaky.tom.rv2ide.ui.CodeEditorView
 
 /** @author Akash Yadav */
 abstract class EditorRelatedAction : EditorActivityAction(), EditorActionItem {

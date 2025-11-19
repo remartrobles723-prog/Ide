@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
-import com.itsaky.androidide.lsp.api.ILanguageClient
-import com.itsaky.androidide.lsp.models.DiagnosticItem
-import com.itsaky.androidide.lsp.models.DiagnosticResult
-import com.itsaky.androidide.models.Range
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageClient
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult
+import com.itsaky.tom.rv2ide.models.Range
 import java.util.concurrent.CompletableFuture
 import org.eclipse.lsp4j.*
 import org.eclipse.lsp4j.services.LanguageClient
@@ -40,18 +40,18 @@ class KotlinLspBridge(private val ideClient: ILanguageClient) : LanguageClient {
     p0?.let { params ->
       val diagnostics =
           params.diagnostics.map { diagnostic ->
-            com.itsaky.androidide.lsp.models.DiagnosticItem(
+            com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem(
                 message = diagnostic.message,
                 code = diagnostic.code?.toString() ?: "",
                 range =
-                    com.itsaky.androidide.models.Range(
+                    com.itsaky.tom.rv2ide.models.Range(
                         start =
-                            com.itsaky.androidide.models.Position(
+                            com.itsaky.tom.rv2ide.models.Position(
                                 diagnostic.range.start.line,
                                 diagnostic.range.start.character,
                             ),
                         end =
-                            com.itsaky.androidide.models.Position(
+                            com.itsaky.tom.rv2ide.models.Position(
                                 diagnostic.range.end.line,
                                 diagnostic.range.end.character,
                             ),
@@ -60,19 +60,19 @@ class KotlinLspBridge(private val ideClient: ILanguageClient) : LanguageClient {
                 severity =
                     when (diagnostic.severity) {
                       org.eclipse.lsp4j.DiagnosticSeverity.Error ->
-                          com.itsaky.androidide.lsp.models.DiagnosticSeverity.ERROR
+                          com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity.ERROR
                       org.eclipse.lsp4j.DiagnosticSeverity.Warning ->
-                          com.itsaky.androidide.lsp.models.DiagnosticSeverity.WARNING
+                          com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity.WARNING
                       org.eclipse.lsp4j.DiagnosticSeverity.Information ->
-                          com.itsaky.androidide.lsp.models.DiagnosticSeverity.INFO
+                          com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity.INFO
                       org.eclipse.lsp4j.DiagnosticSeverity.Hint ->
-                          com.itsaky.androidide.lsp.models.DiagnosticSeverity.HINT
-                      else -> com.itsaky.androidide.lsp.models.DiagnosticSeverity.ERROR
+                          com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity.HINT
+                      else -> com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity.ERROR
                     },
             )
           }
       ideClient.publishDiagnostics(
-          com.itsaky.androidide.lsp.models.DiagnosticResult(
+          com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult(
               java.nio.file.Paths.get(params.uri),
               diagnostics,
           )

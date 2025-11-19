@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.projects
+package com.itsaky.tom.rv2ide.projects
 
-import com.itsaky.androidide.eventbus.events.editor.DocumentChangeEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentCloseEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentOpenEvent
-import com.itsaky.androidide.eventbus.events.file.FileDeletionEvent
-import com.itsaky.androidide.eventbus.events.file.FileRenameEvent
-import com.itsaky.androidide.progress.ProgressManager
-import com.itsaky.androidide.projects.models.ActiveDocument
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentChangeEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentCloseEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentOpenEvent
+import com.itsaky.tom.rv2ide.eventbus.events.file.FileDeletionEvent
+import com.itsaky.tom.rv2ide.eventbus.events.file.FileRenameEvent
+import com.itsaky.tom.rv2ide.progress.ProgressManager
+import com.itsaky.tom.rv2ide.projects.models.ActiveDocument
 import java.io.BufferedReader
 import java.io.InputStream
 import java.net.URI

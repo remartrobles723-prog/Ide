@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -37,21 +37,21 @@ import androidx.transition.ChangeBounds
 import androidx.transition.TransitionManager
 import com.blankj.utilcode.util.SizeUtils
 import com.google.android.material.button.MaterialButton
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.ActionItem
-import com.itsaky.androidide.actions.ActionsRegistry
-import com.itsaky.androidide.actions.ActionsRegistry.Companion.getInstance
-import com.itsaky.androidide.actions.EditorActionItem
-import com.itsaky.androidide.actions.FillMenuParams
-import com.itsaky.androidide.editor.R.layout
-import com.itsaky.androidide.editor.databinding.LayoutPopupMenuItemBinding
-import com.itsaky.androidide.editor.ui.EditorActionsMenu.ActionsListAdapter.VH
-import com.itsaky.androidide.lsp.api.ILanguageServerRegistry
-import com.itsaky.androidide.lsp.java.JavaLanguageServer
-import com.itsaky.androidide.lsp.models.DiagnosticItem
-import com.itsaky.androidide.lsp.xml.XMLLanguageServer
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.ActionItem
+import com.itsaky.tom.rv2ide.actions.ActionsRegistry
+import com.itsaky.tom.rv2ide.actions.ActionsRegistry.Companion.getInstance
+import com.itsaky.tom.rv2ide.actions.EditorActionItem
+import com.itsaky.tom.rv2ide.actions.FillMenuParams
+import com.itsaky.tom.rv2ide.editor.R.layout
+import com.itsaky.tom.rv2ide.editor.databinding.LayoutPopupMenuItemBinding
+import com.itsaky.tom.rv2ide.editor.ui.EditorActionsMenu.ActionsListAdapter.VH
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServerRegistry
+import com.itsaky.tom.rv2ide.lsp.java.JavaLanguageServer
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem
+import com.itsaky.tom.rv2ide.lsp.xml.XMLLanguageServer
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.resolveAttr
 import io.github.rosemoe.sora.event.HandleStateChangeEvent
 import io.github.rosemoe.sora.event.ScrollEvent
 import io.github.rosemoe.sora.event.SelectionChangeEvent
@@ -306,7 +306,7 @@ open class EditorActionsMenu(val editor: IDEEditor) :
     ) // For LSP actions, as they cannot access IDEEditor class
     data.put(File::class.java, editor.file)
     data.put(DiagnosticItem::class.java, getDiagnosticAtCursor())
-    data.put(com.itsaky.androidide.models.Range::class.java, editor.cursorLSPRange)
+    data.put(com.itsaky.tom.rv2ide.models.Range::class.java, editor.cursorLSPRange)
     data.put(
         JavaLanguageServer::class.java,
         ILanguageServerRegistry.getDefault().getServer(JavaLanguageServer.SERVER_ID)

@@ -15,7 +15,7 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
-package com.itsaky.androidide.syntax.colorschemes;
+package com.itsaky.tom.rv2ide.syntax.colorschemes;
 
 import android.content.Context;
 import android.graphics.Color;

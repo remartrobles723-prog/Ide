@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.inflater.models
+package com.itsaky.tom.rv2ide.inflater.models
 
 import android.content.Context
 import android.view.View
@@ -24,15 +24,15 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.core.view.updatePaddingRelative
 import com.blankj.utilcode.util.SizeUtils
-import com.itsaky.androidide.inflater.IView
-import com.itsaky.androidide.inflater.IViewGroup
-import com.itsaky.androidide.inflater.internal.LayoutFile
-import com.itsaky.androidide.inflater.internal.ViewGroupImpl
-import com.itsaky.androidide.inflater.internal.ViewImpl
-import com.itsaky.androidide.inflater.internal.utils.ViewFactory
-import com.itsaky.androidide.inflater.internal.utils.ViewFactory.generateLayoutParams
-import com.itsaky.androidide.inflater.utils.lookupComponentFactory
-import com.itsaky.androidide.inflater.viewAdapter
+import com.itsaky.tom.rv2ide.inflater.IView
+import com.itsaky.tom.rv2ide.inflater.IViewGroup
+import com.itsaky.tom.rv2ide.inflater.internal.LayoutFile
+import com.itsaky.tom.rv2ide.inflater.internal.ViewGroupImpl
+import com.itsaky.tom.rv2ide.inflater.internal.ViewImpl
+import com.itsaky.tom.rv2ide.inflater.internal.utils.ViewFactory
+import com.itsaky.tom.rv2ide.inflater.internal.utils.ViewFactory.generateLayoutParams
+import com.itsaky.tom.rv2ide.inflater.utils.lookupComponentFactory
+import com.itsaky.tom.rv2ide.inflater.viewAdapter
 
 open class UiWidget(val name: String, @StringRes val label: Int, @DrawableRes val icon: Int) {
 

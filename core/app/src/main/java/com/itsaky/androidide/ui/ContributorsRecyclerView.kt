@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.ui
+package com.itsaky.tom.rv2ide.ui
 
 import android.content.Context
 import android.util.AttributeSet
@@ -23,8 +23,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.flexbox.FlexDirection
 import com.google.android.flexbox.FlexboxLayoutManager
 import com.google.android.flexbox.JustifyContent
-import com.itsaky.androidide.adapters.ContributorsGridAdapter
-import com.itsaky.androidide.utils.FlexboxUtils
+import com.itsaky.tom.rv2ide.adapters.ContributorsGridAdapter
+import com.itsaky.tom.rv2ide.utils.FlexboxUtils
 
 class ContributorsRecyclerView
 @JvmOverloads

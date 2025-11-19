@@ -14,56 +14,56 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java
+package com.itsaky.tom.rv2ide.lsp.java
 
 import androidx.annotation.RestrictTo
-import com.itsaky.androidide.eventbus.events.editor.DocumentChangeEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentCloseEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentOpenEvent
-import com.itsaky.androidide.eventbus.events.editor.DocumentSelectedEvent
-import com.itsaky.androidide.javac.services.fs.CacheFSInfoSingleton
-import com.itsaky.androidide.javac.services.fs.CachingJarFileSystemProvider.clearCache
-import com.itsaky.androidide.javac.services.fs.CachingJarFileSystemProvider.clearCachesForPaths
-import com.itsaky.androidide.lsp.api.ILanguageClient
-import com.itsaky.androidide.lsp.api.ILanguageServer
-import com.itsaky.androidide.lsp.api.IServerSettings
-import com.itsaky.androidide.lsp.internal.model.CachedCompletion
-import com.itsaky.androidide.lsp.java.actions.JavaCodeActionsMenu
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.lsp.java.compiler.SourceFileManager
-import com.itsaky.androidide.lsp.java.models.JavaServerSettings
-import com.itsaky.androidide.lsp.java.providers.CodeFormatProvider
-import com.itsaky.androidide.lsp.java.providers.CompletionProvider
-import com.itsaky.androidide.lsp.java.providers.DefinitionProvider
-import com.itsaky.androidide.lsp.java.providers.JavaDiagnosticProvider
-import com.itsaky.androidide.lsp.java.providers.JavaSelectionProvider
-import com.itsaky.androidide.lsp.java.providers.ReferenceProvider
-import com.itsaky.androidide.lsp.java.providers.SignatureProvider
-import com.itsaky.androidide.lsp.java.providers.snippet.JavaSnippetRepository.init
-import com.itsaky.androidide.lsp.java.utils.AnalyzeTimer
-import com.itsaky.androidide.lsp.java.utils.CancelChecker.Companion.isCancelled
-import com.itsaky.androidide.lsp.models.CodeFormatResult
-import com.itsaky.androidide.lsp.models.CompletionParams
-import com.itsaky.androidide.lsp.models.CompletionResult
-import com.itsaky.androidide.lsp.models.DefinitionParams
-import com.itsaky.androidide.lsp.models.DefinitionResult
-import com.itsaky.androidide.lsp.models.DiagnosticResult
-import com.itsaky.androidide.lsp.models.ExpandSelectionParams
-import com.itsaky.androidide.lsp.models.FailureType
-import com.itsaky.androidide.lsp.models.FormatCodeParams
-import com.itsaky.androidide.lsp.models.LSPFailure
-import com.itsaky.androidide.lsp.models.ReferenceParams
-import com.itsaky.androidide.lsp.models.ReferenceResult
-import com.itsaky.androidide.lsp.models.SignatureHelp
-import com.itsaky.androidide.lsp.models.SignatureHelpParams
-import com.itsaky.androidide.lsp.util.LSPEditorActions
-import com.itsaky.androidide.models.Range
-import com.itsaky.androidide.projects.FileManager.getActiveDocumentCount
-import com.itsaky.androidide.projects.IProjectManager.Companion.getInstance
-import com.itsaky.androidide.projects.IWorkspace
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.utils.DocumentUtils
-import com.itsaky.androidide.utils.VMUtils
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentChangeEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentCloseEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentOpenEvent
+import com.itsaky.tom.rv2ide.eventbus.events.editor.DocumentSelectedEvent
+import com.itsaky.tom.rv2ide.javac.services.fs.CacheFSInfoSingleton
+import com.itsaky.tom.rv2ide.javac.services.fs.CachingJarFileSystemProvider.clearCache
+import com.itsaky.tom.rv2ide.javac.services.fs.CachingJarFileSystemProvider.clearCachesForPaths
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageClient
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServer
+import com.itsaky.tom.rv2ide.lsp.api.IServerSettings
+import com.itsaky.tom.rv2ide.lsp.internal.model.CachedCompletion
+import com.itsaky.tom.rv2ide.lsp.java.actions.JavaCodeActionsMenu
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.lsp.java.compiler.SourceFileManager
+import com.itsaky.tom.rv2ide.lsp.java.models.JavaServerSettings
+import com.itsaky.tom.rv2ide.lsp.java.providers.CodeFormatProvider
+import com.itsaky.tom.rv2ide.lsp.java.providers.CompletionProvider
+import com.itsaky.tom.rv2ide.lsp.java.providers.DefinitionProvider
+import com.itsaky.tom.rv2ide.lsp.java.providers.JavaDiagnosticProvider
+import com.itsaky.tom.rv2ide.lsp.java.providers.JavaSelectionProvider
+import com.itsaky.tom.rv2ide.lsp.java.providers.ReferenceProvider
+import com.itsaky.tom.rv2ide.lsp.java.providers.SignatureProvider
+import com.itsaky.tom.rv2ide.lsp.java.providers.snippet.JavaSnippetRepository.init
+import com.itsaky.tom.rv2ide.lsp.java.utils.AnalyzeTimer
+import com.itsaky.tom.rv2ide.lsp.java.utils.CancelChecker.Companion.isCancelled
+import com.itsaky.tom.rv2ide.lsp.models.CodeFormatResult
+import com.itsaky.tom.rv2ide.lsp.models.CompletionParams
+import com.itsaky.tom.rv2ide.lsp.models.CompletionResult
+import com.itsaky.tom.rv2ide.lsp.models.DefinitionParams
+import com.itsaky.tom.rv2ide.lsp.models.DefinitionResult
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult
+import com.itsaky.tom.rv2ide.lsp.models.ExpandSelectionParams
+import com.itsaky.tom.rv2ide.lsp.models.FailureType
+import com.itsaky.tom.rv2ide.lsp.models.FormatCodeParams
+import com.itsaky.tom.rv2ide.lsp.models.LSPFailure
+import com.itsaky.tom.rv2ide.lsp.models.ReferenceParams
+import com.itsaky.tom.rv2ide.lsp.models.ReferenceResult
+import com.itsaky.tom.rv2ide.lsp.models.SignatureHelp
+import com.itsaky.tom.rv2ide.lsp.models.SignatureHelpParams
+import com.itsaky.tom.rv2ide.lsp.util.LSPEditorActions
+import com.itsaky.tom.rv2ide.models.Range
+import com.itsaky.tom.rv2ide.projects.FileManager.getActiveDocumentCount
+import com.itsaky.tom.rv2ide.projects.IProjectManager.Companion.getInstance
+import com.itsaky.tom.rv2ide.projects.IWorkspace
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.utils.DocumentUtils
+import com.itsaky.tom.rv2ide.utils.VMUtils
 import java.nio.file.Path
 import java.util.Objects
 import kotlinx.coroutines.CoroutineScope
@@ -210,9 +210,9 @@ class JavaLanguageServer : ILanguageServer {
     } else SignatureProvider(compiler, params.cancelChecker).signatureHelp(params)
   }
 
-  override suspend fun hover(params: DefinitionParams): com.itsaky.androidide.lsp.models.MarkupContent {
+  override suspend fun hover(params: DefinitionParams): com.itsaky.tom.rv2ide.lsp.models.MarkupContent {
     // Java LSP does not currently implement hover; return empty
-    return com.itsaky.androidide.lsp.models.MarkupContent()
+    return com.itsaky.tom.rv2ide.lsp.models.MarkupContent()
   }
 
   override suspend fun analyze(file: Path): DiagnosticResult {

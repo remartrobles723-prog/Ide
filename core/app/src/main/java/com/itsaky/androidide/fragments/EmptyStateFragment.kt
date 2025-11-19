@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,8 +23,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.viewbinding.ViewBinding
-import com.itsaky.androidide.databinding.FragmentEmptyStateBinding
-import com.itsaky.androidide.viewmodel.EmptyStateFragmentViewModel
+import com.itsaky.tom.rv2ide.databinding.FragmentEmptyStateBinding
+import com.itsaky.tom.rv2ide.viewmodel.EmptyStateFragmentViewModel
 
 /**
  * A fragment that shows a message when there is no data to show in the subclass fragment.

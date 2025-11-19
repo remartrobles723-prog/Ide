@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.sidebar
+package com.itsaky.tom.rv2ide.fragments.sidebar
 
 /** @Author Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null */
 import android.os.Bundle
@@ -38,23 +38,23 @@ import com.blankj.utilcode.util.ThreadUtils
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.textview.MaterialTextView
-import com.itsaky.androidide.R
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.fragments.sidebar.utils.AIResponseHandler
-import com.itsaky.androidide.fragments.sidebar.utils.ResponseMode
-import com.itsaky.androidide.fragments.sidebar.utils.ai_agents
-import com.itsaky.androidide.fragments.sidebar.utils.showErrorDialog
-import com.itsaky.androidide.managers.PreferenceManager
-import com.itsaky.androidide.projects.ModuleProject
-import com.itsaky.androidide.projects.android.AndroidModule
-import com.itsaky.androidide.projects.internal.ProjectManagerImpl
-import com.itsaky.androidide.services.ai.AnthropicService
-import com.itsaky.androidide.services.ai.ContextAwareAIService
-import com.itsaky.androidide.services.ai.DeepSeekAIService
-import com.itsaky.androidide.services.ai.GeminiAIService
-import com.itsaky.androidide.services.ai.OpenAIService
-import com.itsaky.androidide.services.ai.ProjectContextManager
-import com.itsaky.androidide.utils.ProjectHelper
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.fragments.sidebar.utils.AIResponseHandler
+import com.itsaky.tom.rv2ide.fragments.sidebar.utils.ResponseMode
+import com.itsaky.tom.rv2ide.fragments.sidebar.utils.ai_agents
+import com.itsaky.tom.rv2ide.fragments.sidebar.utils.showErrorDialog
+import com.itsaky.tom.rv2ide.managers.PreferenceManager
+import com.itsaky.tom.rv2ide.projects.ModuleProject
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule
+import com.itsaky.tom.rv2ide.projects.internal.ProjectManagerImpl
+import com.itsaky.tom.rv2ide.services.ai.AnthropicService
+import com.itsaky.tom.rv2ide.services.ai.ContextAwareAIService
+import com.itsaky.tom.rv2ide.services.ai.DeepSeekAIService
+import com.itsaky.tom.rv2ide.services.ai.GeminiAIService
+import com.itsaky.tom.rv2ide.services.ai.OpenAIService
+import com.itsaky.tom.rv2ide.services.ai.ProjectContextManager
+import com.itsaky.tom.rv2ide.utils.ProjectHelper
 import java.io.File
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
@@ -2110,7 +2110,7 @@ Then, try again once the issue is resolved.
   private fun refreshCurrentEditor() {
     try {
       val activity = requireActivity()
-      if (activity is com.itsaky.androidide.activities.editor.EditorHandlerActivity) {
+      if (activity is com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity) {
         val currentEditor = activity.getCurrentEditor()
         if (currentEditor?.file != null) {
           val file = currentEditor.file
@@ -2176,7 +2176,7 @@ Then, try again once the issue is resolved.
   private fun getCurrentFile(): File? {
     return try {
       val activity = requireActivity()
-      if (activity is com.itsaky.androidide.activities.editor.EditorHandlerActivity) {
+      if (activity is com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity) {
         activity.getCurrentEditor()?.file
       } else null
     } catch (e: Exception) {
@@ -2188,7 +2188,7 @@ Then, try again once the issue is resolved.
   private fun getCurrentEditorContent(): String? {
     return try {
       val activity = requireActivity()
-      if (activity is com.itsaky.androidide.activities.editor.EditorHandlerActivity) {
+      if (activity is com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity) {
         val currentEditor = activity.getCurrentEditor()
         currentEditor?.editor?.text?.toString()
       } else {
@@ -2269,7 +2269,7 @@ Then, try again once the issue is resolved.
   private fun insertCodeIntoEditor(code: String) {
     try {
       val activity = requireActivity()
-      if (activity is com.itsaky.androidide.activities.editor.EditorHandlerActivity) {
+      if (activity is com.itsaky.tom.rv2ide.activities.editor.EditorHandlerActivity) {
         val currentEditor = activity.getCurrentEditor()
         if (currentEditor != null) {
           val editor = currentEditor.editor

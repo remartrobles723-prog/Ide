@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.drag
+package com.itsaky.tom.rv2ide.uidesigner.drag
 
 import android.annotation.SuppressLint
 import android.content.ClipData
@@ -25,7 +25,7 @@ import android.view.MotionEvent
 import android.view.View
 import android.view.View.OnTouchListener
 import androidx.core.view.ViewCompat
-import com.itsaky.androidide.uidesigner.fragments.DesignerWorkspaceFragment
+import com.itsaky.tom.rv2ide.uidesigner.fragments.DesignerWorkspaceFragment
 
 /**
  * Touch listener for inflated widgets.
@@ -33,9 +33,9 @@ import com.itsaky.androidide.uidesigner.fragments.DesignerWorkspaceFragment
  * @author Akash Yadav
  */
 internal class WidgetTouchListener(
-    private val view: com.itsaky.androidide.inflater.IView,
+    private val view: com.itsaky.tom.rv2ide.inflater.IView,
     context: Context,
-    private val onClick: (com.itsaky.androidide.inflater.IView) -> Boolean = { false },
+    private val onClick: (com.itsaky.tom.rv2ide.inflater.IView) -> Boolean = { false },
 ) : OnTouchListener {
 
   private var touchedView: View? = null

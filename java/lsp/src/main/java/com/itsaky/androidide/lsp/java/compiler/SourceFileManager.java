@@ -15,21 +15,21 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.compiler;
+package com.itsaky.tom.rv2ide.lsp.java.compiler;
 
 import static java.util.Collections.emptyList;
 import static java.util.Collections.emptySet;
 
 import androidx.annotation.NonNull;
 import com.blankj.utilcode.util.CloseUtils;
-import com.itsaky.androidide.javac.config.JavacConfigProvider;
-import com.itsaky.androidide.javac.services.fs.AndroidFsProviderImpl;
-import com.itsaky.androidide.projects.android.AndroidModule;
-import com.itsaky.androidide.projects.ModuleProject;
-import com.itsaky.androidide.projects.util.StringSearch;
-import com.itsaky.androidide.utils.ClassTrie;
-import com.itsaky.androidide.utils.Environment;
-import com.itsaky.androidide.utils.SourceClassTrie;
+import com.itsaky.tom.rv2ide.javac.config.JavacConfigProvider;
+import com.itsaky.tom.rv2ide.javac.services.fs.AndroidFsProviderImpl;
+import com.itsaky.tom.rv2ide.projects.android.AndroidModule;
+import com.itsaky.tom.rv2ide.projects.ModuleProject;
+import com.itsaky.tom.rv2ide.projects.util.StringSearch;
+import com.itsaky.tom.rv2ide.utils.ClassTrie;
+import com.itsaky.tom.rv2ide.utils.Environment;
+import com.itsaky.tom.rv2ide.utils.SourceClassTrie;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

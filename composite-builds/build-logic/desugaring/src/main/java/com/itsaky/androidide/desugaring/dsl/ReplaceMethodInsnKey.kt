@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring.dsl
+package com.itsaky.tom.rv2ide.desugaring.dsl
 
 import java.io.Serializable
 

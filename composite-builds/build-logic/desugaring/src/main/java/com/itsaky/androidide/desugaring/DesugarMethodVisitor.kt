@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.desugaring
+package com.itsaky.tom.rv2ide.desugaring
 
 import com.android.build.api.instrumentation.ClassContext
-import com.itsaky.androidide.desugaring.dsl.MethodOpcode
-import com.itsaky.androidide.desugaring.dsl.ReplaceMethodInsn
-import com.itsaky.androidide.desugaring.dsl.ReplaceMethodInsnKey
+import com.itsaky.tom.rv2ide.desugaring.dsl.MethodOpcode
+import com.itsaky.tom.rv2ide.desugaring.dsl.ReplaceMethodInsn
+import com.itsaky.tom.rv2ide.desugaring.dsl.ReplaceMethodInsnKey
 import org.objectweb.asm.MethodVisitor
 import org.slf4j.LoggerFactory
 

@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter.predicates
+package com.itsaky.tom.rv2ide.editor.language.treesitter.predicates
 
-import com.itsaky.androidide.treesitter.TSQuery
-import com.itsaky.androidide.treesitter.TSQueryMatch
-import com.itsaky.androidide.treesitter.TSQueryPredicateStep
+import com.itsaky.tom.rv2ide.treesitter.TSQuery
+import com.itsaky.tom.rv2ide.treesitter.TSQueryMatch
+import com.itsaky.tom.rv2ide.treesitter.TSQueryPredicateStep
 import io.github.rosemoe.sora.editor.ts.predicate.PredicateResult
 import io.github.rosemoe.sora.editor.ts.predicate.TsClientPredicateStep
 import io.github.rosemoe.sora.editor.ts.predicate.TsPredicate

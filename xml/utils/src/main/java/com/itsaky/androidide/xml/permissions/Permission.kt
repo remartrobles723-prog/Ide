@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.permissions
+package com.itsaky.tom.rv2ide.xml.permissions
 
 /**
  * Model for a permission entry.

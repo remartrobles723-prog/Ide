@@ -1,4 +1,4 @@
-package com.itsaky.androidide.zipfs2;
+package com.itsaky.tom.rv2ide.zipfs2;
 
 import java.io.IOException;
 import java.net.URI;

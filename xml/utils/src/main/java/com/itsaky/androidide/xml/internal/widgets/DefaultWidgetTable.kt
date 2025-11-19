@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.internal.widgets
+package com.itsaky.tom.rv2ide.xml.internal.widgets
 
-import com.itsaky.androidide.xml.internal.widgets.util.DefaultWidget
-import com.itsaky.androidide.xml.internal.widgets.util.WidgetParser
-import com.itsaky.androidide.xml.widgets.Widget
-import com.itsaky.androidide.xml.widgets.WidgetTable
+import com.itsaky.tom.rv2ide.xml.internal.widgets.util.DefaultWidget
+import com.itsaky.tom.rv2ide.xml.internal.widgets.util.WidgetParser
+import com.itsaky.tom.rv2ide.xml.widgets.Widget
+import com.itsaky.tom.rv2ide.xml.widgets.WidgetTable
 import org.slf4j.LoggerFactory
 
 /**

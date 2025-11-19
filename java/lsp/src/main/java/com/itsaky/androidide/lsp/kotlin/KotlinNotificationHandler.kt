@@ -15,10 +15,10 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
 import com.google.gson.JsonObject
-import com.itsaky.androidide.lsp.models.*
+import com.itsaky.tom.rv2ide.lsp.models.*
 import java.nio.file.Paths
 import org.slf4j.LoggerFactory
 
@@ -93,14 +93,14 @@ class KotlinNotificationHandler {
                 message = diag.get("message")?.asString ?: "",
                 code = code,
                 range =
-                    com.itsaky.androidide.models.Range(
+                    com.itsaky.tom.rv2ide.models.Range(
                         start =
-                            com.itsaky.androidide.models.Position(
+                            com.itsaky.tom.rv2ide.models.Position(
                                 start.get("line").asInt,
                                 start.get("character").asInt,
                             ),
                         end =
-                            com.itsaky.androidide.models.Position(
+                            com.itsaky.tom.rv2ide.models.Position(
                                 end.get("line").asInt,
                                 end.get("character").asInt,
                             ),

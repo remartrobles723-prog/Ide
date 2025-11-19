@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins.util
+package com.itsaky.tom.rv2ide.plugins.util
 
 import java.io.File
 import java.io.InputStream

@@ -33,7 +33,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.itsaky.androidide.javac.services;
+package com.itsaky.tom.rv2ide.javac.services;
 
 import openjdk.tools.javac.code.Symbol.TypeSymbol;
 import openjdk.tools.javac.code.Symtab;

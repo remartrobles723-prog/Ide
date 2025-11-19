@@ -15,18 +15,18 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.stats
+package com.itsaky.tom.rv2ide.stats
 
 import android.os.Build
 import androidx.work.Data
 import androidx.work.workDataOf
 import com.google.gson.annotations.SerializedName
-import com.itsaky.androidide.stats.StatUploadWorker.Companion.KEY_ANDROID_VERSION
-import com.itsaky.androidide.stats.StatUploadWorker.Companion.KEY_APP_CPU_ARCH
-import com.itsaky.androidide.stats.StatUploadWorker.Companion.KEY_APP_VERSION
-import com.itsaky.androidide.stats.StatUploadWorker.Companion.KEY_DEVICE_COUNTRY
-import com.itsaky.androidide.stats.StatUploadWorker.Companion.KEY_DEVICE_ID
-import com.itsaky.androidide.stats.StatUploadWorker.Companion.KEY_DEVICE_NAME
+import com.itsaky.tom.rv2ide.stats.StatUploadWorker.Companion.KEY_ANDROID_VERSION
+import com.itsaky.tom.rv2ide.stats.StatUploadWorker.Companion.KEY_APP_CPU_ARCH
+import com.itsaky.tom.rv2ide.stats.StatUploadWorker.Companion.KEY_APP_VERSION
+import com.itsaky.tom.rv2ide.stats.StatUploadWorker.Companion.KEY_DEVICE_COUNTRY
+import com.itsaky.tom.rv2ide.stats.StatUploadWorker.Companion.KEY_DEVICE_ID
+import com.itsaky.tom.rv2ide.stats.StatUploadWorker.Companion.KEY_DEVICE_NAME
 
 /**
  * Data that is uploaded to the server.

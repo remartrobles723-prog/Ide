@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.indexing.core.platform
+package com.itsaky.tom.rv2ide.indexing.core.platform
 
-import com.itsaky.androidide.indexing.IIndex
+import com.itsaky.tom.rv2ide.indexing.IIndex
 
 /**
  * Index for data available in the Android Platform SDK.

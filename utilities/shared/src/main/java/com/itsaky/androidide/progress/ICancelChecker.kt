@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.progress
+package com.itsaky.tom.rv2ide.progress
 
 import java.util.concurrent.CancellationException
 import java.util.concurrent.atomic.AtomicBoolean

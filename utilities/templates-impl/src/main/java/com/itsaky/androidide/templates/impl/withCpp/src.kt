@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.impl.withCpp
+package com.itsaky.tom.rv2ide.templates.impl.withCpp
 
-import com.itsaky.androidide.templates.base.AndroidModuleTemplateBuilder
-import com.itsaky.androidide.templates.impl.base.baseLayoutContentMain
+import com.itsaky.tom.rv2ide.templates.base.AndroidModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.impl.base.baseLayoutContentMain
 
 internal fun emptyLayoutSrc() = baseLayoutContentMain()
 

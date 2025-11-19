@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.flashbar
+package com.itsaky.tom.rv2ide.flashbar
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -45,19 +45,19 @@ import androidx.core.view.marginTop
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.progressindicator.CircularProgressIndicator
-import com.itsaky.androidide.flashbar.Flashbar.Gravity
-import com.itsaky.androidide.flashbar.Flashbar.Gravity.BOTTOM
-import com.itsaky.androidide.flashbar.Flashbar.Gravity.TOP
-import com.itsaky.androidide.flashbar.Flashbar.OnActionTapListener
-import com.itsaky.androidide.flashbar.Flashbar.OnTapListener
-import com.itsaky.androidide.flashbar.Flashbar.ProgressPosition
-import com.itsaky.androidide.flashbar.Flashbar.ProgressPosition.LEFT
-import com.itsaky.androidide.flashbar.Flashbar.ProgressPosition.RIGHT
-import com.itsaky.androidide.flashbar.SwipeDismissTouchListener.DismissCallbacks
-import com.itsaky.androidide.flashbar.anim.FlashAnimIconBuilder
-import com.itsaky.androidide.flashbar.databinding.FlashBarViewBinding
-import com.itsaky.androidide.flashbar.util.getStatusBarHeightInPx
-import com.itsaky.androidide.flashbar.R
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.Gravity
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.Gravity.BOTTOM
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.Gravity.TOP
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.OnActionTapListener
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.OnTapListener
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.ProgressPosition
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.ProgressPosition.LEFT
+import com.itsaky.tom.rv2ide.flashbar.Flashbar.ProgressPosition.RIGHT
+import com.itsaky.tom.rv2ide.flashbar.SwipeDismissTouchListener.DismissCallbacks
+import com.itsaky.tom.rv2ide.flashbar.anim.FlashAnimIconBuilder
+import com.itsaky.tom.rv2ide.flashbar.databinding.FlashBarViewBinding
+import com.itsaky.tom.rv2ide.flashbar.util.getStatusBarHeightInPx
+import com.itsaky.tom.rv2ide.flashbar.R
 
 /**
  * The actual Flashbar withView representation that can consist of the title, message, button, icon,

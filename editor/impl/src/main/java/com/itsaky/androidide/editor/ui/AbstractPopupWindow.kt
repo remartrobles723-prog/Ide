@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.ui
+package com.itsaky.tom.rv2ide.editor.ui
 
 import io.github.rosemoe.sora.widget.CodeEditor
 import io.github.rosemoe.sora.widget.base.EditorPopupWindow

@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.models
+package com.itsaky.tom.rv2ide.uidesigner.models
 
 /**
  * Extension properties for [UiView] and [UiViewGroup]

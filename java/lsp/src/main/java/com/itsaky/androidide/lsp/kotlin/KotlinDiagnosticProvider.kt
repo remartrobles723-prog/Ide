@@ -14,13 +14,13 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
-import com.itsaky.androidide.lsp.models.DiagnosticItem
-import com.itsaky.androidide.lsp.models.DiagnosticResult
-import com.itsaky.androidide.lsp.models.DiagnosticSeverity
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.models.Range
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticSeverity
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.models.Range
 import java.nio.file.Path
 import java.util.concurrent.atomic.AtomicBoolean
 import org.slf4j.LoggerFactory

@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.templates.base.modules
+package com.itsaky.tom.rv2ide.templates.base.modules
 
 import com.squareup.javapoet.FieldSpec
 import com.squareup.javapoet.MethodSpec
 import com.squareup.javapoet.TypeName
 import com.squareup.javapoet.TypeSpec
-import com.itsaky.androidide.templates.base.ModuleTemplateBuilder
+import com.itsaky.tom.rv2ide.templates.base.ModuleTemplateBuilder
 import jdkx.lang.model.element.Modifier
 
 internal fun ModuleTemplateBuilder.dependencies(): String {

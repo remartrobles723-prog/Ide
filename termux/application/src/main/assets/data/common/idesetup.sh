@@ -1,4 +1,4 @@
-#!/data/data/com.itsaky.androidide/files/usr/bin/bash
+#!/data/data/com.itsaky.tom.rv2ide/files/usr/bin/bash
 
 # Modified by Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null
 # ++ ndk support 

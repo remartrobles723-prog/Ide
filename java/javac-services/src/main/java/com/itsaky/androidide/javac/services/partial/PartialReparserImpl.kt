@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.javac.services.partial
+package com.itsaky.tom.rv2ide.javac.services.partial
 
-import com.itsaky.androidide.javac.services.compiler.JavacFlowListener
-import com.itsaky.androidide.javac.services.util.ReparserUtils
-import com.itsaky.androidide.javac.services.visitors.FindAnonymousVisitor
-import com.itsaky.androidide.javac.services.visitors.TranslateMethodPositionsVisitor
+import com.itsaky.tom.rv2ide.javac.services.compiler.JavacFlowListener
+import com.itsaky.tom.rv2ide.javac.services.util.ReparserUtils
+import com.itsaky.tom.rv2ide.javac.services.visitors.FindAnonymousVisitor
+import com.itsaky.tom.rv2ide.javac.services.visitors.TranslateMethodPositionsVisitor
 import java.nio.CharBuffer
 import java.util.Arrays
 import openjdk.source.tree.BlockTree
@@ -116,7 +116,7 @@ class PartialReparserImpl : PartialReparser {
     val context = task.context
 
     try {
-      val l = com.itsaky.androidide.javac.services.NBLog.instance(context)
+      val l = com.itsaky.tom.rv2ide.javac.services.NBLog.instance(context)
       l.startPartialReparse(fo)
       val prevLogged = l.useSource(fo)
       val block: JCBlock?
@@ -246,19 +246,19 @@ class PartialReparserImpl : PartialReparser {
       endPositions: EndPosTable?,
   ): JavacParser {
     val factory =
-        com.itsaky.androidide.javac.services.NBParserFactory.instance(context)
-            as com.itsaky.androidide.javac.services.NBParserFactory
+        com.itsaky.tom.rv2ide.javac.services.NBParserFactory.instance(context)
+            as com.itsaky.tom.rv2ide.javac.services.NBParserFactory
     val scannerFactory = ScannerFactory.instance(context)
-    val cancelService = com.itsaky.androidide.javac.services.CancelService.instance(context)
+    val cancelService = com.itsaky.tom.rv2ide.javac.services.CancelService.instance(context)
     val lexer = scannerFactory.newScanner(buf, true)
     if (
-        endPositions is com.itsaky.androidide.javac.services.NBParserFactory.NBJavacParser.EndPosTableImpl
+        endPositions is com.itsaky.tom.rv2ide.javac.services.NBParserFactory.NBJavacParser.EndPosTableImpl
     ) {
       endPositions.resetErrorEndPos()
     }
 
     return object :
-        com.itsaky.androidide.javac.services.NBParserFactory.NBJavacParser(
+        com.itsaky.tom.rv2ide.javac.services.NBParserFactory.NBJavacParser(
             factory,
             lexer,
             true,

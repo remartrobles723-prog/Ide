@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
-import com.itsaky.androidide.R.string
-import com.itsaky.androidide.activities.editor.BaseEditorActivity
-import com.itsaky.androidide.ui.EditorBottomSheet
+import com.itsaky.tom.rv2ide.R.string
+import com.itsaky.tom.rv2ide.activities.editor.BaseEditorActivity
+import com.itsaky.tom.rv2ide.ui.EditorBottomSheet
 import org.slf4j.LoggerFactory
 
 /** @author Akash Yadav */

@@ -14,12 +14,12 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.tasks
+package com.itsaky.tom.rv2ide.tasks
 
 import android.app.ProgressDialog
 import android.content.Context
 import com.blankj.utilcode.util.ThreadUtils
-import com.itsaky.androidide.common.R
+import com.itsaky.tom.rv2ide.common.R
 import java.util.concurrent.Callable
 import java.util.concurrent.CompletableFuture
 import java.util.concurrent.CompletionException

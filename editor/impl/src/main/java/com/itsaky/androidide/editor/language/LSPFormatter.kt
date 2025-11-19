@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language
+package com.itsaky.tom.rv2ide.editor.language
 
-import com.itsaky.androidide.lsp.api.ILanguageServer
-import com.itsaky.androidide.lsp.models.CodeFormatResult
-import com.itsaky.androidide.lsp.models.FormatCodeParams
-import com.itsaky.androidide.models.Position
-import com.itsaky.androidide.models.Range
+import com.itsaky.tom.rv2ide.lsp.api.ILanguageServer
+import com.itsaky.tom.rv2ide.lsp.models.CodeFormatResult
+import com.itsaky.tom.rv2ide.lsp.models.FormatCodeParams
+import com.itsaky.tom.rv2ide.models.Position
+import com.itsaky.tom.rv2ide.models.Range
 import io.github.rosemoe.sora.lang.format.AsyncFormatter
 import io.github.rosemoe.sora.text.CharPosition
 import io.github.rosemoe.sora.text.Content

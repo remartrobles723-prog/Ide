@@ -14,13 +14,13 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.inflater.drawable
+package com.itsaky.tom.rv2ide.inflater.drawable
 
 import android.R.attr
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.StateListDrawable
-import com.itsaky.androidide.inflater.InflateException
+import com.itsaky.tom.rv2ide.inflater.InflateException
 import org.slf4j.LoggerFactory
 import org.xmlpull.v1.XmlPullParser
 

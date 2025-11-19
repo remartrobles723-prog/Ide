@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.ai
+package com.itsaky.tom.rv2ide.services.ai
 
 import java.util.UUID
 import org.slf4j.LoggerFactory

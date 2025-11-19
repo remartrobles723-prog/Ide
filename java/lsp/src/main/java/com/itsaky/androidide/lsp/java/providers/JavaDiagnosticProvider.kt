@@ -14,17 +14,17 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.lsp.java.providers
+package com.itsaky.tom.rv2ide.lsp.java.providers
 
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.compiler.JavaCompilerService
-import com.itsaky.androidide.lsp.java.providers.DiagnosticsProvider.findDiagnostics
-import com.itsaky.androidide.lsp.java.utils.CancelChecker
-import com.itsaky.androidide.lsp.models.DiagnosticResult
-import com.itsaky.androidide.progress.ProgressManager
-import com.itsaky.androidide.progress.ProgressManager.Companion.abortIfCancelled
-import com.itsaky.androidide.projects.FileManager
-import com.itsaky.androidide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.compiler.JavaCompilerService
+import com.itsaky.tom.rv2ide.lsp.java.providers.DiagnosticsProvider.findDiagnostics
+import com.itsaky.tom.rv2ide.lsp.java.utils.CancelChecker
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult
+import com.itsaky.tom.rv2ide.progress.ProgressManager
+import com.itsaky.tom.rv2ide.progress.ProgressManager.Companion.abortIfCancelled
+import com.itsaky.tom.rv2ide.projects.FileManager
+import com.itsaky.tom.rv2ide.projects.IProjectManager
 import java.nio.file.Path
 import java.time.Instant
 import java.util.concurrent.atomic.AtomicBoolean

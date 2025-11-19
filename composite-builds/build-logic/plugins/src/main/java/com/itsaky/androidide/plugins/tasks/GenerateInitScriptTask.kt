@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.plugins.tasks
+package com.itsaky.tom.rv2ide.plugins.tasks
 
-import com.itsaky.androidide.build.config.VersionUtils
+import com.itsaky.tom.rv2ide.build.config.VersionUtils
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.DirectoryProperty
 import org.gradle.api.provider.Property
@@ -64,7 +64,7 @@ abstract class GenerateInitScriptTask : DefaultTask() {
           }
       }
       
-      apply plugin: com.itsaky.androidide.gradle.AndroidIDEInitScriptPlugin
+      apply plugin: com.itsaky.tom.rv2ide.gradle.AndroidIDEInitScriptPlugin
     """
           .trimIndent()
       )

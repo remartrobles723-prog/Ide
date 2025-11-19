@@ -15,13 +15,13 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.kotlin
+package com.itsaky.tom.rv2ide.lsp.kotlin
 
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.JsonObject
-import com.itsaky.androidide.lsp.models.DiagnosticResult
-import com.itsaky.androidide.utils.Environment
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticResult
+import com.itsaky.tom.rv2ide.utils.Environment
 import java.io.*
 import java.nio.charset.StandardCharsets
 import java.util.concurrent.ConcurrentHashMap
@@ -404,7 +404,7 @@ class KotlinServerProcessManager(context: Context) {
   private fun findJavaExecutable(): String {
     val candidates =
         listOf(
-            "/data/data/com.itsaky.androidide/files/usr/bin/java",
+            "/data/data/com.itsaky.tom.rv2ide/files/usr/bin/java",
             System.getenv("JAVA_HOME")?.let { "$it/bin/java" },
             "java",
         )

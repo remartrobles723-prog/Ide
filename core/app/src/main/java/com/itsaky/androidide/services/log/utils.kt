@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.services.log
+package com.itsaky.tom.rv2ide.services.log
 
 import android.os.RemoteException
-import com.itsaky.androidide.logsender.ILogSender
+import com.itsaky.tom.rv2ide.logsender.ILogSender
 
 fun ILogSender.isAlive(): Boolean {
   return try {

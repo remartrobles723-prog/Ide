@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.adapters
+package com.itsaky.tom.rv2ide.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -24,9 +24,9 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.blankj.utilcode.util.ConvertUtils
 import com.google.android.material.shape.CornerFamily
-import com.itsaky.androidide.adapters.TemplateListAdapter.ViewHolder
-import com.itsaky.androidide.databinding.LayoutTemplateListItemBinding
-import com.itsaky.androidide.templates.Template
+import com.itsaky.tom.rv2ide.adapters.TemplateListAdapter.ViewHolder
+import com.itsaky.tom.rv2ide.databinding.LayoutTemplateListItemBinding
+import com.itsaky.tom.rv2ide.templates.Template
 
 /**
  * [RecyclerView.Adapter] for showing templates in a [RecyclerView].

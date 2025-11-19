@@ -15,11 +15,11 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
 import androidx.preference.Preference
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.itsaky.androidide.utils.DialogUtils
+import com.itsaky.tom.rv2ide.utils.DialogUtils
 
 /**
  * A preference which shows a dialog when clicked.

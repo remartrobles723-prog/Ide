@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions
+package com.itsaky.tom.rv2ide.actions
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
-import com.itsaky.androidide.editor.ui.IDEEditor
+import com.itsaky.tom.rv2ide.editor.ui.IDEEditor
 
 /** @author Akash Yadav */
 abstract class BaseEditorAction : EditorActionItem {
@@ -56,7 +56,7 @@ abstract class BaseEditorAction : EditorActionItem {
 
   fun tintDrawable(context: Context, drawable: Drawable): Drawable {
     drawable.setTint(
-        ContextCompat.getColor(context, com.itsaky.androidide.resources.R.color.primaryIconColor)
+        ContextCompat.getColor(context, com.itsaky.tom.rv2ide.resources.R.color.primaryIconColor)
     )
     return drawable
   }

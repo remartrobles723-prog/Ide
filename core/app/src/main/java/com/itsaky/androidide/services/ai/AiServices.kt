@@ -19,7 +19,7 @@
  ** @author Mohammed-baqer-null @ https://github.com/Mohammed-baqer-null
  */
 
-package com.itsaky.androidide.services.ai
+package com.itsaky.tom.rv2ide.services.ai
 
 interface AIService {
   suspend fun generateCode(

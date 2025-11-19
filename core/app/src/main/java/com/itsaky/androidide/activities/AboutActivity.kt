@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.content.Context
 import android.content.Intent
@@ -30,19 +30,19 @@ import androidx.core.graphics.Insets
 import androidx.core.view.updatePaddingRelative
 import com.blankj.utilcode.util.ClipboardUtils
 import com.blankj.utilcode.util.SizeUtils
-import com.itsaky.androidide.BuildConfig
-import com.itsaky.androidide.R
-import com.itsaky.androidide.adapters.SimpleIconTitleDescriptionAdapter
-import com.itsaky.androidide.app.BaseApplication
-import com.itsaky.androidide.app.EdgeToEdgeIDEActivity
-import com.itsaky.androidide.app.configuration.IDEBuildConfigProvider
-import com.itsaky.androidide.buildinfo.BuildInfo
-import com.itsaky.androidide.databinding.ActivityAboutBinding
-import com.itsaky.androidide.models.IconTitleDescriptionItem
-import com.itsaky.androidide.models.SimpleIconTitleDescriptionItem
-import com.itsaky.androidide.utils.BuildInfoUtils
-import com.itsaky.androidide.utils.flashSuccess
-import com.itsaky.androidide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.BuildConfig
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.adapters.SimpleIconTitleDescriptionAdapter
+import com.itsaky.tom.rv2ide.app.BaseApplication
+import com.itsaky.tom.rv2ide.app.EdgeToEdgeIDEActivity
+import com.itsaky.tom.rv2ide.app.configuration.IDEBuildConfigProvider
+import com.itsaky.tom.rv2ide.buildinfo.BuildInfo
+import com.itsaky.tom.rv2ide.databinding.ActivityAboutBinding
+import com.itsaky.tom.rv2ide.models.IconTitleDescriptionItem
+import com.itsaky.tom.rv2ide.models.SimpleIconTitleDescriptionItem
+import com.itsaky.tom.rv2ide.utils.BuildInfoUtils
+import com.itsaky.tom.rv2ide.utils.flashSuccess
+import com.itsaky.tom.rv2ide.utils.resolveAttr
 
 class AboutActivity : EdgeToEdgeIDEActivity() {
 

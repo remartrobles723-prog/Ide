@@ -15,12 +15,12 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.util;
+package com.itsaky.tom.rv2ide.lsp.util;
 
 import androidx.annotation.NonNull;
-import com.itsaky.androidide.lsp.models.DiagnosticItem;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
+import com.itsaky.tom.rv2ide.lsp.models.DiagnosticItem;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
 import java.util.Collections;
 import java.util.List;
 

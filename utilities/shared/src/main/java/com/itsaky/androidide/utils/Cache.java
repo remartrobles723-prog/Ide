@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils;
+package com.itsaky.tom.rv2ide.utils;
 
 import java.lang.reflect.Method;
 import java.nio.file.Path;
@@ -73,7 +73,7 @@ public class Cache<K, V> {
   private static void initProjectManagerInstance() {
     if (FileManager_INSTANCE == null) {
       try {
-        final var klass = Class.forName("com.itsaky.androidide.projects.FileManager");
+        final var klass = Class.forName("com.itsaky.tom.rv2ide.projects.FileManager");
         final var field = klass.getDeclaredField("INSTANCE");
         if (!field.isAccessible()) {
           field.setAccessible(true);

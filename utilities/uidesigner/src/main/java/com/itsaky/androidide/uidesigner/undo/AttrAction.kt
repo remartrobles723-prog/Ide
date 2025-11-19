@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.undo
+package com.itsaky.tom.rv2ide.uidesigner.undo
 
-import com.itsaky.androidide.uidesigner.models.UiAttribute
+import com.itsaky.tom.rv2ide.uidesigner.models.UiAttribute
 
 /**
  * [UndoManager] action related to view attributes.
@@ -25,7 +25,7 @@ import com.itsaky.androidide.uidesigner.models.UiAttribute
  * @author Akash Yadav
  */
 internal abstract class AttrAction(
-    protected val view: com.itsaky.androidide.inflater.IView,
+    protected val view: com.itsaky.tom.rv2ide.inflater.IView,
     protected val attr: UiAttribute,
 ) : IUiAction {
 

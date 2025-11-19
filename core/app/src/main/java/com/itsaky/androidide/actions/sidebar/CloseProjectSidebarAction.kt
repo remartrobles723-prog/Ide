@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.actions.sidebar
+package com.itsaky.tom.rv2ide.actions.sidebar
 
 import android.content.Context
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.requireContext
-import com.itsaky.androidide.activities.editor.BaseEditorActivity
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.requireContext
+import com.itsaky.tom.rv2ide.activities.editor.BaseEditorActivity
+import com.itsaky.tom.rv2ide.resources.R
 import kotlin.reflect.KClass
 
 /**

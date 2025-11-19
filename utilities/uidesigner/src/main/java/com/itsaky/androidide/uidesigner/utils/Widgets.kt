@@ -15,15 +15,15 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner.utils
+package com.itsaky.tom.rv2ide.uidesigner.utils
 
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner.Group.GOOGLE
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner.Group.LAYOUTS
-import com.itsaky.androidide.annotations.uidesigner.IncludeInDesigner.Group.WIDGETS
-import com.itsaky.androidide.inflater.IViewAdapterIndex
-import com.itsaky.androidide.inflater.internal.utils.simpleName
-import com.itsaky.androidide.uidesigner.R.string
-import com.itsaky.androidide.uidesigner.models.UiWidgetCategory
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner.Group.GOOGLE
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner.Group.LAYOUTS
+import com.itsaky.tom.rv2ide.annotations.uidesigner.IncludeInDesigner.Group.WIDGETS
+import com.itsaky.tom.rv2ide.inflater.IViewAdapterIndex
+import com.itsaky.tom.rv2ide.inflater.internal.utils.simpleName
+import com.itsaky.tom.rv2ide.uidesigner.R.string
+import com.itsaky.tom.rv2ide.uidesigner.models.UiWidgetCategory
 
 internal object Widgets {
 

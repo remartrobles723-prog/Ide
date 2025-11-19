@@ -14,12 +14,12 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.models
+package com.itsaky.tom.rv2ide.models
 
-import com.itsaky.androidide.utils.DefaultRecyclable
-import com.itsaky.androidide.utils.ILogger
-import com.itsaky.androidide.utils.LogTagUtils
-import com.itsaky.androidide.utils.newRecyclableObjectPool
+import com.itsaky.tom.rv2ide.utils.DefaultRecyclable
+import com.itsaky.tom.rv2ide.utils.ILogger
+import com.itsaky.tom.rv2ide.utils.LogTagUtils
+import com.itsaky.tom.rv2ide.utils.newRecyclableObjectPool
 
 class LogLine private constructor() : DefaultRecyclable() {
 

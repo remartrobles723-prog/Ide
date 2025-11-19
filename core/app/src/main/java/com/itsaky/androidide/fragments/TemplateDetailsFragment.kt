@@ -1,4 +1,4 @@
-package com.itsaky.androidide.fragments
+package com.itsaky.tom.rv2ide.fragments
 
 import android.content.Context
 import android.os.Bundle
@@ -7,23 +7,23 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.transition.TransitionManager
-import com.itsaky.androidide.R
-import com.itsaky.androidide.R.string
-import com.itsaky.androidide.activities.MainActivity
-import com.itsaky.androidide.adapters.TemplateWidgetsListAdapter
-import com.itsaky.androidide.databinding.FragmentTemplateDetailsBinding
-import com.itsaky.androidide.tasks.executeAsyncProvideError
-import com.itsaky.androidide.templates.ProjectTemplateRecipeResult
-import com.itsaky.androidide.templates.StringParameter
-import com.itsaky.androidide.templates.Template
-import com.itsaky.androidide.templates.base.FileBrowserCallback
-import com.itsaky.androidide.templates.base.setFileBrowserCallback
-import com.itsaky.androidide.templates.impl.ConstraintVerifier
-import com.itsaky.androidide.utils.Environment
-import com.itsaky.androidide.utils.TemplateRecipeExecutor
-import com.itsaky.androidide.utils.flashError
-import com.itsaky.androidide.utils.flashSuccess
-import com.itsaky.androidide.viewmodel.MainViewModel
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.R.string
+import com.itsaky.tom.rv2ide.activities.MainActivity
+import com.itsaky.tom.rv2ide.adapters.TemplateWidgetsListAdapter
+import com.itsaky.tom.rv2ide.databinding.FragmentTemplateDetailsBinding
+import com.itsaky.tom.rv2ide.tasks.executeAsyncProvideError
+import com.itsaky.tom.rv2ide.templates.ProjectTemplateRecipeResult
+import com.itsaky.tom.rv2ide.templates.StringParameter
+import com.itsaky.tom.rv2ide.templates.Template
+import com.itsaky.tom.rv2ide.templates.base.FileBrowserCallback
+import com.itsaky.tom.rv2ide.templates.base.setFileBrowserCallback
+import com.itsaky.tom.rv2ide.templates.impl.ConstraintVerifier
+import com.itsaky.tom.rv2ide.utils.Environment
+import com.itsaky.tom.rv2ide.utils.TemplateRecipeExecutor
+import com.itsaky.tom.rv2ide.utils.flashError
+import com.itsaky.tom.rv2ide.utils.flashSuccess
+import com.itsaky.tom.rv2ide.viewmodel.MainViewModel
 import org.slf4j.LoggerFactory
 
 /**

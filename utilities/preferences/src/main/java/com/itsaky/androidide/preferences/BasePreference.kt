@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.preferences
+package com.itsaky.tom.rv2ide.preferences
 
 import android.content.Context
 import android.graphics.PorterDuff.Mode.SRC_ATOP
 import android.graphics.PorterDuffColorFilter
 import androidx.core.content.ContextCompat
 import androidx.preference.Preference
-import com.itsaky.androidide.utils.resolveAttr
+import com.itsaky.tom.rv2ide.utils.resolveAttr
 
 /**
  * Base class for preferences.

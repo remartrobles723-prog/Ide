@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.fragments.output
+package com.itsaky.tom.rv2ide.fragments.output
 
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -24,9 +24,9 @@ import androidx.lifecycle.Lifecycle
 import androidx.preference.PreferenceManager
 import ch.qos.logback.classic.Logger
 import ch.qos.logback.classic.LoggerContext
-import com.itsaky.androidide.R
-import com.itsaky.androidide.logging.LifecycleAwareAppender
-import com.itsaky.androidide.resources.R.string
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.logging.LifecycleAwareAppender
+import com.itsaky.tom.rv2ide.resources.R.string
 import org.slf4j.LoggerFactory
 
 /**

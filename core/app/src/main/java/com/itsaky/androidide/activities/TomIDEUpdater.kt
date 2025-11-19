@@ -15,7 +15,7 @@
  *   along with AndroidCodeStudio.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.app.Activity
 import android.content.Context
@@ -31,7 +31,7 @@ import android.widget.Toast
 import androidx.core.content.FileProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.progressindicator.LinearProgressIndicator
-import com.itsaky.androidide.resources.R
+import com.itsaky.tom.rv2ide.resources.R
 import java.io.*
 import java.net.HttpURLConnection
 import java.net.URL

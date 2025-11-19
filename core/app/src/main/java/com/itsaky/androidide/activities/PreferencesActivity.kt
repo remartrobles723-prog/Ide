@@ -14,18 +14,18 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.activities
+package com.itsaky.tom.rv2ide.activities
 
 import android.os.Bundle
 import android.view.View
 import androidx.core.graphics.Insets
 import androidx.fragment.app.Fragment
-import com.itsaky.androidide.R
-import com.itsaky.androidide.app.EdgeToEdgeIDEActivity
-import com.itsaky.androidide.databinding.ActivityPreferencesBinding
-import com.itsaky.androidide.fragments.IDEPreferencesFragment
-import com.itsaky.androidide.preferences.IDEPreferences as prefs
-import com.itsaky.androidide.preferences.addRootPreferences
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.app.EdgeToEdgeIDEActivity
+import com.itsaky.tom.rv2ide.databinding.ActivityPreferencesBinding
+import com.itsaky.tom.rv2ide.fragments.IDEPreferencesFragment
+import com.itsaky.tom.rv2ide.preferences.IDEPreferences as prefs
+import com.itsaky.tom.rv2ide.preferences.addRootPreferences
 import kotlin.system.exitProcess
 
 class PreferencesActivity : EdgeToEdgeIDEActivity() {

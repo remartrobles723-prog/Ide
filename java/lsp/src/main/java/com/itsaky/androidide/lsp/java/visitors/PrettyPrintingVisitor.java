@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.visitors;
+package com.itsaky.tom.rv2ide.lsp.java.visitors;
 
 import static com.github.javaparser.utils.PositionUtils.sortByBeginPosition;
-import static com.itsaky.androidide.lsp.java.utils.JavaParserUtils.getSimpleName;
+import static com.itsaky.tom.rv2ide.lsp.java.utils.JavaParserUtils.getSimpleName;
 
 import com.github.javaparser.ast.Node;
 import com.github.javaparser.ast.comments.Comment;

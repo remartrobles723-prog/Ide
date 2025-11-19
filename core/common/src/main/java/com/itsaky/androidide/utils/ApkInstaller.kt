@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.utils
+package com.itsaky.tom.rv2ide.utils
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -26,7 +26,7 @@ import android.content.pm.PackageInstaller.Session
 import android.content.pm.PackageInstaller.SessionCallback
 import android.text.TextUtils
 import androidx.core.content.FileProvider
-import com.itsaky.androidide.tasks.executeAsync
+import com.itsaky.tom.rv2ide.tasks.executeAsync
 import java.io.File
 import java.io.IOException
 import org.slf4j.LoggerFactory

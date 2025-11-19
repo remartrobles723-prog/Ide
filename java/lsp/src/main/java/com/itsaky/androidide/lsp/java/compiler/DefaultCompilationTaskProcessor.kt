@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.compiler
+package com.itsaky.tom.rv2ide.lsp.java.compiler
 
-import com.itsaky.androidide.utils.StopWatch
+import com.itsaky.tom.rv2ide.utils.StopWatch
 import java.util.function.Consumer
 import openjdk.source.tree.CompilationUnitTree
 import openjdk.tools.javac.api.JavacTaskImpl

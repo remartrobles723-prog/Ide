@@ -15,9 +15,9 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.tooling.events.download
+package com.itsaky.tom.rv2ide.tooling.events.download
 
-import com.itsaky.androidide.tooling.events.ProgressEvent
+import com.itsaky.tom.rv2ide.tooling.events.ProgressEvent
 
 /** @author Akash Yadav */
 open class FileDownloadProgressEvent(

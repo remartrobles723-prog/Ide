@@ -15,13 +15,13 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.api;
+package com.itsaky.tom.rv2ide.editor.api;
 
 import androidx.annotation.NonNull;
 
 import androidx.annotation.Nullable;
-import com.itsaky.androidide.models.Position;
-import com.itsaky.androidide.models.Range;
+import com.itsaky.tom.rv2ide.models.Position;
+import com.itsaky.tom.rv2ide.models.Range;
 
 import io.github.rosemoe.sora.text.CharPosition;
 import java.io.File;

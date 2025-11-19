@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter.predicates
+package com.itsaky.tom.rv2ide.editor.language.treesitter.predicates
 
 import io.github.rosemoe.sora.editor.ts.predicate.TsPredicate
 

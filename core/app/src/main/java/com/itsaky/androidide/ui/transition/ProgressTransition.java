@@ -15,7 +15,7 @@
  * along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  *
  **************************************************************************************/
-package com.itsaky.androidide.ui.transition;
+package com.itsaky.tom.rv2ide.ui.transition;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -24,7 +24,7 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import androidx.transition.Transition;
 import androidx.transition.TransitionValues;
-import com.itsaky.androidide.utils.IntProperty;
+import com.itsaky.tom.rv2ide.utils.IntProperty;
 
 public class ProgressTransition extends Transition {
 

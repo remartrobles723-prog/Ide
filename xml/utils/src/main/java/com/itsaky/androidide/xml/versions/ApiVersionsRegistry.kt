@@ -15,10 +15,10 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.xml.versions
+package com.itsaky.tom.rv2ide.xml.versions
 
-import com.itsaky.androidide.utils.ServiceLoader
-import com.itsaky.androidide.xml.registry.XmlRegistry
+import com.itsaky.tom.rv2ide.utils.ServiceLoader
+import com.itsaky.tom.rv2ide.xml.registry.XmlRegistry
 
 /**
  * Registry that reads information about the API versions of classes, their fields and methods.

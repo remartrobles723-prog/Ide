@@ -1,4 +1,4 @@
-package com.itsaky.androidide.build.config
+package com.itsaky.tom.rv2ide.build.config
 
 import org.gradle.api.Project
 import java.util.Properties

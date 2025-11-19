@@ -15,21 +15,21 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.uidesigner
+package com.itsaky.tom.rv2ide.uidesigner
 
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
-import com.itsaky.androidide.app.BaseIDEActivity
-import com.itsaky.androidide.editor.language.treesitter.XMLLanguage
-import com.itsaky.androidide.editor.schemes.IDEColorSchemeProvider
-import com.itsaky.androidide.editor.ui.IDEEditor
-import com.itsaky.androidide.preferences.internal.EditorPreferences
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE
-import com.itsaky.androidide.uidesigner.databinding.ActivityShowXmlBinding
-import com.itsaky.androidide.utils.flashInfo
-import com.itsaky.androidide.utils.jetbrainsMono
+import com.itsaky.tom.rv2ide.app.BaseIDEActivity
+import com.itsaky.tom.rv2ide.editor.language.treesitter.XMLLanguage
+import com.itsaky.tom.rv2ide.editor.schemes.IDEColorSchemeProvider
+import com.itsaky.tom.rv2ide.editor.ui.IDEEditor
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE
+import com.itsaky.tom.rv2ide.uidesigner.databinding.ActivityShowXmlBinding
+import com.itsaky.tom.rv2ide.utils.flashInfo
+import com.itsaky.tom.rv2ide.utils.jetbrainsMono
 import io.github.rosemoe.sora.event.Unsubscribe
 import io.github.rosemoe.sora.widget.CodeEditor
 import org.slf4j.LoggerFactory

@@ -14,7 +14,7 @@
  *  You should have received a copy of the GNU General Public License
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.itsaky.androidide.editor.adapters
+package com.itsaky.tom.rv2ide.editor.adapters
 
 import android.content.res.Resources
 import android.graphics.Typeface
@@ -24,32 +24,32 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.itsaky.androidide.editor.R
-import com.itsaky.androidide.editor.databinding.LayoutCompletionItemBinding
-import com.itsaky.androidide.lookup.Lookup
-import com.itsaky.androidide.lsp.java.utils.JavaType
-import com.itsaky.androidide.lsp.models.ClassCompletionData
-import com.itsaky.androidide.lsp.models.CompletionItem as LspCompletionItem
-import com.itsaky.androidide.lsp.models.CompletionItemKind.CLASS
-import com.itsaky.androidide.lsp.models.CompletionItemKind.CONSTRUCTOR
-import com.itsaky.androidide.lsp.models.CompletionItemKind.ENUM
-import com.itsaky.androidide.lsp.models.CompletionItemKind.FIELD
-import com.itsaky.androidide.lsp.models.CompletionItemKind.INTERFACE
-import com.itsaky.androidide.lsp.models.CompletionItemKind.METHOD
-import com.itsaky.androidide.lsp.models.MemberCompletionData
-import com.itsaky.androidide.lsp.models.MethodCompletionData
-import com.itsaky.androidide.preferences.internal.EditorPreferences
-import com.itsaky.androidide.resources.R.string.msg_api_info_deprecated
-import com.itsaky.androidide.resources.R.string.msg_api_info_removed
-import com.itsaky.androidide.resources.R.string.msg_api_info_since
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.COMPLETION_WND_TEXT_API
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.COMPLETION_WND_TEXT_DETAIL
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.COMPLETION_WND_TEXT_LABEL
-import com.itsaky.androidide.syntax.colorschemes.SchemeAndroidIDE.COMPLETION_WND_TEXT_TYPE
-import com.itsaky.androidide.tasks.executeAsync
-import com.itsaky.androidide.utils.customOrJBMono
-import com.itsaky.androidide.xml.versions.ApiVersions
+import com.itsaky.tom.rv2ide.editor.R
+import com.itsaky.tom.rv2ide.editor.databinding.LayoutCompletionItemBinding
+import com.itsaky.tom.rv2ide.lookup.Lookup
+import com.itsaky.tom.rv2ide.lsp.java.utils.JavaType
+import com.itsaky.tom.rv2ide.lsp.models.ClassCompletionData
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItem as LspCompletionItem
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind.CLASS
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind.CONSTRUCTOR
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind.ENUM
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind.FIELD
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind.INTERFACE
+import com.itsaky.tom.rv2ide.lsp.models.CompletionItemKind.METHOD
+import com.itsaky.tom.rv2ide.lsp.models.MemberCompletionData
+import com.itsaky.tom.rv2ide.lsp.models.MethodCompletionData
+import com.itsaky.tom.rv2ide.preferences.internal.EditorPreferences
+import com.itsaky.tom.rv2ide.resources.R.string.msg_api_info_deprecated
+import com.itsaky.tom.rv2ide.resources.R.string.msg_api_info_removed
+import com.itsaky.tom.rv2ide.resources.R.string.msg_api_info_since
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.COMPLETION_WND_TEXT_API
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.COMPLETION_WND_TEXT_DETAIL
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.COMPLETION_WND_TEXT_LABEL
+import com.itsaky.tom.rv2ide.syntax.colorschemes.SchemeAndroidIDE.COMPLETION_WND_TEXT_TYPE
+import com.itsaky.tom.rv2ide.tasks.executeAsync
+import com.itsaky.tom.rv2ide.utils.customOrJBMono
+import com.itsaky.tom.rv2ide.xml.versions.ApiVersions
 import io.github.rosemoe.sora.widget.component.EditorCompletionAdapter
 import org.eclipse.jdt.core.Signature
 

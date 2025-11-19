@@ -15,14 +15,14 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.editor.language.treesitter
+package com.itsaky.tom.rv2ide.editor.language.treesitter
 
 import android.graphics.Color
 import androidx.core.graphics.ColorUtils
-import com.itsaky.androidide.editor.schemes.LanguageScheme
-import com.itsaky.androidide.treesitter.TSQuery
-import com.itsaky.androidide.treesitter.TSQueryCapture
-import com.itsaky.androidide.utils.parseHexColor
+import com.itsaky.tom.rv2ide.editor.schemes.LanguageScheme
+import com.itsaky.tom.rv2ide.treesitter.TSQuery
+import com.itsaky.tom.rv2ide.treesitter.TSQueryCapture
+import com.itsaky.tom.rv2ide.utils.parseHexColor
 import io.github.rosemoe.sora.editor.ts.spans.DefaultSpanFactory
 import io.github.rosemoe.sora.editor.ts.spans.TsSpanFactory
 import io.github.rosemoe.sora.lang.styling.Span

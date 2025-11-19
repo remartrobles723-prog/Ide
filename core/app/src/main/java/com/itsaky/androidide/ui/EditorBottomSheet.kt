@@ -15,7 +15,7 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.ui
+package com.itsaky.tom.rv2ide.ui
 
 import android.app.Activity
 import android.content.Context
@@ -45,20 +45,20 @@ import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
 import com.google.android.material.tabs.TabLayout.Tab
 import com.google.android.material.tabs.TabLayoutMediator
 import com.google.android.material.transition.MaterialSharedAxis
-import com.itsaky.androidide.R
-import com.itsaky.androidide.adapters.DiagnosticsAdapter
-import com.itsaky.androidide.adapters.EditorBottomSheetTabAdapter
-import com.itsaky.androidide.adapters.SearchListAdapter
-import com.itsaky.androidide.databinding.LayoutEditorBottomSheetBinding
-import com.itsaky.androidide.fragments.output.ShareableOutputFragment
-import com.itsaky.androidide.models.LogLine
-import com.itsaky.androidide.resources.R.string
-import com.itsaky.androidide.tasks.TaskExecutor.CallbackWithError
-import com.itsaky.androidide.tasks.TaskExecutor.executeAsync
-import com.itsaky.androidide.tasks.TaskExecutor.executeAsyncProvideError
-import com.itsaky.androidide.utils.IntentUtils.shareFile
-import com.itsaky.androidide.utils.Symbols.forFile
-import com.itsaky.androidide.utils.flashError
+import com.itsaky.tom.rv2ide.R
+import com.itsaky.tom.rv2ide.adapters.DiagnosticsAdapter
+import com.itsaky.tom.rv2ide.adapters.EditorBottomSheetTabAdapter
+import com.itsaky.tom.rv2ide.adapters.SearchListAdapter
+import com.itsaky.tom.rv2ide.databinding.LayoutEditorBottomSheetBinding
+import com.itsaky.tom.rv2ide.fragments.output.ShareableOutputFragment
+import com.itsaky.tom.rv2ide.models.LogLine
+import com.itsaky.tom.rv2ide.resources.R.string
+import com.itsaky.tom.rv2ide.tasks.TaskExecutor.CallbackWithError
+import com.itsaky.tom.rv2ide.tasks.TaskExecutor.executeAsync
+import com.itsaky.tom.rv2ide.tasks.TaskExecutor.executeAsyncProvideError
+import com.itsaky.tom.rv2ide.utils.IntentUtils.shareFile
+import com.itsaky.tom.rv2ide.utils.Symbols.forFile
+import com.itsaky.tom.rv2ide.utils.flashError
 import java.io.File
 import java.io.IOException
 import java.nio.charset.StandardCharsets

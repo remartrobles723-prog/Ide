@@ -15,20 +15,20 @@
  *   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.itsaky.androidide.lsp.java.actions
+package com.itsaky.tom.rv2ide.lsp.java.actions
 
 import android.content.Context
-import com.itsaky.androidide.actions.ActionData
-import com.itsaky.androidide.actions.hasRequiredData
-import com.itsaky.androidide.actions.markInvisible
-import com.itsaky.androidide.actions.newDialogBuilder
-import com.itsaky.androidide.actions.requirePath
-import com.itsaky.androidide.lsp.java.JavaCompilerProvider
-import com.itsaky.androidide.lsp.java.compiler.CompileTask
-import com.itsaky.androidide.lsp.java.visitors.FindTypeDeclarationAt
-import com.itsaky.androidide.projects.IProjectManager
-import com.itsaky.androidide.resources.R
-import com.itsaky.androidide.utils.flashInfo
+import com.itsaky.tom.rv2ide.actions.ActionData
+import com.itsaky.tom.rv2ide.actions.hasRequiredData
+import com.itsaky.tom.rv2ide.actions.markInvisible
+import com.itsaky.tom.rv2ide.actions.newDialogBuilder
+import com.itsaky.tom.rv2ide.actions.requirePath
+import com.itsaky.tom.rv2ide.lsp.java.JavaCompilerProvider
+import com.itsaky.tom.rv2ide.lsp.java.compiler.CompileTask
+import com.itsaky.tom.rv2ide.lsp.java.visitors.FindTypeDeclarationAt
+import com.itsaky.tom.rv2ide.projects.IProjectManager
+import com.itsaky.tom.rv2ide.resources.R
+import com.itsaky.tom.rv2ide.utils.flashInfo
 import io.github.rosemoe.sora.widget.CodeEditor
 import java.nio.file.Path
 import java.util.concurrent.CompletableFuture
@@ -57,7 +57,7 @@ abstract class FieldBasedAction : BaseJavaCodeAction() {
     if (
         !visible ||
             !data.hasRequiredData(
-                com.itsaky.androidide.models.Range::class.java,
+                com.itsaky.tom.rv2ide.models.Range::class.java,
                 CodeEditor::class.java,
             ) ||
             IProjectManager.getInstance().getWorkspace() == null
@@ -71,7 +71,7 @@ abstract class FieldBasedAction : BaseJavaCodeAction() {
   }
 
   override suspend fun execAction(data: ActionData): Any {
-    val range = data[com.itsaky.androidide.models.Range::class.java]!!
+    val range = data[com.itsaky.tom.rv2ide.models.Range::class.java]!!
     val file = data.requirePath()
     val module =
         IProjectManager.getInstance().getWorkspace()?.findModuleForFile(file, false) ?: return Any()
@@ -91,7 +91,7 @@ abstract class FieldBasedAction : BaseJavaCodeAction() {
   protected fun findFields(
       task: CompileTask,
       file: Path,
-      range: com.itsaky.androidide.models.Range,
+      range: com.itsaky.tom.rv2ide.models.Range,
   ): Triple<FindTypeDeclarationAt, ClassTree, MutableList<VariableTree>> {
     // 1-based line and column index
     val startLine = range.start.line + 1
