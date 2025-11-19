@@ -126,12 +126,15 @@ interface ActionItem {
    * Creates the color filter for this action's icon drawable.
    *
    * The default implementation returns a [PorterDuffColorFilter] instance with color
-   * [R.attr.colorOnSurface].
+   * [androidx.appcompat.R.attr.colorOnSurface].
    */
   fun createColorFilter(data: ActionData): ColorFilter? {
-    return data.getContext()?.let {
-      PorterDuffColorFilter(it.resolveAttr(R.attr.colorOnSurface), PorterDuff.Mode.SRC_ATOP)
-    }
+    return data.getContext()?.let { context ->
+      val typedValue = android.util.TypedValue()
+      val theme = context.theme
+      theme.resolveAttribute(android.R.attr.textColorPrimary, typedValue, true)
+      PorterDuffColorFilter(typedValue.data, PorterDuff.Mode.SRC_ATOP)
+    } ?: PorterDuffColorFilter(android.graphics.Color.GRAY, PorterDuff.Mode.SRC_ATOP)
   }
 
   /** Location where an action item will be shown. */
