@@ -36,7 +36,7 @@ package com.itsaky.androidide.utils;
 
 import static com.itsaky.androidide.utils.LogUtils.preProcessLogTag;
 
-import com.itsaky.androidide.buildinfo.BuildInfo;
+import com.tom.rv2ide.buildinfo.BuildInfo;
 import java.util.Map;
 import java.util.WeakHashMap;
 import org.slf4j.Logger;

@@ -43,9 +43,9 @@ val buildInfoGenDir: Provider<Directory> = project.layout.buildDirectory.dir("ge
 sourceSets { getByName("main").java.srcDir(buildInfoGenDir) }
 
 tasks.create("generateBuildInfo") {
-  val buildInfoPath = "com.itsaky.androidide/buildinfo/BuildInfo.java"
+  val buildInfoPath = "com/tom/rv2ide/buildinfo/BuildInfo.java"
   val buildInfo = buildInfoGenDir.get().file(buildInfoPath)
-  val buildInfoIn = project.file("src/main/java/${buildInfoPath}.in")
+  val buildInfoIn = project.file("src/main/java/com/itsaky/androidide/buildinfo/BuildInfo.java.in")
 
   doLast {
     buildInfoIn.replaceContents(

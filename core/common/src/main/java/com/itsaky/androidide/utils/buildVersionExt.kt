@@ -32,8 +32,8 @@ import androidx.annotation.ChecksSdkIntAtLeast
 @ChecksSdkIntAtLeast(Build.VERSION_CODES.TIRAMISU)
 fun isAtLeastT() = isAtLeast(Build.VERSION_CODES.TIRAMISU)
 
-@ChecksSdkIntAtLeast(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
-fun isAtLeastU() = isAtLeast(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
+@ChecksSdkIntAtLeast(api = 34)
+fun isAtLeastU() = isAtLeast(34)
 
 @ChecksSdkIntAtLeast(parameter = 0)
 fun isAtLeast(version: Int): Boolean = Build.VERSION.SDK_INT >= version

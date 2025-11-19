@@ -33,7 +33,7 @@
 
 package com.itsaky.androidide.utils
 
-import com.itsaky.androidide.buildinfo.BuildInfo
+import com.tom.rv2ide.buildinfo.BuildInfo
 import java.util.Objects
 
 /**
